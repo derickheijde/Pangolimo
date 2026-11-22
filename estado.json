@@ -1,135 +1,145 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 100,
+  "energia": 85,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "desenhando",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.438
+      "recente": 3.411
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.388
+      "recente": 3.362
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.532
+      "recente": 2.512
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.532
+      "recente": 2.512
+    },
+    {
+      "tema": "túneis de formigas",
+      "peso": 2,
+      "recente": 1.992
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.766
+      "recente": 1.752
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.686
+      "recente": 1.673
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.686
+      "recente": 1.673
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.686
+      "recente": 1.673
     },
     {
-      "tema": "túneis de formigas",
+      "tema": "rainhas das formigas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "soldados formigas",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.923
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.923
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.923
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.91
+      "recente": 0.903
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.91
+      "recente": 0.903
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.905
+      "recente": 0.898
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.905
+      "recente": 0.898
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.883
+      "recente": 0.876
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.86
+      "recente": 0.853
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.86
+      "recente": 0.853
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.86
+      "recente": 0.853
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.845
+      "recente": 0.838
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.845
+      "recente": 0.838
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.845
+      "recente": 0.838
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.845
+      "recente": 0.838
     }
   ],
   "gostos": {
@@ -146,13 +156,14 @@
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
-    "As formigas constroem túneis fundos na terra que servem de casa para elas."
+    "As formigas constroem túneis fundos na terra que servem de casa para elas.",
+    "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas."
   ],
-  "proximo_tema": "túneis de formigas",
-  "ultima_execucao": "2026-11-22T16:28+00:00",
+  "proximo_tema": "rainhas formigas",
+  "ultima_execucao": "2026-11-22T17:00+00:00",
   "tipo": "Limo / Terra",
-  "fome": 5,
+  "fome": 10,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": null
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "túneis de formigas"
 }

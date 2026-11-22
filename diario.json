@@ -139,5 +139,17 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0012.svg",
     "titulo_desenho": "formigueiro torto"
+  },
+  {
+    "id": 13,
+    "quando": "2026-11-22T17:00+00:00",
+    "atividade": "pesquisa",
+    "tema": "túneis de formigas",
+    "fonte": "https://pt.wikipedia.org/wiki/Formiga",
+    "texto": "Hoje li um pouquinho mais sobre os túneis de formigas no computador. Descobri que existem rainhas e também soldados que ajudam a cuidar da casa delas. Elas trabalham juntas como se fossem um corpinho só embaixo da terra. Fiquei pensando em como deve ser escuro e aconchegante lá no fundo. Deixei um rastro de limo verde perto do teclado enquanto lia.",
+    "aprendeu": "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0013.svg",
+    "titulo_desenho": "Minhas amigas formigas"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 64,
+  "energia": 44,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "curioso",
@@ -27,6 +27,10 @@
       "peso": 2
     },
     {
+      "tema": "tatus",
+      "peso": 2
+    },
+    {
       "tema": "florestas tropicais",
       "peso": 1
     },
@@ -35,7 +39,7 @@
       "peso": 1
     },
     {
-      "tema": "tatus",
+      "tema": "Cingulata",
       "peso": 1
     }
   ],
@@ -46,9 +50,10 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As tocas servem para proteger os animais dos perigos e do clima."
+    "As tocas servem para proteger os animais dos perigos e do clima.",
+    "Os tatus também constroem tocas para se proteger dos perigos."
   ],
-  "proximo_tema": "tatus",
-  "ultima_execucao": "2026-11-22T00:22+00:00",
+  "proximo_tema": "Cingulata",
+  "ultima_execucao": "2026-11-22T02:20+00:00",
   "tipo": "Limo / Terra"
 }

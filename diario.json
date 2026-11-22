@@ -9,5 +9,16 @@
     "humor": "curioso",
     "desenho": "desenhos/0001.svg",
     "titulo_desenho": "Minha toca"
+  },
+  {
+    "id": 2,
+    "quando": "2026-11-22T02:20+00:00",
+    "tema": "tatus",
+    "fonte": "https://pt.wikipedia.org/wiki/Tatu",
+    "texto": "Hoje olhei na telinha sobre os tatus, que são parentes distantes da minha família e têm umas capas durinhas no corpo. Vi que eles também cavam túneis fundos para se esconder, igualzinho eu faço quando fico com receio de alguma coisa. Deixei um pouco do meu limo verde no teclado enquanto lia quietinho no escuro. Fiquei pensando se eles gostam de comer formigas no café da manhã também.",
+    "aprendeu": "Os tatus também constroem tocas para se proteger dos perigos.",
+    "humor": "curioso",
+    "desenho": "desenhos/0002.svg",
+    "titulo_desenho": "Tatu de giz"
   }
 ]

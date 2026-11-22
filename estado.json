@@ -1,9 +1,9 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 84,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 91,
+  "dormindo": false,
+  "acao": "olhando_lua",
   "humor": "sonolento",
   "interesses": [
     {
@@ -19,11 +19,11 @@
       "peso": 3
     },
     {
-      "tema": "escamas e queratina",
-      "peso": 2
+      "tema": "animais noturnos",
+      "peso": 3
     },
     {
-      "tema": "animais noturnos",
+      "tema": "escamas e queratina",
       "peso": 2
     },
     {
@@ -62,7 +62,11 @@
     "Os tatus também constroem tocas para se proteger dos perigos.",
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
   ],
-  "proximo_tema": "Xenarthra",
-  "ultima_execucao": "2026-11-22T04:27+00:00",
-  "tipo": "Limo / Terra"
+  "proximo_tema": "animais noturnos",
+  "ultima_execucao": "2026-11-22T04:52+00:00",
+  "tipo": "Limo / Terra",
+  "fome": 22,
+  "evento": null,
+  "ultima_atividade": "lua",
+  "origem_do_proximo": null
 }

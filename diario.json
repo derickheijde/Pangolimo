@@ -31,5 +31,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0003.svg",
     "titulo_desenho": "Tatu na terra"
+  },
+  {
+    "id": 4,
+    "quando": "2026-11-22T04:52+00:00",
+    "atividade": "lua",
+    "tema": null,
+    "fonte": null,
+    "texto": "A lua tá redonda lá fora e brilha um pouquinho no meu limo verde. Fiquei aqui quietinho na janela pensando se a lua é redonda igualzinho a mim quando me enrolo todo. O vento tá calmo e dá um sono bom...",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0004.svg",
+    "titulo_desenho": "A lua brilhando na janela"
   }
 ]

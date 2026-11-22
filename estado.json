@@ -3,88 +3,88 @@
   "especie": "pangolim",
   "energia": 45,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "comendo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.837
+      "recente": 3.776
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.869
+      "recente": 2.823
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.869
+      "recente": 2.823
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.869
+      "recente": 2.823
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.968
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.913
+      "recente": 1.883
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.913
+      "recente": 1.883
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.913
+      "recente": 1.883
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.984
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.975
+      "recente": 0.959
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.975
+      "recente": 0.959
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.975
+      "recente": 0.959
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.941
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.941
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.941
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.941
     }
   ],
   "gostos": {
@@ -101,9 +101,9 @@
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia."
   ],
   "proximo_tema": "leão-marinho",
-  "ultima_execucao": "2026-11-22T07:56+00:00",
+  "ultima_execucao": "2026-11-22T09:02+00:00",
   "tipo": "Limo / Terra",
-  "fome": 52,
+  "fome": 63,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "leões"

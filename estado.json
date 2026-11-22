@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 85,
+  "energia": 70,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "satisfeito",
@@ -9,137 +9,142 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.411
+      "recente": 3.389
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.362
+      "recente": 3.34
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.512
+      "recente": 2.496
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.512
+      "recente": 2.496
+    },
+    {
+      "tema": "rainhas das formigas",
+      "peso": 2,
+      "recente": 1.993
+    },
+    {
+      "tema": "soldados formigas",
+      "peso": 2,
+      "recente": 1.993
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.992
+      "recente": 1.979
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.752
+      "recente": 1.741
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.673
+      "recente": 1.662
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.673
+      "recente": 1.662
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.673
+      "recente": 1.662
     },
     {
-      "tema": "rainhas das formigas",
-      "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "soldados formigas",
+      "tema": "rainhas formigas",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.986
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.897
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.897
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.898
+      "recente": 0.892
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.898
+      "recente": 0.892
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.876
+      "recente": 0.87
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.833
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.833
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.833
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.833
     }
   ],
   "gostos": {
@@ -157,13 +162,14 @@
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
     "As formigas constroem túneis fundos na terra que servem de casa para elas.",
-    "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas."
+    "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
+    "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados."
   ],
-  "proximo_tema": "rainhas formigas",
-  "ultima_execucao": "2026-11-22T17:00+00:00",
+  "proximo_tema": "soldados formigas",
+  "ultima_execucao": "2026-11-22T17:27+00:00",
   "tipo": "Limo / Terra",
-  "fome": 10,
+  "fome": 15,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "túneis de formigas"
+  "origem_do_proximo": "rainhas formigas"
 }

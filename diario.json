@@ -151,5 +151,17 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0013.svg",
     "titulo_desenho": "Minhas amigas formigas"
+  },
+  {
+    "id": 14,
+    "quando": "2026-11-22T17:27+00:00",
+    "atividade": "pesquisa",
+    "tema": "rainhas formigas",
+    "fonte": "https://pt.wikipedia.org/wiki/Formiga",
+    "texto": "Hoje fiquei olhando a tela brilhante e li sobre as rainhas formigas. Elas são as fêmeas que ajudam a formar colônias gigantescas junto com as operárias e os soldados. Achei curioso pensar que a rainha fica cuidando de tudo enquanto os túneis crescem na terra. Deixei um rastro de limo verdinho no teclado enquanto lia quietinho no meu canto.",
+    "aprendeu": "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0014.svg",
+    "titulo_desenho": "A Rainha e seus Túneis"
   }
 ]

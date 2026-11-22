@@ -14,7 +14,7 @@
   {
     "tema": "tocas e túneis",
     "origem": null,
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-22T04:52+00:00"
   },
   {
@@ -94,5 +94,17 @@
     "origem": "leões",
     "vezes": 0,
     "desde": "2026-11-22T07:56+00:00"
+  },
+  {
+    "tema": "animais que fazem tocas",
+    "origem": "tocas e túneis",
+    "vezes": 0,
+    "desde": "2026-11-22T09:43+00:00"
+  },
+  {
+    "tema": "toupeiras",
+    "origem": "tocas e túneis",
+    "vezes": 0,
+    "desde": "2026-11-22T09:43+00:00"
   }
 ]

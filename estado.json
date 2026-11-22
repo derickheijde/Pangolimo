@@ -1,90 +1,100 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 50,
+  "energia": 37,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
+      "tema": "tocas e túneis",
+      "peso": 4,
+      "recente": 3.796
+    },
+    {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.749
+      "recente": 3.739
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.803
+      "recente": 2.796
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.803
-    },
-    {
-      "tema": "tocas e túneis",
-      "peso": 3,
-      "recente": 2.803
+      "recente": 2.796
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.954
+      "recente": 1.949
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.869
+      "recente": 1.864
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.869
+      "recente": 1.864
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.869
+      "recente": 1.864
+    },
+    {
+      "tema": "animais que fazem tocas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "toupeiras",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.974
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.949
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.949
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.949
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.934
+      "recente": 0.932
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.934
+      "recente": 0.932
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.934
+      "recente": 0.932
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.934
+      "recente": 0.932
     }
   ],
   "gostos": {
@@ -98,17 +108,18 @@
     "Os tatus também constroem tocas para se proteger dos perigos.",
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
-    "O leão é um grande felino que hoje vive na África subsaariana e na Índia."
+    "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
+    "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar."
   ],
-  "proximo_tema": "tocas e túneis",
-  "ultima_execucao": "2026-11-22T09:32+00:00",
+  "proximo_tema": "toupeiras",
+  "ultima_execucao": "2026-11-22T09:43+00:00",
   "tipo": "Limo / Terra",
-  "fome": 14,
+  "fome": 16,
   "evento": {
     "nome": "chuva",
     "tipo": "tempestade",
     "ate": "2026-11-22T10:38+00:00"
   },
-  "ultima_atividade": "comida",
-  "origem_do_proximo": null
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "tocas e túneis"
 }

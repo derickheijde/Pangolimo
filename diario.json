@@ -91,5 +91,17 @@
     "humor": "sonolento",
     "desenho": null,
     "titulo_desenho": ""
+  },
+  {
+    "id": 9,
+    "quando": "2026-11-22T09:43+00:00",
+    "atividade": "pesquisa",
+    "tema": "tocas e túneis",
+    "fonte": "https://pt.wikipedia.org/wiki/Toca",
+    "texto": "A chuva tá forte lá fora e eu fiquei aqui no computador lendo sobre tocas e túneis. Vi que não só eu e os tatus que fazemos buracos no chão, mas um montão de outros bichos também. Tem até peixe e aranha que criam suas próprias casinhas na terra. Achei legal pensar que todo mundo precisa de um cantinho seguro quando o tempo fica bravo assim.",
+    "aprendeu": "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0009.svg",
+    "titulo_desenho": "Toca na chuva"
   }
 ]

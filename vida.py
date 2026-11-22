@@ -10,6 +10,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).parent
 ESTADO, DIARIO, DESENHOS = RAIZ / "estado.json", RAIZ / "diario.json", RAIZ / "desenhos"
+MAPA = RAIZ / "mapa.json"
 TESTE = "--teste" in sys.argv
 UA = "pangolim-virtual/1.0 (projeto pessoal de bichinho virtual)"
 # O primeiro modelo da lista que responder é usado. Dá pra trocar com a variável GEMINI_MODEL.
@@ -147,6 +148,39 @@ def curto(valor, limite):
     return str(valor).strip()[:limite]
 
 
+def atualizar_mapa(e, tema, origem_tema, novos, agora):
+    """Mapa de interesses: cada assunto guarda de qual assunto veio e quantas vezes foi lido."""
+    mapa = ler(MAPA, None)
+    if mapa is None:  # primeira vez: os interesses iniciais viram as raízes da árvore
+        mapa = [{"tema": i["tema"], "origem": None, "vezes": 0, "desde": agora} for i in e["interesses"]]
+    idx = {n["tema"].lower(): n for n in mapa}
+
+    def achar_ou_criar(t, origem):
+        k = t.lower()
+        if k not in idx:
+            if origem and origem.lower() == k:
+                origem = None
+            no = {"tema": t, "origem": origem, "vezes": 0, "desde": agora}
+            mapa.append(no)
+            idx[k] = no
+        return idx[k]
+
+    achar_ou_criar(tema, origem_tema)["vezes"] += 1
+    for t in novos:
+        achar_ou_criar(t, tema)
+
+    if len(mapa) > 500:  # poda os assuntos mais antigos que nunca foram lidos e não levaram a nada
+        com_filhos = {n["origem"].lower() for n in mapa if n["origem"]}
+        sobra = len(mapa) - 500
+        for n in list(mapa):
+            if sobra <= 0:
+                break
+            if n["vezes"] == 0 and n["tema"].lower() not in com_filhos:
+                mapa.remove(n)
+                sobra -= 1
+    salvar(MAPA, mapa)
+
+
 def viver():
     e = ler(ESTADO, None)
     if e is None:
@@ -166,6 +200,7 @@ def viver():
         e["dormindo"] = False
 
     tema = escolher_tema(e)
+    origem_tema = e.get("origem_do_proximo") if e.get("proximo_tema") else None
     achado = wikipedia(tema)
     if not achado:
         e["proximo_tema"] = ""
@@ -195,9 +230,13 @@ def viver():
                    "aprendeu": curto(r.get("aprendeu", ""), 200), "humor": curto(r.get("humor", e["humor"]), 30),
                    "desenho": arquivo, "titulo_desenho": curto(r.get("titulo_desenho", ""), 60)})
 
+    lista = r.get("novos_interesses")
+    novos = [curto(x, 50) for x in (lista if isinstance(lista, list) else [])[:2] if str(x).strip()]
+    atualizar_mapa(e, tema, origem_tema, novos, agora)
+
     # Interesses: o tema lido ganha peso, assuntos novos entram na lista.
     por_nome = {i["tema"].lower(): i for i in e["interesses"]}
-    for t in [tema] + [curto(x, 50) for x in (r.get("novos_interesses") or [])[:2]]:
+    for t in [tema] + novos:
         if t and t.lower() in por_nome:
             por_nome[t.lower()]["peso"] += 1
         elif t:
@@ -215,6 +254,7 @@ def viver():
     e["aprendeu"] = (e["aprendeu"] + [diario[-1]["aprendeu"]])[-40:] if diario[-1]["aprendeu"] else e["aprendeu"]
     e["humor"] = diario[-1]["humor"] or e["humor"]
     e["proximo_tema"] = curto(r.get("proximo_tema", ""), 60)
+    e["origem_do_proximo"] = tema if e["proximo_tema"] else None
     e["energia"] = max(0, e["energia"] - random.randint(12, 20))
     if e["energia"] <= 25:
         e["dormindo"], e["acao"] = True, "dormindo"

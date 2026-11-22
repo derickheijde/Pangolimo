@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pangolimo, o pangolim</title>
-  <link rel="manifest" href="manifest.webmanifest">
+<link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#17163a">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -42,6 +42,15 @@ button:focus-visible,a:focus-visible,img:focus-visible{outline:3px solid var(--t
 dialog{border:3px solid var(--casca);background:var(--noite);color:var(--texto);padding:12px;max-width:min(92vw,640px)}
 dialog::backdrop{background:#0009}
 dialog img{width:100%;background:#f6efd8;display:block}
+#mapa{margin-top:44px}
+#mapa .nota{margin:-6px 0 14px;color:var(--suave);font-size:15px}
+#mapa ul{list-style:none;margin:0;padding:0}
+#mapa ul ul{margin-left:9px;padding-left:18px;border-left:2px solid var(--linha)}
+#mapa summary,#mapa .folha{padding:3px 0}
+#mapa .folha{padding-left:18px}
+#mapa summary{cursor:pointer}
+#mapa .nao-lido{color:var(--suave);font-style:italic}
+#mapa .vezes{color:var(--suave);font-size:14px;margin-left:10px}
 footer{margin-top:48px;color:var(--suave);font-size:14px}
 </style>
 </head>
@@ -69,6 +78,12 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
     </aside>
   </div>
 
+  <section id="mapa">
+    <h2>Mapa de interesses</h2>
+    <p class="nota">Cada assunto aparece dentro do que levou o Pangolimo até ele.</p>
+    <div id="arvore"></div>
+  </section>
+
   <section>
     <h2 style="margin-top:44px">Mural</h2>
     <div id="mural"></div>
@@ -90,7 +105,7 @@ const c=document.getElementById("cena"),g=c.getContext("2d");
 const R=(x,y,w,h,col)=>{g.fillStyle=col;g.fillRect(x,y,w,h)};
 const spr=(s,x,y)=>s.forEach((r,j)=>[...r].forEach((ch,i)=>PAL[ch]&&R(x+i,y+j,1,1,PAL[ch])));
 const zzz=(x,y,col)=>Z.forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+i,y+j,1,1,col)));
-let estado=null,diario=[],imgs=[],quadro=0;
+let estado=null,diario=[],imgs=[],mapa=[],quadro=0;
 const reduzMovimento=matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function cena(){
@@ -98,7 +113,7 @@ function cena(){
   R(0,0,200,116,"#26234f");R(0,80,200,36,"#7a5238");R(0,80,200,2,"#5a3b28");
   for(let x=0;x<200;x+=22)R(x,82,1,34,"#6a4630");
   R(0,76,200,4,"#3a3768");
-    // janela: o céu acompanha a hora do aparelho
+  // janela: o céu acompanha a hora do aparelho
   const hora=new Date().getHours();
   const fase=hora>=7&&hora<17?"dia":hora>=17&&hora<19?"tarde":hora>=5&&hora<7?"manha":"noite";
   const CEU={dia:"#6fb7e8",tarde:"#e8895a",manha:"#f0b48a",noite:"#12122e"};
@@ -163,9 +178,32 @@ function mais(){
 }
 q("#mais").onclick=mais;
 
+function desenharMapa(){
+  const box=q("#arvore");
+  const abertos=new Set([...box.querySelectorAll("details[open] > summary > span:first-child")].map(s=>s.textContent));
+  box.replaceChildren();
+  if(!mapa.length){box.append(texto("O mapa começa a crescer depois da próxima execução do Pangolimo.","p"));return}
+  const chave=n=>n.tema.toLowerCase(),por=new Map(mapa.map(n=>[chave(n),n])),filhos=new Map(),raizes=[];
+  mapa.forEach(n=>{const o=n.origem&&n.origem.toLowerCase()!==chave(n)&&por.has(n.origem.toLowerCase())?n.origem.toLowerCase():null;
+    if(o){if(!filhos.has(o))filhos.set(o,[]);filhos.get(o).push(n)}else raizes.push(n)});
+  const total=n=>(filhos.get(chave(n))||[]).reduce((s,f)=>s+1+total(f),0);
+  const rotulo=n=>{const a=document.createElement("span"),v=document.createElement("span"),f=document.createDocumentFragment();
+    a.textContent=n.tema;if(!n.vezes)a.className="nao-lido";
+    v.className="vezes";v.textContent=n.vezes?(n.vezes===1?"leu 1 vez":`leu ${n.vezes} vezes`):"ainda não leu";
+    f.append(a,v);return f};
+  const no=(n,nivel)=>{const li=document.createElement("li"),fs=filhos.get(chave(n));
+    if(!fs){const d=document.createElement("div");d.className="folha";d.append(rotulo(n));li.append(d);return li}
+    const det=document.createElement("details"),sm=document.createElement("summary"),ul=document.createElement("ul");
+    det.open=abertos.size?abertos.has(n.tema):nivel<1;
+    sm.append(rotulo(n));fs.forEach(f=>ul.append(no(f,nivel+1)));det.append(sm,ul);li.append(det);return li};
+  const ul=document.createElement("ul");
+  raizes.sort((a,b)=>total(b)-total(a)).forEach(r=>ul.append(no(r,0)));
+  box.append(ul);
+}
+
 async function carregar(){
   const t="?t="+Date.now();
-  [estado,diario]=await Promise.all([fetch("estado.json"+t).then(r=>r.json()),fetch("diario.json"+t).then(r=>r.json())]);
+  [estado,diario,mapa]=await Promise.all([fetch("estado.json"+t).then(r=>r.json()),fetch("diario.json"+t).then(r=>r.json()),fetch("mapa.json"+t).then(r=>r.ok?r.json():[]).catch(()=>[])]);
   const nome=estado.nome||"Pangolimo";
   q("h1").textContent=nome;document.title=`${nome}, o ${estado.especie}`;
   const quanto=estado.ultima_execucao?Math.max(0,Math.round((Date.now()-new Date(estado.ultima_execucao))/36e5)):null;
@@ -182,6 +220,7 @@ async function carregar(){
   comDesenho.slice(0,24).forEach(d=>{const f=document.createElement("figure");f.append(miniatura(d.desenho,d.titulo_desenho),texto(d.titulo_desenho||d.tema,"figcaption"));mural.append(f)});
   if(!comDesenho.length)mural.append(texto("O mural está vazio. Os desenhos aparecem aqui depois que o Pangolimo começar a pesquisar.","p"));
   if(!diario.length)q("#diario").append(texto("O Pangolimo ainda não escreveu nada. A primeira entrada aparece depois da primeira execução.","p"));
+  desenharMapa();
   mostrados=0;q("#diario").querySelectorAll(".entrada").forEach(e=>e.remove());mais();
 }
 carregar().then(()=>reduzMovimento?(cena(),imgs.forEach(i=>i.onload=cena)):loop()).catch(()=>{q("#estado").textContent="Não consegui abrir o estado do Pangolimo. Confira se estado.json e diario.json estão no repositório."});

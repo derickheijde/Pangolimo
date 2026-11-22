@@ -1,125 +1,125 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 82,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 100,
+  "dormindo": false,
+  "acao": "pesquisando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.58
+      "recente": 3.536
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.527
+      "recente": 3.484
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.636
+      "recente": 2.604
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.636
+      "recente": 2.604
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.839
+      "recente": 1.816
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.757
+      "recente": 1.735
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.757
+      "recente": 1.735
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.757
+      "recente": 1.735
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.968
+      "recente": 0.956
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.968
+      "recente": 0.956
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.968
+      "recente": 0.956
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.947
+      "recente": 0.935
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.947
+      "recente": 0.935
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.93
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.93
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.919
+      "recente": 0.908
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.885
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.885
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.885
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.88
+      "recente": 0.869
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.88
+      "recente": 0.869
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.88
+      "recente": 0.869
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.88
+      "recente": 0.869
     }
   ],
   "gostos": {
@@ -138,9 +138,9 @@
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas."
   ],
   "proximo_tema": "sapos",
-  "ultima_execucao": "2026-11-22T13:42+00:00",
+  "ultima_execucao": "2026-11-22T14:33+00:00",
   "tipo": "Limo / Terra",
-  "fome": 43,
+  "fome": 46,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "animais na chuva"

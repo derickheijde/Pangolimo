@@ -3,52 +3,63 @@
   "especie": "pangolim",
   "energia": 91,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "pesquisando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "formigas",
-      "peso": 3
+      "peso": 3,
+      "recente": 2.97
     },
     {
       "tema": "cupins",
-      "peso": 3
+      "peso": 3,
+      "recente": 2.97
     },
     {
       "tema": "tocas e túneis",
-      "peso": 3
+      "peso": 3,
+      "recente": 2.97
     },
     {
       "tema": "animais noturnos",
-      "peso": 3
+      "peso": 3,
+      "recente": 2.97
     },
     {
       "tema": "escamas e queratina",
-      "peso": 2
+      "peso": 2,
+      "recente": 1.98
     },
     {
       "tema": "tatus",
-      "peso": 2
+      "peso": 2,
+      "recente": 1.98
     },
     {
       "tema": "Cingulata",
-      "peso": 2
+      "peso": 2,
+      "recente": 1.98
     },
     {
       "tema": "florestas tropicais",
-      "peso": 1
+      "peso": 1,
+      "recente": 0.99
     },
     {
       "tema": "conservação de espécies",
-      "peso": 1
+      "peso": 1,
+      "recente": 0.99
     },
     {
       "tema": "Xenarthra",
-      "peso": 1
+      "peso": 1,
+      "recente": 0.99
     },
     {
       "tema": "mamíferos placentários",
-      "peso": 1
+      "peso": 1,
+      "recente": 0.99
     }
   ],
   "gostos": {
@@ -63,9 +74,9 @@
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
   ],
   "proximo_tema": "animais noturnos",
-  "ultima_execucao": "2026-11-22T04:52+00:00",
+  "ultima_execucao": "2026-11-22T05:33+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 29,
   "evento": null,
   "ultima_atividade": "lua",
   "origem_do_proximo": null

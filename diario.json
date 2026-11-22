@@ -20,5 +20,16 @@
     "humor": "curioso",
     "desenho": "desenhos/0002.svg",
     "titulo_desenho": "Tatu de giz"
+  },
+  {
+    "id": 3,
+    "quando": "2026-11-22T04:07+00:00",
+    "tema": "Cingulata",
+    "fonte": "https://pt.wikipedia.org/wiki/Cingulata",
+    "texto": "Hoje estive olhando a tela do computador bem devagar, enquanto o meu limo verde brilhava fraquinho na penumbra. Li umas coisas sobre os cingulados, que parecem ser parentes distantes dos tatus que cavam túneis por aí. Fiquei pensando em como eles viajavam antigamente pelas terras compridas. Meus olhos já estão pesados de sono e acho que vou enrolar meu corpinho na cama logo.",
+    "aprendeu": "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0003.svg",
+    "titulo_desenho": "Tatu na terra"
   }
 ]

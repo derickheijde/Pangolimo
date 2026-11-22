@@ -1,10 +1,10 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 44,
-  "dormindo": false,
-  "acao": "desenhando",
-  "humor": "curioso",
+  "energia": 24,
+  "dormindo": true,
+  "acao": "dormindo",
+  "humor": "sonolento",
   "interesses": [
     {
       "tema": "formigas",
@@ -31,6 +31,10 @@
       "peso": 2
     },
     {
+      "tema": "Cingulata",
+      "peso": 2
+    },
+    {
       "tema": "florestas tropicais",
       "peso": 1
     },
@@ -39,7 +43,11 @@
       "peso": 1
     },
     {
-      "tema": "Cingulata",
+      "tema": "Xenarthra",
+      "peso": 1
+    },
+    {
+      "tema": "mamíferos placentários",
       "peso": 1
     }
   ],
@@ -51,9 +59,10 @@
   },
   "aprendeu": [
     "As tocas servem para proteger os animais dos perigos e do clima.",
-    "Os tatus também constroem tocas para se proteger dos perigos."
+    "Os tatus também constroem tocas para se proteger dos perigos.",
+    "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
   ],
-  "proximo_tema": "Cingulata",
-  "ultima_execucao": "2026-11-22T02:20+00:00",
+  "proximo_tema": "Xenarthra",
+  "ultima_execucao": "2026-11-22T04:07+00:00",
   "tipo": "Limo / Terra"
 }

@@ -175,6 +175,7 @@ async function carregar(){
   mostrados=0;q("#diario").querySelectorAll(".entrada").forEach(e=>e.remove());mais();
 }
 carregar().then(()=>reduzMovimento?(cena(),imgs.forEach(i=>i.onload=cena)):loop()).catch(()=>{q("#estado").textContent="Não consegui abrir o estado do Pangolimo. Confira se estado.json e diario.json estão no repositório."});
+setInterval(async()=>{try{const e=await fetch("estado.json?t="+Date.now()).then(r=>r.json());if(!estado||e.ultima_execucao!==estado.ultima_execucao)await carregar()}catch(_){}},30000);
 </script>
 </body>
 </html>

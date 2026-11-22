@@ -103,5 +103,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0009.svg",
     "titulo_desenho": "Toca na chuva"
+  },
+  {
+    "id": 10,
+    "quando": "2026-11-22T10:02+00:00",
+    "atividade": "clima",
+    "tema": null,
+    "fonte": null,
+    "texto": "A chuva forte lá fora bate na janela e o vento faz um som meio assustador, mas minha toca é quentinha. Lembrei que as tocas servem justamente para proteger a gente desses perigos e do clima ruim. Fiquei um pouco encolhido na minha bolinha de limo, mas logo passou e agora só quero minha caminha.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0010.svg",
+    "titulo_desenho": "janela e chuva forte"
   }
 ]

@@ -1,100 +1,110 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 37,
+  "energia": 31,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "observando_clima",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.796
+      "recente": 3.779
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.739
+      "recente": 3.722
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.796
+      "recente": 2.783
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.796
+      "recente": 2.783
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.949
+      "recente": 1.94
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.864
+      "recente": 1.855
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.864
+      "recente": 1.855
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.864
+      "recente": 1.855
+    },
+    {
+      "tema": "tempestades",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "som da chuva",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.974
+      "recente": 0.97
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.945
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.945
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.945
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.928
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.928
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.928
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.928
     }
   ],
   "gostos": {
@@ -111,15 +121,15 @@
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar."
   ],
-  "proximo_tema": "toupeiras",
-  "ultima_execucao": "2026-11-22T09:43+00:00",
+  "proximo_tema": "animais na chuva",
+  "ultima_execucao": "2026-11-22T10:02+00:00",
   "tipo": "Limo / Terra",
-  "fome": 16,
+  "fome": 19,
   "evento": {
     "nome": "chuva",
     "tipo": "tempestade",
     "ate": "2026-11-22T10:38+00:00"
   },
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "tocas e túneis"
+  "ultima_atividade": "clima",
+  "origem_do_proximo": null
 }

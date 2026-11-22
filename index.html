@@ -305,7 +305,7 @@ function mais(){
 q("#mais").onclick=mais;
 
 const ROTULOS={comida:"comendo no formigueiro",lua:"olhando a lua pela janela",clima:"observando o tempo pela janela"};
-const rotuloAtividade=d=>ROTULOS[d.atividade]||("lendo sobre "+d.tema);
+const rotuloAtividade=d=>ROTULOS[d.atividade]||("lendo sobre "+d.tema+(d.via?(d.via_sorteio?`, onde caiu sem querer a partir de ${d.via}`:`, que achou num link de ${d.via}`):""));
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 
 // ---- balão de emoji

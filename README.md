@@ -1,7 +1,7 @@
 # Pangolimo, o pangolim
 
 Bichinho virtual (um pangolim coberto de limo verde) que mora numa casinha, pesquisa na Wikipédia, escreve um diário e pendura desenhos no mural.
-Roda sozinho no GitHub Actions (a cada 3 horas) e aparece num site do GitHub Pages.
+Roda sozinho no GitHub Actions (a cada 1 hora) e aparece num site do GitHub Pages.
 
 - `vida.py`: um momento na vida do Pangolimo (usa só Python padrão)
 - `estado.json`: personalidade, interesses, gostos, energia

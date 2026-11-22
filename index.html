@@ -74,7 +74,7 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
       <div>Fome</div>
       <div class="barra fome"><span id="fome"></span></div>
       <dl><dt>Humor</dt><dd id="humor"></dd><dt>Tipo</dt><dd id="tipo"></dd><dt>Lá fora</dt><dd id="fora"></dd></dl>
-      <h2>Interesses</h2>
+      <h2>Interesses do momento</h2>
       <ul id="interesses"></ul>
       <h2>Gostos</h2>
       <dl id="gostos"></dl>
@@ -254,7 +254,11 @@ async function carregar(){
   c.setAttribute("aria-label",`A casinha do ${nome}: ele ${FRASES[estado.acao]||"está por aí"}.`);
   q("#energia").style.width=estado.energia+"%";q("#fome").style.width=(estado.fome||0)+"%";q("#humor").textContent=estado.humor;q("#fora").textContent=FORA[chuvaAtiva()]||"tempo calmo";q("#tipo").textContent=estado.tipo||"";
   const ul=q("#interesses");ul.replaceChildren();
-  estado.interesses.slice(0,14).forEach(i=>{const li=document.createElement("li");li.textContent=i.tema;li.style.fontSize=(15+Math.min(i.peso,10)*1.2)+"px";ul.append(li)});
+  const forca=i=>i.recente??i.peso;
+  const ativos=[...estado.interesses].sort((a,b)=>forca(b)-forca(a));
+  (ativos.filter(i=>forca(i)>=0.2).slice(0,12).length?ativos.filter(i=>forca(i)>=0.2).slice(0,12):ativos.slice(0,5)).forEach(i=>{
+    const li=document.createElement("li"),f=forca(i);li.textContent=i.tema;
+    li.style.fontSize=(15+Math.min(f,6)*2)+"px";li.style.opacity=Math.min(1,0.5+f*0.25);ul.append(li)});
   const gl=q("#gostos");gl.replaceChildren();
   Object.entries(estado.gostos).forEach(([k,v])=>{gl.append(texto(k.replaceAll("_"," "),"dt"),texto(v,"dd"))});
   const comDesenho=[...diario].reverse().filter(d=>d.desenho);

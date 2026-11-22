@@ -23,6 +23,7 @@ SONO_POR_HORA = 30                        # energia que ele recupera por hora do
 FOME_POR_HORA = 10                        # fome que sobe por hora acordado (4 por hora dormindo)
 FOME_PARA_COMER = 60                      # a partir daqui ele vai ao formigueiro
 CHANCE_CHUVA_POR_HORA = 0.08              # chance de começar a chover a cada hora
+MEIA_VIDA_INTERESSE_H = 48                # o "interesse do momento" cai pela metade a cada 48 h sem ser lido
 CUSTO_ENERGIA = {"pesquisa": (12, 20), "lua": (3, 8), "comida": (-5, -5)}   # comer devolve um pouco
 ACAO_PADRAO = {"pesquisa": "pesquisando", "lua": "olhando_lua", "comida": "comendo"}
 
@@ -105,10 +106,15 @@ def escolher_atividade(e, agora_dt):
     return random.choices(list(pesos), weights=list(pesos.values()))[0]
 
 
+def ordem_interesse(i):
+    """Ordem dos interesses: o que ele leu há pouco vem primeiro; o histórico só desempata."""
+    return -(i["recente"] + 0.3 * i["peso"])
+
+
 def escolher_tema(e):
     if e.get("proximo_tema"):
         return e["proximo_tema"]
-    pesos = [max(1, i["peso"]) for i in e["interesses"]]
+    pesos = [max(1, i["peso"]) + 2 * i["recente"] for i in e["interesses"]]
     return random.choices([i["tema"] for i in e["interesses"]], weights=pesos)[0]
 
 
@@ -132,7 +138,7 @@ ESPECIFICACAO = """Responda SOMENTE com um JSON com estas chaves:
 
 
 def montar_prompt(e, agora_dt, atividade, tema, titulo, texto):
-    interesses = ", ".join(f"{i['tema']} (peso {i['peso']})" for i in sorted(e["interesses"], key=lambda i: -i["peso"])[:12])
+    interesses = ", ".join(i["tema"] for i in sorted(e["interesses"], key=ordem_interesse)[:12])
     gostos = "; ".join(f"{k}: {v}" for k, v in e["gostos"].items())
     aprendeu = "\n".join(f"- {a}" for a in e["aprendeu"][-10:]) or "- ainda nada"
     cansado = "Você está com bastante sono e vai dormir logo depois disso." if e["energia"] <= 45 else ""
@@ -142,7 +148,7 @@ def montar_prompt(e, agora_dt, atividade, tema, titulo, texto):
     hora = agora_dt.astimezone(FUSO).hour
     cabecalho = f"""Você é {e['nome']}, um pangolim coberto de limo verde, meio monstrinho de bolso, que deixa um rastro brilhante por onde passa. Você mora numa casinha com uma cama, um computador, uma janela, um formigueiro no canto e um mural onde pendura os desenhos que faz. Pangolins são tímidos, noturnos, comem formigas e cupins e se enrolam em bola quando têm medo. Você acha seu limo normal e até gosta dele. Você não sabe que é virtual.
 
-Seus interesses: {interesses}
+Seus interesses, dos que mais ocupam sua cabeça agora aos que menos: {interesses}
 Seus gostos agora: {gostos}
 Humor atual: {e['humor']}. Energia: {e['energia']} de 100. Você está {fome}. {cansado}
 Horário: {hora}h. {clima}
@@ -262,6 +268,8 @@ def viver():
         sys.exit("estado.json não encontrado")
     for k, v in {"fome": 20, "evento": None, "ultima_atividade": None, "origem_do_proximo": None}.items():
         e.setdefault(k, v)  # estados antigos ganham os campos novos
+    for i in e["interesses"]:
+        i.setdefault("recente", float(i.get("peso", 1)))
     diario = ler(DIARIO, [])
     agora_dt = datetime.now(timezone.utc)
     agora = agora_dt.isoformat(timespec="minutes")
@@ -272,6 +280,9 @@ def viver():
     horas = min(horas_desde(anterior, agora_dt), 6.0)
     e["fome"] = min(100, round(e["fome"] + (4 if e["dormindo"] else FOME_POR_HORA) * horas))
     atualizar_evento(e, agora_dt, horas)
+    fator = 0.5 ** (min(horas_desde(anterior, agora_dt), 72.0) / MEIA_VIDA_INTERESSE_H)
+    for i in e["interesses"]:
+        i["recente"] = round(i["recente"] * fator, 3)
 
     # Dormindo: recupera energia e não gasta nenhuma chamada de API.
     if e["dormindo"]:
@@ -327,10 +338,11 @@ def viver():
     for t in ([tema] if tema else []) + novos:
         if t and t.lower() in por_nome:
             por_nome[t.lower()]["peso"] += 1
+            por_nome[t.lower()]["recente"] = round(por_nome[t.lower()]["recente"] + 1, 3)
         elif t:
-            e["interesses"].append({"tema": t, "peso": 1})
+            e["interesses"].append({"tema": t, "peso": 1, "recente": 1.0})
             por_nome[t.lower()] = e["interesses"][-1]
-    e["interesses"] = sorted(e["interesses"], key=lambda i: -i["peso"])[:30]
+    e["interesses"] = sorted(e["interesses"], key=ordem_interesse)[:30]
 
     # Gostos mudam aos poucos, conforme ele aprende.
     mudou = r.get("gosto_mudou")

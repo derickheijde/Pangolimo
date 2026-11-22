@@ -22,10 +22,12 @@ FUSO = timezone(timedelta(hours=-3))      # horário de Brasília, usado para sa
 SONO_POR_HORA = 30                        # energia que ele recupera por hora dormindo
 FOME_POR_HORA = 10                        # fome que sobe por hora acordado (4 por hora dormindo)
 FOME_PARA_COMER = 60                      # a partir daqui ele vai ao formigueiro
-CHANCE_CHUVA_POR_HORA = 0.08              # chance de começar a chover a cada hora
+CHANCE_CLIMA_POR_HORA = 0.10              # chance de começar um clima diferente a cada hora
+TIPOS_CLIMA = {"garoa": 30, "chuva": 30, "vendaval": 15, "tempestade": 12, "raios": 13}   # tipo: peso no sorteio
+DURACAO_CLIMA = {"vendaval": (1, 3)}     # em horas; os demais duram de 1 a 4
 MEIA_VIDA_INTERESSE_H = 48                # o "interesse do momento" cai pela metade a cada 48 h sem ser lido
-CUSTO_ENERGIA = {"pesquisa": (12, 20), "lua": (3, 8), "comida": (-5, -5)}   # comer devolve um pouco
-ACAO_PADRAO = {"pesquisa": "pesquisando", "lua": "olhando_lua", "comida": "comendo"}
+CUSTO_ENERGIA = {"pesquisa": (12, 20), "lua": (3, 8), "clima": (3, 8), "comida": (-5, -5)}   # comer devolve um pouco
+ACAO_PADRAO = {"pesquisa": "pesquisando", "lua": "olhando_lua", "clima": "observando_clima", "comida": "comendo"}
 
 
 def ler(caminho, padrao):
@@ -78,7 +80,7 @@ def horas_desde(iso, agora_dt):
 
 
 def atualizar_evento(e, agora_dt, horas):
-    """Acontecimentos aleatórios do mundo dele. Por enquanto só existe a chuva."""
+    """Acontecimentos aleatórios do mundo dele: o clima (garoa, chuva, vendaval, tempestade, tempestade com raios)."""
     ev = e.get("evento")
     if ev:
         try:
@@ -86,10 +88,10 @@ def atualizar_evento(e, agora_dt, horas):
                 e["evento"] = None
         except (KeyError, TypeError, ValueError):
             e["evento"] = None
-    if not e.get("evento") and random.random() < 1 - (1 - CHANCE_CHUVA_POR_HORA) ** horas:
-        tipo = random.choices(["garoa", "chuva", "tempestade"], weights=[40, 40, 20])[0]
-        fim = agora_dt + timedelta(hours=random.uniform(1, 4))
-        e["evento"] = {"nome": "chuva", "tipo": tipo, "ate": fim.isoformat(timespec="minutes")}
+    if not e.get("evento") and random.random() < 1 - (1 - CHANCE_CLIMA_POR_HORA) ** horas:
+        tipo = random.choices(list(TIPOS_CLIMA), weights=list(TIPOS_CLIMA.values()))[0]
+        fim = agora_dt + timedelta(hours=random.uniform(*DURACAO_CLIMA.get(tipo, (1, 4))))
+        e["evento"] = {"nome": "clima", "tipo": tipo, "ate": fim.isoformat(timespec="minutes")}
 
 
 def escolher_atividade(e, agora_dt):
@@ -102,7 +104,8 @@ def escolher_atividade(e, agora_dt):
     hora = agora_dt.astimezone(FUSO).hour
     noite = hora >= 19 or hora < 5
     lua_visivel = noite and not e.get("evento") and e.get("ultima_atividade") != "lua"
-    pesos = {"pesquisa": 75, "lua": 25 if lua_visivel else 0}
+    olhar_clima = bool(e.get("evento")) and e.get("ultima_atividade") != "clima"
+    pesos = {"pesquisa": 75, "lua": 25 if lua_visivel else 0, "clima": 35 if olhar_clima else 0}
     return random.choices(list(pesos), weights=list(pesos.values()))[0]
 
 
@@ -119,7 +122,10 @@ def escolher_tema(e):
 
 
 CLIMA = {None: "Lá fora o tempo está calmo.", "garoa": "Lá fora cai uma garoa fina.",
-         "chuva": "Lá fora está chovendo.", "tempestade": "Lá fora há uma tempestade, com raios e trovões."}
+         "chuva": "Lá fora está chovendo.",
+         "vendaval": "Lá fora há um vendaval: o vento forte sacode a janela e leva folhas e poeira.",
+         "tempestade": "Lá fora há uma tempestade, com chuva pesada e vento forte.",
+         "raios": "Lá fora há uma tempestade com raios e trovões."}
 
 DESENHO = ('um único <svg viewBox="0 0 200 150">, no estilo de uma criança com giz de cera, começando com um <rect> '
            'de fundo claro, formas simples (círculos, elipses, retângulos, linhas e caminhos tortos), traços grossos '
@@ -166,6 +172,14 @@ O que você já aprendeu:
         corpo = ("Agora você está sentado no parapeito da janela, olhando a lua. "
                  "Escreva a entrada do seu diário sobre esse momento tranquilo.\n\n")
         espec = ESPECIFICACAO.format(tamanho="2 a 4 frases", foco="Conte o que você viu, pensou ou sentiu olhando a lua.",
+                                     desenho='só se algo te inspirou, ' + DESENHO + ' Na maioria das vezes use "".')
+    elif atividade == "clima":
+        extra = {"raios": " Os raios e trovões te assustam um pouco, mas você não consegue parar de olhar.",
+                 "vendaval": " O vento sacode a janela e leva folhas e poeira pelo ar.",
+                 "tempestade": " A chuva é pesada e o vento assobia nas frestas."}.get(ev["tipo"] if ev else None, "")
+        corpo = ("Agora você está sentado no parapeito da janela, observando o tempo lá fora." + extra +
+                 " Escreva a entrada do seu diário sobre o que está vendo e sentindo.\n\n")
+        espec = ESPECIFICACAO.format(tamanho="2 a 4 frases", foco="Conte o que você viu lá fora e como isso fez você se sentir.",
                                      desenho='só se algo te inspirou, ' + DESENHO + ' Na maioria das vezes use "".')
     else:
         corpo = ("Você estava com fome e foi até o formigueiro no canto da casa. Pangolins não têm dentes: você pega as "

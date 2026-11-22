@@ -3,108 +3,108 @@
   "especie": "pangolim",
   "energia": 31,
   "dormindo": false,
-  "acao": "observando_clima",
+  "acao": "pesquisando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.779
+      "recente": 3.753
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.722
+      "recente": 3.696
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.783
+      "recente": 2.764
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.783
+      "recente": 2.764
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.94
+      "recente": 1.927
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.842
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.842
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.842
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.988
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.988
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.97
+      "recente": 0.963
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.922
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.922
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.922
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.922
     }
   ],
   "gostos": {
@@ -122,9 +122,9 @@
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar."
   ],
   "proximo_tema": "animais na chuva",
-  "ultima_execucao": "2026-11-22T10:02+00:00",
+  "ultima_execucao": "2026-11-22T10:30+00:00",
   "tipo": "Limo / Terra",
-  "fome": 19,
+  "fome": 24,
   "evento": {
     "nome": "chuva",
     "tipo": "tempestade",

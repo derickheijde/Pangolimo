@@ -1,7 +1,7 @@
 name: Vida do pangolimo
 
 on:
-   schedule:
+  schedule:
     - cron: "17 * * * *"
     - cron: "47 * * * *"
   workflow_dispatch:

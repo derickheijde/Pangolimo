@@ -152,7 +152,7 @@
   {
     "tema": "rainhas das formigas",
     "origem": "túneis de formigas",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-22T17:00+00:00"
   },
   {
@@ -178,5 +178,17 @@
     "origem": "soldados formigas",
     "vezes": 0,
     "desde": "2026-11-22T17:55+00:00"
+  },
+  {
+    "tema": "voo nupcial",
+    "origem": "rainhas das formigas",
+    "vezes": 0,
+    "desde": "2026-11-22T19:08+00:00"
+  },
+  {
+    "tema": "asas de insetos",
+    "origem": "rainhas das formigas",
+    "vezes": 0,
+    "desde": "2026-11-22T19:08+00:00"
   }
 ]

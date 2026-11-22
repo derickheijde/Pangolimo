@@ -175,5 +175,17 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0015.svg",
     "titulo_desenho": "soldado formiga"
+  },
+  {
+    "id": 16,
+    "quando": "2026-11-22T19:08+00:00",
+    "atividade": "pesquisa",
+    "tema": "rainhas das formigas",
+    "fonte": "https://pt.wikipedia.org/wiki/Formiga-rainha",
+    "texto": "Hoje choveu lá fora e fiquei no computador lendo sobre as rainhas das formigas. Descobri que elas são bem maiores que as outras e têm três olhos no topo da cabeça para olhar o céu. Achei meio engraçado pensar nelas tirando as próprias asas depois do voo. Fiquei imaginando como deve ser pesado carregar esse corpão todo pelo formigueiro no canto do meu quarto.",
+    "aprendeu": "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0016.svg",
+    "titulo_desenho": "Rainha com asas"
   }
 ]

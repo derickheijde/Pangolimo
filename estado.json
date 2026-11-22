@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 62,
+  "energia": 49,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.127
+      "recente": 3.105
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.08
+      "recente": 3.059
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.993
+      "recente": 2.972
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.783
+      "recente": 2.764
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.768
+      "recente": 2.749
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.304
+      "recente": 2.288
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.304
+      "recente": 2.288
+    },
+    {
+      "tema": "Simbiose",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.897
+      "recente": 1.884
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.826
+      "recente": 1.813
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.607
+      "recente": 1.596
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.533
+      "recente": 1.522
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.533
+      "recente": 1.522
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.533
+      "recente": 1.522
     },
     {
-      "tema": "Fungos",
+      "tema": "liquens",
       "peso": 1,
       "recente": 1.0
     },
     {
-      "tema": "cultivo de fungos",
+      "tema": "Fungos",
       "peso": 1,
       "recente": 0.993
+    },
+    {
+      "tema": "cultivo de fungos",
+      "peso": 1,
+      "recente": 0.986
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.986
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.945
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.945
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.923
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.923
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.916
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.909
+      "recente": 0.903
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.828
+      "recente": 0.822
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.828
-    },
-    {
-      "tema": "animais que fazem tocas",
-      "peso": 1,
-      "recente": 0.824
-    },
-    {
-      "tema": "toupeiras",
-      "peso": 1,
-      "recente": 0.824
+      "recente": 0.822
     }
   ],
   "gostos": {
@@ -178,22 +178,23 @@
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
     "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
-    "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo."
+    "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
+    "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro."
   ],
-  "proximo_tema": "Simbiose",
-  "ultima_execucao": "2026-11-22T22:58+00:00",
+  "proximo_tema": "Evolução da visão em cores em primatas",
+  "ultima_execucao": "2026-11-22T23:26+00:00",
   "tipo": "Limo / Terra",
-  "fome": 53,
+  "fome": 58,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-23T00:32+00:00"
   },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Micélio",
+  "origem_do_proximo": "Simbiose",
   "via_do_proximo": {
-    "de": "Micélio",
-    "sorteado": false,
+    "de": "Simbiose",
+    "sorteado": true,
     "lang": "pt"
   }
 }

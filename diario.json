@@ -227,5 +227,19 @@
     "titulo_desenho": "Fios de fungo na terra",
     "via": "cultivo de fungos",
     "via_sorteio": false
+  },
+  {
+    "id": 20,
+    "quando": "2026-11-22T23:26+00:00",
+    "atividade": "pesquisa",
+    "tema": "Simbiose",
+    "fonte": "https://pt.wikipedia.org/wiki/Simbiose",
+    "texto": "Hoje a chuva está bem forte batendo na janela, e eu fiquei deitado na minha caminha olhando para a tela do computador. Continuei olhando as coisas do micélio e fui ler sobre uma tal de simbiose, que é quando dois bichinhos ou plantinhas ajudam um ao outro bem de pertinho. Eu achei muito legal pensar que viver junto pode ser uma troca de carinho e ajuda para conseguir comidinha ou um lugar quentinho. Minhas escamas verdes deixam um rastro brilhante no chão, e eu fiquei pensando se eu e as formigas do meu cantinho também fazemos uma troca parecida. No fim da leitura, meu pezinho escorregou no teclado e eu fui parar sem querer numa página sobre evolução da visão em cores em primatas.",
+    "aprendeu": "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0020.svg",
+    "titulo_desenho": "Dois amigos juntos",
+    "via": "Micélio",
+    "via_sorteio": false
   }
 ]

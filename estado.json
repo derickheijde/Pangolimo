@@ -2,159 +2,159 @@
   "nome": "Pangolimo",
   "especie": "pangolim",
   "energia": 82,
-  "dormindo": true,
-  "acao": "dormindo",
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.197
+      "recente": 3.15
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.149
+      "recente": 3.103
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.846
+      "recente": 2.804
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.83
+      "recente": 2.789
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.355
+      "recente": 2.321
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.355
+      "recente": 2.321
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.939
+      "recente": 1.911
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.867
+      "recente": 1.84
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.643
+      "recente": 1.619
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.545
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.545
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.545
+    },
+    {
+      "tema": "cultivo de fungos",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Micélio",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Isópteros",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.959
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.959
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.966
+      "recente": 0.952
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.95
+      "recente": 0.936
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.95
+      "recente": 0.936
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.943
+      "recente": 0.929
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.916
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.866
+      "recente": 0.853
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.866
+      "recente": 0.853
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.866
+      "recente": 0.853
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.846
+      "recente": 0.834
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.846
+      "recente": 0.834
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.842
+      "recente": 0.83
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.842
+      "recente": 0.83
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.82
-    },
-    {
-      "tema": "animais que saem de noite",
-      "peso": 1,
-      "recente": 0.798
-    },
-    {
-      "tema": "músicas sobre animais",
-      "peso": 1,
-      "recente": 0.798
-    },
-    {
-      "tema": "compositores noturnos",
-      "peso": 1,
-      "recente": 0.798
+      "recente": 0.808
     }
   ],
   "gostos": {
@@ -176,18 +176,19 @@
     "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
-    "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas."
+    "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
+    "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento."
   ],
-  "proximo_tema": "cultivo de fungos",
-  "ultima_execucao": "2026-11-22T21:26+00:00",
+  "proximo_tema": "Micélio",
+  "ultima_execucao": "2026-11-22T22:27+00:00",
   "tipo": "Limo / Terra",
-  "fome": 44,
-  "evento": {
-    "nome": "clima",
-    "tipo": "chuva",
-    "ate": "2026-11-22T21:51+00:00"
-  },
+  "fome": 48,
+  "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "voo nupcial",
-  "via_do_proximo": null
+  "origem_do_proximo": "cultivo de fungos",
+  "via_do_proximo": {
+    "de": "cultivo de fungos",
+    "sorteado": false,
+    "lang": "pt"
+  }
 }

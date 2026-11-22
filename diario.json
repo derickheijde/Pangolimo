@@ -199,5 +199,19 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0017.svg",
     "titulo_desenho": "Saúva carregando folha"
+  },
+  {
+    "id": 18,
+    "quando": "2026-11-22T22:27+00:00",
+    "atividade": "pesquisa",
+    "tema": "cultivo de fungos",
+    "fonte": "https://pt.wikipedia.org/wiki/Formiga-cortadeira",
+    "texto": "Já são sete horas da noite e o tempo está bem calmo lá fora. Fiquei aqui no computador lendo sobre as formigas-cortadeiras e descobri que elas cultivam plantinhas de fungo no escuro da terra. Minhas escamas deixaram um brilho verde na cadeira enquanto eu lia tudo bem quietinho. Acho muito bonito como bichinhos tão pequenos conseguem cuidar de uma horta inteira embaixo do chão.",
+    "aprendeu": "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0018.svg",
+    "titulo_desenho": "Horta da Formiga",
+    "via": null,
+    "via_sorteio": null
   }
 ]

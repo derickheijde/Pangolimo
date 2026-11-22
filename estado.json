@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 49,
+  "energia": 54,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "comendo",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.105
+      "recente": 3.082
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.059
+      "recente": 3.037
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.972
+      "recente": 2.95
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.764
+      "recente": 2.744
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.749
+      "recente": 2.729
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.288
+      "recente": 2.271
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.288
+      "recente": 2.271
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.985
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.884
+      "recente": 1.87
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.813
+      "recente": 1.8
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.596
+      "recente": 1.584
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.522
+      "recente": 1.511
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.522
+      "recente": 1.511
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.522
+      "recente": 1.511
     },
     {
-      "tema": "liquens",
+      "tema": "filas de formigas",
       "peso": 1,
       "recente": 1.0
     },
     {
-      "tema": "Fungos",
+      "tema": "estrada de formigas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "liquens",
       "peso": 1,
       "recente": 0.993
     },
     {
-      "tema": "cultivo de fungos",
+      "tema": "Fungos",
       "peso": 1,
       "recente": 0.986
+    },
+    {
+      "tema": "cultivo de fungos",
+      "peso": 1,
+      "recente": 0.979
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.979
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.938
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.931
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.916
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.916
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.896
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.841
+      "recente": 0.835
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.841
+      "recente": 0.835
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.841
-    },
-    {
-      "tema": "tempestades",
-      "peso": 1,
-      "recente": 0.822
-    },
-    {
-      "tema": "som da chuva",
-      "peso": 1,
-      "recente": 0.822
+      "recente": 0.835
     }
   ],
   "gostos": {
@@ -179,18 +179,19 @@
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
     "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
     "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
-    "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro."
+    "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
+    "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Evolução da visão em cores em primatas",
-  "ultima_execucao": "2026-11-22T23:26+00:00",
+  "ultima_execucao": "2026-11-22T23:56+00:00",
   "tipo": "Limo / Terra",
-  "fome": 58,
+  "fome": 6,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-23T00:32+00:00"
   },
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Simbiose",
   "via_do_proximo": {
     "de": "Simbiose",

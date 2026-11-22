@@ -212,7 +212,7 @@
   {
     "tema": "Micélio",
     "origem": "cultivo de fungos",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-22T22:27+00:00"
   },
   {
@@ -220,5 +220,11 @@
     "origem": "cultivo de fungos",
     "vezes": 0,
     "desde": "2026-11-22T22:27+00:00"
+  },
+  {
+    "tema": "Fungos",
+    "origem": "Micélio",
+    "vezes": 0,
+    "desde": "2026-11-22T22:58+00:00"
   }
 ]

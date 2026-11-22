@@ -213,5 +213,19 @@
     "titulo_desenho": "Horta da Formiga",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 19,
+    "quando": "2026-11-22T22:58+00:00",
+    "atividade": "pesquisa",
+    "tema": "Micélio",
+    "fonte": "https://pt.wikipedia.org/wiki/Mic%C3%A9lio",
+    "texto": "Hoje a chuva está caindo lá fora e eu fiquei quietinho no meu computador. Li que o micélio é como um monte de fios embolados que ajudam os fungos a crescer. As formigas que moram no meu canto adoram fungos, então achei isso bem interessante. Minhas escamas deixaram um brilho verde na cadeira enquanto eu lia.",
+    "aprendeu": "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0019.svg",
+    "titulo_desenho": "Fios de fungo na terra",
+    "via": "cultivo de fungos",
+    "via_sorteio": false
   }
 ]

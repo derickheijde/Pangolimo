@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 82,
+  "energia": 62,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.15
+      "recente": 3.127
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.103
+      "recente": 3.08
+    },
+    {
+      "tema": "Micélio",
+      "peso": 3,
+      "recente": 2.993
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.804
+      "recente": 2.783
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.789
+      "recente": 2.768
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.321
+      "recente": 2.304
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.321
+      "recente": 2.304
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.911
+      "recente": 1.897
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.84
+      "recente": 1.826
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.619
+      "recente": 1.607
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.545
+      "recente": 1.533
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.545
+      "recente": 1.533
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.545
+      "recente": 1.533
+    },
+    {
+      "tema": "Fungos",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Micélio",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.952
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.952
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.945
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.936
+      "recente": 0.929
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.936
+      "recente": 0.929
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.922
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.834
+      "recente": 0.828
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.834
+      "recente": 0.828
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.83
+      "recente": 0.824
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.83
-    },
-    {
-      "tema": "grandes felinos",
-      "peso": 1,
-      "recente": 0.808
+      "recente": 0.824
     }
   ],
   "gostos": {
@@ -177,17 +177,22 @@
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
-    "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento."
+    "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
+    "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo."
   ],
-  "proximo_tema": "Micélio",
-  "ultima_execucao": "2026-11-22T22:27+00:00",
+  "proximo_tema": "Simbiose",
+  "ultima_execucao": "2026-11-22T22:58+00:00",
   "tipo": "Limo / Terra",
-  "fome": 48,
-  "evento": null,
+  "fome": 53,
+  "evento": {
+    "nome": "clima",
+    "tipo": "chuva",
+    "ate": "2026-11-23T00:32+00:00"
+  },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "cultivo de fungos",
+  "origem_do_proximo": "Micélio",
   "via_do_proximo": {
-    "de": "cultivo de fungos",
+    "de": "Micélio",
     "sorteado": false,
     "lang": "pt"
   }

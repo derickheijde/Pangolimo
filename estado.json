@@ -1,80 +1,90 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 62,
+  "energia": 45,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.861
+      "recente": 3.837
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.887
+      "recente": 2.869
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.887
+      "recente": 2.869
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.887
+      "recente": 2.869
+    },
+    {
+      "tema": "leões",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.925
+      "recente": 1.913
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.925
+      "recente": 1.913
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.925
+      "recente": 1.913
+    },
+    {
+      "tema": "grandes felinos",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.981
+      "recente": 0.975
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.981
+      "recente": 0.975
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.981
+      "recente": 0.975
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     }
   ],
   "gostos": {
@@ -87,13 +97,14 @@
     "As tocas servem para proteger os animais dos perigos e do clima.",
     "Os tatus também constroem tocas para se proteger dos perigos.",
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
-    "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte."
+    "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
+    "O leão é um grande felino que hoje vive na África subsaariana e na Índia."
   ],
-  "proximo_tema": "leões",
-  "ultima_execucao": "2026-11-22T07:30+00:00",
+  "proximo_tema": "leão-marinho",
+  "ultima_execucao": "2026-11-22T07:56+00:00",
   "tipo": "Limo / Terra",
-  "fome": 48,
+  "fome": 52,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "animais que saem de noite"
+  "origem_do_proximo": "leões"
 }

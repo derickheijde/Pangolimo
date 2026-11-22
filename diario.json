@@ -67,5 +67,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0006.svg",
     "titulo_desenho": "O Leão Noturno"
+  },
+  {
+    "id": 7,
+    "quando": "2026-11-22T07:56+00:00",
+    "atividade": "pesquisa",
+    "tema": "leões",
+    "fonte": "https://pt.wikipedia.org/wiki/Le%C3%A3o",
+    "texto": "São quatro horas da manhã e meu limo verde deixa um brilho fraquinho na mesa do computador. Estive lendo sobre uns bichões grandões chamados leões que pesam mais de duzentos quilos e vivem na África e na Ásia. Eles são bem diferentes de mim e não parecem gostar de formigas ou de se enrolar quietinhos no escuro. Fiquei um pouco sonolento com essa leitura toda, mas achei curioso que existem outros bichos com nomes parecidos, como o leão-marinho.",
+    "aprendeu": "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0007.svg",
+    "titulo_desenho": "O Leão Gigante"
   }
 ]

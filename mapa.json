@@ -82,5 +82,17 @@
     "origem": "animais que saem de noite",
     "vezes": 0,
     "desde": "2026-11-22T06:12+00:00"
+  },
+  {
+    "tema": "leões",
+    "origem": "animais que saem de noite",
+    "vezes": 1,
+    "desde": "2026-11-22T07:56+00:00"
+  },
+  {
+    "tema": "grandes felinos",
+    "origem": "leões",
+    "vezes": 0,
+    "desde": "2026-11-22T07:56+00:00"
   }
 ]

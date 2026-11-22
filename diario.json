@@ -187,5 +187,17 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0016.svg",
     "titulo_desenho": "Rainha com asas"
+  },
+  {
+    "id": 17,
+    "quando": "2026-11-22T19:35+00:00",
+    "atividade": "pesquisa",
+    "tema": "voo nupcial",
+    "fonte": "https://pt.wikipedia.org/wiki/Sa%C3%BAva",
+    "texto": "Hoje choveu lá fora e fiquei no computador lendo sobre as saúvas, que são formigas-cortadeiras bem grandes e conhecidas no Brasil. Aprendi que elas carregam pedacinhos de folhas para dentro da terra para cultivar um tipo de fungo que comem. Achei curioso que os primeiros colonizadores chamavam elas de o verdadeiro Rei do Brasil. Depois disso fiquei com um pouco de sono e fui deixar um rastro brilhante de limo verde até perto da minha caminha.",
+    "aprendeu": "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0017.svg",
+    "titulo_desenho": "Saúva carregando folha"
   }
 ]

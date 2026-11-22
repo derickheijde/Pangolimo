@@ -182,7 +182,7 @@
   {
     "tema": "voo nupcial",
     "origem": "rainhas das formigas",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-22T19:08+00:00"
   },
   {
@@ -190,5 +190,17 @@
     "origem": "rainhas das formigas",
     "vezes": 0,
     "desde": "2026-11-22T19:08+00:00"
+  },
+  {
+    "tema": "saúvas",
+    "origem": "voo nupcial",
+    "vezes": 0,
+    "desde": "2026-11-22T19:35+00:00"
+  },
+  {
+    "tema": "fungos de formigas",
+    "origem": "voo nupcial",
+    "vezes": 0,
+    "desde": "2026-11-22T19:35+00:00"
   }
 ]

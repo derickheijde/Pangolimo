@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 42,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 25,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.307
+      "recente": 3.285
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.259
+      "recente": 3.237
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.944
+      "recente": 2.925
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.927
+      "recente": 2.908
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.436
+      "recente": 2.42
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.436
+      "recente": 2.42
+    },
+    {
+      "tema": "voo nupcial",
+      "peso": 2,
+      "recente": 1.993
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.931
+      "recente": 1.918
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.699
+      "recente": 1.688
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.622
+      "recente": 1.611
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.622
+      "recente": 1.611
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.622
+      "recente": 1.611
     },
     {
-      "tema": "voo nupcial",
+      "tema": "saúvas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "fungos de formigas",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.977
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.977
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.97
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.895
+      "recente": 0.889
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.895
+      "recente": 0.889
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.895
+      "recente": 0.889
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.871
+      "recente": 0.865
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.871
+      "recente": 0.865
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.849
+      "recente": 0.843
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.826
+      "recente": 0.821
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.826
+      "recente": 0.821
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.826
-    },
-    {
-      "tema": "florestas tropicais",
-      "peso": 1,
-      "recente": 0.813
-    },
-    {
-      "tema": "conservação de espécies",
-      "peso": 1,
-      "recente": 0.813
+      "recente": 0.821
     }
   ],
   "gostos": {
@@ -175,17 +175,18 @@
     "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
     "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
-    "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial."
+    "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
+    "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas."
   ],
-  "proximo_tema": "voo nupcial",
-  "ultima_execucao": "2026-11-22T19:08+00:00",
+  "proximo_tema": "cultivo de fungos",
+  "ultima_execucao": "2026-11-22T19:35+00:00",
   "tipo": "Limo / Terra",
-  "fome": 32,
+  "fome": 37,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-22T21:51+00:00"
   },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "rainhas das formigas"
+  "origem_do_proximo": "voo nupcial"
 }

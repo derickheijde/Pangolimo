@@ -163,5 +163,17 @@
     "humor": "satisfeito",
     "desenho": "desenhos/0014.svg",
     "titulo_desenho": "A Rainha e seus Túneis"
+  },
+  {
+    "id": 15,
+    "quando": "2026-11-22T17:55+00:00",
+    "atividade": "pesquisa",
+    "tema": "soldados formigas",
+    "fonte": "https://pt.wikipedia.org/wiki/Formiga",
+    "texto": "Hoje li sobre as formigas no computador e descobri que existem castas chamadas dinergates, que são os soldados da colônia. Eles são maiores e ajudam a defender todo mundo que mora lá embaixo. Fiquei pensando em como a nossa casinha é simples perto de uma cidade dessas. Minhas escamas meio limosas brilharam um pouco na tela enquanto eu lia.",
+    "aprendeu": "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0015.svg",
+    "titulo_desenho": "soldado formiga"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 70,
+  "energia": 58,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "satisfeito",
@@ -9,142 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.389
+      "recente": 3.366
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.34
+      "recente": 3.317
+    },
+    {
+      "tema": "soldados formigas",
+      "peso": 3,
+      "recente": 2.979
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.496
+      "recente": 2.479
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.496
+      "recente": 2.479
     },
     {
       "tema": "rainhas das formigas",
       "peso": 2,
-      "recente": 1.993
-    },
-    {
-      "tema": "soldados formigas",
-      "peso": 2,
-      "recente": 1.993
+      "recente": 1.979
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.979
+      "recente": 1.965
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.741
+      "recente": 1.729
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.662
+      "recente": 1.651
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.662
+      "recente": 1.651
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.662
+      "recente": 1.651
     },
     {
-      "tema": "rainhas formigas",
+      "tema": "dinergates",
       "peso": 1,
       "recente": 1.0
     },
     {
+      "tema": "castas de formigas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "rainhas formigas",
+      "peso": 1,
+      "recente": 0.993
+    },
+    {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.979
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.917
+      "recente": 0.911
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.917
+      "recente": 0.911
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.917
+      "recente": 0.911
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.897
+      "recente": 0.891
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.897
+      "recente": 0.891
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.892
+      "recente": 0.886
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.892
+      "recente": 0.886
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.87
+      "recente": 0.864
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.847
+      "recente": 0.841
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.827
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.827
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.827
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.827
     }
   ],
   "gostos": {
@@ -163,13 +173,14 @@
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
     "As formigas constroem túneis fundos na terra que servem de casa para elas.",
     "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
-    "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados."
+    "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
+    "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias."
   ],
-  "proximo_tema": "soldados formigas",
-  "ultima_execucao": "2026-11-22T17:27+00:00",
+  "proximo_tema": "rainhas das formigas",
+  "ultima_execucao": "2026-11-22T17:55+00:00",
   "tipo": "Limo / Terra",
-  "fome": 15,
+  "fome": 20,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "rainhas formigas"
+  "origem_do_proximo": "soldados formigas"
 }

@@ -148,6 +148,14 @@ def curto(valor, limite):
     return str(valor).strip()[:limite]
 
 
+def horas_desde(iso, agora_dt):
+    """Horas passadas desde a última execução (1 hora se não der para saber)."""
+    try:
+        return max(0.0, (agora_dt - datetime.fromisoformat(iso)).total_seconds() / 3600)
+    except (TypeError, ValueError):
+        return 1.0
+
+
 def atualizar_mapa(e, tema, origem_tema, novos, agora):
     """Mapa de interesses: cada assunto guarda de qual assunto veio e quantas vezes foi lido."""
     mapa = ler(MAPA, None)
@@ -186,12 +194,15 @@ def viver():
     if e is None:
         sys.exit("estado.json não encontrado")
     diario = ler(DIARIO, [])
-    agora = datetime.now(timezone.utc).isoformat(timespec="minutes")
+    agora_dt = datetime.now(timezone.utc)
+    agora = agora_dt.isoformat(timespec="minutes")
+    anterior = e.get("ultima_execucao")
     e["ultima_execucao"] = agora
 
-    # Dormindo: recupera energia e não gasta nenhuma chamada de API.
+    # Dormindo: recupera 30 de energia por hora de verdade e não gasta nenhuma chamada de API.
+    # Assim o ritmo dele não muda se o GitHub atrasar, pular ou adiantar execuções.
     if e["dormindo"]:
-        e["energia"] = min(100, e["energia"] + 30)
+        e["energia"] = min(100, round(e["energia"] + 30 * min(horas_desde(anterior, agora_dt), 6.0)))
         if e["energia"] < 85:
             e["acao"] = "dormindo"
             salvar(ESTADO, e)

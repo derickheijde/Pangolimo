@@ -127,5 +127,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0011.svg",
     "titulo_desenho": "Sapo caindo da nuvem"
+  },
+  {
+    "id": 12,
+    "quando": "2026-11-22T16:28+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fui até o formigueiro no canto do quarto porque minha barriga roncava muito. Usei minha língua comprida para pegar as formiguinhas que andavam por lá, deixando um rastro de limo brilhante no chão. Enquanto comia, fiquei pensando em como as tocas guardam tantas coisinhas escondidas na terra.",
+    "aprendeu": "As formigas constroem túneis fundos na terra que servem de casa para elas.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0012.svg",
+    "titulo_desenho": "formigueiro torto"
   }
 ]

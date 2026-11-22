@@ -3,123 +3,133 @@
   "especie": "pangolim",
   "energia": 100,
   "dormindo": false,
-  "acao": "pesquisando",
-  "humor": "sonolento",
+  "acao": "comendo",
+  "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.488
+      "recente": 3.438
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.438
+      "recente": 3.388
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.569
+      "recente": 2.532
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.569
+      "recente": 2.532
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.792
+      "recente": 1.766
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.711
+      "recente": 1.686
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.711
+      "recente": 1.686
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.711
+      "recente": 1.686
+    },
+    {
+      "tema": "túneis de formigas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "íngreme",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.944
+      "recente": 0.93
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.944
+      "recente": 0.93
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.944
+      "recente": 0.93
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.91
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.91
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.918
+      "recente": 0.905
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.918
+      "recente": 0.905
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.883
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.873
+      "recente": 0.86
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.873
+      "recente": 0.86
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.873
+      "recente": 0.86
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.845
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.845
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.845
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.845
     }
   ],
   "gostos": {
@@ -135,13 +145,14 @@
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
-    "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas."
+    "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
+    "As formigas constroem túneis fundos na terra que servem de casa para elas."
   ],
-  "proximo_tema": "sapos",
-  "ultima_execucao": "2026-11-22T15:28+00:00",
+  "proximo_tema": "túneis de formigas",
+  "ultima_execucao": "2026-11-22T16:28+00:00",
   "tipo": "Limo / Terra",
-  "fome": 55,
+  "fome": 5,
   "evento": null,
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "animais na chuva"
+  "ultima_atividade": "comida",
+  "origem_do_proximo": null
 }

@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 35,
+  "energia": 38,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.269
+      "recente": 3.265
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.221
+      "recente": 3.217
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.911
+      "recente": 2.907
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.894
+      "recente": 2.89
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.408
+      "recente": 2.405
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.408
+      "recente": 2.405
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.983
+      "recente": 1.98
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.909
+      "recente": 1.906
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.68
+      "recente": 1.678
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.603
+      "recente": 1.601
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.603
+      "recente": 1.601
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.603
+      "recente": 1.601
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.994
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.994
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.987
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.972
+      "recente": 0.971
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.972
+      "recente": 0.971
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.965
+      "recente": 0.964
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.951
+      "recente": 0.95
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.885
+      "recente": 0.884
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.885
+      "recente": 0.884
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.885
+      "recente": 0.884
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.864
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.864
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.86
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.86
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.839
+      "recente": 0.838
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.817
+      "recente": 0.816
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.817
+      "recente": 0.816
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.817
+      "recente": 0.816
     }
   ],
   "gostos": {
@@ -179,7 +179,7 @@
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas."
   ],
   "proximo_tema": "cultivo de fungos",
-  "ultima_execucao": "2026-11-22T19:55+00:00",
+  "ultima_execucao": "2026-11-22T20:00+00:00",
   "tipo": "Limo / Terra",
   "fome": 38,
   "evento": {

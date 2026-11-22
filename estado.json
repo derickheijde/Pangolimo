@@ -3,78 +3,78 @@
   "especie": "pangolim",
   "energia": 62,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "olhando_lua",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.907
+      "recente": 3.861
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.921
+      "recente": 2.887
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.921
+      "recente": 2.887
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.921
+      "recente": 2.887
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.948
+      "recente": 1.925
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.948
+      "recente": 1.925
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.948
+      "recente": 1.925
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.981
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.981
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.981
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.962
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.962
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.962
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.962
     }
   ],
   "gostos": {
@@ -90,9 +90,9 @@
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte."
   ],
   "proximo_tema": "leões",
-  "ultima_execucao": "2026-11-22T06:41+00:00",
+  "ultima_execucao": "2026-11-22T07:30+00:00",
   "tipo": "Limo / Terra",
-  "fome": 40,
+  "fome": 48,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "animais que saem de noite"

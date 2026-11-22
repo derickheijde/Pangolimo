@@ -1,0 +1,29 @@
+name: Vida do pangolimo
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # uma execução a cada 3 horas
+  workflow_dispatch:          # permite rodar na mão, pela aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vida
+  cancel-in-progress: false
+
+jobs:
+  viver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Um momento na vida do pangolimo
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 vida.py
+      - name: Salvar no repositório
+        run: |
+          git config user.name "pangolimo"
+          git config user.email "pangolimo@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "momento do pangolim" && git push)

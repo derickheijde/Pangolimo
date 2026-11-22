@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 25,
+  "energia": 35,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.285
+      "recente": 3.269
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.237
+      "recente": 3.221
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.925
+      "recente": 2.911
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.908
+      "recente": 2.894
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.42
+      "recente": 2.408
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.42
+      "recente": 2.408
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.993
+      "recente": 1.983
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.918
+      "recente": 1.909
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.688
+      "recente": 1.68
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.611
+      "recente": 1.603
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.611
+      "recente": 1.603
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.611
+      "recente": 1.603
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.988
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.972
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.972
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.97
+      "recente": 0.965
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.951
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.885
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.885
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.885
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.865
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.865
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.861
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.861
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.843
+      "recente": 0.839
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.817
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.817
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.817
     }
   ],
   "gostos": {
@@ -179,14 +179,15 @@
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas."
   ],
   "proximo_tema": "cultivo de fungos",
-  "ultima_execucao": "2026-11-22T19:35+00:00",
+  "ultima_execucao": "2026-11-22T19:55+00:00",
   "tipo": "Limo / Terra",
-  "fome": 37,
+  "fome": 38,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-22T21:51+00:00"
   },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "voo nupcial"
+  "origem_do_proximo": "voo nupcial",
+  "via_do_proximo": null
 }

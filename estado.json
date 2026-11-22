@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 45,
+  "energia": 50,
   "dormindo": false,
   "acao": "comendo",
   "humor": "sonolento",
@@ -9,82 +9,82 @@
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.776
+      "recente": 3.749
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.823
+      "recente": 2.803
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.823
+      "recente": 2.803
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.823
+      "recente": 2.803
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.968
+      "recente": 1.954
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.883
+      "recente": 1.869
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.883
+      "recente": 1.869
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.883
+      "recente": 1.869
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.984
+      "recente": 0.977
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.952
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.952
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.952
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.934
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.934
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.934
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.934
     }
   ],
   "gostos": {
@@ -100,11 +100,15 @@
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia."
   ],
-  "proximo_tema": "leão-marinho",
-  "ultima_execucao": "2026-11-22T09:02+00:00",
+  "proximo_tema": "tocas e túneis",
+  "ultima_execucao": "2026-11-22T09:32+00:00",
   "tipo": "Limo / Terra",
-  "fome": 63,
-  "evento": null,
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "leões"
+  "fome": 14,
+  "evento": {
+    "nome": "chuva",
+    "tipo": "tempestade",
+    "ate": "2026-11-22T10:38+00:00"
+  },
+  "ultima_atividade": "comida",
+  "origem_do_proximo": null
 }

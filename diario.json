@@ -79,5 +79,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0007.svg",
     "titulo_desenho": "O Leão Gigante"
+  },
+  {
+    "id": 8,
+    "quando": "2026-11-22T09:32+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Acordei com a barriga roncando por causa da tempestade e fui até o formigueiro no canto do quarto. Minha língua comprida pegou várias formigas de um jeito bem calminho enquanto eu pensava nas tocas quentinhas dos tatus. Agora meu limo verde escorre devagar na caminha e meus olhos estão fechando sozinhos.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": null,
+    "titulo_desenho": ""
   }
 ]

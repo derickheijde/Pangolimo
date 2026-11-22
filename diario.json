@@ -55,5 +55,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0005.svg",
     "titulo_desenho": "caixinha de luz"
+  },
+  {
+    "id": 6,
+    "quando": "2026-11-22T06:12+00:00",
+    "atividade": "pesquisa",
+    "tema": "animais que saem de noite",
+    "fonte": "https://pt.wikipedia.org/wiki/O_Carnaval_dos_Animais",
+    "texto": "São três horas da manhã e meu limo verde brilha fraquinho na tela do computador. Li sobre uma música chamada O Carnaval dos Animais, feita por um homem chamado Saint-Saëns. Achei curioso que ele escondia a música para os outros não rirem dele. Eu entendo um pouco disso, porque às vezes a gente tem medo de mostrar o que faz e prefere se enrolar numa bola. Minha barriga deu um ronco baixinho lembrando das formigas, mas continuei olhando os bichos da noite.",
+    "aprendeu": "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0006.svg",
+    "titulo_desenho": "O Leão Noturno"
   }
 ]

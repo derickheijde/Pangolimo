@@ -64,5 +64,23 @@
     "origem": null,
     "vezes": 0,
     "desde": "2026-11-22T04:52+00:00"
+  },
+  {
+    "tema": "animais que saem de noite",
+    "origem": "animais noturnos",
+    "vezes": 1,
+    "desde": "2026-11-22T06:12+00:00"
+  },
+  {
+    "tema": "músicas sobre animais",
+    "origem": "animais que saem de noite",
+    "vezes": 0,
+    "desde": "2026-11-22T06:12+00:00"
+  },
+  {
+    "tema": "compositores noturnos",
+    "origem": "animais que saem de noite",
+    "vezes": 0,
+    "desde": "2026-11-22T06:12+00:00"
   }
 ]

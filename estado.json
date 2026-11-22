@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 79,
+  "energia": 62,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,57 +9,72 @@
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.965
+      "recente": 3.935
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.965
+      "recente": 2.942
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.965
+      "recente": 2.942
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.965
+      "recente": 2.942
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.977
+      "recente": 1.962
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.977
+      "recente": 1.962
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.977
+      "recente": 1.962
+    },
+    {
+      "tema": "animais que saem de noite",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "músicas sobre animais",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "compositores noturnos",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.98
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.98
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.98
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.98
     }
   ],
   "gostos": {
@@ -71,13 +86,14 @@
   "aprendeu": [
     "As tocas servem para proteger os animais dos perigos e do clima.",
     "Os tatus também constroem tocas para se proteger dos perigos.",
-    "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
+    "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
+    "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte."
   ],
-  "proximo_tema": "animais que saem de noite",
-  "ultima_execucao": "2026-11-22T05:40+00:00",
+  "proximo_tema": "leões",
+  "ultima_execucao": "2026-11-22T06:12+00:00",
   "tipo": "Limo / Terra",
-  "fome": 30,
+  "fome": 35,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "animais noturnos"
+  "origem_do_proximo": "animais que saem de noite"
 }

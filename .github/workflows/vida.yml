@@ -1,8 +1,9 @@
 name: Vida do pangolimo
 
 on:
-  schedule:
-    - cron: "17 * * * *"   # uma execução a cada hora
+   schedule:
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:

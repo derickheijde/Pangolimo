@@ -1,65 +1,65 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 91,
+  "energia": 79,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
+      "tema": "animais noturnos",
+      "peso": 4,
+      "recente": 3.965
+    },
+    {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.97
+      "recente": 2.965
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.97
+      "recente": 2.965
     },
     {
       "tema": "tocas e túneis",
       "peso": 3,
-      "recente": 2.97
-    },
-    {
-      "tema": "animais noturnos",
-      "peso": 3,
-      "recente": 2.97
+      "recente": 2.965
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.98
+      "recente": 1.977
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.98
+      "recente": 1.977
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.98
+      "recente": 1.977
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.99
+      "recente": 0.988
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.99
+      "recente": 0.988
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.99
+      "recente": 0.988
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.99
+      "recente": 0.988
     }
   ],
   "gostos": {
@@ -73,11 +73,11 @@
     "Os tatus também constroem tocas para se proteger dos perigos.",
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
   ],
-  "proximo_tema": "animais noturnos",
-  "ultima_execucao": "2026-11-22T05:33+00:00",
+  "proximo_tema": "animais que saem de noite",
+  "ultima_execucao": "2026-11-22T05:40+00:00",
   "tipo": "Limo / Terra",
-  "fome": 29,
+  "fome": 30,
   "evento": null,
-  "ultima_atividade": "lua",
-  "origem_do_proximo": null
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "animais noturnos"
 }

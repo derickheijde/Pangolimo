@@ -43,5 +43,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0004.svg",
     "titulo_desenho": "A lua brilhando na janela"
+  },
+  {
+    "id": 5,
+    "quando": "2026-11-22T05:40+00:00",
+    "atividade": "pesquisa",
+    "tema": "animais noturnos",
+    "fonte": "https://pt.wikipedia.org/wiki/Animais_Noturnos",
+    "texto": "São duas horas da manhã e eu estava lendo sobre animais noturnos na caixinha luminosa. Achei meio confuso porque falava de um tal de Tom Ford e de um monte de gente famosa fazendo um tal de filme, e não de corujas ou morcegos de verdade. Fiquei um pouco sonolento tentando entender essa história de cinema e de roteiro. Acho que prefiro continuar pensando nas formigas e nos túneis escuros daqui de casa.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0005.svg",
+    "titulo_desenho": "caixinha de luz"
   }
 ]

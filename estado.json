@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 24,
+  "energia": 54,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -63,6 +63,6 @@
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas."
   ],
   "proximo_tema": "Xenarthra",
-  "ultima_execucao": "2026-11-22T04:07+00:00",
+  "ultima_execucao": "2026-11-22T04:14+00:00",
   "tipo": "Limo / Terra"
 }

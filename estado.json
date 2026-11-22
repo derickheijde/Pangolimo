@@ -1,9 +1,9 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 80,
+  "energia": 64,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "curioso",
   "interesses": [
     {
@@ -15,11 +15,11 @@
       "peso": 3
     },
     {
-      "tema": "escamas e queratina",
-      "peso": 2
+      "tema": "tocas e túneis",
+      "peso": 3
     },
     {
-      "tema": "tocas e túneis",
+      "tema": "escamas e queratina",
       "peso": 2
     },
     {
@@ -33,6 +33,10 @@
     {
       "tema": "conservação de espécies",
       "peso": 1
+    },
+    {
+      "tema": "tatus",
+      "peso": 1
     }
   ],
   "gostos": {
@@ -41,8 +45,10 @@
     "estilo_do_desenho": "giz de cera, traços tortos",
     "jeito_de_escrever": "tímido e curioso"
   },
-  "aprendeu": [],
-  "proximo_tema": "",
-  "ultima_execucao": null,
+  "aprendeu": [
+    "As tocas servem para proteger os animais dos perigos e do clima."
+  ],
+  "proximo_tema": "tatus",
+  "ultima_execucao": "2026-11-22T00:22+00:00",
   "tipo": "Limo / Terra"
 }

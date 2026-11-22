@@ -118,5 +118,23 @@
     "origem": null,
     "vezes": 0,
     "desde": "2026-11-22T10:02+00:00"
+  },
+  {
+    "tema": "animais na chuva",
+    "origem": null,
+    "vezes": 1,
+    "desde": "2026-11-22T11:28+00:00"
+  },
+  {
+    "tema": "chuvas de animais",
+    "origem": "animais na chuva",
+    "vezes": 0,
+    "desde": "2026-11-22T11:28+00:00"
+  },
+  {
+    "tema": "sapos",
+    "origem": "animais na chuva",
+    "vezes": 0,
+    "desde": "2026-11-22T11:28+00:00"
   }
 ]

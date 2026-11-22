@@ -115,5 +115,17 @@
     "humor": "sonolento",
     "desenho": "desenhos/0010.svg",
     "titulo_desenho": "janela e chuva forte"
+  },
+  {
+    "id": 11,
+    "quando": "2026-11-22T11:28+00:00",
+    "atividade": "pesquisa",
+    "tema": "animais na chuva",
+    "fonte": "https://pt.wikipedia.org/wiki/Chuva_de_animais",
+    "texto": "Li hoje na tela sobre uma coisa muito estranha chamada chuva de animais, onde sapos e peixes caem do céu bem alto onde faz frio. Fiquei meio assustado com essa ideia de bichos caindo e pensei que ainda bem que eu tenho minha touca e minha casinha para me proteger. O som da chuva é gostoso, mas chuva de peixe congelado parece um pouco demais para a minha cabecinha agora. Meus olhinhos estão pesados e acho que vou enrolar meu corpinho na cama.",
+    "aprendeu": "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0011.svg",
+    "titulo_desenho": "Sapo caindo da nuvem"
   }
 ]

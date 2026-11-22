@@ -1,110 +1,125 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 31,
-  "dormindo": false,
-  "acao": "pesquisando",
+  "energia": 14,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.753
+      "recente": 3.701
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.696
+      "recente": 3.644
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.764
+      "recente": 2.725
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.764
+      "recente": 2.725
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.927
+      "recente": 1.9
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.842
+      "recente": 1.816
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.842
+      "recente": 1.816
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.842
+      "recente": 1.816
+    },
+    {
+      "tema": "animais na chuva",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "chuvas de animais",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "sapos",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "tempestades",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.979
     },
     {
       "tema": "som da chuva",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.979
     },
     {
       "tema": "animais que fazem tocas",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.974
     },
     {
       "tema": "toupeiras",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.974
     },
     {
       "tema": "grandes felinos",
       "peso": 1,
-      "recente": 0.963
+      "recente": 0.95
     },
     {
       "tema": "animais que saem de noite",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.925
     },
     {
       "tema": "músicas sobre animais",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.925
     },
     {
       "tema": "compositores noturnos",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.925
     },
     {
       "tema": "florestas tropicais",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.909
     },
     {
       "tema": "conservação de espécies",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.909
     },
     {
       "tema": "Xenarthra",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.909
     },
     {
       "tema": "mamíferos placentários",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.909
     }
   ],
   "gostos": {
@@ -119,17 +134,14 @@
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
-    "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar."
+    "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
+    "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas."
   ],
-  "proximo_tema": "animais na chuva",
-  "ultima_execucao": "2026-11-22T10:30+00:00",
+  "proximo_tema": "sapos",
+  "ultima_execucao": "2026-11-22T11:28+00:00",
   "tipo": "Limo / Terra",
-  "fome": 24,
-  "evento": {
-    "nome": "chuva",
-    "tipo": "tempestade",
-    "ate": "2026-11-22T10:38+00:00"
-  },
-  "ultima_atividade": "clima",
-  "origem_do_proximo": null
+  "fome": 34,
+  "evento": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "animais na chuva"
 }

@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 20,
+  "energia": 24,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.008
+      "recente": 3.003
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.965
+      "recente": 2.96
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.879
+      "recente": 2.874
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.679
+      "recente": 2.674
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.664
+      "recente": 2.659
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.216
+      "recente": 2.212
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.216
+      "recente": 2.212
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.938
+      "recente": 1.934
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.826
+      "recente": 1.823
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.757
+      "recente": 1.754
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.546
+      "recente": 1.543
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.474
+      "recente": 1.471
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.474
+      "recente": 1.471
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.474
+      "recente": 1.471
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.998
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.998
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.974
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.974
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.969
+      "recente": 0.967
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.96
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.954
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.954
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.914
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.914
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.909
+      "recente": 0.907
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.895
+      "recente": 0.893
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.895
+      "recente": 0.893
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.888
+      "recente": 0.886
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.873
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.816
+      "recente": 0.815
     }
   ],
   "gostos": {
@@ -184,9 +184,9 @@
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno."
   ],
   "proximo_tema": "Lêmure",
-  "ultima_execucao": "2026-11-23T01:35+00:00",
+  "ultima_execucao": "2026-11-23T01:42+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 23,
   "evento": null,
   "ultima_atividade": "lua",
   "origem_do_proximo": "Evolução da visão em cores em primatas",

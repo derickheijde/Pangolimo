@@ -314,7 +314,19 @@
   {
     "tema": "Bonobo",
     "origem": "Fanchangia",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-23T08:49+00:00"
+  },
+  {
+    "tema": "Bacia do Congo",
+    "origem": "Bonobo",
+    "vezes": 0,
+    "desde": "2026-11-23T09:03+00:00"
+  },
+  {
+    "tema": "primatas",
+    "origem": "Bonobo",
+    "vezes": 0,
+    "desde": "2026-11-23T09:03+00:00"
   }
 ]

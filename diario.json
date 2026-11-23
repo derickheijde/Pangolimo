@@ -367,5 +367,19 @@
     "titulo_desenho": "Macaco de giz",
     "via": "Pitheciidae",
     "via_sorteio": true
+  },
+  {
+    "id": 30,
+    "quando": "2026-11-23T09:03+00:00",
+    "atividade": "pesquisa",
+    "tema": "Bonobo",
+    "fonte": "https://pt.wikipedia.org/wiki/Bonobo",
+    "texto": "A chuva fina ainda cai lá fora e minhas patinhas deixam um brilho verde no chão enquanto digito devagar. Fiquei sabendo que o bonobo é um parente dos grandes primatas que vive na Bacia do Congo e gosta de comer muitas frutas e folhas na floresta. Ele tem o rosto bem escuro e braços compridos, parecendo um primo distante dos hominídeos que eu tinha lido antes. Meu soninho está chegando e minhas pálpebras estão pesadinhas, mas, sem querer, cliquei em um link chamado Estado de conservação.",
+    "aprendeu": "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
+    "humor": "com sono",
+    "desenho": "desenhos/0030.svg",
+    "titulo_desenho": "Bonobo na floresta",
+    "via": "Fanchangia",
+    "via_sorteio": false
   }
 ]

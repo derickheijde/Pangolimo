@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 34,
-  "dormindo": false,
-  "acao": "desenhando",
-  "humor": "satisfeito",
+  "energia": 22,
+  "dormindo": true,
+  "acao": "dormindo",
+  "humor": "com sono",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.707
+      "recente": 2.698
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.669
+      "recente": 2.66
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.591
+      "recente": 2.582
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.412
+      "recente": 2.404
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.397
+      "recente": 2.389
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.995
+      "recente": 1.988
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.995
+      "recente": 1.988
+    },
+    {
+      "tema": "Bonobo",
+      "peso": 2,
+      "recente": 1.997
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.743
+      "recente": 1.737
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.644
+      "recente": 1.638
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.581
+      "recente": 1.576
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.392
+      "recente": 1.387
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.321
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.321
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.321
+    },
+    {
+      "tema": "Bacia do Congo",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "primatas",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.997
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Bonobo",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.997
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.965
+      "recente": 0.962
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.965
+      "recente": 0.962
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.965
+      "recente": 0.962
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.926
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.926
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.929
+      "recente": 0.926
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.899
+      "recente": 0.896
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.899
+      "recente": 0.896
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.879
+      "recente": 0.876
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.879
+      "recente": 0.876
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.872
-    },
-    {
-      "tema": "Fungos",
-      "peso": 1,
-      "recente": 0.866
-    },
-    {
-      "tema": "cultivo de fungos",
-      "peso": 1,
-      "recente": 0.86
+      "recente": 0.869
     }
   ],
   "gostos": {
@@ -184,22 +184,23 @@
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
-    "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos."
+    "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
+    "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas."
   ],
-  "proximo_tema": "Bonobo",
-  "ultima_execucao": "2026-11-23T08:49+00:00",
+  "proximo_tema": "Estado de conservação",
+  "ultima_execucao": "2026-11-23T09:03+00:00",
   "tipo": "Limo / Terra",
-  "fome": 34,
+  "fome": 36,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
     "ate": "2026-11-23T10:42+00:00"
   },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Fanchangia",
+  "origem_do_proximo": "Bonobo",
   "via_do_proximo": {
-    "de": "Fanchangia",
-    "sorteado": false,
+    "de": "Bonobo",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {

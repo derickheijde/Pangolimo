@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 4,
-      "recente": 2.985
+      "recente": 2.929
     },
     {
       "tema": "soldados formigas",
       "peso": 4,
-      "recente": 2.971
+      "recente": 2.915
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.306
+      "recente": 2.262
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.272
+      "recente": 2.229
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.207
+      "recente": 2.165
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.7
+      "recente": 1.668
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.7
+      "recente": 1.668
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.788
+      "recente": 1.754
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.708
+      "recente": 1.676
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.485
+      "recente": 1.457
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.4
+      "recente": 1.374
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.349
+      "recente": 1.324
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.186
+      "recente": 1.164
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.129
+      "recente": 1.108
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.129
+      "recente": 1.108
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.129
+      "recente": 1.108
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.904
+      "recente": 0.887
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.904
+      "recente": 0.887
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.855
+      "recente": 0.839
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.855
+      "recente": 0.839
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.852
+      "recente": 0.836
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.852
+      "recente": 0.836
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.822
+      "recente": 0.806
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.822
+      "recente": 0.806
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.822
+      "recente": 0.806
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.792
+      "recente": 0.777
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.792
+      "recente": 0.777
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.792
+      "recente": 0.777
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.752
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.752
     }
   ],
   "gostos": {
@@ -190,9 +190,9 @@
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T19:48+00:00",
+  "ultima_execucao": "2026-11-23T21:07+00:00",
   "tipo": "Limo / Terra",
-  "fome": 77,
+  "fome": 90,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",

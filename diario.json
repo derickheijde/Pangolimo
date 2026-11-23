@@ -353,5 +353,19 @@
     "titulo_desenho": "Minha refeição de formigas",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 29,
+    "quando": "2026-11-23T08:49+00:00",
+    "atividade": "pesquisa",
+    "tema": "Fanchangia",
+    "fonte": "https://pt.wikipedia.org/wiki/Homin%C3%ADdeos",
+    "texto": "Eu cliquei num link sem querer e fui parar numa página cheia de nomes de bichos grandes como chimpanzés e gorilas. Lá dizia que eles fazem parte de uma família chamada hominídeos, junto com os humanos. Fiquei um pouco curioso, mas também com sono porque já são cinco horas da manhã. Deixei um pouco de limo verde na tecla do computador enquanto lia.",
+    "aprendeu": "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0029.svg",
+    "titulo_desenho": "Macaco de giz",
+    "via": "Pitheciidae",
+    "via_sorteio": true
   }
 ]

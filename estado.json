@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 77,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "assistindo_programa",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.859
+      "recente": 3.826
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.846
+      "recente": 3.813
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.214
+      "recente": 2.195
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.181
+      "recente": 2.162
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.119
+      "recente": 2.101
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.632
+      "recente": 1.618
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.632
+      "recente": 1.618
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.716
+      "recente": 1.701
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.64
+      "recente": 1.626
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.425
+      "recente": 1.413
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.345
+      "recente": 1.334
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.295
+      "recente": 1.284
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.139
+      "recente": 1.129
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.085
+      "recente": 1.076
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.085
+      "recente": 1.076
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.085
+      "recente": 1.076
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.868
+      "recente": 0.861
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.868
+      "recente": 0.861
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.82
+      "recente": 0.813
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.82
+      "recente": 0.813
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.818
+      "recente": 0.811
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.818
+      "recente": 0.811
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.789
+      "recente": 0.782
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.789
+      "recente": 0.782
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.789
+      "recente": 0.782
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.755
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.755
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.755
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.736
+      "recente": 0.73
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.736
+      "recente": 0.73
     }
   ],
   "gostos": {
@@ -191,9 +191,9 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T22:35+00:00",
+  "ultima_execucao": "2026-11-23T23:10+00:00",
   "tipo": "Limo / Terra",
-  "fome": 49,
+  "fome": 55,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",
@@ -204,8 +204,8 @@
   },
   "tv": {
     "genero": "documentario",
-    "descricao": "um programa sobre Pitheciidae",
-    "tema": "Pitheciidae",
-    "desde": "2026-11-23T06:25+00:00"
+    "descricao": "um programa sobre Espécies ameaçadas",
+    "tema": "Espécies ameaçadas",
+    "desde": "2026-11-23T23:10+00:00"
   }
 }

@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 77,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "pesquisando",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.885
+      "recente": 3.859
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.872
+      "recente": 3.846
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.229
+      "recente": 2.214
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.196
+      "recente": 2.181
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.133
+      "recente": 2.119
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.643
+      "recente": 1.632
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.643
+      "recente": 1.632
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.728
+      "recente": 1.716
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.651
+      "recente": 1.64
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.435
+      "recente": 1.425
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.354
+      "recente": 1.345
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.304
+      "recente": 1.295
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.147
+      "recente": 1.139
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.092
+      "recente": 1.085
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.092
+      "recente": 1.085
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.092
+      "recente": 1.085
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.874
+      "recente": 0.868
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.874
+      "recente": 0.868
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.826
+      "recente": 0.82
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.826
+      "recente": 0.82
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.823
+      "recente": 0.818
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.823
+      "recente": 0.818
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.789
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.789
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.789
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.761
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.761
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.761
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.741
+      "recente": 0.736
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.741
+      "recente": 0.736
     }
   ],
   "gostos": {
@@ -191,9 +191,9 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T22:08+00:00",
+  "ultima_execucao": "2026-11-23T22:35+00:00",
   "tipo": "Limo / Terra",
-  "fome": 44,
+  "fome": 49,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",

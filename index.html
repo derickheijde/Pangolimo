@@ -60,8 +60,11 @@ dialog img{width:100%;background:#f6efd8;display:block}
 .balao::before{content:"";position:absolute;left:var(--cauda,50%);top:100%;margin-left:-5px;margin-top:-3px;border:5px solid transparent;border-top-color:#f6efd8;border-bottom:0;z-index:1}
 .balao .b-texto{display:block;font-size:clamp(12px,2.6vw,15px);line-height:1.25;padding-top:3px}
 .balao .b-emoji{display:block}
-.casa{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(max-width:720px){.casa{grid-template-columns:1fr}}
+.casa{display:block}
+.comodo[hidden]{display:none}
+.comodo.entrando{animation:entrarNoComodo .4s ease-out}
+@keyframes entrarNoComodo{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.comodo.entrando{animation:none}}
 .comodo{margin:0}
 .comodo figcaption{color:var(--suave);font-size:14px;margin-top:4px}
 .atalhos{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
@@ -101,14 +104,14 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
   <h1>Pangolimo</h1>
   <p id="estado">Acordando…</p>
   <div class="casa">
-    <figure class="comodo">
+    <figure class="comodo" id="comodoToca">
       <div class="cena-wrap">
         <canvas id="cena" width="200" height="116" role="img" aria-label="A toca do Pangolimo"></canvas>
         <div id="balao" class="balao" role="img" aria-live="polite"></div>
       </div>
       <figcaption>A toca</figcaption>
     </figure>
-    <figure class="comodo">
+    <figure class="comodo" id="comodoSala" hidden>
       <div class="cena-wrap">
         <canvas id="sala" width="200" height="116" role="img" aria-label="A sala"></canvas>
         <div id="balaoSala" class="balao" role="img" aria-live="polite"></div>
@@ -183,7 +186,7 @@ const c=document.getElementById("cena"),cS=document.getElementById("sala"),gQ=c.
 const R=(x,y,w,h,col)=>{g.fillStyle=col;g.fillRect(x,y,w,h)};
 const spr=(s,x,y)=>s.forEach((r,j)=>[...r].forEach((ch,i)=>PAL[ch]&&R(x+i,y+j,1,1,PAL[ch])));
 const zzz=(x,y,col)=>Z.forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+i,y+j,1,1,col)));
-let estado=null,diario=[],imgs=[],mapa=[],quadro=0,chuvisco=0,tvAnterior;
+let estado=null,diario=[],imgs=[],mapa=[],quadro=0,chuvisco=0,tvAnterior,primeiraCarga=true;
 const reduzMovimento=matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function climaAtivo(){const ev=estado&&estado.evento;return ev&&(ev.nome==="clima"||ev.nome==="chuva")&&new Date(ev.ate)>Date.now()?ev.tipo:null}
@@ -348,7 +351,16 @@ function cenaSala(){
   }
   if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
 }
-function cena(){g=gQ;cenaQuarto();g=gS;cenaSala();g=gQ}
+function cena(){if(naSala(estado&&estado.acao)){g=gS;cenaSala()}else{g=gQ;cenaQuarto()}g=gQ}
+function mostrarComodo(animar){ // a tela acompanha o Pangolimo
+  const sala=naSala(estado&&estado.acao),toca=q("#comodoToca"),salaEl=q("#comodoSala");
+  if(toca.hidden===sala)return;
+  toca.hidden=sala;salaEl.hidden=!sala;
+  q("#balao").classList.remove("visivel");q("#balaoSala").classList.remove("visivel");
+  const novo=sala?salaEl:toca;
+  if(animar&&!reduzMovimento){novo.classList.remove("entrando");void novo.offsetWidth;novo.classList.add("entrando")}
+  cena();
+}
 function loop(){quadro++;cena();setTimeout(loop,450)}
 
 const q=s=>document.querySelector(s);
@@ -494,6 +506,7 @@ async function carregar(){
   const idTv=estado.tv?estado.tv.desde+"|"+estado.tv.descricao:null;
   if(tvAnterior!==undefined&&idTv&&idTv!==tvAnterior&&!reduzMovimento)chuvisco=quadro+4; // trocou de canal: chuvisco
   tvAnterior=idTv;
+  mostrarComodo(!primeiraCarga);primeiraCarga=false;
   const nome=estado.nome||"Pangolimo";
   q("h1").textContent=nome;document.title=`${nome}, o ${estado.especie}`;
   const quanto=estado.ultima_execucao?Math.max(0,Math.round((Date.now()-new Date(estado.ultima_execucao))/36e5)):null;

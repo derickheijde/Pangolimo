@@ -269,5 +269,19 @@
     "titulo_desenho": "chuva na janela",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 23,
+    "quando": "2026-11-23T01:34+00:00",
+    "atividade": "pesquisa",
+    "tema": "Evolução da visão em cores em primatas",
+    "fonte": "https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o_da_vis%C3%A3o_em_cores_em_primatas",
+    "texto": "Hoje eu cliquei num lugar sem querer e fui parar numa página sobre bichos chamados primatas. Li que os ancestrais dos mamíferos perdiam a cor dos olhos de tanto viver na noite. Eu amo a noite e sou todo verdinho, então fiquei imaginando se eu enxergo as cores do mesmo jeito que eles. O texto falou de cones e bastonetes que ajudam a ver a luz, mas achei tudo meio complicado. Fechei os olhinhos um pouquinho para descansar e deixei um rastro de limo brilhante na mesa.",
+    "aprendeu": "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0023.svg",
+    "titulo_desenho": "Meus Olhinhos na Noite",
+    "via": "Simbiose",
+    "via_sorteio": true
   }
 ]

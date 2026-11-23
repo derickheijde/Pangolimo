@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 47,
+  "energia": 27,
   "dormindo": false,
-  "acao": "observando_clima",
+  "acao": "desenhando",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.058
+      "recente": 3.009
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.014
+      "recente": 2.966
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.927
+      "recente": 2.88
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.723
+      "recente": 2.68
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.708
+      "recente": 2.665
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.253
+      "recente": 2.217
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.253
+      "recente": 2.217
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.97
+      "recente": 1.939
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.856
+      "recente": 1.827
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.786
+      "recente": 1.758
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.572
+      "recente": 1.547
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.499
+      "recente": 1.475
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.499
+      "recente": 1.475
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.499
+      "recente": 1.475
+    },
+    {
+      "tema": "Evolução da visão em cores em primatas",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Receptor sensorial",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.976
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.976
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.969
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.978
+      "recente": 0.962
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.971
+      "recente": 0.956
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.971
+      "recente": 0.956
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.916
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.916
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.924
+      "recente": 0.909
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.909
+      "recente": 0.895
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.909
+      "recente": 0.895
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.902
+      "recente": 0.888
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.875
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.829
-    },
-    {
-      "tema": "chuvas de animais",
-      "peso": 1,
-      "recente": 0.829
-    },
-    {
-      "tema": "sapos",
-      "peso": 1,
-      "recente": 0.829
+      "recente": 0.816
     }
   ],
   "gostos": {
@@ -180,22 +180,19 @@
     "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
     "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
     "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
-    "As formigas andam em filas organizadas para encontrar comida para a colônia."
+    "As formigas andam em filas organizadas para encontrar comida para a colônia.",
+    "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno."
   ],
-  "proximo_tema": "Evolução da visão em cores em primatas",
-  "ultima_execucao": "2026-11-23T00:28+00:00",
+  "proximo_tema": "Lêmure",
+  "ultima_execucao": "2026-11-23T01:34+00:00",
   "tipo": "Limo / Terra",
-  "fome": 11,
-  "evento": {
-    "nome": "clima",
-    "tipo": "chuva",
-    "ate": "2026-11-23T00:32+00:00"
-  },
-  "ultima_atividade": "clima",
-  "origem_do_proximo": "Simbiose",
+  "fome": 22,
+  "evento": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Evolução da visão em cores em primatas",
   "via_do_proximo": {
-    "de": "Simbiose",
-    "sorteado": true,
+    "de": "Evolução da visão em cores em primatas",
+    "sorteado": false,
     "lang": "pt"
   }
 }

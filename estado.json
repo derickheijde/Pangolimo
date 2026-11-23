@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 57,
+  "energia": 53,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "assistindo_tv",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.881
+      "recente": 2.865
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.84
+      "recente": 2.824
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.757
+      "recente": 2.742
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.566
+      "recente": 2.552
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.551
+      "recente": 2.537
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.122
+      "recente": 2.11
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.122
+      "recente": 2.11
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.845
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.749
+      "recente": 1.739
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.682
+      "recente": 1.673
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.481
+      "recente": 1.473
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.411
+      "recente": 1.403
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.411
+      "recente": 1.403
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.411
+      "recente": 1.403
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.983
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.983
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.983
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.957
+      "recente": 0.952
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.957
+      "recente": 0.952
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.93
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.93
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.923
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.917
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.911
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.911
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.877
+      "recente": 0.872
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.877
+      "recente": 0.872
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.87
+      "recente": 0.865
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.852
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.857
+      "recente": 0.852
     }
   ],
   "gostos": {
@@ -185,16 +185,21 @@
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares."
   ],
   "proximo_tema": "Pitheciidae",
-  "ultima_execucao": "2026-11-23T04:32+00:00",
+  "ultima_execucao": "2026-11-23T04:55+00:00",
   "tipo": "Limo / Terra",
-  "fome": 39,
+  "fome": 43,
   "evento": null,
-  "ultima_atividade": "lua",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Lêmure",
   "via_do_proximo": {
     "de": "Lêmure",
     "sorteado": true,
     "lang": "pt"
   },
-  "tv": null
+  "tv": {
+    "genero": "comedia",
+    "descricao": "uma sitcom",
+    "tema": null,
+    "desde": "2026-11-23T04:55+00:00"
+  }
 }

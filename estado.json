@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 24,
+  "energia": 25,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "satisfeito",
@@ -9,72 +9,72 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.003
+      "recente": 3.002
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.96
+      "recente": 2.959
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.874
+      "recente": 2.873
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.674
+      "recente": 2.673
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.659
+      "recente": 2.658
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.212
+      "recente": 2.211
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.212
+      "recente": 2.211
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.934
+      "recente": 1.933
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.823
+      "recente": 1.822
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.754
+      "recente": 1.753
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.543
+      "recente": 1.542
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.47
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.47
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.47
     },
     {
       "tema": "Evolução da visão em cores em primatas",
@@ -184,7 +184,7 @@
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno."
   ],
   "proximo_tema": "Lêmure",
-  "ultima_execucao": "2026-11-23T01:42+00:00",
+  "ultima_execucao": "2026-11-23T01:43+00:00",
   "tipo": "Limo / Terra",
   "fome": 23,
   "evento": null,

@@ -280,5 +280,23 @@
     "origem": "Lêmure",
     "vezes": 0,
     "desde": "2026-11-23T03:42+00:00"
+  },
+  {
+    "tema": "Pitheciidae",
+    "origem": "Lêmure",
+    "vezes": 1,
+    "desde": "2026-11-23T06:25+00:00"
+  },
+  {
+    "tema": "macacos",
+    "origem": "Pitheciidae",
+    "vezes": 0,
+    "desde": "2026-11-23T06:25+00:00"
+  },
+  {
+    "tema": "Piteciídeos",
+    "origem": "Pitheciidae",
+    "vezes": 0,
+    "desde": "2026-11-23T06:25+00:00"
   }
 ]

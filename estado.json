@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 53,
+  "energia": 46,
   "dormindo": false,
-  "acao": "assistindo_tv",
+  "acao": "assistindo_programa",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.865
+      "recente": 2.803
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.824
+      "recente": 2.763
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.742
+      "recente": 2.683
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.552
+      "recente": 2.497
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.537
+      "recente": 2.482
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.11
+      "recente": 2.065
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.11
+      "recente": 2.065
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.845
+      "recente": 1.805
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.739
+      "recente": 1.702
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.673
+      "recente": 1.637
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.473
+      "recente": 1.441
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.403
+      "recente": 1.373
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.403
+      "recente": 1.373
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.403
+      "recente": 1.373
+    },
+    {
+      "tema": "Pitheciidae",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "macacos",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Piteciídeos",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.962
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.962
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.962
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.931
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.931
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.91
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.91
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.903
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.917
+      "recente": 0.897
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.911
+      "recente": 0.891
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.911
+      "recente": 0.891
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.872
+      "recente": 0.853
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.872
-    },
-    {
-      "tema": "asas de insetos",
-      "peso": 1,
-      "recente": 0.865
-    },
-    {
-      "tema": "dinergates",
-      "peso": 1,
-      "recente": 0.852
-    },
-    {
-      "tema": "castas de formigas",
-      "peso": 1,
-      "recente": 0.852
+      "recente": 0.853
     }
   ],
   "gostos": {
@@ -182,24 +182,25 @@
     "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
-    "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares."
+    "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
+    "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús."
   ],
-  "proximo_tema": "Pitheciidae",
-  "ultima_execucao": "2026-11-23T04:55+00:00",
+  "proximo_tema": "Fanchangia",
+  "ultima_execucao": "2026-11-23T06:25+00:00",
   "tipo": "Limo / Terra",
-  "fome": 43,
+  "fome": 58,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "Lêmure",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Pitheciidae",
   "via_do_proximo": {
-    "de": "Lêmure",
+    "de": "Pitheciidae",
     "sorteado": true,
     "lang": "pt"
   },
   "tv": {
-    "genero": "comedia",
-    "descricao": "uma sitcom",
-    "tema": null,
-    "desde": "2026-11-23T04:55+00:00"
+    "genero": "documentario",
+    "descricao": "um programa sobre Pitheciidae",
+    "tema": "Pitheciidae",
+    "desde": "2026-11-23T06:25+00:00"
   }
 }

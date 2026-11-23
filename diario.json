@@ -325,5 +325,19 @@
     "titulo_desenho": "A lua verde",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 27,
+    "quando": "2026-11-23T06:25+00:00",
+    "atividade": "programa",
+    "tema": "Pitheciidae",
+    "fonte": "https://pt.wikipedia.org/wiki/Pitheciidae",
+    "texto": "Oi, diário. Eu estava no sofá quentinho e, sem querer, deixei o controle remoto cair e mudou para um programa sobre macacos chamados piteciídeos. Descobri que existem bichos como os uacaris e os cuxiús dentro dessa família. Achei curioso que eles têm tantos nomes diferentes e vivem em lugares com árvores. Fiquei enroladinho no sofá com meu limo verde brilhante, pensando em como o mundo tem bichos variados. No fim, sem querer, apertei o botão errado de novo e caí num programa sobre Fanchangia.",
+    "aprendeu": "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0027.svg",
+    "titulo_desenho": "Macaco na arvore",
+    "via": "Lêmure",
+    "via_sorteio": true
   }
 ]

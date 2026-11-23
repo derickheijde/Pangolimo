@@ -423,5 +423,19 @@
     "titulo_desenho": "Minha refeição de formigas",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 34,
+    "quando": "2026-11-23T22:08+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fui até o formigueiro no canto do meu quarto porque minha barriga roncava muito. Usei minha língua comprida e pegajosa para pegar várias formigas, já que não tenho dentes. Fiquei pensando em como as rainhas devem mandar em tudo lá embaixo na terra escura.",
+    "aprendeu": "As formigas andam em filas organizadas para encontrar comida para a colônia.",
+    "humor": "com sono",
+    "desenho": "desenhos/0034.svg",
+    "titulo_desenho": "Linha de formigas",
+    "via": null,
+    "via_sorteio": null
   }
 ]

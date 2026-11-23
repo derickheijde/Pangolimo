@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 72,
+  "energia": 77,
   "dormindo": false,
   "acao": "comendo",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
-      "peso": 4,
-      "recente": 2.909
+      "peso": 5,
+      "recente": 3.885
     },
     {
       "tema": "soldados formigas",
-      "peso": 4,
-      "recente": 2.896
+      "peso": 5,
+      "recente": 3.872
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.247
+      "recente": 2.229
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.214
+      "recente": 2.196
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.151
+      "recente": 2.133
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.657
+      "recente": 1.643
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.657
+      "recente": 1.643
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.742
+      "recente": 1.728
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.665
+      "recente": 1.651
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.447
+      "recente": 1.435
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.365
+      "recente": 1.354
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.315
+      "recente": 1.304
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.156
+      "recente": 1.147
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.101
+      "recente": 1.092
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.101
+      "recente": 1.092
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.101
+      "recente": 1.092
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.881
+      "recente": 0.874
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.881
+      "recente": 0.874
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.826
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.833
+      "recente": 0.826
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.83
+      "recente": 0.823
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.83
+      "recente": 0.823
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.801
+      "recente": 0.794
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.801
+      "recente": 0.794
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.801
+      "recente": 0.794
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.747
+      "recente": 0.741
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.747
+      "recente": 0.741
     }
   ],
   "gostos": {
@@ -187,12 +187,13 @@
     "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
     "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
-    "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora."
+    "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
+    "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T21:34+00:00",
+  "ultima_execucao": "2026-11-23T22:08+00:00",
   "tipo": "Limo / Terra",
-  "fome": 95,
+  "fome": 44,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",

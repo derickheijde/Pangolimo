@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 77,
+  "energia": 82,
   "dormindo": false,
-  "acao": "olhando_lua",
-  "humor": "com sono",
+  "acao": "comendo",
+  "humor": "satisfeito",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.816
+      "recente": 3.802
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.803
+      "recente": 3.789
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.189
+      "recente": 2.181
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.156
+      "recente": 2.148
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.096
+      "recente": 2.088
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.614
+      "recente": 1.608
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.614
+      "recente": 1.608
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.697
+      "recente": 1.691
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.622
+      "recente": 1.616
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.409
+      "recente": 1.404
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.331
+      "recente": 1.326
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.281
+      "recente": 1.276
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.126
+      "recente": 1.122
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.073
+      "recente": 1.069
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.073
+      "recente": 1.069
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.073
+      "recente": 1.069
+    },
+    {
+      "tema": "língua dos animais",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.859
+      "recente": 0.856
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.859
+      "recente": 0.856
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.811
+      "recente": 0.808
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.811
+      "recente": 0.808
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.809
+      "recente": 0.806
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.809
+      "recente": 0.806
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.78
+      "recente": 0.777
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.78
+      "recente": 0.777
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.78
+      "recente": 0.777
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.753
+      "recente": 0.75
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.753
+      "recente": 0.75
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.753
+      "recente": 0.75
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.728
-    },
-    {
-      "tema": "Receptor sensorial",
-      "peso": 1,
-      "recente": 0.728
+      "recente": 0.725
     }
   ],
   "gostos": {
@@ -191,9 +191,9 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T23:20+00:00",
+  "ultima_execucao": "2026-11-23T23:35+00:00",
   "tipo": "Limo / Terra",
-  "fome": 57,
+  "fome": 8,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",
@@ -208,7 +208,7 @@
     "tema": "Espécies ameaçadas",
     "desde": "2026-11-23T23:10+00:00"
   },
-  "tedio": 21,
+  "tedio": 23,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -245,6 +245,6 @@
       }
     ],
     "seq": 2,
-    "agenda_ate": "2026-11-24T00:50:36+00:00"
+    "agenda_ate": "2026-11-24T01:05:00+00:00"
   }
 }

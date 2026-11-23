@@ -437,5 +437,20 @@
     "titulo_desenho": "Linha de formigas",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 35,
+    "quando": "2026-11-23T23:35+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Minha barriga estava fazendo um barulho engraçado de fome, então fui até o cantinho da casa onde fica o formigueiro. Coloquei minha língua bem comprida para fora e ela grudou num montinho de formigas saborosas, que engoli inteirinhas porque não tenho dentes. Enquanto comia devagar, fiquei imaginando como as formigas soldados protegem a rainha lá no fundo dos túneis.",
+    "aprendeu": "",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0035.svg",
+    "titulo_desenho": "língua comprida pegando formiguinhas",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

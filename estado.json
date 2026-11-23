@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 46,
+  "energia": 51,
   "dormindo": false,
-  "acao": "assistindo_programa",
+  "acao": "comendo",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.803
+      "recente": 2.785
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.763
+      "recente": 2.745
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.683
+      "recente": 2.665
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.497
+      "recente": 2.481
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.482
+      "recente": 2.466
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.065
+      "recente": 2.052
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.065
+      "recente": 2.052
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.805
+      "recente": 1.793
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.702
+      "recente": 1.691
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.637
+      "recente": 1.626
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.441
+      "recente": 1.432
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.373
+      "recente": 1.364
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.373
+      "recente": 1.364
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.373
+      "recente": 1.364
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.925
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.925
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.91
+      "recente": 0.904
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.91
+      "recente": 0.904
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.897
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.897
+      "recente": 0.891
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.891
+      "recente": 0.885
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.891
+      "recente": 0.885
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.853
+      "recente": 0.847
     }
   ],
   "gostos": {
@@ -186,11 +186,11 @@
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús."
   ],
   "proximo_tema": "Fanchangia",
-  "ultima_execucao": "2026-11-23T06:25+00:00",
+  "ultima_execucao": "2026-11-23T06:52+00:00",
   "tipo": "Limo / Terra",
-  "fome": 58,
+  "fome": 14,
   "evento": null,
-  "ultima_atividade": "programa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Pitheciidae",
   "via_do_proximo": {
     "de": "Pitheciidae",

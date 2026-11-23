@@ -339,5 +339,19 @@
     "titulo_desenho": "Macaco na arvore",
     "via": "Lêmure",
     "via_sorteio": true
+  },
+  {
+    "id": 28,
+    "quando": "2026-11-23T06:52+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "A barriga roncou baixinho lá pelas três da manhã, então fui até o formigueiro no canto do quarto. Estiquei minha língua comprida e pegajosa para pegar as formigas, pensando em como os soldados formigas protegem a casa delas. Deixei um rastro de limo verde no chão enquanto comia e fiquei satisfeito.",
+    "aprendeu": "",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0028.svg",
+    "titulo_desenho": "Minha refeição de formigas",
+    "via": null,
+    "via_sorteio": null
   }
 ]

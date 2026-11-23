@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 65,
+  "energia": 74,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.643
+      "recente": 2.631
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.605
+      "recente": 2.593
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.529
+      "recente": 2.518
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.355
+      "recente": 2.345
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.34
+      "recente": 2.33
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.947
+      "recente": 1.938
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.947
+      "recente": 1.938
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.956
+      "recente": 1.947
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.701
+      "recente": 1.693
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.604
+      "recente": 1.597
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.544
+      "recente": 1.537
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.359
+      "recente": 1.353
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.294
+      "recente": 1.288
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.294
+      "recente": 1.288
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.294
+      "recente": 1.288
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.98
+      "recente": 0.976
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.98
+      "recente": 0.976
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.973
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.973
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.938
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.938
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.938
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.907
+      "recente": 0.903
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.907
+      "recente": 0.903
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.907
+      "recente": 0.903
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.878
+      "recente": 0.874
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.878
+      "recente": 0.874
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.858
+      "recente": 0.854
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.858
+      "recente": 0.854
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.851
+      "recente": 0.847
     }
   ],
   "gostos": {
@@ -188,14 +188,10 @@
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas."
   ],
   "proximo_tema": "Estado de conservação",
-  "ultima_execucao": "2026-11-23T10:29+00:00",
+  "ultima_execucao": "2026-11-23T10:47+00:00",
   "tipo": "Limo / Terra",
-  "fome": 42,
-  "evento": {
-    "nome": "clima",
-    "tipo": "garoa",
-    "ate": "2026-11-23T10:42+00:00"
-  },
+  "fome": 43,
+  "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "Bonobo",
   "via_do_proximo": {

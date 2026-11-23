@@ -20,7 +20,7 @@ h1,h2{font-family:"Pixelify Sans",ui-monospace,monospace;font-weight:700;margin:
 h1{font-size:clamp(34px,7vw,52px);color:var(--limo)}
 h2{font-size:24px;margin-bottom:14px}
 #estado{margin:6px 0 20px;color:var(--suave)}
-#cena,#sala{display:block;width:100%;height:auto;image-rendering:pixelated;border:3px solid var(--linha)}
+#cena,#sala,#quintal{display:block;width:100%;height:auto;image-rendering:pixelated;border:3px solid var(--linha)}
 .colunas{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:36px;margin-top:40px}
 @media(max-width:720px){.colunas{grid-template-columns:1fr}}
 .entrada{padding:0 0 22px;margin:0 0 22px;border-bottom:1px solid var(--linha)}
@@ -53,7 +53,7 @@ dialog img{width:100%;background:#f6efd8;display:block}
 #mapa .nao-lido{color:var(--suave);font-style:italic}
 #mapa .vezes{color:var(--suave);font-size:14px;margin-left:10px}
 .cena-wrap{position:relative}
-#cena,#sala{cursor:default}
+#cena,#sala,#quintal{cursor:default}
 .balao{position:absolute;transform:translate(-50%,-100%);background:#f6efd8;color:#1d1b3a;border:3px solid #1d1b3a;padding:0 10px 2px;font-size:clamp(22px,5.5vw,40px);line-height:1.25;pointer-events:none;width:max-content;max-width:min(78%,300px);text-align:center;opacity:0;transition:opacity .2s}
 .balao.visivel{opacity:1}
 .balao::after{content:"";position:absolute;left:var(--cauda,50%);top:100%;margin-left:-8px;border:8px solid transparent;border-top-color:#1d1b3a;border-bottom:0}
@@ -67,6 +67,15 @@ dialog img{width:100%;background:#f6efd8;display:block}
 @media(prefers-reduced-motion:reduce){.comodo.entrando{animation:none}}
 .comodo{margin:0}
 .comodo figcaption{color:var(--suave);font-size:14px;margin-top:4px}
+.comodos{display:inline-flex}
+.comodos button{border-left-width:0}
+.comodos button:first-child{border-left-width:2px}
+.comodos button[aria-pressed="true"]{background:var(--lampada);color:var(--noite);border-color:var(--lampada)}
+.comodos button[data-ele]::after{content:" ●";color:var(--limo)}
+.comodos button[aria-pressed="true"][data-ele]::after{color:var(--noite)}
+#movimento{list-style:none;margin:0 0 20px;padding:0;font-size:15px}
+#movimento li{margin:0 0 6px}
+#movimento time{color:var(--suave);margin-right:8px}
 .atalhos{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
 .atalhos button{background:transparent;color:var(--texto);border:2px solid var(--linha);padding:6px 12px;font-size:15px}
 .atalhos button:hover{border-color:var(--lampada)}
@@ -118,11 +127,23 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
       </div>
       <figcaption>A sala</figcaption>
     </figure>
+    <figure class="comodo" id="comodoQuintal" hidden>
+      <div class="cena-wrap">
+        <canvas id="quintal" width="200" height="116" role="img" aria-label="O quintal"></canvas>
+        <div id="balaoQuintal" class="balao" role="img" aria-live="polite"></div>
+        <div id="balaoVisita" class="balao" role="img"></div>
+      </div>
+      <figcaption>O quintal</figcaption>
+    </figure>
   </div>
   <div class="atalhos">
     <button type="button" id="btnCutucar">Cutucar o Pangolimo</button>
     <button type="button" id="btnCaderno">Abrir o caderno</button>
-    <button type="button" id="btnComodo">Espiar a sala</button>
+    <span class="comodos" role="group" aria-label="Espiar os cômodos">
+      <button type="button" data-comodo="toca">A toca</button>
+      <button type="button" data-comodo="sala">A sala</button>
+      <button type="button" data-comodo="quintal">O quintal</button>
+    </span>
   </div>
 
   <div class="colunas">
@@ -142,6 +163,8 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
       <ul id="interesses"></ul>
       <h2>Gostos</h2>
       <dl id="gostos"></dl>
+      <h2>No quintal</h2>
+      <ul id="movimento"></ul>
     </aside>
   </div>
 
@@ -253,9 +276,12 @@ function poseXY(a){let px=57,py=88;
   else if(a==="olhando_lua"||a==="observando_clima"){px=79;py=31}
   return{px,py}}
 const SALA=["assistindo_tv","assistindo_programa"],naSala=a=>SALA.includes(a);
+const QUINTAL=["brincando_lama","brincando_grama","observando_visita","conversando","brigando","comendo_cupinzeiro"],noQuintal=a=>QUINTAL.includes(a);
+let caixaQuintal={x:66,y:88,w:27,h:10};
 function caixaPangolim(){const a=estado?estado.acao:"pesquisando";
   if(naSala(a))return{x:30,y:54,w:27,h:8};
-  if(a==="dormindo")return{x:30,y:51,w:16,h:10};
+  if(noQuintal(a))return caixaQuintal;
+  if(a==="dormindo"||a==="recuperando")return{x:30,y:51,w:16,h:10};
   const{px,py}=poseXY(a);return{x:px,y:py,w:27,h:10}}
 let pulo=null;
 function alturaPulo(){if(!pulo)return 0;const t=(performance.now()-pulo.t0)/520;if(t>=1){pulo=null;return 0}return Math.round(Math.sin(Math.PI*t)*9)}
@@ -267,6 +293,7 @@ function cenaQuarto(){
   for(let x=0;x<200;x+=22)R(x,82,1,34,"#6a4630");
   R(0,76,200,4,"#3a3768");
   janela(clima,flash);
+  relogio(16,10);
   // cama
   R(6,70,56,12,"#5a3b28");R(6,66,3,16,"#46301f");R(59,66,3,16,"#46301f");
   R(9,60,50,10,"#d8cfe8");R(10,57,13,6,"#efe9d6");R(26,60,33,10,"#c0504d");R(26,60,33,2,"#d46c68");
@@ -288,9 +315,9 @@ function cenaQuarto(){
   formigueiro();
   // pangolim
   const b=reduzMovimento?0:quadro%2,salto=alturaPulo();
-  if(naSala(acao)){/* ele está na sala */}else if(acao==="dormindo"){spr(SPR.bola,30,51+b-salto);
-    if(!reduzMovimento){const n=quadro%3;[0,1,2].slice(0,n+1).forEach(k=>zzz(48+k*5,44-k*6,"#f2e6b8"))}
-    else zzz(48,44,"#f2e6b8");
+  if(naSala(acao)||noQuintal(acao)){/* ele está em outro cômodo */}else if(acao==="dormindo"||acao==="recuperando"){spr(SPR.bola,30,51+b-salto);
+    if(acao==="dormindo"){if(!reduzMovimento){const n=quadro%3;[0,1,2].slice(0,n+1).forEach(k=>zzz(48+k*5,44-k*6,"#f2e6b8"))}
+    else zzz(48,44,"#f2e6b8")}
   }else{
     const{px,py}=poseXY(acao),noParapeito=py<80;
     if(!noParapeito){g.fillStyle="rgba(138,214,107,.35)";g.fillRect(px+2,98,26,2)}
@@ -337,6 +364,7 @@ function cenaSala(){
   for(let x=0;x<200;x+=22)R(x+8,82,1,34,"#5a3f31");
   R(0,76,200,4,"#222c42");
   janela(clima,flash); // a janela da sala mostra o mesmo tempo lá fora
+  relogio(16,10);
   R(34,92,128,18,"#7a2f3a");R(36,94,124,14,"#8f4352");R(40,98,116,1,"#c0a060");R(40,103,116,1,"#c0a060"); // tapete
   R(186,52,2,30,"#3a3a4a");R(183,44,8,9,"#f2c46d");R(184,45,6,2,"#ffe9a8"); // abajur
   R(84,72,22,3,"#8a5a3a");R(86,75,2,5,"#5a3b28");R(102,75,2,5,"#5a3b28"); // mesinha com planta
@@ -352,23 +380,232 @@ function cenaSala(){
   }
   if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
 }
-let comodoManual=null,localAnterior;
-const ondeEle=()=>naSala(estado&&estado.acao)?"sala":"toca";
-const comodoVisivel=()=>comodoManual||ondeEle();
-function atualizarLegendas(){
-  const v=comodoVisivel(),vazio=v!==ondeEle();
-  q("#comodoToca figcaption").textContent="A toca"+(v==="toca"&&vazio?", vazia agora":"");
-  q("#comodoSala figcaption").textContent="A sala"+(v==="sala"&&vazio?", vazia agora":"");
-  q("#btnComodo").textContent=v==="sala"?"Espiar a toca":"Espiar a sala";
+// ================= RELÓGIO NA PAREDE =================
+const DIG={"0":"111101101101111","1":"010110010010111","2":"111001111100111","3":"111001111001111","4":"101101111001001","5":"111100111001111","6":"111100111101111","7":"111001001001001","8":"111101111101111","9":"111101111001111","/":"001001010100100"};
+function digito(ch,x,y,k,cor){const m=DIG[ch];if(!m)return;for(let i=0;i<15;i++)if(m[i]==="1")R(x+(i%3)*k,y+Math.floor(i/3)*k,k,k,cor)}
+function relogio(x,y){
+  const d=new Date(),p=n=>String(n).padStart(2,"0"),hm=p(d.getHours())+p(d.getMinutes()),data=p(d.getDate())+"/"+p(d.getMonth()+1)+"/"+p(d.getFullYear()%100);
+  R(x,y,42,23,"#15151f");R(x+2,y+2,38,19,"#0f2a2e");
+  let cx=x+4;[hm[0],hm[1]].forEach(ch=>{digito(ch,cx,y+4,2,"#7fe0c0");cx+=8});
+  if(reduzMovimento||d.getSeconds()%2===0){R(cx,y+6,2,2,"#7fe0c0");R(cx,y+10,2,2,"#7fe0c0")}
+  cx+=4;[hm[2],hm[3]].forEach(ch=>{digito(ch,cx,y+4,2,"#7fe0c0");cx+=8});
+  let dx=x+5;[...data].forEach(ch=>{digito(ch,dx,y+16,1,"#4aa890");dx+=4});
 }
-function cena(){if(comodoVisivel()==="sala"){g=gS;cenaSala()}else{g=gQ;cenaQuarto()}g=gQ}
-function mostrarComodo(animar){ // a tela acompanha o Pangolimo
-  const sala=comodoVisivel()==="sala",toca=q("#comodoToca"),salaEl=q("#comodoSala");
+
+// ================= QUINTAL =================
+const cY=document.getElementById("quintal"),gY=cY.getContext("2d");
+const NOMES_VISITA={passarinho:"um passarinho",borboleta:"uma borboleta",lagarta:"uma lagarta",esquilo:"um esquilo",ratinho:"um ratinho",coruja:"uma coruja",cobra:"uma cobra"};
+const PALV={k:"#241a14",e:"#111",w:"#f4f0e6",r:"#d04040",o:"#e8873a",y:"#f2c94c",b:"#4a86d0",B:"#8fb8e8",g:"#4fa04a",G:"#86d36a",n:"#8a5a34",N:"#b88a5a",a:"#8c8c96",A:"#c4c4cc",p:"#e87aa8",P:"#f6b6cf",d:"#4a4a56"};
+const SV={
+ passaro:["...bbbb...","..bbbbbb..",".bbbbbbweo",".bbbbbbbbo","..yyyyyy..","...yyyy...","...o..o..."],
+ bf_a:["ppp.ppp","pppkppp",".ppkpp.","..pkp.."],bf_f:["...k...","..pkp..","..pkp..","...k..."],
+ esquilo:["..nn........",".nnnn.......",".nnnnn......","..nnnn..nn..","...nnnnnnNe.","...nnnnnnNNk","...nnnnnnN..","....nn.nn...","....nn.nn..."],
+ ratinho:["......pa..","..aaaaaaAe","aaaaaaaAAk","..a..a.a.."],
+ coruja:[".nn...nn.",".nnnnnnn.","nnwwnwwnn","nnwewewnn","nnnnoNnnn",".nNNNNNn.",".nNnNnNn.",".nNNNNNn.","..nnnnn..","..o...o.."]};
+const DIM={passarinho:[10,7],borboleta:[7,4],lagarta:[14,3],esquilo:[12,9],ratinho:[10,4],coruja:[9,10],cobra:[28,7]};
+const POS_CENA={passarinho:[64,30],borboleta:[56,66],lagarta:[58,43],esquilo:[50,58],ratinho:[50,92],coruja:[21,36],cobra:[100,93]};
+const PAL_LAMA={k:"#2a1a0e",b:"#6a4a2e",l:"#8a6440",s:"#a98a60",e:"#111",n:"#16261b",m:"#5b3d26"},PAL_LAMA2={...PAL_LAMA,b:"#8a6440",l:"#6a4a2e"};
+const EMOJI_QUINTAL={brincando_lama:["😆","🤪"],brincando_grama:["😄","😊"],observando_visita:["🤔","👀"],conversando:["🙂","😊"],brigando:["😎","💪"],comendo_cupinzeiro:["😋"]};
+function sprV(s,x,y,flip){const w=s[0].length;s.forEach((r,j)=>{for(let i=0;i<w;i++){const col=PALV[r[i]];if(col)R(x+(flip?w-1-i:i),y+j,1,1,col)}})}
+function sprP(s,x,y,flip,pal=PAL){const w=s[0].length;s.forEach((r,j)=>{for(let i=0;i<w;i++){const col=pal[r[i]];if(col)R(x+(flip?w-1-i:i),y+j,1,1,col)}})}
+function noChao(x,y,flip){R(x+2,98,26,2,"rgba(138,214,107,.35)");sprP(SPR.andando,x,y,flip)}
+function lagarta(x,y,qd){for(let i=0;i<6;i++){const dy=Math.round(Math.sin(qd/2+i));R(x+i*2,y+dy,2,2,i%2?"#86d36a":"#4fa04a")}R(x+12,y,3,2,"#c0504d");R(x+13,y,1,1,"#111")}
+function cobra(x,y,flip,qd){
+  const X=i=>flip?x+26-i*2:x+i*2;
+  for(let i=0;i<14;i++)R(X(i),y+3+Math.round(Math.sin(qd/3+i*0.7)*2),2,2,i%2?"#6aa84f":"#4a8a3a");
+  const hy=y+3+Math.round(Math.sin(qd/3+14*0.7)*2),hx=flip?x-2:x+28;
+  R(hx,hy-1,4,4,"#6aa84f");R(hx+(flip?0:2),hy,1,1,"#f2c94c");
+  if(qd%4<2)R(flip?hx-3:hx+4,hy+1,3,1,"#d04040");
+}
+function desenharVisitaPos(tipo,x,y,flip,qd){
+  if(tipo==="passarinho")sprV(SV.passaro,x,y,flip);
+  else if(tipo==="borboleta")sprV(qd%2?SV.bf_a:SV.bf_f,x,y,false);
+  else if(tipo==="lagarta")lagarta(x,y,qd);
+  else if(tipo==="esquilo")sprV(SV.esquilo,x,y,flip);
+  else if(tipo==="ratinho")sprV(SV.ratinho,x,y,flip);
+  else if(tipo==="coruja"){sprV(SV.coruja,x,y,false);if(qd%30<2){R(x+2,y+2,2,2,"#8a5a34");R(x+5,y+2,2,2,"#8a5a34")}}
+  else if(tipo==="cobra")cobra(x,y,flip,qd);
+}
+function posIdle(tipo,qd){
+  if(tipo==="passarinho")return{x:64,y:30+(qd%14<2?-1:0),flip:false};
+  if(tipo==="borboleta")return{x:58+Math.round(Math.sin(qd/5)*30),y:30+Math.round(Math.cos(qd/4)*10),flip:false};
+  if(tipo==="lagarta")return{x:54+Math.floor(qd/3)%14,y:44,flip:false};
+  if(tipo==="esquilo"){const c=qd%26;let y=62;if(c>=10&&c<14)y=62-(c-10)*3;else if(c>=14&&c<22)y=50;else if(c>=22)y=50+(c-22)*3;
+    return{x:c>=10&&c<22?51:48,y,flip:false,nozes:c>=10&&c<22}}
+  if(tipo==="ratinho"){const t=Math.sin(qd/7);return{x:44+Math.round(Math.abs(t)*8),y:92,flip:Math.cos(qd/7)<0}}
+  if(tipo==="coruja")return{x:21,y:36,flip:false};
+  return{x:84+Math.abs(((qd*2)%100)-50),y:93,flip:((qd*2)%100)<50}; // cobra
+}
+function visitasAgora(){const q_=estado&&estado.quintal;if(!q_)return[];const t=Date.now();return q_.visitantes.filter(v=>Date.parse(v.desde)<=t&&t<Date.parse(v.ate))}
+
+// balões de fala no quintal (coordenadas lógicas do alvo)
+function balaoEm(id,emoji,x,y){
+  const el=document.querySelector(id),W=el.parentElement.clientWidth;
+  if(el.dataset.c!==emoji){el.replaceChildren();const s=document.createElement("span");s.className="b-emoji";s.textContent=emoji;el.append(s);el.dataset.c=emoji}
+  const w=el.offsetWidth,alvo=x/200*W,xx=Math.max(w/2+4,Math.min(W-w/2-4,alvo));
+  el.style.left=xx+"px";el.style.top=(y/116*100)+"%";el.style.setProperty("--cauda",(alvo-(xx-w/2))+"px");el.classList.add("visivel");
+}
+const esconderBalao=id=>document.querySelector(id).classList.remove("visivel");
+let bV=null,bP=null,usouBV=false,usouBP=false;
+
+// a coruja e o ratinho: ela pode pegá-lo, ou ele foge (horário sorteado pelo script)
+function predar(res,s){
+  const MX=48,MY=92,OX=21,OY=36,TX=52,TY=82;let ox,oy;
+  if(s<2){const u=s/2;ox=OX+(TX-OX)*u;oy=OY+(TY-OY)*u}else if(s<4){ox=TX;oy=TY}else{const u=(s-4)/2;ox=TX-(TX-OX)*u;oy=TY-(TY-OY)*u}
+  ox=Math.round(ox);oy=Math.round(oy);
+  if(s<2)sprV(SV.ratinho,MX,MY,false);
+  else if(res==="fugiu"&&s<5.5)sprV(SV.ratinho,MX+Math.round((s-2)*40),MY,false);
+  sprV(SV.coruja,ox,oy,false);
+  if(s<2)bV={e:"😱",x:MX+5,y:MY-3};else if(s<4)bV={e:res==="pegou"?"😋":"😠",x:ox+4,y:oy-3};
+}
+function desenharVisitas(pular){
+  const t=Date.now(),vis=visitasAgora(),coruja=vis.find(v=>v.tipo==="coruja"),rato=vis.find(v=>v.tipo==="ratinho"&&v.fim);
+  let pred=false;
+  if(rato&&coruja){const s=(t-Date.parse(rato.fim.quando))/1000;if(s>=0&&s<6){pred=true;predar(rato.fim.resultado,s)}}
+  vis.forEach(v=>{
+    if(v.tipo===pular||(pred&&(v===rato||v===coruja)))return;
+    const ent=Math.max(0,1-(t-Date.parse(v.desde))/3000),sai=Math.max(0,1-(Date.parse(v.ate)-t)/3000),off=Math.round(Math.max(ent,sai)*70);
+    const p=posIdle(v.tipo,quadro);
+    desenharVisitaPos(v.tipo,p.x+off,p.y,p.flip,quadro);
+    if(v.tipo==="passarinho"&&!off)for(let k=0;k<2;k++){const ny=27-((quadro*2+k*7)%14);R(76+k*5,ny,2,2,"#ffe27a");R(77+k*5,ny-3,1,3,"#ffe27a")}
+    if(v.tipo==="esquilo"&&p.nozes)R(p.x+10,p.y+5,2,2,"#8a5a34");
+  });
+}
+
+// cenas entre o Pangolimo e uma visita: tocam quando a página vê a cena nova (ou ao abrir, se foi há menos de 90 min)
+let cenaId=null,cenaIni=0,cenaDur=0;
+function duracaoCena(c){const n=c.conversa.length;
+  if(c.tipo==="observa")return 4;
+  if(c.tipo==="conversa")return 1+1.5*n+(c.resultado==="tensa"?2.5:1);
+  return 1+1.2*(n-(c.resultado==="venceu"?1:2))+6}
+function cenaCorrente(){
+  const c=estado&&estado.cena;if(!c||reduzMovimento)return null;
+  if(c.id!==cenaId){cenaId=c.id;if(Date.now()-Date.parse(c.quando)<90*60000){cenaIni=performance.now();cenaDur=duracaoCena(c)*1000;requestAnimationFrame(animarCena)}else cenaDur=0}
+  return performance.now()-cenaIni<cenaDur?c:null}
+function animarCena(){if(comodoVisivel()==="quintal")cena();if(cenaCorrente())requestAnimationFrame(animarCena)}
+function linhaDoTempo(c,t){
+  const n=c.conversa.length,v=c.visitante,d=DIM[v]||[10,7],ps=POS_CENA[v]||[64,30];
+  const r={bp:null,bv:null,P:{x:66,y:88,flip:true},V:{x:ps[0],y:ps[1],flip:false,off:0},poeira:null};
+  const fala=f=>{if(f.q==="p")r.bp={e:f.e};else r.bv={e:f.e}};
+  if(c.tipo==="observa"){if(t>0.6)r.bp={e:c.conversa[0].e};return r}
+  if(c.tipo==="conversa"){
+    const i=Math.floor((t-1)/1.5);if(t>=1&&i<n)fala(c.conversa[i]);
+    if(c.resultado==="tensa"&&t>=1+1.5*n)r.V.off=Math.round(Math.min(1,(t-1-1.5*n)/2.5)*80);
+    return r}
+  const fim=c.resultado==="venceu"?1:2,nf=n-fim,t1=1+1.2*nf,t2=t1+3;
+  r.P={x:84,y:88,flip:false};r.V={x:v==="cobra"?106:112,y:v==="cobra"?93:98-d[1],flip:true,off:0};
+  if(t<t1){const i=Math.floor((t-1)/1.2);if(t>=1&&i<nf)fala(c.conversa[i])}
+  else if(t<t2){r.poeira={x:100,y:94};const j=Math.floor(t*10)%2?1:-1;r.P.x+=j;r.V.x-=j;r.bp={e:"💢"};r.bv={e:"💢"}}
+  else{const u=t-t2,f=c.conversa[nf+Math.min(Math.floor(u/1.2),fim-1)];if(f)fala(f);
+    if(c.resultado==="venceu"){if(u>1.2)r.V.x+=Math.round((u-1.2)*40)}else if(u>1.2){r.P.x-=Math.round((u-1.2)*55);r.P.flip=true}}
+  return r}
+function poseEstatica(acao,qd,b,salto){
+  if(acao==="brincando_lama"){const x=96+Math.round(Math.sin(qd/3)*20),y=96-salto;
+    sprP(SPR.bola,x,y,false,qd%2?PAL_LAMA:PAL_LAMA2);
+    for(let k=0;k<4;k++)R(x-3+((qd*3+k*5)%22),93-((qd+k)%3),2,2,"#5b3d26");
+    return{x,y:96,w:16,h:9}}
+  if(acao==="brincando_grama"){const x=72+Math.round(Math.abs(Math.sin(qd/10))*40);noChao(x,88+b-salto,Math.cos(qd/10)<0);return{x,y:88,w:27,h:10}}
+  if(acao==="comendo_cupinzeiro"){const x=142,y=88+b-salto;noChao(x,y,false);
+    const len=reduzMovimento?9:4+(qd%3)*3;R(x+27,y+6,len,1,"#e07a8a");R(x+27+len,y+6,1,2,"#e07a8a");return{x:142,y:88,w:27,h:10}}
+  if(acao==="brigando"){noChao(84,88+b-salto,false);return{x:84,y:88,w:27,h:10}}
+  noChao(66,88+b-salto,true);return{x:66,y:88,w:27,h:10}}
+
+function copa(sw){[[30,26,20],[50,18,22],[68,28,18],[44,34,16],[20,36,12],[76,40,10]].forEach(([cx,cy,r])=>{
+  [["#3a7a3a",0,0,r],["#4fa04a",-2,-2,r-3],["#6bbf5a",-4,-4,r-8]].forEach(([cor,dx,dy,rr])=>{
+    for(let j=-rr;j<=rr;j++){const hw=Math.round(Math.sqrt(rr*rr-j*j));R(cx+dx+sw-hw,cy+dy+j,hw*2,1,cor)}})})}
+function fundoQuintal(fase,clima,flash){
+  const chove=["garoa","chuva","tempestade","raios"].includes(clima),coberto=chove&&clima!=="garoa",forte=clima==="tempestade"||clima==="raios";
+  const CEU={dia:"#7fc3ee",tarde:"#e8895a",manha:"#f0b48a",noite:"#101030"},CHUVA={dia:"#8095a8",tarde:"#9a8590",manha:"#9a8f94",noite:"#0a0a1e"};
+  const NUV={dia:"#5d6d7c",tarde:"#6a5a62",manha:"#6a5a62",noite:"#1c1c36"},BRANCA={dia:"#ffffff",tarde:"#f4d0c0",manha:"#f6dccc",noite:"#2c2c50"};
+  R(0,0,200,84,coberto?CHUVA[fase]:CEU[fase]);
+  if(!coberto){
+    if(fase==="noite"){R(150,12,9,9,"#f2e6b8");R(153,12,6,8,CEU.noite);[[20,10],[60,22],[96,8],[120,26],[176,30],[184,12],[8,34],[134,14]].forEach(([x,y],i)=>R(x,y,1,1,(quadro+i)%4?"#f2e6b8":"#6b6a9a"))}
+    else if(fase==="dia")R(148,10,10,10,"#ffe27a");
+    else R(fase==="manha"?24:168,44,10,10,"#ffd27a");
+    const vel=clima==="vendaval"?3:0.5;
+    [0,1,2].forEach(k=>{const x=((quadro*vel+k*80)%260)-40;R(x,10+k*12,22,5,BRANCA[fase]);R(x+5,7+k*12,12,4,BRANCA[fase])});
+  }else{R(0,0,200,18,NUV[fase]);for(let x=0;x<200;x+=14)R(x,14+((x*7)%6),16,8,NUV[fase])}
+  for(let i=0;i<200;i+=9)R(i,52-((i*11)%6),10,12,"#2f6b3a"); // mata ao fundo
+  const sw=(clima==="vendaval"||forte)&&!reduzMovimento?Math.round(Math.sin(quadro/2)*1.5):0;
+  for(let x=0;x<200;x+=8){R(x,58,6,26,"#a0703f");R(x+2,56,2,2,"#a0703f");R(x+5,58,1,26,"#7a5230")} // cerca de madeira
+  R(0,64,200,3,"#7a5230");R(0,76,200,3,"#7a5230");[0,96,192].forEach(x=>R(x,54,5,30,"#8a5a30"));
+  R(0,84,200,32,"#4a8a3a");
+  for(let i=0;i<30;i++){const x=(i*37)%200,y=88+((i*53)%26),s=(clima==="vendaval"||forte)?((quadro+i)%2):0;R(x+s,y,1,3,"#6bbf5a");R(x+1+s,y+1,1,2,"#6bbf5a")} // tufos de grama
+  for(let y=94;y<=110;y++){const hw=Math.round(28*Math.sqrt(Math.max(0,1-((y-102)/8)**2)));R(112-hw-1,y,hw*2+2,1,"#473019");R(112-hw,y,hw*2,1,"#5b3d26")} // área de lama
+  R(98,100,8,1,"#7a5638");R(120,104,6,1,"#7a5638");R(104,97,5,1,"#7a5638");
+  if(chove){R(92,100,12,2,"#6f8fa8");R(118,104,14,2,"#6f8fa8");R(104,107,8,1,"#6f8fa8")}
+  R(37,88,19,4,"#7a4e2c");R(40,46,13,46,"#7a4e2c");R(43,50,1,38,"#5a3820");R(48,52,1,34,"#5a3820"); // árvore
+  R(28,50,14,3,"#7a4e2c");R(22,46,8,3,"#7a4e2c");R(53,48,16,3,"#7a4e2c");R(66,42,8,3,"#7a4e2c");
+  R(43,63,8,1,"#5a3820");R(44,64,6,10,"#1a0e06");R(45,66,4,6,"#0d0703"); // buraco no tronco
+  copa(sw);
+  for(let j=0;j<38;j++){const y=56+j,hw=3+Math.round(j*0.28)+(j%7<2?1:0);R(172-hw,y,hw*2+1,1,"#b78a5b");R(172+hw-2,y,2,1,"#8f6a43")} // cupinzeiro
+  R(166,89,10,6,"#241608");R(167,88,8,1,"#241608");[[168,70],[174,64],[170,80],[176,76]].forEach(([x,y])=>R(x,y,2,1,"#d2a674"));
+  for(let i=0;i<4;i++)R(158+((quadro*2+i*5)%22),96,1,1,"#e8c9a0");
+  if(fase==="noite"){g.fillStyle="rgba(6,6,34,.32)";g.fillRect(0,54,200,62)}
+  else if(fase==="tarde"){g.fillStyle="rgba(232,120,60,.10)";g.fillRect(0,54,200,62)}
+}
+function climaPorCima(clima,fase,flash){
+  const forte=clima==="tempestade"||clima==="raios";
+  if(["garoa","chuva","tempestade","raios"].includes(clima)){
+    const n={garoa:30,chuva:55,tempestade:90,raios:100}[clima],vel={garoa:4,chuva:6,tempestade:8,raios:8}[clima],cor=fase==="noite"?"#8fb8e8":"#cfe3f5";
+    for(let i=0;i<n;i++){const x=(i*37+quadro*(forte?5:2))%210-5,y=(i*23+quadro*vel)%116;R(x,y,1,2,cor);if(forte)R(x+1,y+2,1,2,cor)}
+  }
+  if(clima==="vendaval"){
+    for(let i=0;i<6;i++)R(((i*43+quadro*9)%240)-20,30+i*14,9,1,"rgba(255,255,255,.45)");
+    for(let i=0;i<8;i++)R(((i*29+quadro*7)%230)-15,36+((i*17)%60)+((quadro+i)%3),2,1,i%2?"#6aa84f":"#a67c52");
+  }
+  if(flash){g.fillStyle="rgba(255,255,255,.5)";g.fillRect(0,0,200,116);[[148,0,3,12],[145,12,4,3],[142,15,3,14],[139,29,3,10]].forEach(([x,y,w,h])=>R(x,y,w,h,"#f6e27a"))}
+}
+function cenaQuintal(){
+  const acao=estado?estado.acao:"pesquisando",clima=climaAtivo(),fase=faseDoDia(),qd=quadro;
+  const flash=clima==="raios"&&!reduzMovimento&&qd%7===3;
+  fundoQuintal(fase,clima,flash);
+  bV=null;bP=null;
+  const c=cenaCorrente(),salto=alturaPulo(),b=reduzMovimento?0:qd%2;
+  desenharVisitas(c&&c.visitante);
+  if(c){
+    const tl=linhaDoTempo(c,(performance.now()-cenaIni)/1000);
+    if(tl.V.x<210)desenharVisitaPos(c.visitante,tl.V.x+tl.V.off,tl.V.y,tl.V.flip,qd);
+    if(tl.P.x>-30)noChao(tl.P.x,tl.P.y+b-salto,tl.P.flip);
+    if(tl.poeira)for(let k=0;k<16;k++)R(tl.poeira.x+Math.round(Math.sin(qd*1.3+performance.now()/90+k*2.1)*14),tl.poeira.y+Math.round(Math.cos(performance.now()/70+k*1.3)*9)-3,3,2,k%2?"#e0e0d8":"#a8a8a0");
+    caixaQuintal={x:tl.P.x,y:tl.P.y,w:27,h:10};
+    if(tl.bp)bP={e:tl.bp.e,x:tl.P.x+13,y:tl.P.y-3};
+    if(tl.bv&&tl.V.x<210){const w=(DIM[c.visitante]||[10])[0];bV=bV||{e:tl.bv.e,x:tl.V.x+tl.V.off+w/2,y:tl.V.y-3}}
+  }else if(noQuintal(acao))caixaQuintal=poseEstatica(acao,qd,b,salto);
+  climaPorCima(clima,fase,flash);
+  if(bV){balaoEm("#balaoVisita",bV.e,bV.x,bV.y);usouBV=true}else if(usouBV){esconderBalao("#balaoVisita");usouBV=false}
+  if(bP){balaoEm("#balaoQuintal",bP.e,bP.x,bP.y);usouBP=true}else if(usouBP){esconderBalao("#balaoQuintal");usouBP=false}
+}
+
+// ================= MOVIMENTO NO QUINTAL (o que já aconteceu) =================
+function desenharMovimento(){
+  const ul=document.querySelector("#movimento");ul.replaceChildren();
+  const q_=estado&&estado.quintal,agora=Date.now();
+  const itens=(q_?q_.log:[]).filter(l=>Date.parse(l.quando)<=agora).sort((a,b)=>Date.parse(b.quando)-Date.parse(a.quando)).slice(0,8);
+  if(!itens.length){const li=document.createElement("li");li.textContent="Nada por enquanto.";ul.append(li);return}
+  itens.forEach(l=>{const li=document.createElement("li"),t=document.createElement("time");
+    t.textContent=new Date(l.quando).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+    li.append(t,document.createTextNode(l.texto.charAt(0).toUpperCase()+l.texto.slice(1)));ul.append(li)});
+}
+setInterval(()=>{if(estado)desenharMovimento()},20000);
+
+let comodoManual=null,localAnterior;
+const ondeEle=()=>{const a=estado&&estado.acao;return naSala(a)?"sala":noQuintal(a)?"quintal":"toca"};
+const comodoVisivel=()=>comodoManual||ondeEle();
+const COMODOS={toca:["#comodoToca","A toca"],sala:["#comodoSala","A sala"],quintal:["#comodoQuintal","O quintal"]};
+function atualizarLegendas(){
+  const v=comodoVisivel(),ele=ondeEle();
+  Object.entries(COMODOS).forEach(([k,[id,nome]])=>{document.querySelector(id+" figcaption").textContent=nome+(k===v&&v!==ele?(k==="quintal"?", vazio agora":", vazia agora"):"")});
+  document.querySelectorAll(".comodos button").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.comodo===v?"true":"false");b.toggleAttribute("data-ele",b.dataset.comodo===ele)});
+}
+function cena(){const v=comodoVisivel();if(v==="sala"){g=gS;cenaSala()}else if(v==="quintal"){g=gY;cenaQuintal()}else{g=gQ;cenaQuarto()}g=gQ}
+function mostrarComodo(animar){ // a tela acompanha o Pangolimo, ou fica no cômodo que o visitante escolheu espiar
+  const v=comodoVisivel(),mudou=Object.entries(COMODOS).some(([k,[id]])=>document.querySelector(id).hidden===(k===v));
   atualizarLegendas();
-  if(toca.hidden===sala)return;
-  toca.hidden=sala;salaEl.hidden=!sala;
-  q("#balao").classList.remove("visivel");q("#balaoSala").classList.remove("visivel");
-  const novo=sala?salaEl:toca;
+  if(!mudou)return;
+  Object.entries(COMODOS).forEach(([k,[id]])=>{document.querySelector(id).hidden=k!==v});
+  document.querySelectorAll(".balao").forEach(b=>b.classList.remove("visivel"));
+  const novo=document.querySelector(COMODOS[v][0]);
   if(animar&&!reduzMovimento){novo.classList.remove("entrando");void novo.offsetWidth;novo.classList.add("entrando")}
   cena();
 }
@@ -378,9 +615,13 @@ const q=s=>document.querySelector(s);
 const quando=iso=>new Date(iso).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
 const texto=(t,tag="p",cls="")=>{const e=document.createElement(tag);e.textContent=t;if(cls)e.className=cls;return e};
 const FRASES={dormindo:"está dormindo",pesquisando:"está pesquisando no computador",desenhando:"está desenhando no mural",comendo:"está comendo formigas no formigueiro",olhando_lua:"está olhando a lua pela janela",observando_clima:"está observando o tempo pela janela"};
-function fraseAcao(){const a=estado.acao;
+function fraseAcao(){const a=estado.acao,c=estado.cena,nome=(c&&NOMES_VISITA[c.visitante])||"uma visita";
   if(naSala(a))return`está na sala, assistindo ${estado.tv?estado.tv.descricao:"TV"}`;
-  return FRASES[a]||"está por aí"}
+  const Q={brincando_lama:"está no quintal, rolando na lama",brincando_grama:"está no quintal, brincando na grama",
+    observando_visita:`está no quintal, observando ${nome}`,conversando:`está no quintal, conversando com ${nome}`,
+    brigando:`está no quintal, depois de ganhar uma briga com ${nome}`,comendo_cupinzeiro:"está no quintal, comendo cupins no cupinzeiro",
+    recuperando:"está na toca, enrolado em bola depois de perder uma briga"};
+  return Q[a]||FRASES[a]||"está por aí"}
 const FORA={garoa:"garoa",chuva:"chuva",vendaval:"vendaval",tempestade:"tempestade",raios:"tempestade com raios"};
 
 function zoom(src,titulo){const d=q("#zoom");d.querySelector("img").src=src;d.querySelector("img").alt=titulo;d.querySelector("p").textContent=titulo;d.showModal()}
@@ -404,8 +645,9 @@ function mais(){
 }
 q("#mais").onclick=mais;
 
-const ROTULOS={comida:"comendo no formigueiro",lua:"olhando a lua pela janela",clima:"observando o tempo pela janela"};
+const ROTULOS={cupinzeiro:"comendo no cupinzeiro",comida:"comendo no formigueiro",lua:"olhando a lua pela janela",clima:"observando o tempo pela janela"};
 const rotuloAtividade=d=>{
+  if(d.atividade==="quintal"&&d.rotulo)return"no quintal, "+d.rotulo;
   if(ROTULOS[d.atividade])return ROTULOS[d.atividade];
   const tv=d.atividade==="programa",base=tv?`assistindo a um programa sobre ${d.tema}`:`lendo sobre ${d.tema}`;
   if(!d.via)return base;
@@ -429,6 +671,8 @@ const sorteia=l=>l[Math.floor(Math.random()*l.length)];
 function emojiDoMomento(){
   const e=estado||{},clima=climaAtivo();
   if(e.acao==="dormindo"||e.dormindo)return"😴";
+  if(e.acao==="recuperando")return"😣";
+  if(noQuintal(e.acao)&&EMOJI_QUINTAL[e.acao])return sorteia(EMOJI_QUINTAL[e.acao]);
   if(e.acao==="assistindo_tv"&&e.tv&&EMOJI_GENERO[e.tv.genero])return sorteia(EMOJI_GENERO[e.tv.genero]);
   if(clima==="raios")return"😨";
   if((e.fome||0)>=60)return"🤤";
@@ -442,8 +686,9 @@ let balaoT=null;
 function animarPulo(){cena();if(pulo)requestAnimationFrame(animarPulo)}
 function cutucar(){
   if(comodoVisivel()!==ondeEle()){comodoManual=null;mostrarComodo(true)} // estava espiando o outro cômodo: volta para ele
-  const e=estado||{},sala=naSala(e.acao),b=caixaPangolim(),el=q(sala?"#balaoSala":"#balao");
-  q(sala?"#balao":"#balaoSala").classList.remove("visivel");
+  if(cenaCorrente())return; // uma cena com visitas está tocando
+  const e=estado||{},onde=ondeEle(),sala=onde==="sala",b=caixaPangolim(),el=q(sala?"#balaoSala":onde==="quintal"?"#balaoQuintal":"#balao");
+  ["#balao","#balaoSala","#balaoQuintal"].forEach(id=>{if(q(id)!==el)q(id).classList.remove("visivel")});
   if(!reduzMovimento){pulo={t0:performance.now()};requestAnimationFrame(animarPulo)}
   el.replaceChildren();
   if(sala&&e.tv){const leg=document.createElement("span");leg.className="b-texto";leg.textContent="Assistindo "+e.tv.descricao;el.append(leg)}
@@ -455,12 +700,13 @@ function cutucar(){
 }
 const pontoNaCena=(ev,cv)=>{const r=cv.getBoundingClientRect();return{x:(ev.clientX-r.left)*200/r.width,y:(ev.clientY-r.top)*116/r.height}};
 const dentro=(p,b,m=3)=>p.x>=b.x-m&&p.x<=b.x+b.w+m&&p.y>=b.y-m&&p.y<=b.y+b.h+m;
-const naSalaAgora=()=>naSala(estado&&estado.acao);
-c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(!naSalaAgora()&&dentro(p,caixaPangolim()))cutucar()});
-c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||(!naSalaAgora()&&dentro(p,caixaPangolim()))?"pointer":"default"});
-cS.addEventListener("click",ev=>{if(naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim()))cutucar()});
-cS.addEventListener("mousemove",ev=>{cS.style.cursor=naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim())?"pointer":"default"});
-q("#btnComodo").onclick=()=>{comodoManual=comodoVisivel()==="sala"?"toca":"sala";if(comodoManual===ondeEle())comodoManual=null;mostrarComodo(true)};
+const eleEstaEm=nome=>ondeEle()===nome;
+c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(eleEstaEm("toca")&&dentro(p,caixaPangolim()))cutucar()});
+c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||(eleEstaEm("toca")&&dentro(p,caixaPangolim()))?"pointer":"default"});
+[[cS,"sala"],[cY,"quintal"]].forEach(([cv,nome])=>{
+  cv.addEventListener("click",ev=>{if(eleEstaEm(nome)&&dentro(pontoNaCena(ev,cv),caixaPangolim()))cutucar()});
+  cv.addEventListener("mousemove",ev=>{cv.style.cursor=eleEstaEm(nome)&&dentro(pontoNaCena(ev,cv),caixaPangolim())?"pointer":"default"})});
+document.querySelectorAll(".comodos button").forEach(b=>b.onclick=()=>{comodoManual=b.dataset.comodo===ondeEle()?null:b.dataset.comodo;mostrarComodo(true)});
 q("#btnCutucar").onclick=cutucar;q("#btnCaderno").onclick=()=>abrirCaderno();
 
 // ---- caderno: uma anotação por página
@@ -526,6 +772,7 @@ async function carregar(){
   const quanto=estado.ultima_execucao?Math.max(0,Math.round((Date.now()-new Date(estado.ultima_execucao))/36e5)):null;
   q("#estado").textContent=`${nome} ${fraseAcao()}.`+(quanto===null?"":quanto<1?" Atualizado agora há pouco.":` Última atualização há ${quanto} h.`);
   c.setAttribute("aria-label",naSala(estado.acao)?`A toca do ${nome}, vazia: ele está na sala.`:`A toca do ${nome}: ele ${fraseAcao()}.`);
+  cY.setAttribute("aria-label",noQuintal(estado.acao)?`O quintal: ${nome} ${fraseAcao()}.`:"O quintal.");
   cS.setAttribute("aria-label",naSala(estado.acao)?`A sala: ${nome} ${fraseAcao()}.`:"A sala, vazia, com a TV desligada.");
   q("#energia").style.width=estado.energia+"%";q("#fome").style.width=(estado.fome||0)+"%";q("#humor").textContent=estado.humor;q("#fora").textContent=FORA[climaAtivo()]||"tempo calmo";q("#tipo").textContent=estado.tipo||"";
   const ul=q("#interesses");ul.replaceChildren();
@@ -543,6 +790,7 @@ async function carregar(){
   if(!comDesenho.length)mural.append(texto("O mural está vazio. Os desenhos aparecem aqui depois que o Pangolimo começar a pesquisar.","p"));
   if(!diario.length)q("#diario").append(texto("O Pangolimo ainda não escreveu nada. A primeira entrada aparece depois da primeira execução.","p"));
   desenharMapa();
+  desenharMovimento();
   atualizarCaderno(idAberto);
   mostrados=0;q("#diario").querySelectorAll(".entrada").forEach(e=>e.remove());mais();
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 74,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 85,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.631
+      "recente": 2.577
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.593
+      "recente": 2.54
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.518
+      "recente": 2.466
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.345
+      "recente": 2.297
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.33
+      "recente": 2.282
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.938
+      "recente": 1.898
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.938
+      "recente": 1.898
+    },
+    {
+      "tema": "Estado de conservação",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.947
+      "recente": 1.907
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.693
+      "recente": 1.658
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.597
+      "recente": 1.564
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.537
+      "recente": 1.506
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.353
+      "recente": 1.325
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.288
+      "recente": 1.262
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.288
+      "recente": 1.262
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.288
+      "recente": 1.262
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.956
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.956
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.953
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.953
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.919
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.919
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.919
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.885
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.885
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.885
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.874
+      "recente": 0.856
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.874
+      "recente": 0.856
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.854
+      "recente": 0.837
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.854
-    },
-    {
-      "tema": "liquens",
-      "peso": 1,
-      "recente": 0.847
+      "recente": 0.837
     }
   ],
   "gostos": {
@@ -185,17 +185,18 @@
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
     "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
-    "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas."
+    "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
+    "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza."
   ],
-  "proximo_tema": "Estado de conservação",
-  "ultima_execucao": "2026-11-23T10:47+00:00",
+  "proximo_tema": "Pouco preocupante",
+  "ultima_execucao": "2026-11-23T12:12+00:00",
   "tipo": "Limo / Terra",
-  "fome": 43,
+  "fome": 49,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Bonobo",
+  "origem_do_proximo": "Estado de conservação",
   "via_do_proximo": {
-    "de": "Bonobo",
+    "de": "Estado de conservação",
     "sorteado": true,
     "lang": "pt"
   },

@@ -381,5 +381,19 @@
     "titulo_desenho": "Bonobo na floresta",
     "via": "Fanchangia",
     "via_sorteio": false
+  },
+  {
+    "id": 31,
+    "quando": "2026-11-23T12:12+00:00",
+    "atividade": "pesquisa",
+    "tema": "Estado de conservação",
+    "fonte": "https://pt.wikipedia.org/wiki/Estado_de_conserva%C3%A7%C3%A3o",
+    "texto": "Hoje de manhã eu estava na minha caminha, mas fui até o computador pesquisar um pouquinho. Acabei lendo sobre o estado de conservação, que mostra como os bichinhos estão vivendo na natureza e se precisam de proteção. Eu fiquei pensando naquelas palavrinhas difíceis como extinta, que quer dizer que não tem mais nenhum vivendo por aí. Depois eu cliquei sem querer num link escrito pouco preocupante.",
+    "aprendeu": "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
+    "humor": "com sono",
+    "desenho": "desenhos/0031.svg",
+    "titulo_desenho": "O computador e a floresta",
+    "via": "Bonobo",
+    "via_sorteio": true
   }
 ]

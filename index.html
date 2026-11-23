@@ -20,7 +20,7 @@ h1,h2{font-family:"Pixelify Sans",ui-monospace,monospace;font-weight:700;margin:
 h1{font-size:clamp(34px,7vw,52px);color:var(--limo)}
 h2{font-size:24px;margin-bottom:14px}
 #estado{margin:6px 0 20px;color:var(--suave)}
-#cena{display:block;width:100%;height:auto;image-rendering:pixelated;border:3px solid var(--linha)}
+#cena,#sala{display:block;width:100%;height:auto;image-rendering:pixelated;border:3px solid var(--linha)}
 .colunas{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:36px;margin-top:40px}
 @media(max-width:720px){.colunas{grid-template-columns:1fr}}
 .entrada{padding:0 0 22px;margin:0 0 22px;border-bottom:1px solid var(--linha)}
@@ -53,11 +53,17 @@ dialog img{width:100%;background:#f6efd8;display:block}
 #mapa .nao-lido{color:var(--suave);font-style:italic}
 #mapa .vezes{color:var(--suave);font-size:14px;margin-left:10px}
 .cena-wrap{position:relative}
-#cena{cursor:default}
-#balao{position:absolute;transform:translate(-50%,-100%);background:#f6efd8;color:#1d1b3a;border:3px solid #1d1b3a;padding:0 10px 2px;font-size:clamp(22px,5.5vw,40px);line-height:1.25;pointer-events:none;opacity:0;transition:opacity .2s}
-#balao.visivel{opacity:1}
-#balao::after{content:"";position:absolute;left:50%;top:100%;margin-left:-8px;border:8px solid transparent;border-top-color:#1d1b3a;border-bottom:0}
-#balao::before{content:"";position:absolute;left:50%;top:100%;margin-left:-5px;margin-top:-3px;border:5px solid transparent;border-top-color:#f6efd8;border-bottom:0;z-index:1}
+#cena,#sala{cursor:default}
+.balao{position:absolute;transform:translate(-50%,-100%);background:#f6efd8;color:#1d1b3a;border:3px solid #1d1b3a;padding:0 10px 2px;font-size:clamp(22px,5.5vw,40px);line-height:1.25;pointer-events:none;width:max-content;max-width:min(78%,300px);text-align:center;opacity:0;transition:opacity .2s}
+.balao.visivel{opacity:1}
+.balao::after{content:"";position:absolute;left:var(--cauda,50%);top:100%;margin-left:-8px;border:8px solid transparent;border-top-color:#1d1b3a;border-bottom:0}
+.balao::before{content:"";position:absolute;left:var(--cauda,50%);top:100%;margin-left:-5px;margin-top:-3px;border:5px solid transparent;border-top-color:#f6efd8;border-bottom:0;z-index:1}
+.balao .b-texto{display:block;font-size:clamp(12px,2.6vw,15px);line-height:1.25;padding-top:3px}
+.balao .b-emoji{display:block}
+.casa{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:720px){.casa{grid-template-columns:1fr}}
+.comodo{margin:0}
+.comodo figcaption{color:var(--suave);font-size:14px;margin-top:4px}
 .atalhos{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
 .atalhos button{background:transparent;color:var(--texto);border:2px solid var(--linha);padding:6px 12px;font-size:15px}
 .atalhos button:hover{border-color:var(--lampada)}
@@ -94,9 +100,21 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
 <main>
   <h1>Pangolimo</h1>
   <p id="estado">Acordando…</p>
-  <div class="cena-wrap">
-    <canvas id="cena" width="200" height="116" role="img" aria-label="A casinha do Pangolimo"></canvas>
-    <div id="balao" role="img" aria-live="polite"></div>
+  <div class="casa">
+    <figure class="comodo">
+      <div class="cena-wrap">
+        <canvas id="cena" width="200" height="116" role="img" aria-label="A toca do Pangolimo"></canvas>
+        <div id="balao" class="balao" role="img" aria-live="polite"></div>
+      </div>
+      <figcaption>A toca</figcaption>
+    </figure>
+    <figure class="comodo">
+      <div class="cena-wrap">
+        <canvas id="sala" width="200" height="116" role="img" aria-label="A sala"></canvas>
+        <div id="balaoSala" class="balao" role="img" aria-live="polite"></div>
+      </div>
+      <figcaption>A sala</figcaption>
+    </figure>
   </div>
   <div class="atalhos">
     <button type="button" id="btnCutucar">Cutucar o Pangolimo</button>
@@ -158,13 +176,14 @@ const SPR={
  bola:["....kkkkkkkk....","..kkbblbblbbkk..","kbblbblbblbbbk..".padEnd(16,"."),"kbblbblbblbblbbk","kblbblbbkkblbblk","kbbblbbkssekbbbk","kblbblbbkkblbblk",".kbbblbblbblbbk.","..kkkkkkkkkkkk.."]
 };
 SPR.bola[2]=".kbblbblbblbbbk.";SPR.bola[1]="..kkbmlbblbbkk..";SPR.bola.push("...m.....m.....");
+SPR.sentado=SPR.andando.slice(0,8);
 const PAL={k:"#1c3a26",b:"#4fa04a",l:"#86d36a",s:"#d3eaa6",e:"#111",n:"#16261b",m:"#b8f27c"};
 const Z=["111","001","010","100","111"];
-const c=document.getElementById("cena"),g=c.getContext("2d");
+const c=document.getElementById("cena"),cS=document.getElementById("sala"),gQ=c.getContext("2d"),gS=cS.getContext("2d");let g=gQ;
 const R=(x,y,w,h,col)=>{g.fillStyle=col;g.fillRect(x,y,w,h)};
 const spr=(s,x,y)=>s.forEach((r,j)=>[...r].forEach((ch,i)=>PAL[ch]&&R(x+i,y+j,1,1,PAL[ch])));
 const zzz=(x,y,col)=>Z.forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+i,y+j,1,1,col)));
-let estado=null,diario=[],imgs=[],mapa=[],quadro=0;
+let estado=null,diario=[],imgs=[],mapa=[],quadro=0,chuvisco=0,tvAnterior;
 const reduzMovimento=matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function climaAtivo(){const ev=estado&&estado.evento;return ev&&(ev.nome==="clima"||ev.nome==="chuva")&&new Date(ev.ate)>Date.now()?ev.tipo:null}
@@ -229,13 +248,15 @@ function poseXY(a){let px=57,py=88;
   if(a==="desenhando")px=138;else if(a==="comendo")px=146;
   else if(a==="olhando_lua"||a==="observando_clima"){px=79;py=31}
   return{px,py}}
+const SALA=["assistindo_tv","assistindo_programa"],naSala=a=>SALA.includes(a);
 function caixaPangolim(){const a=estado?estado.acao:"pesquisando";
+  if(naSala(a))return{x:30,y:54,w:27,h:8};
   if(a==="dormindo")return{x:30,y:51,w:16,h:10};
   const{px,py}=poseXY(a);return{x:px,y:py,w:27,h:10}}
 let pulo=null;
 function alturaPulo(){if(!pulo)return 0;const t=(performance.now()-pulo.t0)/520;if(t>=1){pulo=null;return 0}return Math.round(Math.sin(Math.PI*t)*9)}
 
-function cena(){
+function cenaQuarto(){
   const acao=estado?estado.acao:"pesquisando",clima=climaAtivo();
   const flash=clima==="raios"&&!reduzMovimento&&quadro%7===3;
   R(0,0,200,116,"#26234f");R(0,80,200,36,"#7a5238");R(0,80,200,2,"#5a3b28");
@@ -263,7 +284,7 @@ function cena(){
   formigueiro();
   // pangolim
   const b=reduzMovimento?0:quadro%2,salto=alturaPulo();
-  if(acao==="dormindo"){spr(SPR.bola,30,51+b-salto);
+  if(naSala(acao)){/* ele está na sala */}else if(acao==="dormindo"){spr(SPR.bola,30,51+b-salto);
     if(!reduzMovimento){const n=quadro%3;[0,1,2].slice(0,n+1).forEach(k=>zzz(48+k*5,44-k*6,"#f2e6b8"))}
     else zzz(48,44,"#f2e6b8");
   }else{
@@ -275,12 +296,68 @@ function cena(){
   }
   if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
 }
+function telaTV(){ // 40x22 em (125,41)
+  const x=125,y=41,w=40,h=22,tv=estado&&estado.tv,ligada=estado&&naSala(estado.acao);
+  if(!ligada||!tv){R(x,y,w,h,"#0d0d14");R(x+2,y+2,8,1,"#1f1f2c");R(x+2,y+4,4,1,"#1f1f2c");return}
+  if(chuvisco>quadro){R(x,y,w,h,"#2a2a33");let s=quadro*7919+11;
+    for(let i=0;i<70;i++){s=(s*1103515245+12345)&0x7fffffff;R(x+s%w,y+((s>>8)%h),2,1,["#9a9aa8","#5a5a66","#d8d8e0"][(s>>16)%3])}return}
+  const canais={
+    terror(){R(x,y,w,h,"#0b0b18");R(x+27,y+3,5,5,"#e8e2c8");R(x+29,y+3,3,4,"#0b0b18");R(x,y+17,w,5,"#14141f");
+      R(x+6,y+9,12,8,"#07070e");R(x+5,y+7,14,2,"#07070e");R(x+9,y+5,6,2,"#07070e");R(x+11,y+12,2,2,quadro%5<2?"#f2c46d":"#3a2a10");
+      if(quadro%6<4){R(x+27,y+13,2,1,"#e03030");R(x+31,y+13,2,1,"#e03030")}},
+    reality(){R(x,y,w,h,"#f2b4d0");R(x+4,y,4,h,"rgba(255,255,255,.35)");R(x+30,y,4,h,"rgba(255,255,255,.35)");
+      R(x+12,y+9,5,5,"#e8c9a0");R(x+11,y+14,7,8,"#5a3b6a");R(x+23,y+9,5,5,"#e8c9a0");R(x+22,y+14,7,8,"#2f6b66");
+      for(let i=0;i<9;i++)R(x+(i*7+quadro*2)%w,y+(i*5+quadro*3)%h,2,2,["#e05050","#f2c46d","#6a9be0","#7fd07f"][i%4])},
+    musical(){R(x,y,w,h,"#3a2a6a");R(x+14,y,12,h,"rgba(255,230,150,.28)");R(x,y+19,w,3,"#1c1438");
+      R(x+18,y+8,4,4,"#e8c9a0");R(x+17,y+12,6,7,"#c0504d");
+      for(let i=0;i<3;i++){const nx=x+6+i*13,ny=y+h-((quadro*2+i*7)%h);R(nx,ny,3,2,"#ffe27a");R(nx+2,ny-4,1,4,"#ffe27a")}},
+    comedia(){R(x,y,w,h,"#ffd84a");R(x+13,y+3,14,14,"#ffec8a");R(x+17,y+7,2,3,"#222");R(x+22,y+7,2,3,"#222");
+      R(x+16,y+12,9,quadro%2?2:1,"#222");R(x+8,y+18,24,4,"#f2a53a")},
+    desenho(){R(x,y,w,h,"#7fd0f0");R(x,y+18,w,4,"#7fd07f");R(x+4,y+4,8,3,"#fff");R(x+6,y+2,5,2,"#fff");
+      const bx=x+((quadro*3)%(w-6)),by=y+14-Math.abs(((quadro*2)%12)-6);R(bx,by,6,6,"#e05050");R(bx+1,by+1,2,2,"#ffd0d0")},
+    jornal(){R(x,y,w,h,"#1a3a7a");R(x+17,y+3,5,5,"#e8c9a0");R(x+13,y+8,13,8,"#2b2b3d");R(x+8,y+15,24,3,"#c0a060");
+      R(x,y+19,w,3,"#c02020");for(let i=0;i<3;i++)R(x+(quadro*2+i*14)%w,y+20,6,1,"#fff");R(x+2,y+2,7,3,"#f2c46d")},
+    novela(){R(x,y,w,h,"#8a2f5a");const d=quadro%4<2?0:1;
+      ["0110110","1111111","1111111","0111110","0011100","0001000"].forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+15+i*1,y+5+j+d,1,1,"#ff7a9a")));
+      R(x+4,y+10,5,5,"#e8c9a0");R(x+3,y+15,7,7,"#2b2b3d");R(x+31,y+10,5,5,"#e8c9a0");R(x+30,y+15,7,7,"#f2c46d")},
+    documentario(){R(x,y,w,h,"#6fb7e8");R(x,y+15,w,7,"#4fa04a");R(x+6,y+8,14,8,"#6a7a5a");R(x+10,y+4,6,5,"#6a7a5a");
+      R(x+30,y+3,5,5,"#ffe27a");R(x+(quadro%(w-7)),y+15,7,3,"#3a2a1a")}
+  };
+  (canais[tv.genero]||canais.documentario)();
+}
+
+function cenaSala(){
+  const acao=estado?estado.acao:"pesquisando",clima=climaAtivo();
+  const flash=clima==="raios"&&!reduzMovimento&&quadro%7===3;
+  R(0,0,200,116,"#2a3550");R(0,80,200,36,"#6a4a3a");R(0,80,200,2,"#4a3226");
+  for(let x=0;x<200;x+=22)R(x+8,82,1,34,"#5a3f31");
+  R(0,76,200,4,"#222c42");
+  janela(clima,flash); // a janela da sala mostra o mesmo tempo lá fora
+  R(34,92,128,18,"#7a2f3a");R(36,94,124,14,"#8f4352");R(40,98,116,1,"#c0a060");R(40,103,116,1,"#c0a060"); // tapete
+  R(186,52,2,30,"#3a3a4a");R(183,44,8,9,"#f2c46d");R(184,45,6,2,"#ffe9a8"); // abajur
+  R(84,72,22,3,"#8a5a3a");R(86,75,2,5,"#5a3b28");R(102,75,2,5,"#5a3b28"); // mesinha com planta
+  R(91,65,8,7,"#a8573a");R(88,56,14,9,"#4fa04a");R(93,51,5,6,"#86d36a");R(90,58,2,2,"#86d36a");
+  R(12,48,12,34,"#7a2f3a");R(12,48,2,34,"#8f4352");R(12,66,62,14,"#8f3a4c");R(24,62,48,5,"#a8465a");R(66,56,8,24,"#7a2f3a"); // sofá
+  R(14,80,3,3,"#3a1219");R(69,80,3,3,"#3a1219");
+  R(112,68,64,12,"#4a3322");R(112,68,64,2,"#5e4330");R(138,66,14,2,"#15151f");R(122,38,46,28,"#15151f"); // TV
+  telaTV();
+  if(naSala(acao)){
+    const b=reduzMovimento?0:quadro%2,salto=alturaPulo();
+    R(32,62,24,1,"rgba(138,214,107,.5)");
+    spr(SPR.sentado,30,54+b-salto);
+  }
+  if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
+}
+function cena(){g=gQ;cenaQuarto();g=gS;cenaSala();g=gQ}
 function loop(){quadro++;cena();setTimeout(loop,450)}
 
 const q=s=>document.querySelector(s);
 const quando=iso=>new Date(iso).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
 const texto=(t,tag="p",cls="")=>{const e=document.createElement(tag);e.textContent=t;if(cls)e.className=cls;return e};
 const FRASES={dormindo:"está dormindo",pesquisando:"está pesquisando no computador",desenhando:"está desenhando no mural",comendo:"está comendo formigas no formigueiro",olhando_lua:"está olhando a lua pela janela",observando_clima:"está observando o tempo pela janela"};
+function fraseAcao(){const a=estado.acao;
+  if(naSala(a))return`está na sala, assistindo ${estado.tv?estado.tv.descricao:"TV"}`;
+  return FRASES[a]||"está por aí"}
 const FORA={garoa:"garoa",chuva:"chuva",vendaval:"vendaval",tempestade:"tempestade",raios:"tempestade com raios"};
 
 function zoom(src,titulo){const d=q("#zoom");d.querySelector("img").src=src;d.querySelector("img").alt=titulo;d.querySelector("p").textContent=titulo;d.showModal()}
@@ -305,7 +382,13 @@ function mais(){
 q("#mais").onclick=mais;
 
 const ROTULOS={comida:"comendo no formigueiro",lua:"olhando a lua pela janela",clima:"observando o tempo pela janela"};
-const rotuloAtividade=d=>ROTULOS[d.atividade]||("lendo sobre "+d.tema+(d.via?(d.via_sorteio?`, onde caiu sem querer a partir de ${d.via}`:`, que achou num link de ${d.via}`):""));
+const rotuloAtividade=d=>{
+  if(ROTULOS[d.atividade])return ROTULOS[d.atividade];
+  const tv=d.atividade==="programa",base=tv?`assistindo a um programa sobre ${d.tema}`:`lendo sobre ${d.tema}`;
+  if(!d.via)return base;
+  return base+(d.via_sorteio?(tv?`, onde parou sem querer ao mudar de canal a partir de ${d.via}`:`, onde caiu sem querer a partir de ${d.via}`)
+                            :(tv?`, que achou mudando de canal a partir de ${d.via}`:`, que achou num link de ${d.via}`));
+};
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 
 // ---- balão de emoji
@@ -317,30 +400,42 @@ const HUMORES=[
  [/contempl|pensativ|reflexiv/,["🤔","🌙"]],[/melanc|triste|abatid/,["😔"]],[/nostalg|saudos/,["🥹"]],
  [/surpre|espant|chocad/,["😮"]],[/entedi|monoton/,["😑"]],[/irrit|brav|zangad/,["😠"]],
  [/timid|envergonh/,["😳"]],[/satisfeit|saciad/,["😋"]],[/preocup|ansios/,["😟"]]];
+const EMOJI_GENERO={terror:["😱","😨"],reality:["😬","🤭","😮"],musical:["🎶","😄","🥳"],comedia:["😂","🤣"],
+  desenho:["😄","🥰"],jornal:["🤨","😐"],novela:["😢","🥹","😮"],documentario:["🤩","🧐"]};
+const sorteia=l=>l[Math.floor(Math.random()*l.length)];
 function emojiDoMomento(){
   const e=estado||{},clima=climaAtivo();
   if(e.acao==="dormindo"||e.dormindo)return"😴";
+  if(e.acao==="assistindo_tv"&&e.tv&&EMOJI_GENERO[e.tv.genero])return sorteia(EMOJI_GENERO[e.tv.genero]);
   if(clima==="raios")return"😨";
   if((e.fome||0)>=60)return"🤤";
   if((e.energia??100)<=30)return"🥱";
   if(clima==="tempestade")return"😟";
   const h=sem(e.humor||"");
-  for(const[re,lista]of HUMORES)if(re.test(h))return lista[Math.floor(Math.random()*lista.length)];
-  return"🙂";
+  for(const[re,lista]of HUMORES)if(re.test(h))return sorteia(lista);
+  return e.acao==="assistindo_programa"?sorteia(EMOJI_GENERO.documentario):"🙂";
 }
 let balaoT=null;
 function animarPulo(){cena();if(pulo)requestAnimationFrame(animarPulo)}
 function cutucar(){
-  const b=caixaPangolim(),el=q("#balao");
+  const e=estado||{},sala=naSala(e.acao),b=caixaPangolim(),el=q(sala?"#balaoSala":"#balao");
+  q(sala?"#balao":"#balaoSala").classList.remove("visivel");
   if(!reduzMovimento){pulo={t0:performance.now()};requestAnimationFrame(animarPulo)}
-  el.textContent=emojiDoMomento();el.setAttribute("aria-label",`${estado&&estado.nome||"Pangolimo"} está ${estado&&estado.humor||"por aqui"}`);
-  el.style.left=Math.min(88,Math.max(12,(b.x+b.w/2)/2))+"%";el.style.top=((b.y-11)/116*100)+"%";
-  el.classList.add("visivel");clearTimeout(balaoT);balaoT=setTimeout(()=>el.classList.remove("visivel"),2600);
+  el.replaceChildren();
+  if(sala&&e.tv){const leg=document.createElement("span");leg.className="b-texto";leg.textContent="Assistindo "+e.tv.descricao;el.append(leg)}
+  const emo=document.createElement("span");emo.className="b-emoji";emo.textContent=emojiDoMomento();el.append(emo);
+  el.setAttribute("aria-label",`${e.nome||"Pangolimo"} está ${e.humor||"por aqui"}`+(sala&&e.tv?`, assistindo ${e.tv.descricao}`:""));
+  const W=el.parentElement.clientWidth,w=el.offsetWidth,alvo=(b.x+b.w/2)/200*W,x=Math.max(w/2+4,Math.min(W-w/2-4,alvo));
+  el.style.left=x+"px";el.style.top=((b.y-11)/116*100)+"%";el.style.setProperty("--cauda",(alvo-(x-w/2))+"px");
+  el.classList.add("visivel");clearTimeout(balaoT);balaoT=setTimeout(()=>el.classList.remove("visivel"),2800);
 }
-const pontoNaCena=ev=>{const r=c.getBoundingClientRect();return{x:(ev.clientX-r.left)*200/r.width,y:(ev.clientY-r.top)*116/r.height}};
+const pontoNaCena=(ev,cv)=>{const r=cv.getBoundingClientRect();return{x:(ev.clientX-r.left)*200/r.width,y:(ev.clientY-r.top)*116/r.height}};
 const dentro=(p,b,m=3)=>p.x>=b.x-m&&p.x<=b.x+b.w+m&&p.y>=b.y-m&&p.y<=b.y+b.h+m;
-c.addEventListener("click",ev=>{const p=pontoNaCena(ev);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(dentro(p,caixaPangolim()))cutucar()});
-c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev);c.style.cursor=dentro(p,CAIXA_CADERNO)||dentro(p,caixaPangolim())?"pointer":"default"});
+const naSalaAgora=()=>naSala(estado&&estado.acao);
+c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(!naSalaAgora()&&dentro(p,caixaPangolim()))cutucar()});
+c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||(!naSalaAgora()&&dentro(p,caixaPangolim()))?"pointer":"default"});
+cS.addEventListener("click",ev=>{if(naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim()))cutucar()});
+cS.addEventListener("mousemove",ev=>{cS.style.cursor=naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim())?"pointer":"default"});
 q("#btnCutucar").onclick=cutucar;q("#btnCaderno").onclick=()=>abrirCaderno();
 
 // ---- caderno: uma anotação por página
@@ -396,11 +491,15 @@ function desenharMapa(){
 async function carregar(){
   const t="?t="+Date.now(),idAberto=cad().open&&diario[cadIdx]?diario[cadIdx].id:null;
   [estado,diario,mapa]=await Promise.all([fetch("estado.json"+t).then(r=>r.json()),fetch("diario.json"+t).then(r=>r.json()),fetch("mapa.json"+t).then(r=>r.ok?r.json():[]).catch(()=>[])]);
+  const idTv=estado.tv?estado.tv.desde+"|"+estado.tv.descricao:null;
+  if(tvAnterior!==undefined&&idTv&&idTv!==tvAnterior&&!reduzMovimento)chuvisco=quadro+4; // trocou de canal: chuvisco
+  tvAnterior=idTv;
   const nome=estado.nome||"Pangolimo";
   q("h1").textContent=nome;document.title=`${nome}, o ${estado.especie}`;
   const quanto=estado.ultima_execucao?Math.max(0,Math.round((Date.now()-new Date(estado.ultima_execucao))/36e5)):null;
-  q("#estado").textContent=`${nome} ${FRASES[estado.acao]||"está por aí"}.`+(quanto===null?"":quanto<1?" Atualizado agora há pouco.":` Última atualização há ${quanto} h.`);
-  c.setAttribute("aria-label",`A casinha do ${nome}: ele ${FRASES[estado.acao]||"está por aí"}.`);
+  q("#estado").textContent=`${nome} ${fraseAcao()}.`+(quanto===null?"":quanto<1?" Atualizado agora há pouco.":` Última atualização há ${quanto} h.`);
+  c.setAttribute("aria-label",naSala(estado.acao)?`A toca do ${nome}, vazia: ele está na sala.`:`A toca do ${nome}: ele ${fraseAcao()}.`);
+  cS.setAttribute("aria-label",naSala(estado.acao)?`A sala: ${nome} ${fraseAcao()}.`:"A sala, vazia, com a TV desligada.");
   q("#energia").style.width=estado.energia+"%";q("#fome").style.width=(estado.fome||0)+"%";q("#humor").textContent=estado.humor;q("#fora").textContent=FORA[climaAtivo()]||"tempo calmo";q("#tipo").textContent=estado.tipo||"";
   const ul=q("#interesses");ul.replaceChildren();
   const forca=i=>i.recente??i.peso;

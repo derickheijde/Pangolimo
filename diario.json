@@ -395,5 +395,19 @@
     "titulo_desenho": "O computador e a floresta",
     "via": "Bonobo",
     "via_sorteio": true
+  },
+  {
+    "id": 32,
+    "quando": "2026-11-23T12:47+00:00",
+    "atividade": "pesquisa",
+    "tema": "Pouco preocupante",
+    "fonte": "https://pt.wikipedia.org/wiki/Pouco_preocupante",
+    "texto": "Oi, diário. Acordei um pouquinho com sono e com a barriga roncando de fome, mas vim mexer no computador. Achei uma palavrinha estranha chamada 'pouco preocupante' sem querer querendo. Parece que significa que alguns bichos ainda têm bastante gente da família deles por aí e não vão sumir tão cedo. Fiquei pensando se os meus amigos formigueiros também são assim. Agora vou comer um pouquinho.",
+    "aprendeu": "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
+    "humor": "com sono",
+    "desenho": "desenhos/0032.svg",
+    "titulo_desenho": "Muitas formigas felizes",
+    "via": "Estado de conservação",
+    "via_sorteio": true
   }
 ]

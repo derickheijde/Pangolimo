@@ -409,5 +409,19 @@
     "titulo_desenho": "Muitas formigas felizes",
     "via": "Estado de conservação",
     "via_sorteio": true
+  },
+  {
+    "id": 33,
+    "quando": "2026-11-23T14:45+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Acordei com a barriga roncando e fui direto no formigueiro do meu canto. Usei minha língua comprida e pegajosa para pegar as formigas sem pressa nenhuma, deixando umas marquinhas de limo verde no chão. Enquanto comia, fiquei pensando em como os soldados formigas protegem a rainha lá no fundo.",
+    "aprendeu": "",
+    "humor": "com sono",
+    "desenho": "desenhos/0033.svg",
+    "titulo_desenho": "Minha refeição de formigas",
+    "via": null,
+    "via_sorteio": null
   }
 ]

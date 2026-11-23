@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 67,
+  "energia": 72,
   "dormindo": false,
   "acao": "comendo",
   "humor": "com sono",
   "interesses": [
     {
+      "tema": "rainhas das formigas",
+      "peso": 4,
+      "recente": 3.213
+    },
+    {
+      "tema": "soldados formigas",
+      "peso": 4,
+      "recente": 3.199
+    },
+    {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.521
+      "recente": 2.483
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.484
+      "recente": 2.446
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.412
-    },
-    {
-      "tema": "rainhas das formigas",
-      "peso": 3,
-      "recente": 2.247
-    },
-    {
-      "tema": "soldados formigas",
-      "peso": 3,
-      "recente": 2.233
+      "recente": 2.376
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.857
+      "recente": 1.829
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.857
+      "recente": 1.829
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.957
+      "recente": 1.927
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.866
+      "recente": 1.838
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.622
+      "recente": 1.597
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.53
+      "recente": 1.507
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.473
+      "recente": 1.451
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.296
+      "recente": 1.276
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.234
+      "recente": 1.215
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.234
+      "recente": 1.215
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.234
+      "recente": 1.215
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.987
+      "recente": 0.972
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.987
+      "recente": 0.972
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.921
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.921
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.918
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.918
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.899
+      "recente": 0.885
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.899
+      "recente": 0.885
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.899
+      "recente": 0.885
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.852
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.852
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.865
+      "recente": 0.852
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.825
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.825
     }
   ],
   "gostos": {
@@ -190,11 +190,11 @@
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T13:42+00:00",
+  "ultima_execucao": "2026-11-23T14:45+00:00",
   "tipo": "Limo / Terra",
-  "fome": 64,
+  "fome": 25,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Pouco preocupante",
   "via_do_proximo": {
     "de": "Pouco preocupante",

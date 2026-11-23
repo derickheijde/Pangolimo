@@ -122,6 +122,7 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
   <div class="atalhos">
     <button type="button" id="btnCutucar">Cutucar o Pangolimo</button>
     <button type="button" id="btnCaderno">Abrir o caderno</button>
+    <button type="button" id="btnComodo">Espiar a sala</button>
   </div>
 
   <div class="colunas">
@@ -351,9 +352,19 @@ function cenaSala(){
   }
   if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
 }
-function cena(){if(naSala(estado&&estado.acao)){g=gS;cenaSala()}else{g=gQ;cenaQuarto()}g=gQ}
+let comodoManual=null,localAnterior;
+const ondeEle=()=>naSala(estado&&estado.acao)?"sala":"toca";
+const comodoVisivel=()=>comodoManual||ondeEle();
+function atualizarLegendas(){
+  const v=comodoVisivel(),vazio=v!==ondeEle();
+  q("#comodoToca figcaption").textContent="A toca"+(v==="toca"&&vazio?", vazia agora":"");
+  q("#comodoSala figcaption").textContent="A sala"+(v==="sala"&&vazio?", vazia agora":"");
+  q("#btnComodo").textContent=v==="sala"?"Espiar a toca":"Espiar a sala";
+}
+function cena(){if(comodoVisivel()==="sala"){g=gS;cenaSala()}else{g=gQ;cenaQuarto()}g=gQ}
 function mostrarComodo(animar){ // a tela acompanha o Pangolimo
-  const sala=naSala(estado&&estado.acao),toca=q("#comodoToca"),salaEl=q("#comodoSala");
+  const sala=comodoVisivel()==="sala",toca=q("#comodoToca"),salaEl=q("#comodoSala");
+  atualizarLegendas();
   if(toca.hidden===sala)return;
   toca.hidden=sala;salaEl.hidden=!sala;
   q("#balao").classList.remove("visivel");q("#balaoSala").classList.remove("visivel");
@@ -430,6 +441,7 @@ function emojiDoMomento(){
 let balaoT=null;
 function animarPulo(){cena();if(pulo)requestAnimationFrame(animarPulo)}
 function cutucar(){
+  if(comodoVisivel()!==ondeEle()){comodoManual=null;mostrarComodo(true)} // estava espiando o outro cômodo: volta para ele
   const e=estado||{},sala=naSala(e.acao),b=caixaPangolim(),el=q(sala?"#balaoSala":"#balao");
   q(sala?"#balao":"#balaoSala").classList.remove("visivel");
   if(!reduzMovimento){pulo={t0:performance.now()};requestAnimationFrame(animarPulo)}
@@ -448,6 +460,7 @@ c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADE
 c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||(!naSalaAgora()&&dentro(p,caixaPangolim()))?"pointer":"default"});
 cS.addEventListener("click",ev=>{if(naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim()))cutucar()});
 cS.addEventListener("mousemove",ev=>{cS.style.cursor=naSalaAgora()&&dentro(pontoNaCena(ev,cS),caixaPangolim())?"pointer":"default"});
+q("#btnComodo").onclick=()=>{comodoManual=comodoVisivel()==="sala"?"toca":"sala";if(comodoManual===ondeEle())comodoManual=null;mostrarComodo(true)};
 q("#btnCutucar").onclick=cutucar;q("#btnCaderno").onclick=()=>abrirCaderno();
 
 // ---- caderno: uma anotação por página
@@ -506,7 +519,8 @@ async function carregar(){
   const idTv=estado.tv?estado.tv.desde+"|"+estado.tv.descricao:null;
   if(tvAnterior!==undefined&&idTv&&idTv!==tvAnterior&&!reduzMovimento)chuvisco=quadro+4; // trocou de canal: chuvisco
   tvAnterior=idTv;
-  mostrarComodo(!primeiraCarga);primeiraCarga=false;
+  const local=ondeEle();if(localAnterior!==undefined&&local!==localAnterior)comodoManual=null; // ele mudou de cômodo: a tela vai atrás
+  localAnterior=local;mostrarComodo(!primeiraCarga);primeiraCarga=false;
   const nome=estado.nome||"Pangolimo";
   q("h1").textContent=nome;document.title=`${nome}, o ${estado.especie}`;
   const quanto=estado.ultima_execucao?Math.max(0,Math.round((Date.now()-new Date(estado.ultima_execucao))/36e5)):null;

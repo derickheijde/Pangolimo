@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 22,
+  "energia": 65,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.698
+      "recente": 2.643
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.66
+      "recente": 2.605
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.582
+      "recente": 2.529
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.404
+      "recente": 2.355
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.389
+      "recente": 2.34
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.988
+      "recente": 1.947
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.988
+      "recente": 1.947
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.997
+      "recente": 1.956
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.737
+      "recente": 1.701
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.638
+      "recente": 1.604
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.576
+      "recente": 1.544
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.387
+      "recente": 1.359
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.321
+      "recente": 1.294
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.321
+      "recente": 1.294
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.321
+      "recente": 1.294
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.98
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.98
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.997
+      "recente": 0.977
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.997
+      "recente": 0.977
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.942
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.942
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.962
+      "recente": 0.942
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.926
+      "recente": 0.907
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.926
+      "recente": 0.907
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.926
+      "recente": 0.907
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.878
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.878
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.876
+      "recente": 0.858
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.876
+      "recente": 0.858
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.851
     }
   ],
   "gostos": {
@@ -188,9 +188,9 @@
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas."
   ],
   "proximo_tema": "Estado de conservação",
-  "ultima_execucao": "2026-11-23T09:03+00:00",
+  "ultima_execucao": "2026-11-23T10:29+00:00",
   "tipo": "Limo / Terra",
-  "fome": 36,
+  "fome": 42,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",

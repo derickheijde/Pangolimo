@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 71,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 65,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.936
+      "recente": 2.916
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.895
+      "recente": 2.875
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.81
+      "recente": 2.791
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.615
+      "recente": 2.597
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.6
+      "recente": 2.582
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.163
+      "recente": 2.148
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.163
+      "recente": 2.148
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.891
+      "recente": 1.878
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.782
+      "recente": 1.77
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.715
+      "recente": 1.703
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.509
+      "recente": 1.499
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.438
+      "recente": 1.428
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.438
+      "recente": 1.428
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.438
+      "recente": 1.428
+    },
+    {
+      "tema": "Lêmure",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "lêmures",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Madagascar",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.969
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.969
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.953
+      "recente": 0.946
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.953
+      "recente": 0.946
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.946
+      "recente": 0.939
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.939
+      "recente": 0.933
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.933
+      "recente": 0.927
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.933
+      "recente": 0.927
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.894
+      "recente": 0.888
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.894
+      "recente": 0.888
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.887
+      "recente": 0.881
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.873
+      "recente": 0.867
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.873
-    },
-    {
-      "tema": "rainhas formigas",
-      "peso": 1,
-      "recente": 0.866
-    },
-    {
-      "tema": "íngreme",
-      "peso": 1,
-      "recente": 0.854
-    },
-    {
-      "tema": "animais na chuva",
-      "peso": 1,
-      "recente": 0.798
+      "recente": 0.867
     }
   ],
   "gostos": {
@@ -181,18 +181,19 @@
     "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
     "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
-    "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno."
+    "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
+    "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares."
   ],
-  "proximo_tema": "Lêmure",
-  "ultima_execucao": "2026-11-23T03:14+00:00",
+  "proximo_tema": "Pitheciidae",
+  "ultima_execucao": "2026-11-23T03:42+00:00",
   "tipo": "Limo / Terra",
-  "fome": 29,
+  "fome": 31,
   "evento": null,
-  "ultima_atividade": "lua",
-  "origem_do_proximo": "Evolução da visão em cores em primatas",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Lêmure",
   "via_do_proximo": {
-    "de": "Evolução da visão em cores em primatas",
-    "sorteado": false,
+    "de": "Lêmure",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": null

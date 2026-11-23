@@ -297,5 +297,19 @@
     "titulo_desenho": "A lua e a janela",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 25,
+    "quando": "2026-11-23T03:42+00:00",
+    "atividade": "pesquisa",
+    "tema": "Lêmure",
+    "fonte": "https://pt.wikipedia.org/wiki/L%C3%AAmure",
+    "texto": "Ainda é meia-noite e meu limo verde brilha fraquinho na escuridão do quarto. Fiquei curioso lendo sobre os lêmures, que moram numa ilha bem longe chamada Madagascar. Vi que muitos deles gostam de passear nas árvores quando o sol está se pondo, assim como eu que acordo de noite. Fiquei imaginando como deve ser viver pulando nos galhos com aqueles olhos grandões. Sem querer, cliquei num link e fui parar numa página chamada Pitheciidae.",
+    "aprendeu": "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0025.svg",
+    "titulo_desenho": "Lêmure na árvore",
+    "via": "Evolução da visão em cores em primatas",
+    "via_sorteio": false
   }
 ]

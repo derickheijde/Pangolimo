@@ -255,5 +255,19 @@
     "titulo_desenho": "Minha refeição no formigueiro",
     "via": null,
     "via_sorteio": null
+  },
+  {
+    "id": 22,
+    "quando": "2026-11-23T00:28+00:00",
+    "atividade": "clima",
+    "tema": null,
+    "fonte": null,
+    "texto": "A chuva cai lá fora na noite escura e deixa tudo molhado e fresquinho. Fico aqui na janela quietinho, ouvindo a água cair e deixando meu rastrinho verde brilhante no parapeito. Minha barriga está cheia de formigas e eu me sinto muito bem e calmo.",
+    "aprendeu": "",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0022.svg",
+    "titulo_desenho": "chuva na janela",
+    "via": null,
+    "via_sorteio": null
   }
 ]

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 54,
+  "energia": 47,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "observando_clima",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.082
+      "recente": 3.058
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 3.037
+      "recente": 3.014
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.95
+      "recente": 2.927
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.744
+      "recente": 2.723
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.729
+      "recente": 2.708
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.271
+      "recente": 2.253
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.271
+      "recente": 2.253
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.985
+      "recente": 1.97
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.87
+      "recente": 1.856
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.8
+      "recente": 1.786
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.584
+      "recente": 1.572
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.511
+      "recente": 1.499
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.511
+      "recente": 1.499
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.511
+      "recente": 1.499
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.985
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.978
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.971
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.971
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.931
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.931
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.924
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "rainhas formigas",
       "peso": 1,
-      "recente": 0.909
+      "recente": 0.902
     },
     {
       "tema": "íngreme",
       "peso": 1,
-      "recente": 0.896
+      "recente": 0.889
     },
     {
       "tema": "animais na chuva",
       "peso": 1,
-      "recente": 0.835
+      "recente": 0.829
     },
     {
       "tema": "chuvas de animais",
       "peso": 1,
-      "recente": 0.835
+      "recente": 0.829
     },
     {
       "tema": "sapos",
       "peso": 1,
-      "recente": 0.835
+      "recente": 0.829
     }
   ],
   "gostos": {
@@ -183,15 +183,15 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Evolução da visão em cores em primatas",
-  "ultima_execucao": "2026-11-22T23:56+00:00",
+  "ultima_execucao": "2026-11-23T00:28+00:00",
   "tipo": "Limo / Terra",
-  "fome": 6,
+  "fome": 11,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-23T00:32+00:00"
   },
-  "ultima_atividade": "comida",
+  "ultima_atividade": "clima",
   "origem_do_proximo": "Simbiose",
   "via_do_proximo": {
     "de": "Simbiose",

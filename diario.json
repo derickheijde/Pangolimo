@@ -283,5 +283,19 @@
     "titulo_desenho": "Meus Olhinhos na Noite",
     "via": "Simbiose",
     "via_sorteio": true
+  },
+  {
+    "id": 24,
+    "quando": "2026-11-23T01:35+00:00",
+    "atividade": "lua",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fiquei sentado na janela vendo a lua redonda brilhar lá no céu escuro. Deixei um pouco do meu limo verde no parapeito enquanto olhava as estrelas. Estou com tanto sono que meus olhinhos estão fechando devagar.",
+    "aprendeu": "",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0024.svg",
+    "titulo_desenho": "A lua e a janela",
+    "via": null,
+    "via_sorteio": null
   }
 ]

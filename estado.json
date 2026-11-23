@@ -1,80 +1,80 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 27,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 20,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 3.009
+      "recente": 3.008
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.966
+      "recente": 2.965
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.88
+      "recente": 2.879
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.68
+      "recente": 2.679
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.665
+      "recente": 2.664
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.217
+      "recente": 2.216
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.217
+      "recente": 2.216
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.939
+      "recente": 1.938
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.827
+      "recente": 1.826
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.758
+      "recente": 1.757
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.547
+      "recente": 1.546
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.475
+      "recente": 1.474
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.475
+      "recente": 1.474
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.475
+      "recente": 1.474
     },
     {
       "tema": "Evolução da visão em cores em primatas",
@@ -184,15 +184,16 @@
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno."
   ],
   "proximo_tema": "Lêmure",
-  "ultima_execucao": "2026-11-23T01:34+00:00",
+  "ultima_execucao": "2026-11-23T01:35+00:00",
   "tipo": "Limo / Terra",
   "fome": 22,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "lua",
   "origem_do_proximo": "Evolução da visão em cores em primatas",
   "via_do_proximo": {
     "de": "Evolução da visão em cores em primatas",
     "sorteado": false,
     "lang": "pt"
-  }
+  },
+  "tv": null
 }

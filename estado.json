@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 65,
+  "energia": 57,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "olhando_lua",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.916
+      "recente": 2.881
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.875
+      "recente": 2.84
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.791
+      "recente": 2.757
     },
     {
       "tema": "rainhas das formigas",
       "peso": 3,
-      "recente": 2.597
+      "recente": 2.566
     },
     {
       "tema": "soldados formigas",
       "peso": 3,
-      "recente": 2.582
+      "recente": 2.551
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 2.148
+      "recente": 2.122
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 2.148
+      "recente": 2.122
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.878
+      "recente": 1.855
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.77
+      "recente": 1.749
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.703
+      "recente": 1.682
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.499
+      "recente": 1.481
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.411
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.411
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.411
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.988
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.988
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.988
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.969
+      "recente": 0.957
     },
     {
       "tema": "Receptor sensorial",
       "peso": 1,
-      "recente": 0.969
+      "recente": 0.957
     },
     {
       "tema": "filas de formigas",
       "peso": 1,
-      "recente": 0.946
+      "recente": 0.935
     },
     {
       "tema": "estrada de formigas",
       "peso": 1,
-      "recente": 0.946
+      "recente": 0.935
     },
     {
       "tema": "liquens",
       "peso": 1,
-      "recente": 0.939
+      "recente": 0.928
     },
     {
       "tema": "Fungos",
       "peso": 1,
-      "recente": 0.933
+      "recente": 0.922
     },
     {
       "tema": "cultivo de fungos",
       "peso": 1,
-      "recente": 0.927
+      "recente": 0.916
     },
     {
       "tema": "Isópteros",
       "peso": 1,
-      "recente": 0.927
+      "recente": 0.916
     },
     {
       "tema": "saúvas",
       "peso": 1,
-      "recente": 0.888
+      "recente": 0.877
     },
     {
       "tema": "fungos de formigas",
       "peso": 1,
-      "recente": 0.888
+      "recente": 0.877
     },
     {
       "tema": "asas de insetos",
       "peso": 1,
-      "recente": 0.881
+      "recente": 0.87
     },
     {
       "tema": "dinergates",
       "peso": 1,
-      "recente": 0.867
+      "recente": 0.857
     },
     {
       "tema": "castas de formigas",
       "peso": 1,
-      "recente": 0.867
+      "recente": 0.857
     }
   ],
   "gostos": {
@@ -185,11 +185,11 @@
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares."
   ],
   "proximo_tema": "Pitheciidae",
-  "ultima_execucao": "2026-11-23T03:42+00:00",
+  "ultima_execucao": "2026-11-23T04:32+00:00",
   "tipo": "Limo / Terra",
-  "fome": 31,
+  "fome": 39,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "lua",
   "origem_do_proximo": "Lêmure",
   "via_do_proximo": {
     "de": "Lêmure",

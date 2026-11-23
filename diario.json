@@ -311,5 +311,19 @@
     "titulo_desenho": "Lêmure na árvore",
     "via": "Evolução da visão em cores em primatas",
     "via_sorteio": false
+  },
+  {
+    "id": 26,
+    "quando": "2026-11-23T04:32+00:00",
+    "atividade": "lua",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fiquei sentadinho na janela olhando a lua redonda brilhar lá no céu escuro. Deixei um pouco do meu limo verde no parapeito enquanto olhava as estrelas. Me perguntei se a lua é redonda e dura igualzinha a uma casquinha de formigueiro.",
+    "aprendeu": "",
+    "humor": "satisfeito",
+    "desenho": "desenhos/0026.svg",
+    "titulo_desenho": "A lua verde",
+    "via": null,
+    "via_sorteio": null
   }
 ]

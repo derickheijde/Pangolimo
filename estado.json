@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 51,
+  "energia": 37,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "desenhando",
   "humor": "pensativo",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.523
+      "recente": 4.431
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.511
+      "recente": 4.419
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.023
+      "recente": 1.982
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.99
+      "recente": 1.949
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.933
+      "recente": 1.894
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.951
+      "recente": 1.911
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.491
+      "recente": 1.461
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.491
+      "recente": 1.461
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.567
+      "recente": 1.535
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.498
+      "recente": 1.467
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.301
+      "recente": 1.275
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.229
+      "recente": 1.204
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.183
+      "recente": 1.159
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.04
+      "recente": 1.019
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.971
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.971
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.971
+    },
+    {
+      "tema": "Fundação Pró-Tamar",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Tartaruga-marinha",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Praia",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.973
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.956
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.927
+      "recente": 0.908
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.793
+      "recente": 0.777
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.793
+      "recente": 0.777
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.749
+      "recente": 0.734
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.749
+      "recente": 0.734
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.747
+      "recente": 0.732
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.747
+      "recente": 0.732
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.72
-    },
-    {
-      "tema": "macacos",
-      "peso": 1,
-      "recente": 0.72
-    },
-    {
-      "tema": "Piteciídeos",
-      "peso": 1,
-      "recente": 0.72
-    },
-    {
-      "tema": "Lêmure",
-      "peso": 1,
-      "recente": 0.695
+      "recente": 0.705
     }
   ],
   "gostos": {
@@ -191,21 +191,22 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
     "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
-    "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro."
+    "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
+    "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir."
   ],
-  "proximo_tema": "Fundação Pró-Tamar",
-  "ultima_execucao": "2026-11-24T04:48+00:00",
+  "proximo_tema": "Praia do Forte (Mata de São João)",
+  "ultima_execucao": "2026-11-24T06:13+00:00",
   "tipo": "Limo / Terra",
-  "fome": 7,
+  "fome": 21,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-24T07:38+00:00"
   },
-  "ultima_atividade": "comida",
-  "origem_do_proximo": "Tartaruga-de-couro",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Fundação Pró-Tamar",
   "via_do_proximo": {
-    "de": "Tartaruga-de-couro",
+    "de": "Fundação Pró-Tamar",
     "sorteado": false,
     "lang": "pt"
   },
@@ -215,7 +216,7 @@
     "tema": "Tartaruga-de-couro",
     "desde": "2026-11-24T04:19+00:00"
   },
-  "tedio": 55,
+  "tedio": 64,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -245,6 +246,12 @@
           "quando": "2026-11-24T05:01:10+00:00",
           "resultado": "fugiu"
         }
+      },
+      {
+        "id": 7,
+        "tipo": "ratinho",
+        "desde": "2026-11-24T07:30:37+00:00",
+        "ate": "2026-11-24T08:42:04+00:00"
       }
     ],
     "log": [
@@ -287,9 +294,13 @@
       {
         "quando": "2026-11-24T05:01:10+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-24T07:30:37+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
       }
     ],
-    "seq": 6,
-    "agenda_ate": "2026-11-24T06:18:09+00:00"
+    "seq": 7,
+    "agenda_ate": "2026-11-24T07:43:29+00:00"
   }
 }

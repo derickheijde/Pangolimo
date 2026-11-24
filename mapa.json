@@ -370,5 +370,23 @@
     "origem": "Espécies ameaçadas",
     "vezes": 1,
     "desde": "2026-11-24T04:19+00:00"
+  },
+  {
+    "tema": "Fundação Pró-Tamar",
+    "origem": "Tartaruga-de-couro",
+    "vezes": 1,
+    "desde": "2026-11-24T06:13+00:00"
+  },
+  {
+    "tema": "Tartaruga-marinha",
+    "origem": "Fundação Pró-Tamar",
+    "vezes": 0,
+    "desde": "2026-11-24T06:13+00:00"
+  },
+  {
+    "tema": "Praia",
+    "origem": "Fundação Pró-Tamar",
+    "vezes": 0,
+    "desde": "2026-11-24T06:13+00:00"
   }
 ]

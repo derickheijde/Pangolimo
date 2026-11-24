@@ -497,5 +497,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 39,
+    "quando": "2026-11-24T06:13+00:00",
+    "atividade": "pesquisa",
+    "tema": "Fundação Pró-Tamar",
+    "fonte": "https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_Projeto_Tamar",
+    "texto": "A chuva tá caindo lá fora e eu fiquei acordado mexendo no computador bem quietinho. Li sobre um lugar chamado Tamar que cuida daquelas tartarugas grandes que nadam no mar. Elas precisam de proteção pra não sumirem, igual algumas formigas da minha terra. Achei bonito pensar que tem gente ajudando os bichinhos a ficarem seguros.",
+    "aprendeu": "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
+    "humor": "pensativo",
+    "desenho": "desenhos/0039.svg",
+    "titulo_desenho": "Tartaruga na praia",
+    "via": "Tartaruga-de-couro",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

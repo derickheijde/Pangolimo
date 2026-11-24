@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.853
+      "recente": 4.75
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.842
+      "recente": 3.76
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.763
+      "recente": 2.704
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.724
+      "recente": 1.687
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.695
+      "recente": 1.659
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.646
+      "recente": 1.611
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.769
+      "recente": 1.731
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.661
+      "recente": 1.626
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.268
+      "recente": 1.241
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.268
+      "recente": 1.241
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.334
+      "recente": 1.306
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.274
+      "recente": 1.247
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.109
+      "recente": 1.085
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.047
+      "recente": 1.025
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.008
+      "recente": 0.987
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.886
+      "recente": 0.867
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.843
+      "recente": 0.825
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.843
+      "recente": 0.825
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.843
+      "recente": 0.825
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.856
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.856
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.851
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.851
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.851
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.845
+      "recente": 0.827
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.829
+      "recente": 0.811
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.789
+      "recente": 0.772
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.676
+      "recente": 0.662
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.676
+      "recente": 0.662
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.639
+      "recente": 0.625
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T15:49+00:00",
+  "ultima_execucao": "2026-11-24T17:18+00:00",
   "tipo": "Limo / Terra",
-  "fome": 51,
+  "fome": 66,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
@@ -223,7 +223,26 @@
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
-    "visitantes": [],
+    "visitantes": [
+      {
+        "id": 12,
+        "tipo": "lagarta",
+        "desde": "2026-11-24T17:45:47+00:00",
+        "ate": "2026-11-24T19:56:40+00:00"
+      },
+      {
+        "id": 13,
+        "tipo": "passarinho",
+        "desde": "2026-11-24T17:55:44+00:00",
+        "ate": "2026-11-24T18:59:04+00:00"
+      },
+      {
+        "id": 14,
+        "tipo": "borboleta",
+        "desde": "2026-11-24T18:01:58+00:00",
+        "ate": "2026-11-24T19:51:33+00:00"
+      }
+    ],
     "log": [
       {
         "quando": "2026-11-23T23:27:26+00:00",
@@ -288,9 +307,21 @@
       {
         "quando": "2026-11-24T11:28:24+00:00",
         "texto": "uma cobra entrou no quintal"
+      },
+      {
+        "quando": "2026-11-24T17:45:47+00:00",
+        "texto": "uma lagarta subiu no tronco"
+      },
+      {
+        "quando": "2026-11-24T17:55:44+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-24T18:01:58+00:00",
+        "texto": "uma borboleta chegou voando"
       }
     ],
-    "seq": 11,
-    "agenda_ate": "2026-11-24T17:19:02+00:00"
+    "seq": 14,
+    "agenda_ate": "2026-11-24T18:48:11+00:00"
   }
 }

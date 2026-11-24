@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 51,
+  "energia": 62,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.227
+      "recente": 4.205
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.216
+      "recente": 4.194
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.891
+      "recente": 1.881
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.859
+      "recente": 1.849
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.806
+      "recente": 1.797
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.942
+      "recente": 1.932
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.823
+      "recente": 1.813
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.393
+      "recente": 1.386
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.393
+      "recente": 1.386
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.464
+      "recente": 1.456
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.399
+      "recente": 1.392
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.216
+      "recente": 1.21
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.149
+      "recente": 1.143
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.106
+      "recente": 1.1
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.972
+      "recente": 0.967
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.926
+      "recente": 0.921
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.926
+      "recente": 0.921
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.926
+      "recente": 0.921
     },
     {
       "tema": "Plantae",
       "peso": 1,
-      "recente": 0.981
+      "recente": 0.976
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.961
+      "recente": 0.956
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.961
+      "recente": 0.956
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.954
+      "recente": 0.949
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.954
+      "recente": 0.949
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.954
+      "recente": 0.949
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.923
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.911
+      "recente": 0.906
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.866
+      "recente": 0.861
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.742
+      "recente": 0.738
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.742
+      "recente": 0.738
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.701
+      "recente": 0.697
     }
   ],
   "gostos": {
@@ -197,9 +197,9 @@
     "O coco consegue flutuar na água do mar e se espalhar por longas distâncias."
   ],
   "proximo_tema": "Plantae",
-  "ultima_execucao": "2026-11-24T09:28+00:00",
+  "ultima_execucao": "2026-11-24T09:49+00:00",
   "tipo": "Limo / Terra",
-  "fome": 45,
+  "fome": 46,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Coqueiro",
@@ -214,7 +214,7 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 84,
+  "tedio": 86,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -311,6 +311,6 @@
       }
     ],
     "seq": 10,
-    "agenda_ate": "2026-11-24T10:58:15+00:00"
+    "agenda_ate": "2026-11-24T11:19:46+00:00"
   }
 }

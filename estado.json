@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 37,
+  "energia": 29,
   "dormindo": false,
-  "acao": "desenhando",
-  "humor": "pensativo",
+  "acao": "assistindo_programa",
+  "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.431
+      "recente": 4.4
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.419
+      "recente": 4.389
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.982
+      "recente": 1.968
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.949
+      "recente": 1.936
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.894
+      "recente": 1.881
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.911
+      "recente": 1.898
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.461
+      "recente": 1.451
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.461
+      "recente": 1.451
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.535
+      "recente": 1.524
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.467
+      "recente": 1.457
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.275
+      "recente": 1.266
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.204
+      "recente": 1.196
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.159
+      "recente": 1.151
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.019
+      "recente": 1.012
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.971
+      "recente": 0.964
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.971
+      "recente": 0.964
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.971
+      "recente": 0.964
+    },
+    {
+      "tema": "Praia do Forte (Mata de São João)",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Coqueiro",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Oceano Atlântico",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.966
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.949
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.908
+      "recente": 0.902
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.772
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.772
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.734
+      "recente": 0.729
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.734
-    },
-    {
-      "tema": "Fanchangia",
-      "peso": 1,
-      "recente": 0.732
-    },
-    {
-      "tema": "Cuidados parentais",
-      "peso": 1,
-      "recente": 0.732
-    },
-    {
-      "tema": "Pitheciidae",
-      "peso": 1,
-      "recente": 0.705
+      "recente": 0.729
     }
   ],
   "gostos": {
@@ -192,31 +192,32 @@
     "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
     "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
     "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
-    "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir."
+    "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
+    "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros."
   ],
-  "proximo_tema": "Praia do Forte (Mata de São João)",
-  "ultima_execucao": "2026-11-24T06:13+00:00",
+  "proximo_tema": "Coqueiro",
+  "ultima_execucao": "2026-11-24T06:41+00:00",
   "tipo": "Limo / Terra",
-  "fome": 21,
+  "fome": 26,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
     "ate": "2026-11-24T07:38+00:00"
   },
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Fundação Pró-Tamar",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Praia do Forte (Mata de São João)",
   "via_do_proximo": {
-    "de": "Fundação Pró-Tamar",
+    "de": "Praia do Forte (Mata de São João)",
     "sorteado": false,
     "lang": "pt"
   },
   "tv": {
     "genero": "documentario",
-    "descricao": "um programa sobre Tartaruga-de-couro",
-    "tema": "Tartaruga-de-couro",
-    "desde": "2026-11-24T04:19+00:00"
+    "descricao": "um programa sobre Praia do Forte (Mata de São João)",
+    "tema": "Praia do Forte (Mata de São João)",
+    "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 64,
+  "tedio": 67,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -251,7 +252,17 @@
         "id": 7,
         "tipo": "ratinho",
         "desde": "2026-11-24T07:30:37+00:00",
-        "ate": "2026-11-24T08:42:04+00:00"
+        "ate": "2026-11-24T08:05:29+00:00",
+        "fim": {
+          "quando": "2026-11-24T08:05:23+00:00",
+          "resultado": "pegou"
+        }
+      },
+      {
+        "id": 8,
+        "tipo": "coruja",
+        "desde": "2026-11-24T08:03:18+00:00",
+        "ate": "2026-11-24T09:35:41+00:00"
       }
     ],
     "log": [
@@ -298,9 +309,17 @@
       {
         "quando": "2026-11-24T07:30:37+00:00",
         "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-24T08:03:18+00:00",
+        "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-24T08:05:23+00:00",
+        "texto": "a coruja pegou o ratinho"
       }
     ],
-    "seq": 7,
-    "agenda_ate": "2026-11-24T07:43:29+00:00"
+    "seq": 8,
+    "agenda_ate": "2026-11-24T08:11:42+00:00"
   }
 }

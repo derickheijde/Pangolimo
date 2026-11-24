@@ -388,5 +388,23 @@
     "origem": "Fundação Pró-Tamar",
     "vezes": 0,
     "desde": "2026-11-24T06:13+00:00"
+  },
+  {
+    "tema": "Praia do Forte (Mata de São João)",
+    "origem": "Fundação Pró-Tamar",
+    "vezes": 1,
+    "desde": "2026-11-24T06:41+00:00"
+  },
+  {
+    "tema": "Coqueiro",
+    "origem": "Praia do Forte (Mata de São João)",
+    "vezes": 0,
+    "desde": "2026-11-24T06:41+00:00"
+  },
+  {
+    "tema": "Oceano Atlântico",
+    "origem": "Praia do Forte (Mata de São João)",
+    "vezes": 0,
+    "desde": "2026-11-24T06:41+00:00"
   }
 ]

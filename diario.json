@@ -512,5 +512,20 @@
     "via": "Tartaruga-de-couro",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 40,
+    "quando": "2026-11-24T06:41+00:00",
+    "atividade": "programa",
+    "tema": "Praia do Forte (Mata de São João)",
+    "fonte": "https://pt.wikipedia.org/wiki/Praia_do_Forte_%28Mata_de_S%C3%A3o_Jo%C3%A3o%29",
+    "texto": "A chuva tá caindo lá fora e eu fiquei vendo a televisão na sala. O programa falou sobre um lugar chamado Praia do Forte, que fica bem longe daqui, na Bahia. Eu vi que lá tem muitos coqueiros e que a praia é bem grande. Fiquei pensando em como deve ser bom sentir o sol quentinho, já que aqui só chove agora. Mas logo minha barriga pesou e meu olho começou a fechar.",
+    "aprendeu": "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros.",
+    "humor": "com sono",
+    "desenho": "desenhos/0040.svg",
+    "titulo_desenho": "Coqueiro na chuva",
+    "via": "Fundação Pró-Tamar",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

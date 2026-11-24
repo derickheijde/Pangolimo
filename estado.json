@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 79,
+  "energia": 75,
   "dormindo": false,
   "acao": "assistindo_tv",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.775
+      "recente": 3.747
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.762
+      "recente": 3.735
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.166
+      "recente": 2.15
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.133
+      "recente": 2.117
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.073
+      "recente": 2.058
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.597
+      "recente": 1.585
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.597
+      "recente": 1.585
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.679
+      "recente": 1.667
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.605
+      "recente": 1.593
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.394
+      "recente": 1.384
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.317
+      "recente": 1.307
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.267
+      "recente": 1.258
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.114
+      "recente": 1.106
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.062
+      "recente": 1.054
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.062
+      "recente": 1.054
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.062
+      "recente": 1.054
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.986
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.85
+      "recente": 0.844
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.85
+      "recente": 0.844
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.802
+      "recente": 0.796
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.802
+      "recente": 0.796
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.8
+      "recente": 0.794
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.8
+      "recente": 0.794
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.766
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.745
+      "recente": 0.74
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.745
+      "recente": 0.74
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.745
+      "recente": 0.74
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.72
+      "recente": 0.715
     }
   ],
   "gostos": {
@@ -191,9 +191,9 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-24T00:04+00:00",
+  "ultima_execucao": "2026-11-24T00:34+00:00",
   "tipo": "Limo / Terra",
-  "fome": 13,
+  "fome": 18,
   "evento": null,
   "ultima_atividade": "tv",
   "origem_do_proximo": "Pouco preocupante",
@@ -203,12 +203,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "comedia",
-    "descricao": "um programa de humor",
+    "genero": "desenho",
+    "descricao": "um desenho animado",
     "tema": null,
-    "desde": "2026-11-24T00:04+00:00"
+    "desde": "2026-11-24T00:34+00:00"
   },
-  "tedio": 26,
+  "tedio": 29,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -245,6 +245,6 @@
       }
     ],
     "seq": 2,
-    "agenda_ate": "2026-11-24T01:34:13+00:00"
+    "agenda_ate": "2026-11-24T02:04:25+00:00"
   }
 }

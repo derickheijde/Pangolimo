@@ -3,23 +3,23 @@
   "especie": "pangolim",
   "energia": 92,
   "dormindo": false,
-  "acao": "brincando_lama",
+  "acao": "assistindo_programa",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.488
+      "recente": 4.487
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.553
+      "recente": 3.552
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.556
+      "recente": 2.555
     },
     {
       "tema": "tocas e túneis",
@@ -198,7 +198,7 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T21:10+00:00",
+  "ultima_execucao": "2026-11-24T21:11+00:00",
   "tipo": "Limo / Terra",
   "fome": 52,
   "evento": null,
@@ -211,9 +211,9 @@
   },
   "tv": {
     "genero": "documentario",
-    "descricao": "um programa sobre Praia do Forte (Mata de São João)",
-    "tema": "Praia do Forte (Mata de São João)",
-    "desde": "2026-11-24T06:41+00:00"
+    "descricao": "um programa sobre Campo (bioma)",
+    "tema": "Campo (bioma)",
+    "desde": "2026-11-24T21:11+00:00"
   },
   "tedio": 60,
   "cena": null,
@@ -337,15 +337,15 @@
         "texto": "uma borboleta chegou voando"
       },
       {
-        "quando": "2026-11-24T21:59:29+00:00",
-        "texto": "uma aranha desceu pela parede da toca"
-      },
-      {
         "quando": "2026-11-24T21:10:43+00:00",
         "texto": "Pangolimo rolou na lama"
+      },
+      {
+        "quando": "2026-11-24T21:59:29+00:00",
+        "texto": "uma aranha desceu pela parede da toca"
       }
     ],
     "seq": 17,
-    "agenda_ate": "2026-11-24T22:40:43+00:00"
+    "agenda_ate": "2026-11-24T22:41:11+00:00"
   }
 }

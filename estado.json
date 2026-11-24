@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 95,
+  "energia": 92,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "brincando_lama",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.568
+      "recente": 4.488
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.617
+      "recente": 3.553
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.602
+      "recente": 2.556
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.622
+      "recente": 1.593
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.595
+      "recente": 1.567
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.55
+      "recente": 1.523
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.665
+      "recente": 1.636
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.564
+      "recente": 1.536
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.194
+      "recente": 1.173
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.194
+      "recente": 1.173
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.257
+      "recente": 1.235
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.2
+      "recente": 1.179
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.043
+      "recente": 1.025
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.986
+      "recente": 0.969
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.949
+      "recente": 0.932
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.833
+      "recente": 0.818
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.795
+      "recente": 0.781
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.795
+      "recente": 0.781
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.795
+      "recente": 0.781
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.823
+      "recente": 0.809
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.823
+      "recente": 0.809
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.819
+      "recente": 0.805
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.819
+      "recente": 0.805
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.819
+      "recente": 0.805
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.797
+      "recente": 0.783
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.781
+      "recente": 0.767
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.742
+      "recente": 0.729
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.636
+      "recente": 0.625
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.636
+      "recente": 0.625
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.601
+      "recente": 0.59
     }
   ],
   "gostos": {
@@ -198,11 +198,11 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T19:57+00:00",
+  "ultima_execucao": "2026-11-24T21:10+00:00",
   "tipo": "Limo / Terra",
-  "fome": 40,
+  "fome": 52,
   "evento": null,
-  "ultima_atividade": "comida",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Plantae",
   "via_do_proximo": {
     "de": "Plantae",
@@ -215,7 +215,7 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 100,
+  "tedio": 60,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -225,12 +225,6 @@
         "tipo": "lagarta",
         "desde": "2026-11-24T17:45:47+00:00",
         "ate": "2026-11-24T19:56:40+00:00"
-      },
-      {
-        "id": 13,
-        "tipo": "passarinho",
-        "desde": "2026-11-24T17:55:44+00:00",
-        "ate": "2026-11-24T18:59:04+00:00"
       },
       {
         "id": 14,
@@ -249,6 +243,12 @@
         "tipo": "borboleta",
         "desde": "2026-11-24T20:37:34+00:00",
         "ate": "2026-11-24T22:24:25+00:00"
+      },
+      {
+        "id": 17,
+        "tipo": "aranha",
+        "desde": "2026-11-24T21:59:29+00:00",
+        "ate": "2026-11-24T23:29:10+00:00"
       }
     ],
     "log": [
@@ -335,9 +335,17 @@
       {
         "quando": "2026-11-24T20:37:34+00:00",
         "texto": "uma borboleta chegou voando"
+      },
+      {
+        "quando": "2026-11-24T21:59:29+00:00",
+        "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-24T21:10:43+00:00",
+        "texto": "Pangolimo rolou na lama"
       }
     ],
-    "seq": 16,
-    "agenda_ate": "2026-11-24T21:27:52+00:00"
+    "seq": 17,
+    "agenda_ate": "2026-11-24T22:40:43+00:00"
   }
 }

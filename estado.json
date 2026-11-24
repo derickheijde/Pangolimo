@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.487
+      "recente": 4.456
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.552
+      "recente": 3.527
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.555
+      "recente": 2.537
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.593
+      "recente": 1.582
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.567
+      "recente": 1.556
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.523
+      "recente": 1.512
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.636
+      "recente": 1.625
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.536
+      "recente": 1.525
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.173
+      "recente": 1.165
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.173
+      "recente": 1.165
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.235
+      "recente": 1.226
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.179
+      "recente": 1.171
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.025
+      "recente": 1.018
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.969
+      "recente": 0.962
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.932
+      "recente": 0.926
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.818
+      "recente": 0.812
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.781
+      "recente": 0.776
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.781
+      "recente": 0.776
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.781
+      "recente": 0.776
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.809
+      "recente": 0.803
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.809
+      "recente": 0.803
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.805
+      "recente": 0.799
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.805
+      "recente": 0.799
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.805
+      "recente": 0.799
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.783
+      "recente": 0.778
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.767
+      "recente": 0.762
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.729
+      "recente": 0.724
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.625
+      "recente": 0.621
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.625
+      "recente": 0.621
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.59
+      "recente": 0.586
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T21:11+00:00",
+  "ultima_execucao": "2026-11-24T21:39+00:00",
   "tipo": "Limo / Terra",
-  "fome": 52,
+  "fome": 57,
   "evento": null,
   "ultima_atividade": "quintal",
   "origem_do_proximo": "Plantae",
@@ -213,9 +213,9 @@
     "genero": "documentario",
     "descricao": "um programa sobre Campo (bioma)",
     "tema": "Campo (bioma)",
-    "desde": "2026-11-24T21:11+00:00"
+    "desde": "2026-11-24T21:39+00:00"
   },
-  "tedio": 60,
+  "tedio": 63,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -249,6 +249,22 @@
         "tipo": "aranha",
         "desde": "2026-11-24T21:59:29+00:00",
         "ate": "2026-11-24T23:29:10+00:00"
+      },
+      {
+        "id": 18,
+        "tipo": "ratinho",
+        "desde": "2026-11-24T22:59:29+00:00",
+        "ate": "2026-11-24T23:13:30+00:00",
+        "fim": {
+          "quando": "2026-11-24T23:13:24+00:00",
+          "resultado": "fugiu"
+        }
+      },
+      {
+        "id": 19,
+        "tipo": "coruja",
+        "desde": "2026-11-24T23:08:13+00:00",
+        "ate": "2026-11-25T01:19:04+00:00"
       }
     ],
     "log": [
@@ -343,9 +359,21 @@
       {
         "quando": "2026-11-24T21:59:29+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-24T22:59:29+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-24T23:08:13+00:00",
+        "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-24T23:13:24+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
-    "seq": 17,
-    "agenda_ate": "2026-11-24T22:41:11+00:00"
+    "seq": 19,
+    "agenda_ate": "2026-11-24T23:09:48+00:00"
   }
 }

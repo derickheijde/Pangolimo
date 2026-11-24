@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 58,
+  "energia": 53,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "assistindo_tv",
   "humor": "pensativo",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.61
+      "recente": 3.582
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.598
+      "recente": 3.57
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.072
+      "recente": 2.056
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.039
+      "recente": 2.023
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.982
+      "recente": 1.966
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.984
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.527
+      "recente": 1.515
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.527
+      "recente": 1.515
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.606
+      "recente": 1.593
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.535
+      "recente": 1.523
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.332
+      "recente": 1.322
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.26
+      "recente": 1.25
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.211
+      "recente": 1.202
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.065
+      "recente": 1.057
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.015
+      "recente": 1.007
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.015
+      "recente": 1.007
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.015
+      "recente": 1.007
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.95
+      "recente": 0.943
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.813
+      "recente": 0.807
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.813
+      "recente": 0.807
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.767
+      "recente": 0.761
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.767
+      "recente": 0.761
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.765
+      "recente": 0.759
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.765
+      "recente": 0.759
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.738
+      "recente": 0.732
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.738
+      "recente": 0.732
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.738
+      "recente": 0.732
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.713
+      "recente": 0.707
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.713
+      "recente": 0.707
     }
   ],
   "gostos": {
@@ -192,11 +192,11 @@
     "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza."
   ],
   "proximo_tema": "Tartaruga-de-couro",
-  "ultima_execucao": "2026-11-24T03:08+00:00",
+  "ultima_execucao": "2026-11-24T03:40+00:00",
   "tipo": "Limo / Terra",
-  "fome": 44,
+  "fome": 49,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Espécies ameaçadas",
   "via_do_proximo": {
     "de": "Espécies ameaçadas",
@@ -204,12 +204,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "desenho",
-    "descricao": "um desenho animado",
+    "genero": "reality",
+    "descricao": "um reality show de casais",
     "tema": null,
-    "desde": "2026-11-24T00:34+00:00"
+    "desde": "2026-11-24T03:40+00:00"
   },
-  "tedio": 45,
+  "tedio": 48,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -235,6 +235,26 @@
         "tipo": "coruja",
         "desde": "2026-11-24T02:34:19+00:00",
         "ate": "2026-11-24T05:23:21+00:00"
+      },
+      {
+        "id": 5,
+        "tipo": "ratinho",
+        "desde": "2026-11-24T04:41:39+00:00",
+        "ate": "2026-11-24T04:51:15+00:00",
+        "fim": {
+          "quando": "2026-11-24T04:51:09+00:00",
+          "resultado": "fugiu"
+        }
+      },
+      {
+        "id": 6,
+        "tipo": "ratinho",
+        "desde": "2026-11-24T04:57:46+00:00",
+        "ate": "2026-11-24T05:01:16+00:00",
+        "fim": {
+          "quando": "2026-11-24T05:01:10+00:00",
+          "resultado": "fugiu"
+        }
       }
     ],
     "log": [
@@ -261,9 +281,25 @@
       {
         "quando": "2026-11-24T02:34:19+00:00",
         "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-24T04:41:39+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-24T04:51:09+00:00",
+        "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-24T04:57:46+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-24T05:01:10+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
-    "seq": 4,
-    "agenda_ate": "2026-11-24T04:38:44+00:00"
+    "seq": 6,
+    "agenda_ate": "2026-11-24T05:10:39+00:00"
   }
 }

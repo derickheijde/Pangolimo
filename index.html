@@ -117,6 +117,7 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
       <div class="cena-wrap">
         <canvas id="cena" width="200" height="116" role="img" aria-label="A toca do Pangolimo"></canvas>
         <div id="balao" class="balao" role="img" aria-live="polite"></div>
+        <div id="balaoAranha" class="balao" role="img"></div>
       </div>
       <figcaption>A toca</figcaption>
     </figure>
@@ -163,7 +164,7 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
       <ul id="interesses"></ul>
       <h2>Gostos</h2>
       <dl id="gostos"></dl>
-      <h2>No quintal</h2>
+      <h2>Visitas</h2>
       <ul id="movimento"></ul>
     </aside>
   </div>
@@ -274,6 +275,7 @@ const CAIXA_CADERNO={x:88,y:55,w:9,h:12};
 function poseXY(a){let px=57,py=88;
   if(a==="desenhando")px=138;else if(a==="comendo")px=146;
   else if(a==="olhando_lua"||a==="observando_clima"){px=79;py=31}
+  else if(a==="conversando_toca"||a==="observando_aranha"||a==="brigando_toca"){px=50}
   return{px,py}}
 const SALA=["assistindo_tv","assistindo_programa"],naSala=a=>SALA.includes(a);
 const QUINTAL=["brincando_lama","brincando_grama","observando_visita","conversando","brigando","comendo_cupinzeiro"],noQuintal=a=>QUINTAL.includes(a);
@@ -315,7 +317,17 @@ function cenaQuarto(){
   formigueiro();
   // pangolim
   const b=reduzMovimento?0:quadro%2,salto=alturaPulo();
-  if(naSala(acao)||noQuintal(acao)){/* ele está em outro cômodo */}else if(acao==="dormindo"||acao==="recuperando"){spr(SPR.bola,30,51+b-salto);
+  bP=null;bV=null;
+  const cs=cenaCorrente("toca"),tlT=cs?linhaDoTempoToca(cs,(performance.now()-cenaIni)/1000):null;
+  desenharAranhas(cs);
+  if(tlT){
+    aranha(tlT.A.x,tlT.A.y,quadro,tlT.A.y<80);
+    if(tlT.somePangolim)spr(SPR.bola,30,51+b); // chegou na cama e se enrolou
+    else{R(tlT.P.x+2,98,26,2,"rgba(138,214,107,.35)");sprP(SPR.andando,tlT.P.x,tlT.P.y+b-salto,tlT.P.flip)}
+    if(tlT.poeira)for(let k=0;k<14;k++)R(tlT.poeira.x+Math.round(Math.sin(performance.now()/90+k*2.1)*10),tlT.poeira.y+Math.round(Math.cos(performance.now()/70+k*1.3)*8)-3,3,2,k%2?"#e0e0d8":"#a8a8a0");
+    if(tlT.bp)bP=tlT.somePangolim?{e:tlT.bp.e,x:38,y:48}:{e:tlT.bp.e,x:tlT.P.x+13,y:tlT.P.y-3};
+    if(tlT.bv)bV={e:tlT.bv.e,x:tlT.A.x+4,y:Math.max(8,tlT.A.y-3)};
+  }else if(naSala(acao)||noQuintal(acao)){/* ele está em outro cômodo */}else if(acao==="dormindo"||acao==="recuperando"){spr(SPR.bola,30,51+b-salto);
     if(acao==="dormindo"){if(!reduzMovimento){const n=quadro%3;[0,1,2].slice(0,n+1).forEach(k=>zzz(48+k*5,44-k*6,"#f2e6b8"))}
     else zzz(48,44,"#f2e6b8")}
   }else{
@@ -325,6 +337,7 @@ function cenaQuarto(){
     if(acao==="desenhando")R(px+29,py+2+b-salto,2,2,"#f2c46d");
     if(acao==="comendo"){const len=reduzMovimento?7:4+(quadro%3)*3;R(px+27,py+6+b-salto,len,1,"#e07a8a");R(px+27+len,py+6+b-salto,1,2,"#e07a8a")}
   }
+  aplicarBaloes("#balao","#balaoAranha");
   if(flash){g.fillStyle="rgba(255,255,255,.12)";g.fillRect(0,0,200,116)}
 }
 function telaTV(){ // 40x22 em (125,41)
@@ -401,11 +414,12 @@ const SV={
  bf_a:["ppp.ppp","pppkppp",".ppkpp.","..pkp.."],bf_f:["...k...","..pkp..","..pkp..","...k..."],
  esquilo:["..nn........",".nnnn.......",".nnnnn......","..nnnn..nn..","...nnnnnnNe.","...nnnnnnNNk","...nnnnnnN..","....nn.nn...","....nn.nn..."],
  ratinho:["......pa..","..aaaaaaAe","aaaaaaaAAk","..a..a.a.."],
+ aranha_a:["k..k.k..k",".k.kkk.k.","..rkkkr..",".k.kkk.k.","k..k.k..k"],aranha_b:["..k.k.k..","k.kkkkk.k","..rkkkr..","k.kkkkk.k","..k.k.k.."],
  coruja:[".nn...nn.",".nnnnnnn.","nnwwnwwnn","nnwewewnn","nnnnoNnnn",".nNNNNNn.",".nNnNnNn.",".nNNNNNn.","..nnnnn..","..o...o.."]};
-const DIM={passarinho:[10,7],borboleta:[7,4],lagarta:[14,3],esquilo:[12,9],ratinho:[10,4],coruja:[9,10],cobra:[28,7]};
+const DIM={aranha:[9,5],passarinho:[10,7],borboleta:[7,4],lagarta:[14,3],esquilo:[12,9],ratinho:[10,4],coruja:[9,10],cobra:[28,7]};
 const POS_CENA={passarinho:[64,30],borboleta:[56,66],lagarta:[58,43],esquilo:[50,58],ratinho:[50,92],coruja:[21,36],cobra:[100,93]};
 const PAL_LAMA={k:"#2a1a0e",b:"#6a4a2e",l:"#8a6440",s:"#a98a60",e:"#111",n:"#16261b",m:"#5b3d26"},PAL_LAMA2={...PAL_LAMA,b:"#8a6440",l:"#6a4a2e"};
-const EMOJI_QUINTAL={brincando_lama:["😆","🤪"],brincando_grama:["😄","😊"],observando_visita:["🤔","👀"],conversando:["🙂","😊"],brigando:["😎","💪"],comendo_cupinzeiro:["😋"]};
+const EMOJI_QUINTAL={conversando_toca:["🙂","😊"],observando_aranha:["🤔","👀"],brigando_toca:["😎","💪"],brincando_lama:["😆","🤪"],brincando_grama:["😄","😊"],observando_visita:["🤔","👀"],conversando:["🙂","😊"],brigando:["😎","💪"],comendo_cupinzeiro:["😋"]};
 function sprV(s,x,y,flip){const w=s[0].length;s.forEach((r,j)=>{for(let i=0;i<w;i++){const col=PALV[r[i]];if(col)R(x+(flip?w-1-i:i),y+j,1,1,col)}})}
 function sprP(s,x,y,flip,pal=PAL){const w=s[0].length;s.forEach((r,j)=>{for(let i=0;i<w;i++){const col=pal[r[i]];if(col)R(x+(flip?w-1-i:i),y+j,1,1,col)}})}
 function noChao(x,y,flip){R(x+2,98,26,2,"rgba(138,214,107,.35)");sprP(SPR.andando,x,y,flip)}
@@ -416,6 +430,17 @@ function cobra(x,y,flip,qd){
   const hy=y+3+Math.round(Math.sin(qd/3+14*0.7)*2),hx=flip?x-2:x+28;
   R(hx,hy-1,4,4,"#6aa84f");R(hx+(flip?0:2),hy,1,1,"#f2c94c");
   if(qd%4<2)R(flip?hx-3:hx+4,hy+1,3,1,"#d04040");
+}
+function aranha(x,y,qd,fio){
+  if(fio&&y>0)R(x+4,0,1,y+1,"#cfcfd8");
+  sprV(qd%4<2?SV.aranha_a:SV.aranha_b,x,y,false);
+}
+function desenharAranhas(pular){ // a aranha desce pela parede da toca
+  if(pular)return;
+  const t=Date.now();
+  visitasAgora().filter(v=>v.tipo==="aranha").forEach(v=>{
+    const ent=Math.max(0,1-(t-Date.parse(v.desde))/3500),sai=Math.max(0,1-(Date.parse(v.ate)-t)/3500),sobe=Math.round(Math.max(ent,sai)*95);
+    aranha(64,50+Math.round(Math.sin(quadro/10)*14)-sobe,quadro,true)});
 }
 function desenharVisitaPos(tipo,x,y,flip,qd){
   if(tipo==="passarinho")sprV(SV.passaro,x,y,flip);
@@ -446,7 +471,8 @@ function balaoEm(id,emoji,x,y){
   el.style.left=xx+"px";el.style.top=(y/116*100)+"%";el.style.setProperty("--cauda",(alvo-(xx-w/2))+"px");el.classList.add("visivel");
 }
 const esconderBalao=id=>document.querySelector(id).classList.remove("visivel");
-let bV=null,bP=null,usouBV=false,usouBP=false;
+let bV=null,bP=null;const usou={};
+function aplicarBaloes(idP,idV){[[idP,bP],[idV,bV]].forEach(([id,b])=>{if(b){balaoEm(id,b.e,b.x,b.y);usou[id]=true}else if(usou[id]){esconderBalao(id);usou[id]=false}})}
 
 // a coruja e o ratinho: ela pode pegá-lo, ou ele foge (horário sorteado pelo script)
 function predar(res,s){
@@ -459,7 +485,7 @@ function predar(res,s){
   if(s<2)bV={e:"😱",x:MX+5,y:MY-3};else if(s<4)bV={e:res==="pegou"?"😋":"😠",x:ox+4,y:oy-3};
 }
 function desenharVisitas(pular){
-  const t=Date.now(),vis=visitasAgora(),coruja=vis.find(v=>v.tipo==="coruja"),rato=vis.find(v=>v.tipo==="ratinho"&&v.fim);
+  const t=Date.now(),vis=visitasAgora().filter(v=>v.tipo!=="aranha"),coruja=vis.find(v=>v.tipo==="coruja"),rato=vis.find(v=>v.tipo==="ratinho"&&v.fim);
   let pred=false;
   if(rato&&coruja){const s=(t-Date.parse(rato.fim.quando))/1000;if(s>=0&&s<6){pred=true;predar(rato.fim.resultado,s)}}
   vis.forEach(v=>{
@@ -478,11 +504,12 @@ function duracaoCena(c){const n=c.conversa.length;
   if(c.tipo==="observa")return 4;
   if(c.tipo==="conversa")return 1+1.5*n+(c.resultado==="tensa"?2.5:1);
   return 1+1.2*(n-(c.resultado==="venceu"?1:2))+6}
-function cenaCorrente(){
-  const c=estado&&estado.cena;if(!c||reduzMovimento)return null;
+const cenaDono=()=>estado&&estado.cena&&estado.cena.visitante==="aranha"?"toca":"quintal";
+function cenaCorrente(sala){
+  const c=estado&&estado.cena;if(!c||reduzMovimento||sala!==cenaDono())return null;
   if(c.id!==cenaId){cenaId=c.id;if(Date.now()-Date.parse(c.quando)<90*60000){cenaIni=performance.now();cenaDur=duracaoCena(c)*1000;requestAnimationFrame(animarCena)}else cenaDur=0}
   return performance.now()-cenaIni<cenaDur?c:null}
-function animarCena(){if(comodoVisivel()==="quintal")cena();if(cenaCorrente())requestAnimationFrame(animarCena)}
+function animarCena(){const dono=cenaDono();if(comodoVisivel()===dono)cena();if(cenaCorrente(dono))requestAnimationFrame(animarCena)}
 function linhaDoTempo(c,t){
   const n=c.conversa.length,v=c.visitante,d=DIM[v]||[10,7],ps=POS_CENA[v]||[64,30];
   const r={bp:null,bv:null,P:{x:66,y:88,flip:true},V:{x:ps[0],y:ps[1],flip:false,off:0},poeira:null};
@@ -498,6 +525,20 @@ function linhaDoTempo(c,t){
   else if(t<t2){r.poeira={x:100,y:94};const j=Math.floor(t*10)%2?1:-1;r.P.x+=j;r.V.x-=j;r.bp={e:"💢"};r.bv={e:"💢"}}
   else{const u=t-t2,f=c.conversa[nf+Math.min(Math.floor(u/1.2),fim-1)];if(f)fala(f);
     if(c.resultado==="venceu"){if(u>1.2)r.V.x+=Math.round((u-1.2)*40)}else if(u>1.2){r.P.x-=Math.round((u-1.2)*55);r.P.flip=true}}
+  return r}
+function linhaDoTempoToca(c,t){ // cena com a aranha, dentro da toca
+  const n=c.conversa.length,r={bp:null,bv:null,P:{x:50,y:88,flip:false},A:{x:64,y:68},poeira:null,somePangolim:false};
+  const fala=f=>{if(f.q==="p")r.bp={e:f.e};else r.bv={e:f.e}};
+  if(c.tipo==="observa"){r.A.y=64+Math.round(Math.sin(t*2)*3);if(t>0.6)r.bp={e:c.conversa[0].e};return r}
+  if(c.tipo==="conversa"){const i=Math.floor((t-1)/1.5);if(t>=1&&i<n)fala(c.conversa[i]);
+    if(c.resultado==="tensa"&&t>=1+1.5*n)r.A.y-=Math.round(Math.min(1,(t-1-1.5*n)/2.5)*95);
+    return r}
+  const fim=c.resultado==="venceu"?1:2,nf=n-fim,t1=1+1.2*nf,t2=t1+3;
+  if(t<t1){const i=Math.floor((t-1)/1.2);if(t>=1&&i<nf)fala(c.conversa[i])}
+  else if(t<t2){r.A={x:86,y:91};r.poeira={x:82,y:94};const j=Math.floor(t*10)%2?1:-1;r.P.x+=j;r.A.x-=j;r.bp={e:"💢"};r.bv={e:"💢"}}
+  else{r.A={x:86,y:91};const u=t-t2,f=c.conversa[nf+Math.min(Math.floor(u/1.2),fim-1)];if(f)fala(f);
+    if(c.resultado==="venceu"){if(u>1.2)r.A.y-=Math.round((u-1.2)*60)}
+    else if(u>1.2){r.P.x-=Math.round((u-1.2)*40);r.P.flip=true;if(r.P.x<34)r.somePangolim=true}}
   return r}
 function poseEstatica(acao,qd,b,salto){
   if(acao==="brincando_lama"){const x=96+Math.round(Math.sin(qd/3)*20),y=96-salto;
@@ -561,7 +602,7 @@ function cenaQuintal(){
   const flash=clima==="raios"&&!reduzMovimento&&qd%7===3;
   fundoQuintal(fase,clima,flash);
   bV=null;bP=null;
-  const c=cenaCorrente(),salto=alturaPulo(),b=reduzMovimento?0:qd%2;
+  const c=cenaCorrente("quintal"),salto=alturaPulo(),b=reduzMovimento?0:qd%2;
   desenharVisitas(c&&c.visitante);
   if(c){
     const tl=linhaDoTempo(c,(performance.now()-cenaIni)/1000);
@@ -573,8 +614,7 @@ function cenaQuintal(){
     if(tl.bv&&tl.V.x<210){const w=(DIM[c.visitante]||[10])[0];bV=bV||{e:tl.bv.e,x:tl.V.x+tl.V.off+w/2,y:tl.V.y-3}}
   }else if(noQuintal(acao))caixaQuintal=poseEstatica(acao,qd,b,salto);
   climaPorCima(clima,fase,flash);
-  if(bV){balaoEm("#balaoVisita",bV.e,bV.x,bV.y);usouBV=true}else if(usouBV){esconderBalao("#balaoVisita");usouBV=false}
-  if(bP){balaoEm("#balaoQuintal",bP.e,bP.x,bP.y);usouBP=true}else if(usouBP){esconderBalao("#balaoQuintal");usouBP=false}
+  aplicarBaloes("#balaoQuintal","#balaoVisita");
 }
 
 // ================= MOVIMENTO NO QUINTAL (o que já aconteceu) =================
@@ -620,7 +660,9 @@ function fraseAcao(){const a=estado.acao,c=estado.cena,nome=(c&&NOMES_VISITA[c.v
   const Q={brincando_lama:"está no quintal, rolando na lama",brincando_grama:"está no quintal, brincando na grama",
     observando_visita:`está no quintal, observando ${nome}`,conversando:`está no quintal, conversando com ${nome}`,
     brigando:`está no quintal, depois de ganhar uma briga com ${nome}`,comendo_cupinzeiro:"está no quintal, comendo cupins no cupinzeiro",
-    recuperando:"está na toca, enrolado em bola depois de perder uma briga"};
+    recuperando:"está na toca, enrolado em bola depois de perder uma briga",
+    conversando_toca:"está na toca, conversando com uma aranha que desceu pela parede",observando_aranha:"está na toca, observando uma aranha na parede",
+    brigando_toca:"está na toca, depois de ganhar uma briga com uma aranha"};
   return Q[a]||FRASES[a]||"está por aí"}
 const FORA={garoa:"garoa",chuva:"chuva",vendaval:"vendaval",tempestade:"tempestade",raios:"tempestade com raios"};
 
@@ -648,6 +690,7 @@ q("#mais").onclick=mais;
 const ROTULOS={cupinzeiro:"comendo no cupinzeiro",comida:"comendo no formigueiro",lua:"olhando a lua pela janela",clima:"observando o tempo pela janela"};
 const rotuloAtividade=d=>{
   if(d.atividade==="quintal"&&d.rotulo)return"no quintal, "+d.rotulo;
+  if(d.atividade==="aranha"&&d.rotulo)return"na toca, "+d.rotulo;
   if(ROTULOS[d.atividade])return ROTULOS[d.atividade];
   const tv=d.atividade==="programa",base=tv?`assistindo a um programa sobre ${d.tema}`:`lendo sobre ${d.tema}`;
   if(!d.via)return base;
@@ -672,7 +715,7 @@ function emojiDoMomento(){
   const e=estado||{},clima=climaAtivo();
   if(e.acao==="dormindo"||e.dormindo)return"😴";
   if(e.acao==="recuperando")return"😣";
-  if(noQuintal(e.acao)&&EMOJI_QUINTAL[e.acao])return sorteia(EMOJI_QUINTAL[e.acao]);
+  if(EMOJI_QUINTAL[e.acao])return sorteia(EMOJI_QUINTAL[e.acao]);
   if(e.acao==="assistindo_tv"&&e.tv&&EMOJI_GENERO[e.tv.genero])return sorteia(EMOJI_GENERO[e.tv.genero]);
   if(clima==="raios")return"😨";
   if((e.fome||0)>=60)return"🤤";
@@ -686,7 +729,7 @@ let balaoT=null;
 function animarPulo(){cena();if(pulo)requestAnimationFrame(animarPulo)}
 function cutucar(){
   if(comodoVisivel()!==ondeEle()){comodoManual=null;mostrarComodo(true)} // estava espiando o outro cômodo: volta para ele
-  if(cenaCorrente())return; // uma cena com visitas está tocando
+  if(cenaCorrente(ondeEle()))return; // uma cena com visitas está tocando
   const e=estado||{},onde=ondeEle(),sala=onde==="sala",b=caixaPangolim(),el=q(sala?"#balaoSala":onde==="quintal"?"#balaoQuintal":"#balao");
   ["#balao","#balaoSala","#balaoQuintal"].forEach(id=>{if(q(id)!==el)q(id).classList.remove("visivel")});
   if(!reduzMovimento){pulo={t0:performance.now()};requestAnimationFrame(animarPulo)}

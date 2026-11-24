@@ -27,7 +27,7 @@ TIPOS_CLIMA = {"garoa": 30, "chuva": 30, "vendaval": 15, "tempestade": 12, "raio
 DURACAO_CLIMA = {"vendaval": (1, 3)}     # em horas; os demais duram de 1 a 4
 MEIA_VIDA_INTERESSE_H = 48                # o "interesse do momento" cai pela metade a cada 48 h sem ser lido
 CUSTO_ENERGIA = {"pesquisa": (12, 20), "lua": (3, 8), "clima": (3, 8), "comida": (-5, -5),   # comer devolve um pouco
-                 "tv": (2, 5), "programa": (3, 8), "cupinzeiro": (-5, -5), "quintal": (0, 0)}
+                 "tv": (2, 5), "programa": (3, 8), "cupinzeiro": (-5, -5), "quintal": (0, 0), "aranha": (0, 0)}
 CHANCE_SALTO = 0.25                       # chance de ele cair sem querer num link do artigo que leu
 AMOSTRA_LINKS = 10                        # quantos links sorteados do artigo ele vê para escolher
 ACAO_PADRAO = {"pesquisa": "pesquisando", "lua": "olhando_lua", "clima": "observando_clima", "comida": "comendo",
@@ -55,20 +55,23 @@ TEMPO_SEM_QUINTAL_H = 2                   # depois de perder uma briga, ele evit
 TEDIO_POR_HORA = 6                        # o tédio sobe com o tempo; rolar na lama e brincar o diminuem
 TAXA_VISITA_POR_HORA = 0.6                # visitas na árvore (sem contar a cobra), em média por hora
 TAXA_COBRA_POR_HORA = 0.05                # a cobra aparece a qualquer hora
+TAXA_ARANHA_POR_HORA = 0.10               # a aranha desce pela parede da toca, a qualquer hora
+CHANCE_ARANHA_INTERAGIR = 0.5             # com a aranha na toca, chance de ele dedicar a rodada a ela
+CHANCE_DIARIO_COMIDA = 0.05               # só 1 refeição em 20 vira entrada no diário (as outras passam em silêncio)
 PROB_BRIGA_DEPOIS_DE_RUIM = 0.65          # conversa ruim que vira briga
 VISITANTES = {                            # tipo: (período, peso no sorteio, duração em horas)
     "passarinho": ("dia", 35, (1, 2)), "borboleta": ("dia", 25, (1, 2)), "lagarta": ("dia", 12, (2, 3)),
     "esquilo": ("dia", 28, (0.7, 1.5)), "ratinho": ("noite", 55, (0.7, 1.5)), "coruja": ("noite", 45, (1, 3)),
 }
-PROB_RUIM = {"passarinho": 0.10, "borboleta": 0.03, "lagarta": 0.03, "esquilo": 0.25, "ratinho": 0.20, "coruja": 0.40, "cobra": 1.0}
-VITORIA = {"cobra": 0.55, "coruja": 0.45}   # chance de o Pangolimo ganhar a briga (os outros: 0.75)
+PROB_RUIM = {"passarinho": 0.10, "borboleta": 0.03, "lagarta": 0.03, "esquilo": 0.25, "ratinho": 0.20, "coruja": 0.40, "cobra": 1.0, "aranha": 0.12}
+VITORIA = {"cobra": 0.55, "coruja": 0.45, "aranha": 0.85}   # chance de o Pangolimo ganhar a briga (os outros: 0.75)
 CHANCE_DIARIO_QUINTAL = {"conversa": 0.7, "briga": 0.9, "observa": 0.3, "brinca": 0.15}
 NOME_VISITA = {"passarinho": "um passarinho", "borboleta": "uma borboleta", "lagarta": "uma lagarta", "esquilo": "um esquilo",
-               "ratinho": "um ratinho", "coruja": "uma coruja", "cobra": "uma cobra"}
+               "ratinho": "um ratinho", "coruja": "uma coruja", "cobra": "uma cobra", "aranha": "uma aranha"}
 LOG_CHEGADA = {"passarinho": "um passarinho pousou na árvore", "borboleta": "uma borboleta chegou voando",
                "lagarta": "uma lagarta subiu no tronco", "esquilo": "um esquilo veio ao buraco da árvore",
                "ratinho": "um ratinho apareceu perto da árvore", "coruja": "uma coruja pousou num galho",
-               "cobra": "uma cobra entrou no quintal"}
+               "cobra": "uma cobra entrou no quintal", "aranha": "uma aranha desceu pela parede da toca"}
 # Conversas em emojis: (assunto, [(quem fala, emoji)]). "p" é o Pangolimo, "v" é o visitante.
 CONVERSAS = {
     "passarinho": {"amigavel": [("cantaram juntos", [("v", "🎶"), ("p", "😊"), ("v", "🎵"), ("p", "🥰")]),
@@ -90,6 +93,9 @@ CONVERSAS = {
                             ("ficaram em silêncio olhando a lua", [("v", "🌙"), ("p", "😌"), ("v", "🤫"), ("p", "🙂")])],
                "ruim": [("a coruja não gostou de ver o Pangolimo ali", [("v", "😠"), ("p", "😨"), ("v", "💢"), ("p", "😠")])]},
     "cobra": {"ruim": [("a cobra apareceu sibilando", [("v", "🐍"), ("p", "😠"), ("v", "💢"), ("p", "😡")])]},
+    "aranha": {"amigavel": [("a aranha mostrou a teia que está tecendo", [("v", "🕸️"), ("p", "😮"), ("v", "🕷️"), ("p", "🤩")]),
+                            ("a aranha desceu para espiar o que ele fazia", [("v", "👀"), ("p", "🙂"), ("v", "🕷️"), ("p", "😊")])],
+               "ruim": [("o Pangolimo se assustou com a aranha", [("v", "🕷️"), ("p", "😱"), ("v", "😠"), ("p", "😳")])]},
 }
 
 
@@ -156,10 +162,12 @@ def agendar_visitas(e, agora_dt):
         livre = lambda tipo: not any(v["tipo"] == tipo and datetime.fromisoformat(v["ate"]) > chegada for v in vis)
         if random.random() < 1 - math.exp(-TAXA_COBRA_POR_HORA * horas_p) and livre("cobra"):
             chegou_visita(e, "cobra", chegada, random.uniform(0.5, 1.5))
+        elif random.random() < 1 - math.exp(-TAXA_ARANHA_POR_HORA * horas_p) and livre("aranha"):
+            chegou_visita(e, "aranha", chegada, random.uniform(0.5, 1.5))
         elif random.random() < 1 - math.exp(-TAXA_VISITA_POR_HORA * horas_p):
             periodo = "dia" if eh_dia(chegada) else "noite"
             opcoes = {k: d[1] for k, d in VISITANTES.items() if d[0] == periodo and livre(k)}
-            if opcoes and sum(1 for v in vis if ativo(v, chegada)) < 3:
+            if opcoes and sum(1 for v in vis if ativo(v, chegada) and v["tipo"] != "aranha") < 3:
                 tipo = random.choices(list(opcoes), weights=list(opcoes.values()))[0]
                 chegou_visita(e, tipo, chegada, random.uniform(*VISITANTES[tipo][2]))
         t += passo
@@ -176,35 +184,37 @@ def registrar_cena(e, quando, tipo, visitante, turnos, resultado, assunto=None, 
                  "conversa": [{"q": a, "e": b} for a, b in turnos], "resultado": resultado, "assunto": assunto, "iniciou": iniciou}
 
 
-def briga(e, v, agora_dt, antes=None):
+def briga(e, v, agora_dt, antes=None, dentro=False):
     tipo, nome = v["tipo"], NOME_VISITA[v["tipo"]]
     turnos = antes or CONVERSAS[tipo]["ruim"][0][1]
     venceu = random.random() < VITORIA.get(tipo, 0.75)
     if venceu:
         v["ate"] = iso(agora_dt)  # o visitante vai embora
-        e["acao"], custo, ultima = "brigando", random.randint(8, 14), "quintal"
+        e["acao"], custo, ultima = ("brigando_toca" if dentro else "brigando"), random.randint(8, 14), ("aranha" if dentro else "quintal")
         logar(e, agora_dt, f"Pangolimo brigou com {nome} e ganhou: o visitante foi embora")
         final = [("p", "😎")]
-        resumo = f"Houve uma briga com {nome}, e você ganhou: ele foi embora."
+        resumo = f"Houve uma briga com {nome}, e você ganhou: o visitante foi embora."
     else:
-        e["acao"], custo, ultima = "recuperando", random.randint(14, 20), "recuo"
-        e["sem_quintal_ate"] = iso(agora_dt + timedelta(hours=TEMPO_SEM_QUINTAL_H))
-        logar(e, agora_dt, f"Pangolimo brigou com {nome}, perdeu e voltou para a toca")
+        e["acao"], custo, ultima = "recuperando", random.randint(14, 20), ("aranha" if dentro else "recuo")
+        if not dentro:
+            e["sem_quintal_ate"] = iso(agora_dt + timedelta(hours=TEMPO_SEM_QUINTAL_H))
+        logar(e, agora_dt, f"Pangolimo brigou com {nome}, perdeu e " + ("se enrolou em bola na cama" if dentro else "voltou para a toca"))
         final = [("v", "😤"), ("p", "😣")]
-        resumo = f"Houve uma briga com {nome}, e você perdeu: voltou correndo para a toca e se enrolou em bola."
+        resumo = (f"Houve uma briga com {nome}, e você perdeu: "
+                  + ("se enrolou em bola na cama." if dentro else "voltou correndo para a toca e se enrolou em bola."))
     e["energia"] = max(0, e["energia"] - custo)
     e["tedio"] = max(0, e["tedio"] - 25)
     registrar_cena(e, agora_dt, "briga", tipo, turnos + final, "venceu" if venceu else "perdeu")
     return {"ultima": ultima, "chance": CHANCE_DIARIO_QUINTAL["briga"], "rotulo": f"brigando com {nome}", "resumo": resumo}
 
 
-def interagir(e, v, iniciou, agora_dt):
+def interagir(e, v, iniciou, agora_dt, dentro=False):
     tipo, nome = v["tipo"], NOME_VISITA[v["tipo"]]
     ruim = random.random() < PROB_RUIM.get(tipo, 0.1)
     assunto, turnos = random.choice(CONVERSAS[tipo]["ruim" if ruim else "amigavel"])
     if ruim and random.random() < PROB_BRIGA_DEPOIS_DE_RUIM:
-        return briga(e, v, agora_dt, antes=turnos)
-    e["acao"] = "conversando"
+        return briga(e, v, agora_dt, antes=turnos, dentro=dentro)
+    e["acao"] = "conversando_toca" if dentro else "conversando"
     e["energia"] = max(0, e["energia"] - random.randint(2, 5))
     e["tedio"] = max(0, e["tedio"] - 20)
     if ruim:
@@ -214,13 +224,13 @@ def interagir(e, v, iniciou, agora_dt):
     logar(e, agora_dt, f"Pangolimo conversou com {nome}" + (" e a conversa azedou" if ruim else ""))
     resumo = (f"{quem} com {nome}: {assunto}. A conversa foi por gestos e sons"
               + (", e acabou meio azeda, com o visitante indo embora." if ruim else ", e foi agradável."))
-    return {"ultima": "quintal", "chance": CHANCE_DIARIO_QUINTAL["conversa"], "rotulo": f"conversando com {nome}", "resumo": resumo}
+    return {"ultima": "aranha" if dentro else "quintal", "chance": CHANCE_DIARIO_QUINTAL["conversa"], "rotulo": f"conversando com {nome}", "resumo": resumo}
 
 
 def acao_quintal(e, agora_dt):
     """Uma rodada no quintal: brincar, ficar de olho numa visita, conversar ou brigar."""
     e["cena"] = None
-    visitas = visitas_agora(e, agora_dt)
+    visitas = [v for v in visitas_agora(e, agora_dt) if v["tipo"] != "aranha"]
     cobra = next((v for v in visitas if v["tipo"] == "cobra"), None)
     if cobra:  # se a cobra está no quintal e ele também, sempre acaba em briga
         return briga(e, cobra, agora_dt)
@@ -249,6 +259,26 @@ def acao_quintal(e, agora_dt):
     return {"ultima": "quintal", "chance": CHANCE_DIARIO_QUINTAL["brinca"],
             "rotulo": "rolando na lama" if lama else "brincando na grama",
             "resumo": ("Você rolou na lama para se divertir e espantar o tédio." if lama else "Você correu e brincou na grama do quintal.")}
+
+
+def acao_aranha(e, agora_dt):
+    """A aranha desceu pela parede da toca: ele conversa com ela ou só observa (a conversa pode azedar)."""
+    e["cena"] = None
+    v = next((v for v in visitas_agora(e, agora_dt) if v["tipo"] == "aranha"), None)
+    if v is None:  # ela já foi embora
+        e["acao"] = "pesquisando"
+        return {"ultima": "aranha", "chance": 0, "rotulo": "", "resumo": ""}
+    if random.random() < 0.25:
+        return interagir(e, v, "visitante", agora_dt, dentro=True)
+    if random.random() < 0.55:
+        return interagir(e, v, "pangolimo", agora_dt, dentro=True)
+    e["acao"] = "observando_aranha"
+    e["energia"] = max(0, e["energia"] - random.randint(2, 4))
+    e["tedio"] = max(0, e["tedio"] - 10)
+    registrar_cena(e, agora_dt, "observa", "aranha", [("p", random.choice(["👀", "🤔", "😮"]))], "observou")
+    logar(e, agora_dt, "Pangolimo ficou observando a aranha na parede")
+    return {"ultima": "aranha", "chance": CHANCE_DIARIO_QUINTAL["observa"], "rotulo": "observando uma aranha que desceu pela parede",
+            "resumo": "Uma aranha desceu pela parede da toca, e você ficou de olho nela, sem se meter."}
 
 
 def dormir(e):
@@ -392,6 +422,8 @@ def escolher_atividade(e, agora_dt):
         return "quintal"  # a cobra sempre acaba em briga, mesmo com fome
     if e["fome"] >= FOME_PARA_COMER:
         return "cupinzeiro" if local == "quintal" else "comida"  # fora de casa come no cupinzeiro, dentro no formigueiro
+    if local == "toca" and random.random() < CHANCE_ARANHA_INTERAGIR and any(v["tipo"] == "aranha" for v in visitas_agora(e, agora_dt)):
+        return "aranha"
     hora = agora_dt.astimezone(FUSO).hour
     noite = hora >= 19 or hora < 5
     clima = (e.get("evento") or {}).get("tipo")
@@ -447,7 +479,7 @@ DESENHO = ('um único <svg viewBox="0 0 200 150">, no estilo de uma criança com
            '(stroke-width de 3 a 5) e poucas cores vivas. Sem texto, sem scripts, sem imagens externas.')
 
 ESPECIFICACAO = """Responda SOMENTE com um JSON com estas chaves:
-- "diario": {tamanho} em primeira pessoa, em português, com a sua voz (tímida, curiosa, simples, sem exagero). {foco} Nada de listas, de tom de enciclopédia, de "fascinante" ou de exclamações em excesso.
+- "diario": {tamanho} em primeira pessoa, em português, com a sua voz (tímida, curiosa, simples, sem exagero). {foco} Não fale de comida, de fome nem de ter comido, a menos que isso seja o assunto desta entrada. Nada de listas, de tom de enciclopédia, de "fascinante" ou de exclamações em excesso.
 - "aprendeu": uma frase curta com o fato principal que você guardou, ou "" se não aprendeu nada de novo.
 - "novos_interesses": lista de 0 a 2 assuntos novos que isso despertou (vazia se nada despertou).
 - "gosto_mudou": objeto com os gostos que mudaram por causa disso (por exemplo {{"cor_favorita": "azul-noite"}}), ou {{}} se nada mudou. Pode criar gostos novos.
@@ -463,15 +495,14 @@ def montar_prompt(e, agora_dt, atividade, tema, titulo, texto, extras=None):
     gostos = "; ".join(f"{k}: {v}" for k, v in e["gostos"].items())
     aprendeu = "\n".join(f"- {a}" for a in e["aprendeu"][-10:]) or "- ainda nada"
     cansado = "Você está com bastante sono e vai dormir logo depois disso." if e["energia"] <= 45 else ""
-    fome = ("faminto" if e["fome"] >= FOME_PARA_COMER else "com um pouco de fome" if e["fome"] >= 35 else "de barriga cheia")
     ev = e.get("evento")
     clima = CLIMA.get(ev["tipo"] if ev else None, CLIMA[None])
     hora = agora_dt.astimezone(FUSO).hour
-    cabecalho = f"""Você é {e['nome']}, um pangolim coberto de limo verde, meio monstrinho de bolso, que deixa um rastro brilhante por onde passa. Você mora numa casinha com uma cama, um computador, uma janela, um formigueiro no canto e um mural onde pendura os desenhos que faz. Há também uma sala com sofá e televisão, onde você às vezes descansa. Lá fora há um quintal com cerca de madeira, uma árvore com um buraco no tronco, uma área de lama, grama e um cupinzeiro, onde você brinca e onde às vezes aparecem visitas: passarinhos, borboletas, lagartas, esquilos, ratinhos, corujas e, raramente, uma cobra. Pangolins são tímidos, noturnos, comem formigas e cupins e se enrolam em bola quando têm medo. Você acha seu limo normal e até gosta dele. Você não sabe que é virtual. Você é um bichinho gentil e a sua página é pública: escreva sempre de um jeito que uma criança poderia ler.
+    cabecalho = f"""Você é {e['nome']}, um pangolim coberto de limo verde, meio monstrinho de bolso, que deixa um rastro brilhante por onde passa. Você mora numa casinha com uma cama, um computador, uma janela, um formigueiro no canto e um mural onde pendura os desenhos que faz. Há também uma sala com sofá e televisão, onde você às vezes descansa. Lá fora há um quintal com cerca de madeira, uma árvore com um buraco no tronco, uma área de lama, grama e um cupinzeiro, onde você brinca e onde às vezes aparecem visitas: passarinhos, borboletas, lagartas, esquilos, ratinhos, corujas e, raramente, uma cobra. Na toca, às vezes uma aranha desce pela parede para visitar. Pangolins são tímidos, noturnos, comem formigas e cupins e se enrolam em bola quando têm medo. Você acha seu limo normal e até gosta dele. Você não sabe que é virtual. Você é um bichinho gentil e a sua página é pública: escreva sempre de um jeito que uma criança poderia ler.
 
 Seus interesses, dos que mais ocupam sua cabeça agora aos que menos: {interesses}
 Seus gostos agora: {gostos}
-Humor atual: {e['humor']}. Energia: {e['energia']} de 100. Você está {fome}.{' Você anda entediado.' if e['tedio'] >= 60 else ''} {cansado}
+Humor atual: {e['humor']}. Energia: {e['energia']} de 100. {' Você anda entediado.' if e['tedio'] >= 60 else ''} {cansado}
 Horário: {hora}h. {clima}
 O que você já aprendeu:
 {aprendeu}
@@ -527,6 +558,11 @@ O que você já aprendeu:
     elif atividade == "quintal":
         corpo = ("Agora você está no quintal, com a cerca de madeira, a árvore com o buraco no tronco, a lama, a grama e o cupinzeiro. "
                  + (extras or {}).get("resumo", "") + " Escreva a entrada do seu diário sobre isso. "
+                 "Se houve briga, conte como uma confusão de bichinhos, sem violência de verdade.\n\n")
+        espec = ESPECIFICACAO.format(tamanho="2 a 4 frases", foco="Conte o que aconteceu e o que você sentiu.",
+                                     desenho='só se algo te inspirou, ' + DESENHO + ' Na maioria das vezes use "".')
+    elif atividade == "aranha":
+        corpo = ("Agora você está na toca, o seu quarto. " + (extras or {}).get("resumo", "") + " Escreva a entrada do seu diário sobre isso. "
                  "Se houve briga, conte como uma confusão de bichinhos, sem violência de verdade.\n\n")
         espec = ESPECIFICACAO.format(tamanho="2 a 4 frases", foco="Conte o que aconteceu e o que você sentiu.",
                                      desenho='só se algo te inspirou, ' + DESENHO + ' Na maioria das vezes use "".')
@@ -684,15 +720,27 @@ def viver():
         salvar(ESTADO, e)
         print(f"sala | assistindo {e['tv']['descricao']} | energia: {e['energia']} | fome: {e['fome']} | acao: {e['acao']}")
         return
+    if atividade in ("comida", "cupinzeiro") and not (TESTE and "--diario" in sys.argv) and random.random() >= CHANCE_DIARIO_COMIDA:
+        # comer quase nunca vira diário: ele come em silêncio e a história fica para outros assuntos
+        e["fome"] = max(0, e["fome"] - random.randint(45, 60))
+        e["energia"] = max(0, min(100, e["energia"] - random.randint(*CUSTO_ENERGIA[atividade])))
+        e["ultima_atividade"] = atividade
+        if atividade == "cupinzeiro":
+            logar(e, agora_dt, "Pangolimo comeu cupins no cupinzeiro")
+        if e["energia"] <= 25:
+            dormir(e)
+        salvar(ESTADO, e)
+        print(f"{atividade} | refeição sem diário | energia: {e['energia']} | fome: {e['fome']} | acao: {e['acao']}")
+        return
     res = None
-    if atividade == "quintal":  # brincar, ver visitas, conversar ou brigar: só vira diário às vezes
-        res = acao_quintal(e, agora_dt)
+    if atividade in ("quintal", "aranha"):  # brincar, ver visitas, conversar ou brigar: só vira diário às vezes
+        res = acao_quintal(e, agora_dt) if atividade == "quintal" else acao_aranha(e, agora_dt)
         e["ultima_atividade"] = res["ultima"]
         if e["energia"] <= 25:
             dormir(e)
         if random.random() >= res["chance"]:
             salvar(ESTADO, e)
-            print(f"quintal | {res['rotulo']} | energia: {e['energia']} | fome: {e['fome']} | tédio: {e['tedio']} | acao: {e['acao']}")
+            print(f"{atividade} | {res['rotulo']} | energia: {e['energia']} | fome: {e['fome']} | tédio: {e['tedio']} | acao: {e['acao']}")
             return
     tema = titulo = texto = link = origem_tema = via = lang = forcado = None
     candidatos = []
@@ -785,7 +833,7 @@ def viver():
     # Efeitos da atividade: comer tira a fome, tudo gasta (ou devolve) um pouco de energia.
     if atividade in ("comida", "cupinzeiro"):
         e["fome"] = max(0, e["fome"] - random.randint(45, 60))
-    if atividade != "quintal":  # o quintal já aplicou os próprios custos
+    if atividade not in ("quintal", "aranha"):  # o quintal e a aranha já aplicaram os próprios custos
         e["energia"] = max(0, min(100, e["energia"] - random.randint(*CUSTO_ENERGIA[atividade])))
         e["ultima_atividade"] = atividade
     if e["energia"] <= 25:

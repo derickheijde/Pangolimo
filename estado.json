@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 90,
+  "energia": 95,
   "dormindo": false,
   "acao": "comendo",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.581
+      "recente": 4.568
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.627
+      "recente": 3.617
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.609
+      "recente": 2.602
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.627
+      "recente": 1.622
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.6
+      "recente": 1.595
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.554
+      "recente": 1.55
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.67
+      "recente": 1.665
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.564
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.197
+      "recente": 1.194
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.197
+      "recente": 1.194
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.261
+      "recente": 1.257
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.203
+      "recente": 1.2
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.046
+      "recente": 1.043
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.989
+      "recente": 0.986
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.952
+      "recente": 0.949
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.835
+      "recente": 0.833
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.797
+      "recente": 0.795
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.797
+      "recente": 0.795
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.797
+      "recente": 0.795
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.825
+      "recente": 0.823
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.825
+      "recente": 0.823
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.819
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.819
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.821
+      "recente": 0.819
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.799
+      "recente": 0.797
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.783
+      "recente": 0.781
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.744
+      "recente": 0.742
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.638
+      "recente": 0.636
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.638
+      "recente": 0.636
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.603
+      "recente": 0.601
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T19:46+00:00",
+  "ultima_execucao": "2026-11-24T19:57+00:00",
   "tipo": "Limo / Terra",
-  "fome": 91,
+  "fome": 40,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": "Plantae",
@@ -338,6 +338,6 @@
       }
     ],
     "seq": 16,
-    "agenda_ate": "2026-11-24T21:16:44+00:00"
+    "agenda_ate": "2026-11-24T21:27:52+00:00"
   }
 }

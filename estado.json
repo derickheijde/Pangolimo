@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 29,
   "dormindo": false,
-  "acao": "assistindo_programa",
+  "acao": "olhando_lua",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.4
+      "recente": 4.335
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.389
+      "recente": 4.324
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.968
+      "recente": 1.939
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.936
+      "recente": 1.907
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.881
+      "recente": 1.853
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.898
+      "recente": 1.87
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.451
+      "recente": 1.429
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.451
+      "recente": 1.429
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.524
+      "recente": 1.501
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.457
+      "recente": 1.435
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.266
+      "recente": 1.247
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.196
+      "recente": 1.178
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.151
+      "recente": 1.134
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.012
+      "recente": 0.997
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.964
+      "recente": 0.95
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.964
+      "recente": 0.95
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.964
+      "recente": 0.95
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.985
     },
     {
       "tema": "Coqueiro",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.985
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.985
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.978
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.978
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.978
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.966
+      "recente": 0.952
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.935
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.902
+      "recente": 0.889
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.761
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.761
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.729
+      "recente": 0.718
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.729
+      "recente": 0.718
     }
   ],
   "gostos": {
@@ -196,14 +196,10 @@
     "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros."
   ],
   "proximo_tema": "Coqueiro",
-  "ultima_execucao": "2026-11-24T06:41+00:00",
+  "ultima_execucao": "2026-11-24T07:43+00:00",
   "tipo": "Limo / Terra",
-  "fome": 26,
-  "evento": {
-    "nome": "clima",
-    "tipo": "chuva",
-    "ate": "2026-11-24T07:38+00:00"
-  },
+  "fome": 36,
+  "evento": null,
   "ultima_atividade": "programa",
   "origem_do_proximo": "Praia do Forte (Mata de São João)",
   "via_do_proximo": {
@@ -217,37 +213,11 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 67,
+  "tedio": 73,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
     "visitantes": [
-      {
-        "id": 4,
-        "tipo": "coruja",
-        "desde": "2026-11-24T02:34:19+00:00",
-        "ate": "2026-11-24T05:23:21+00:00"
-      },
-      {
-        "id": 5,
-        "tipo": "ratinho",
-        "desde": "2026-11-24T04:41:39+00:00",
-        "ate": "2026-11-24T04:51:15+00:00",
-        "fim": {
-          "quando": "2026-11-24T04:51:09+00:00",
-          "resultado": "fugiu"
-        }
-      },
-      {
-        "id": 6,
-        "tipo": "ratinho",
-        "desde": "2026-11-24T04:57:46+00:00",
-        "ate": "2026-11-24T05:01:16+00:00",
-        "fim": {
-          "quando": "2026-11-24T05:01:10+00:00",
-          "resultado": "fugiu"
-        }
-      },
       {
         "id": 7,
         "tipo": "ratinho",
@@ -263,6 +233,12 @@
         "tipo": "coruja",
         "desde": "2026-11-24T08:03:18+00:00",
         "ate": "2026-11-24T09:35:41+00:00"
+      },
+      {
+        "id": 9,
+        "tipo": "passarinho",
+        "desde": "2026-11-24T09:04:40+00:00",
+        "ate": "2026-11-24T10:49:40+00:00"
       }
     ],
     "log": [
@@ -317,9 +293,13 @@
       {
         "quando": "2026-11-24T08:05:23+00:00",
         "texto": "a coruja pegou o ratinho"
+      },
+      {
+        "quando": "2026-11-24T09:04:40+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 8,
-    "agenda_ate": "2026-11-24T08:11:42+00:00"
+    "seq": 9,
+    "agenda_ate": "2026-11-24T09:13:17+00:00"
   }
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 92,
+  "energia": 97,
   "dormindo": false,
-  "acao": "assistindo_programa",
+  "acao": "comendo_cupinzeiro",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.456
+      "recente": 4.418
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.527
+      "recente": 3.497
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.537
+      "recente": 2.516
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.582
+      "recente": 1.569
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.556
+      "recente": 1.543
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.512
+      "recente": 1.499
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.625
+      "recente": 1.611
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.525
+      "recente": 1.512
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.165
+      "recente": 1.155
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.165
+      "recente": 1.155
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.226
+      "recente": 1.216
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.171
+      "recente": 1.161
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.018
+      "recente": 1.009
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.962
+      "recente": 0.954
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.926
+      "recente": 0.918
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.812
+      "recente": 0.805
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.776
+      "recente": 0.769
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.776
+      "recente": 0.769
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.776
+      "recente": 0.769
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.803
+      "recente": 0.796
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.803
+      "recente": 0.796
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.799
+      "recente": 0.792
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.799
+      "recente": 0.792
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.799
+      "recente": 0.792
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.778
+      "recente": 0.771
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.762
+      "recente": 0.756
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.724
+      "recente": 0.718
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.621
+      "recente": 0.616
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.621
+      "recente": 0.616
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.586
+      "recente": 0.581
     }
   ],
   "gostos": {
@@ -198,11 +198,11 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T21:39+00:00",
+  "ultima_execucao": "2026-11-24T22:14+00:00",
   "tipo": "Limo / Terra",
-  "fome": 57,
+  "fome": 17,
   "evento": null,
-  "ultima_atividade": "quintal",
+  "ultima_atividade": "cupinzeiro",
   "origem_do_proximo": "Plantae",
   "via_do_proximo": {
     "de": "Plantae",
@@ -215,23 +215,11 @@
     "tema": "Campo (bioma)",
     "desde": "2026-11-24T21:39+00:00"
   },
-  "tedio": 63,
+  "tedio": 67,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
     "visitantes": [
-      {
-        "id": 12,
-        "tipo": "lagarta",
-        "desde": "2026-11-24T17:45:47+00:00",
-        "ate": "2026-11-24T19:56:40+00:00"
-      },
-      {
-        "id": 14,
-        "tipo": "borboleta",
-        "desde": "2026-11-24T18:01:58+00:00",
-        "ate": "2026-11-24T19:51:33+00:00"
-      },
       {
         "id": 15,
         "tipo": "passarinho",
@@ -371,9 +359,13 @@
       {
         "quando": "2026-11-24T23:13:24+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-24T22:14:07+00:00",
+        "texto": "Pangolimo comeu cupins no cupinzeiro"
       }
     ],
     "seq": 19,
-    "agenda_ate": "2026-11-24T23:09:48+00:00"
+    "agenda_ate": "2026-11-24T23:44:07+00:00"
   }
 }

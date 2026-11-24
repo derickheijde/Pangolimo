@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 82,
+  "energia": 79,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "assistindo_tv",
   "humor": "satisfeito",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.802
+      "recente": 3.775
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.789
+      "recente": 3.762
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.181
+      "recente": 2.166
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.148
+      "recente": 2.133
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.088
+      "recente": 2.073
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.608
+      "recente": 1.597
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.608
+      "recente": 1.597
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.691
+      "recente": 1.679
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.616
+      "recente": 1.605
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.404
+      "recente": 1.394
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.317
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.276
+      "recente": 1.267
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.122
+      "recente": 1.114
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.069
+      "recente": 1.062
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.069
+      "recente": 1.062
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.069
+      "recente": 1.062
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.856
+      "recente": 0.85
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.856
+      "recente": 0.85
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.808
+      "recente": 0.802
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.808
+      "recente": 0.802
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.806
+      "recente": 0.8
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.806
+      "recente": 0.8
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.772
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.772
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.772
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.745
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.745
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.745
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.725
+      "recente": 0.72
     }
   ],
   "gostos": {
@@ -191,11 +191,11 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-23T23:35+00:00",
+  "ultima_execucao": "2026-11-24T00:04+00:00",
   "tipo": "Limo / Terra",
-  "fome": 8,
+  "fome": 13,
   "evento": null,
-  "ultima_atividade": "comida",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Pouco preocupante",
   "via_do_proximo": {
     "de": "Pouco preocupante",
@@ -203,12 +203,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "documentario",
-    "descricao": "um programa sobre Espécies ameaçadas",
-    "tema": "Espécies ameaçadas",
-    "desde": "2026-11-23T23:10+00:00"
+    "genero": "comedia",
+    "descricao": "um programa de humor",
+    "tema": null,
+    "desde": "2026-11-24T00:04+00:00"
   },
-  "tedio": 23,
+  "tedio": 26,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -245,6 +245,6 @@
       }
     ],
     "seq": 2,
-    "agenda_ate": "2026-11-24T01:05:00+00:00"
+    "agenda_ate": "2026-11-24T01:34:13+00:00"
   }
 }

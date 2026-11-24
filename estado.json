@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 85,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "comendo",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.094
+      "recente": 4.059
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.083
+      "recente": 4.048
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.936
+      "recente": 2.911
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.832
+      "recente": 1.816
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.8
+      "recente": 1.785
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.749
+      "recente": 1.734
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.881
+      "recente": 1.865
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.765
+      "recente": 1.75
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.349
+      "recente": 1.337
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.349
+      "recente": 1.337
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.418
+      "recente": 1.406
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.355
+      "recente": 1.343
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.178
+      "recente": 1.168
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.113
+      "recente": 1.103
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.071
+      "recente": 1.062
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.941
+      "recente": 0.933
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.896
+      "recente": 0.888
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.896
+      "recente": 0.888
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.896
+      "recente": 0.888
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.922
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.93
+      "recente": 0.922
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.924
+      "recente": 0.916
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.924
+      "recente": 0.916
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.924
+      "recente": 0.916
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.898
+      "recente": 0.89
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.882
+      "recente": 0.874
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.838
+      "recente": 0.831
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.719
+      "recente": 0.713
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.719
+      "recente": 0.713
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.679
+      "recente": 0.673
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T11:40+00:00",
+  "ultima_execucao": "2026-11-24T12:15+00:00",
   "tipo": "Limo / Terra",
-  "fome": 56,
+  "fome": 62,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "Plantae",
@@ -215,7 +215,7 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 97,
+  "tedio": 100,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -306,6 +306,6 @@
       }
     ],
     "seq": 11,
-    "agenda_ate": "2026-11-24T13:10:06+00:00"
+    "agenda_ate": "2026-11-24T13:45:44+00:00"
   }
 }

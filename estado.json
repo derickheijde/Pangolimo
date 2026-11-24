@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.75
+      "recente": 4.73
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.76
+      "recente": 3.744
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.704
+      "recente": 2.693
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.687
+      "recente": 1.68
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.659
+      "recente": 1.652
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.611
+      "recente": 1.604
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.731
+      "recente": 1.724
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.626
+      "recente": 1.619
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.241
+      "recente": 1.236
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.241
+      "recente": 1.236
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.306
+      "recente": 1.301
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.247
+      "recente": 1.242
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.085
+      "recente": 1.08
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.025
+      "recente": 1.021
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.987
+      "recente": 0.983
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.867
+      "recente": 0.863
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.822
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.822
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.822
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.856
+      "recente": 0.852
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.856
+      "recente": 0.852
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.851
+      "recente": 0.847
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.851
+      "recente": 0.847
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.851
+      "recente": 0.847
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.827
+      "recente": 0.824
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.811
+      "recente": 0.808
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.772
+      "recente": 0.769
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.662
+      "recente": 0.659
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.662
+      "recente": 0.659
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.625
+      "recente": 0.622
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T17:18+00:00",
+  "ultima_execucao": "2026-11-24T17:35+00:00",
   "tipo": "Limo / Terra",
-  "fome": 66,
+  "fome": 69,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
@@ -322,6 +322,6 @@
       }
     ],
     "seq": 14,
-    "agenda_ate": "2026-11-24T18:48:11+00:00"
+    "agenda_ate": "2026-11-24T19:05:22+00:00"
   }
 }

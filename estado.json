@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 53,
+  "energia": 46,
   "dormindo": false,
-  "acao": "assistindo_tv",
+  "acao": "assistindo_programa",
   "humor": "pensativo",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.582
+      "recente": 3.548
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.57
+      "recente": 3.536
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.056
+      "recente": 2.037
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.023
+      "recente": 2.004
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.966
+      "recente": 1.947
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.984
+      "recente": 1.965
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.515
+      "recente": 1.501
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.515
+      "recente": 1.501
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.593
+      "recente": 1.578
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.523
+      "recente": 1.509
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.322
+      "recente": 1.31
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.25
+      "recente": 1.238
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.202
+      "recente": 1.191
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.057
+      "recente": 1.047
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.007
+      "recente": 0.998
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.007
+      "recente": 0.998
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.007
+      "recente": 0.998
+    },
+    {
+      "tema": "Tartaruga-de-couro",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.983
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.943
+      "recente": 0.934
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.807
+      "recente": 0.799
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.807
+      "recente": 0.799
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.754
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.754
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.759
+      "recente": 0.752
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.759
+      "recente": 0.752
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.732
+      "recente": 0.725
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.732
+      "recente": 0.725
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.732
+      "recente": 0.725
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.707
-    },
-    {
-      "tema": "lêmures",
-      "peso": 1,
-      "recente": 0.707
+      "recente": 0.7
     }
   ],
   "gostos": {
@@ -189,27 +189,28 @@
     "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
-    "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza."
+    "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
+    "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar."
   ],
-  "proximo_tema": "Tartaruga-de-couro",
-  "ultima_execucao": "2026-11-24T03:40+00:00",
+  "proximo_tema": "Fundação Pró-Tamar",
+  "ultima_execucao": "2026-11-24T04:19+00:00",
   "tipo": "Limo / Terra",
-  "fome": 49,
+  "fome": 56,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "Espécies ameaçadas",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Tartaruga-de-couro",
   "via_do_proximo": {
-    "de": "Espécies ameaçadas",
+    "de": "Tartaruga-de-couro",
     "sorteado": false,
     "lang": "pt"
   },
   "tv": {
-    "genero": "reality",
-    "descricao": "um reality show de casais",
-    "tema": null,
-    "desde": "2026-11-24T03:40+00:00"
+    "genero": "documentario",
+    "descricao": "um programa sobre Tartaruga-de-couro",
+    "tema": "Tartaruga-de-couro",
+    "desde": "2026-11-24T04:19+00:00"
   },
-  "tedio": 48,
+  "tedio": 52,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -300,6 +301,6 @@
       }
     ],
     "seq": 6,
-    "agenda_ate": "2026-11-24T05:10:39+00:00"
+    "agenda_ate": "2026-11-24T05:49:17+00:00"
   }
 }

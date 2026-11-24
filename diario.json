@@ -467,5 +467,20 @@
     "via": "Pouco preocupante",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 37,
+    "quando": "2026-11-24T04:19+00:00",
+    "atividade": "programa",
+    "tema": "Tartaruga-de-couro",
+    "fonte": "https://pt.wikipedia.org/wiki/Tartaruga-de-couro",
+    "texto": "Agora estive na sala vendo um bicho grandão na TV chamado tartaruga-de-couro, que nada bem rápido no mar. Ela é bem diferente das outras tartarugas e tem um corpinho forte com nadadeiras. Fiquei pensando em como deve ser a vida lá no mar azul, tão longe da minha casinha e do meu formigueiro. Meu corpinho verde-limo ficou quietinho no sofá enquanto eu olhava a telinha.",
+    "aprendeu": "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
+    "humor": "pensativo",
+    "desenho": "desenhos/0037.svg",
+    "titulo_desenho": "Tartaruga no mar",
+    "via": "Espécies ameaçadas",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

@@ -412,5 +412,23 @@
     "origem": "Coqueiro",
     "vezes": 1,
     "desde": "2026-11-24T08:09+00:00"
+  },
+  {
+    "tema": "Campo (bioma)",
+    "origem": "Plantae",
+    "vezes": 1,
+    "desde": "2026-11-24T23:34+00:00"
+  },
+  {
+    "tema": "Erva",
+    "origem": "Campo (bioma)",
+    "vezes": 0,
+    "desde": "2026-11-24T23:34+00:00"
+  },
+  {
+    "tema": "Campo",
+    "origem": "Campo (bioma)",
+    "vezes": 0,
+    "desde": "2026-11-24T23:34+00:00"
   }
 ]

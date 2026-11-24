@@ -587,5 +587,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "brigando com uma coruja"
+  },
+  {
+    "id": 45,
+    "quando": "2026-11-24T23:34+00:00",
+    "atividade": "pesquisa",
+    "tema": "Campo (bioma)",
+    "fonte": "https://pt.wikipedia.org/wiki/Campo_%28bioma%29",
+    "texto": "A noite já chegou e o meu corpinho verde está bem cansado. Fui clicando nas plantinhas até chegar num tal de campo, que é um lugar cheio de capim rasteirinho e grama. Fiquei imaginando como deve ser gostoso andar por ali deixando meu rastro brilhante na terra. Vou fechar meus olhinhos daqui a pouquinho, mas antes fiz mais um desenho no meu mural escuro.",
+    "aprendeu": "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
+    "humor": "com sono",
+    "desenho": "desenhos/0045.svg",
+    "titulo_desenho": "O campo de grama",
+    "via": "Plantae",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

@@ -542,5 +542,20 @@
     "via": "Praia do Forte (Mata de São João)",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 42,
+    "quando": "2026-11-24T11:10+00:00",
+    "atividade": "pesquisa",
+    "tema": "Plantae",
+    "fonte": "https://pt.wikipedia.org/wiki/Plantae",
+    "texto": "Hoje cliquei sem querer num lugar brilhante do computador e fui parar numa página grandona chamada Plantae, que fala de plantas. Descobri que elas usam a luz do sol para fazer comidinha verde delas mesmas, parecendo uma mágica bem calma. Fiquei um pouquinho com sono lendo tudo isso enquanto deixava meu rastro verde na cadeira. Acabei lembrando da árvore do meu quintal que tem um buraquinho no tronco. Meu corpinho de pangolim está meio pesado de sono agora.",
+    "aprendeu": "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
+    "humor": "com sono",
+    "desenho": "desenhos/0042.svg",
+    "titulo_desenho": "Arroz e sol brilhante",
+    "via": "Coqueiro",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

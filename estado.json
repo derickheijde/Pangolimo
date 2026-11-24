@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 62,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 85,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.205
+      "recente": 4.124
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.194
+      "recente": 4.113
+    },
+    {
+      "tema": "Plantae",
+      "peso": 3,
+      "recente": 2.957
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.881
+      "recente": 1.845
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.849
+      "recente": 1.813
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.797
+      "recente": 1.762
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.932
+      "recente": 1.895
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.813
+      "recente": 1.778
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.386
+      "recente": 1.359
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.386
+      "recente": 1.359
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.456
+      "recente": 1.428
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.392
+      "recente": 1.365
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.21
+      "recente": 1.187
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.143
+      "recente": 1.121
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.1
+      "recente": 1.079
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.967
+      "recente": 0.948
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.921
+      "recente": 0.903
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.921
+      "recente": 0.903
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.921
-    },
-    {
-      "tema": "Plantae",
-      "peso": 1,
-      "recente": 0.976
+      "recente": 0.903
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.937
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.937
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.931
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.931
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.949
+      "recente": 0.931
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.923
+      "recente": 0.905
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.906
+      "recente": 0.888
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.844
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.738
+      "recente": 0.724
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.738
+      "recente": 0.724
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.697
+      "recente": 0.684
     }
   ],
   "gostos": {
@@ -194,18 +194,19 @@
     "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
     "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
     "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros.",
-    "O coco consegue flutuar na água do mar e se espalhar por longas distâncias."
+    "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
+    "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
-  "proximo_tema": "Plantae",
-  "ultima_execucao": "2026-11-24T09:49+00:00",
+  "proximo_tema": "Campo (bioma)",
+  "ultima_execucao": "2026-11-24T11:10+00:00",
   "tipo": "Limo / Terra",
-  "fome": 46,
+  "fome": 51,
   "evento": null,
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Coqueiro",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Plantae",
   "via_do_proximo": {
-    "de": "Coqueiro",
-    "sorteado": true,
+    "de": "Plantae",
+    "sorteado": false,
     "lang": "pt"
   },
   "tv": {
@@ -214,21 +215,11 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 86,
+  "tedio": 94,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
     "visitantes": [
-      {
-        "id": 7,
-        "tipo": "ratinho",
-        "desde": "2026-11-24T07:30:37+00:00",
-        "ate": "2026-11-24T08:05:29+00:00",
-        "fim": {
-          "quando": "2026-11-24T08:05:23+00:00",
-          "resultado": "pegou"
-        }
-      },
       {
         "id": 8,
         "tipo": "coruja",
@@ -246,6 +237,12 @@
         "tipo": "esquilo",
         "desde": "2026-11-24T09:30:01+00:00",
         "ate": "2026-11-24T10:27:01+00:00"
+      },
+      {
+        "id": 11,
+        "tipo": "cobra",
+        "desde": "2026-11-24T11:28:24+00:00",
+        "ate": "2026-11-24T12:38:56+00:00"
       }
     ],
     "log": [
@@ -308,9 +305,13 @@
       {
         "quando": "2026-11-24T09:30:01+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
+      },
+      {
+        "quando": "2026-11-24T11:28:24+00:00",
+        "texto": "uma cobra entrou no quintal"
       }
     ],
-    "seq": 10,
-    "agenda_ate": "2026-11-24T11:19:46+00:00"
+    "seq": 11,
+    "agenda_ate": "2026-11-24T12:40:13+00:00"
   }
 }

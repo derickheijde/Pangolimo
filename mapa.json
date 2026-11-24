@@ -398,7 +398,7 @@
   {
     "tema": "Coqueiro",
     "origem": "Praia do Forte (Mata de São João)",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-24T06:41+00:00"
   },
   {
@@ -406,5 +406,11 @@
     "origem": "Praia do Forte (Mata de São João)",
     "vezes": 0,
     "desde": "2026-11-24T06:41+00:00"
+  },
+  {
+    "tema": "Plantae",
+    "origem": "Coqueiro",
+    "vezes": 0,
+    "desde": "2026-11-24T08:09+00:00"
   }
 ]

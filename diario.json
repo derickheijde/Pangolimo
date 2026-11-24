@@ -527,5 +527,20 @@
     "via": "Fundação Pró-Tamar",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 41,
+    "quando": "2026-11-24T08:09+00:00",
+    "atividade": "pesquisa",
+    "tema": "Coqueiro",
+    "fonte": "https://pt.wikipedia.org/wiki/Coqueiro",
+    "texto": "São cinco horas da manhã e meus olhos estão bem pesadinhos de sono. Fiquei lendo no computador sobre os coqueiros gigantes que crescem até trinta metros de altura. Achei muito curioso que o fruto do coqueiro consegue boiar no mar e viajar por lugares bem distantes levado pelas ondas. Deixei um rastro de limo verdinho no chão enquanto andava até a cama para dormir um pouquinho. Sem querer, cliquei em um link e fui parar em Plantae.",
+    "aprendeu": "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
+    "humor": "com sono",
+    "desenho": "desenhos/0041.svg",
+    "titulo_desenho": "Coqueiro na praia",
+    "via": "Praia do Forte (Mata de São João)",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

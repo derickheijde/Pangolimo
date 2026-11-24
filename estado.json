@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 29,
-  "dormindo": false,
-  "acao": "olhando_lua",
+  "energia": 11,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.335
+      "recente": 4.308
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.324
+      "recente": 4.297
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.939
+      "recente": 1.927
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.907
+      "recente": 1.895
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.853
+      "recente": 1.841
+    },
+    {
+      "tema": "Coqueiro",
+      "peso": 2,
+      "recente": 1.979
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.87
+      "recente": 1.858
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.429
+      "recente": 1.42
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.429
+      "recente": 1.42
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.501
+      "recente": 1.492
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.435
+      "recente": 1.426
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.247
+      "recente": 1.239
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.178
+      "recente": 1.171
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.134
+      "recente": 1.127
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.997
+      "recente": 0.991
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.944
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.944
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.944
+    },
+    {
+      "tema": "Plantae",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.985
-    },
-    {
-      "tema": "Coqueiro",
-      "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.978
+      "recente": 0.972
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.978
+      "recente": 0.972
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.978
+      "recente": 0.972
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.946
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.929
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.883
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.756
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.761
+      "recente": 0.756
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.718
-    },
-    {
-      "tema": "primatas",
-      "peso": 1,
-      "recente": 0.718
+      "recente": 0.714
     }
   ],
   "gostos": {
@@ -193,18 +193,19 @@
     "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
     "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
     "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
-    "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros."
+    "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros.",
+    "O coco consegue flutuar na água do mar e se espalhar por longas distâncias."
   ],
-  "proximo_tema": "Coqueiro",
-  "ultima_execucao": "2026-11-24T07:43+00:00",
+  "proximo_tema": "Plantae",
+  "ultima_execucao": "2026-11-24T08:09+00:00",
   "tipo": "Limo / Terra",
-  "fome": 36,
+  "fome": 40,
   "evento": null,
-  "ultima_atividade": "programa",
-  "origem_do_proximo": "Praia do Forte (Mata de São João)",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Coqueiro",
   "via_do_proximo": {
-    "de": "Praia do Forte (Mata de São João)",
-    "sorteado": false,
+    "de": "Coqueiro",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -213,7 +214,7 @@
     "tema": "Praia do Forte (Mata de São João)",
     "desde": "2026-11-24T06:41+00:00"
   },
-  "tedio": 73,
+  "tedio": 76,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -239,6 +240,12 @@
         "tipo": "passarinho",
         "desde": "2026-11-24T09:04:40+00:00",
         "ate": "2026-11-24T10:49:40+00:00"
+      },
+      {
+        "id": 10,
+        "tipo": "esquilo",
+        "desde": "2026-11-24T09:30:01+00:00",
+        "ate": "2026-11-24T10:27:01+00:00"
       }
     ],
     "log": [
@@ -297,9 +304,13 @@
       {
         "quando": "2026-11-24T09:04:40+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-24T09:30:01+00:00",
+        "texto": "um esquilo veio ao buraco da árvore"
       }
     ],
-    "seq": 9,
-    "agenda_ate": "2026-11-24T09:13:17+00:00"
+    "seq": 10,
+    "agenda_ate": "2026-11-24T09:39:02+00:00"
   }
 }

@@ -557,5 +557,20 @@
     "via": "Coqueiro",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 43,
+    "quando": "2026-11-24T15:49+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fui até o cantinho da minha casa mastigar algumas formigas com a minha língua comprida. Fiquei pensando em como a rainha delas deve estar guardada bem no fundo, recebendo a comidinha que as trabalhadoras levam. Meu rastro verde brilhante ficou na beiradinha do formigueiro enquanto eu comia em silêncio.",
+    "aprendeu": "",
+    "humor": "com sono",
+    "desenho": "desenhos/0043.svg",
+    "titulo_desenho": "Formiguinhas no canto",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

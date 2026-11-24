@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 85,
+  "energia": 90,
   "dormindo": false,
   "acao": "comendo",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
-      "peso": 6,
-      "recente": 3.879
+      "peso": 7,
+      "recente": 4.853
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.868
+      "recente": 3.842
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.782
+      "recente": 2.763
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.736
+      "recente": 1.724
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.706
+      "recente": 1.695
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.657
+      "recente": 1.646
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.781
+      "recente": 1.769
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.672
+      "recente": 1.661
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.277
+      "recente": 1.268
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.277
+      "recente": 1.268
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.343
+      "recente": 1.334
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.283
+      "recente": 1.274
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.117
+      "recente": 1.109
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.054
+      "recente": 1.047
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.015
+      "recente": 1.008
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.892
+      "recente": 0.886
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.849
+      "recente": 0.843
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.849
+      "recente": 0.843
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.849
+      "recente": 0.843
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.881
+      "recente": 0.875
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.881
+      "recente": 0.875
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.851
+      "recente": 0.845
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.835
+      "recente": 0.829
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.789
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.681
+      "recente": 0.676
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.681
+      "recente": 0.676
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.643
+      "recente": 0.639
     }
   ],
   "gostos": {
@@ -198,15 +198,15 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T15:21+00:00",
+  "ultima_execucao": "2026-11-24T15:49+00:00",
   "tipo": "Limo / Terra",
-  "fome": 93,
+  "fome": 51,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
     "ate": "2026-11-24T18:22+00:00"
   },
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Plantae",
   "via_do_proximo": {
     "de": "Plantae",
@@ -291,6 +291,6 @@
       }
     ],
     "seq": 11,
-    "agenda_ate": "2026-11-24T16:51:29+00:00"
+    "agenda_ate": "2026-11-24T17:19:02+00:00"
   }
 }

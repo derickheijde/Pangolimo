@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 6,
-      "recente": 4.059
+      "recente": 4.027
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 4.048
+      "recente": 4.016
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.911
+      "recente": 2.888
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.816
+      "recente": 1.802
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.785
+      "recente": 1.771
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.734
+      "recente": 1.72
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.865
+      "recente": 1.85
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.75
+      "recente": 1.736
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.337
+      "recente": 1.326
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.337
+      "recente": 1.326
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.406
+      "recente": 1.395
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.343
+      "recente": 1.332
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.168
+      "recente": 1.159
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.103
+      "recente": 1.094
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.062
+      "recente": 1.054
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.933
+      "recente": 0.926
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.881
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.881
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.881
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.915
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.922
+      "recente": 0.915
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.89
+      "recente": 0.883
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.874
+      "recente": 0.867
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.831
+      "recente": 0.824
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.713
+      "recente": 0.707
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.713
+      "recente": 0.707
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.673
+      "recente": 0.668
     }
   ],
   "gostos": {
@@ -198,9 +198,9 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T12:15+00:00",
+  "ultima_execucao": "2026-11-24T12:47+00:00",
   "tipo": "Limo / Terra",
-  "fome": 62,
+  "fome": 67,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "Plantae",
@@ -225,12 +225,6 @@
         "tipo": "passarinho",
         "desde": "2026-11-24T09:04:40+00:00",
         "ate": "2026-11-24T10:49:40+00:00"
-      },
-      {
-        "id": 10,
-        "tipo": "esquilo",
-        "desde": "2026-11-24T09:30:01+00:00",
-        "ate": "2026-11-24T10:27:01+00:00"
       },
       {
         "id": 11,
@@ -306,6 +300,6 @@
       }
     ],
     "seq": 11,
-    "agenda_ate": "2026-11-24T13:45:44+00:00"
+    "agenda_ate": "2026-11-24T14:17:55+00:00"
   }
 }

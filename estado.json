@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 75,
+  "energia": 71,
   "dormindo": false,
   "acao": "assistindo_tv",
   "humor": "satisfeito",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.747
+      "recente": 3.694
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.735
+      "recente": 3.682
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.15
+      "recente": 2.12
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.117
+      "recente": 2.087
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.058
+      "recente": 2.029
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.585
+      "recente": 1.563
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.585
+      "recente": 1.563
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.667
+      "recente": 1.643
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.593
+      "recente": 1.571
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.384
+      "recente": 1.364
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.307
+      "recente": 1.289
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.258
+      "recente": 1.24
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.106
+      "recente": 1.09
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.054
+      "recente": 1.039
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.054
+      "recente": 1.039
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.054
+      "recente": 1.039
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.972
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.844
+      "recente": 0.832
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.844
+      "recente": 0.832
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.796
+      "recente": 0.785
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.796
+      "recente": 0.785
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.783
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.794
+      "recente": 0.783
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.755
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.755
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.755
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.74
+      "recente": 0.73
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.74
+      "recente": 0.73
     },
     {
       "tema": "Madagascar",
       "peso": 1,
-      "recente": 0.74
+      "recente": 0.73
     },
     {
       "tema": "Evolução da visão em cores em primatas",
       "peso": 1,
-      "recente": 0.715
+      "recente": 0.705
     }
   ],
   "gostos": {
@@ -191,9 +191,9 @@
     "As formigas andam em filas organizadas para encontrar comida para a colônia."
   ],
   "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-24T00:34+00:00",
+  "ultima_execucao": "2026-11-24T01:33+00:00",
   "tipo": "Limo / Terra",
-  "fome": 18,
+  "fome": 28,
   "evento": null,
   "ultima_atividade": "tv",
   "origem_do_proximo": "Pouco preocupante",
@@ -208,7 +208,7 @@
     "tema": null,
     "desde": "2026-11-24T00:34+00:00"
   },
-  "tedio": 29,
+  "tedio": 35,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -228,6 +228,22 @@
         "tipo": "coruja",
         "desde": "2026-11-23T23:41:26+00:00",
         "ate": "2026-11-24T02:24:36+00:00"
+      },
+      {
+        "id": 3,
+        "tipo": "ratinho",
+        "desde": "2026-11-24T02:16:15+00:00",
+        "ate": "2026-11-24T02:21:40+00:00",
+        "fim": {
+          "quando": "2026-11-24T02:21:34+00:00",
+          "resultado": "fugiu"
+        }
+      },
+      {
+        "id": 4,
+        "tipo": "coruja",
+        "desde": "2026-11-24T02:34:19+00:00",
+        "ate": "2026-11-24T05:23:21+00:00"
       }
     ],
     "log": [
@@ -242,9 +258,21 @@
       {
         "quando": "2026-11-23T23:48:24+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-24T02:16:15+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-24T02:21:34+00:00",
+        "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-24T02:34:19+00:00",
+        "texto": "uma coruja pousou num galho"
       }
     ],
-    "seq": 2,
-    "agenda_ate": "2026-11-24T02:04:25+00:00"
+    "seq": 4,
+    "agenda_ate": "2026-11-24T03:03:00+00:00"
   }
 }

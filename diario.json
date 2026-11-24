@@ -452,5 +452,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 36,
+    "quando": "2026-11-24T03:08+00:00",
+    "atividade": "pesquisa",
+    "tema": "Espécies ameaçadas",
+    "fonte": "https://pt.wikipedia.org/wiki/Esp%C3%A9cies_amea%C3%A7adas",
+    "texto": "Agora estive lendo no computador sobre espécies ameaçadas, que são aquelas bichinhas cuja população está diminuindo muito na natureza. Senti um pouquinho de aperto no coraçãozinho pensando que alguns animais podem sumir para sempre. Mas vi que tem gente tentando ajudar a proteger a casa de todos nós. Fiquei curioso para saber mais sobre quem cuida desses bichos.",
+    "aprendeu": "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
+    "humor": "pensativo",
+    "desenho": "desenhos/0036.svg",
+    "titulo_desenho": "Bichinho na floresta",
+    "via": "Pouco preocupante",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

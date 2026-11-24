@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 71,
+  "energia": 58,
   "dormindo": false,
-  "acao": "olhando_lua",
-  "humor": "satisfeito",
+  "acao": "desenhando",
+  "humor": "pensativo",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 5,
-      "recente": 3.671
+      "recente": 3.61
     },
     {
       "tema": "soldados formigas",
       "peso": 5,
-      "recente": 3.659
+      "recente": 3.598
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 2.107
+      "recente": 2.072
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 2.074
+      "recente": 2.039
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 2.016
+      "recente": 1.982
+    },
+    {
+      "tema": "Espécies ameaçadas",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.553
+      "recente": 1.527
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.553
+      "recente": 1.527
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.633
+      "recente": 1.606
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.561
+      "recente": 1.535
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.355
+      "recente": 1.332
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 1.281
+      "recente": 1.26
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 1.232
+      "recente": 1.211
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 1.083
+      "recente": 1.065
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.015
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.015
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.015
+    },
+    {
+      "tema": "Habitats",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.966
+      "recente": 0.95
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.827
+      "recente": 0.813
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.827
+      "recente": 0.813
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.78
+      "recente": 0.767
     },
     {
       "tema": "primatas",
       "peso": 1,
-      "recente": 0.78
+      "recente": 0.767
     },
     {
       "tema": "Fanchangia",
       "peso": 1,
-      "recente": 0.778
+      "recente": 0.765
     },
     {
       "tema": "Cuidados parentais",
       "peso": 1,
-      "recente": 0.778
+      "recente": 0.765
     },
     {
       "tema": "Pitheciidae",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.738
     },
     {
       "tema": "macacos",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.738
     },
     {
       "tema": "Piteciídeos",
       "peso": 1,
-      "recente": 0.75
+      "recente": 0.738
     },
     {
       "tema": "Lêmure",
       "peso": 1,
-      "recente": 0.725
+      "recente": 0.713
     },
     {
       "tema": "lêmures",
       "peso": 1,
-      "recente": 0.725
-    },
-    {
-      "tema": "Madagascar",
-      "peso": 1,
-      "recente": 0.725
-    },
-    {
-      "tema": "Evolução da visão em cores em primatas",
-      "peso": 1,
-      "recente": 0.701
+      "recente": 0.713
     }
   ],
   "gostos": {
@@ -188,17 +188,18 @@
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
     "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
-    "As formigas andam em filas organizadas para encontrar comida para a colônia."
+    "As formigas andam em filas organizadas para encontrar comida para a colônia.",
+    "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza."
   ],
-  "proximo_tema": "Espécies ameaçadas",
-  "ultima_execucao": "2026-11-24T01:59+00:00",
+  "proximo_tema": "Tartaruga-de-couro",
+  "ultima_execucao": "2026-11-24T03:08+00:00",
   "tipo": "Limo / Terra",
-  "fome": 32,
+  "fome": 44,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "Pouco preocupante",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Espécies ameaçadas",
   "via_do_proximo": {
-    "de": "Pouco preocupante",
+    "de": "Espécies ameaçadas",
     "sorteado": false,
     "lang": "pt"
   },
@@ -208,7 +209,7 @@
     "tema": null,
     "desde": "2026-11-24T00:34+00:00"
   },
-  "tedio": 38,
+  "tedio": 45,
   "cena": null,
   "sem_quintal_ate": null,
   "quintal": {
@@ -263,6 +264,6 @@
       }
     ],
     "seq": 4,
-    "agenda_ate": "2026-11-24T03:29:30+00:00"
+    "agenda_ate": "2026-11-24T04:38:44+00:00"
   }
 }

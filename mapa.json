@@ -352,5 +352,17 @@
     "origem": null,
     "vezes": 0,
     "desde": "2026-11-23T23:35+00:00"
+  },
+  {
+    "tema": "Espécies ameaçadas",
+    "origem": "Pouco preocupante",
+    "vezes": 1,
+    "desde": "2026-11-24T03:08+00:00"
+  },
+  {
+    "tema": "Habitats",
+    "origem": "Espécies ameaçadas",
+    "vezes": 0,
+    "desde": "2026-11-24T03:08+00:00"
   }
 ]

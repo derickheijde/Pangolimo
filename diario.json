@@ -482,5 +482,20 @@
     "via": "Espécies ameaçadas",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 38,
+    "quando": "2026-11-24T04:48+00:00",
+    "atividade": "comida",
+    "tema": null,
+    "fonte": null,
+    "texto": "A chuva caía lá fora bem devagar enquanto eu sentia uma fomezinha chata na barriga. Fui até o meu formigueiro no canto e usei minha língua compridinha para pegar algumas formigas. Fiquei pensando nas rainhas lá no fundo, trabalhando escondidas no escuro.",
+    "aprendeu": "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
+    "humor": "pensativo",
+    "desenho": "desenhos/0038.svg",
+    "titulo_desenho": "Formigueiro na chuva",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

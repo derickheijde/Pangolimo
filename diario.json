@@ -572,5 +572,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 44,
+    "quando": "2026-11-24T23:14+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "Eu estava no quintal escuro quando a dona coruja fez um barulho grande e desceu muito perto de mim. Fiquei com tanto medo que virei uma bolinha bem apertada e corri ligeiro para dentro da toca. Meu coração ainda bate devagar aqui no cantinho, mas acho que já passou.",
+    "aprendeu": "",
+    "humor": "com sono",
+    "desenho": "desenhos/0044.svg",
+    "titulo_desenho": "bolinha verde na toca",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "brigando com uma coruja"
   }
 ]

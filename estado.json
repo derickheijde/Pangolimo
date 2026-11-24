@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 91,
+  "energia": 76,
   "dormindo": false,
-  "acao": "brincando_lama",
+  "acao": "recuperando",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.39
+      "recente": 4.354
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.474
+      "recente": 3.446
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.5
+      "recente": 2.48
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.559
+      "recente": 1.546
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.533
+      "recente": 1.52
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.489
+      "recente": 1.477
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.601
+      "recente": 1.588
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.502
+      "recente": 1.49
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.148
+      "recente": 1.139
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.148
+      "recente": 1.139
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.208
+      "recente": 1.198
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.154
+      "recente": 1.145
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 1.003
+      "recente": 0.995
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.948
+      "recente": 0.94
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.912
+      "recente": 0.905
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.8
+      "recente": 0.793
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.764
+      "recente": 0.758
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.764
+      "recente": 0.758
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.764
+      "recente": 0.758
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.791
+      "recente": 0.785
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.791
+      "recente": 0.785
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.787
+      "recente": 0.781
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.787
+      "recente": 0.781
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.787
+      "recente": 0.781
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.766
+      "recente": 0.76
     },
     {
       "tema": "Habitats",
       "peso": 1,
-      "recente": 0.751
+      "recente": 0.745
     },
     {
       "tema": "língua dos animais",
       "peso": 1,
-      "recente": 0.713
+      "recente": 0.707
     },
     {
       "tema": "Pouco preocupante",
       "peso": 1,
-      "recente": 0.612
+      "recente": 0.607
     },
     {
       "tema": "União Internacional para a Conservação da Natureza",
       "peso": 1,
-      "recente": 0.612
+      "recente": 0.607
     },
     {
       "tema": "Bacia do Congo",
       "peso": 1,
-      "recente": 0.577
+      "recente": 0.572
     }
   ],
   "gostos": {
@@ -198,11 +198,11 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde."
   ],
   "proximo_tema": "Campo (bioma)",
-  "ultima_execucao": "2026-11-24T22:40+00:00",
+  "ultima_execucao": "2026-11-24T23:14+00:00",
   "tipo": "Limo / Terra",
-  "fome": 21,
+  "fome": 27,
   "evento": null,
-  "ultima_atividade": "quintal",
+  "ultima_atividade": "recuo",
   "origem_do_proximo": "Plantae",
   "via_do_proximo": {
     "de": "Plantae",
@@ -215,17 +215,45 @@
     "tema": "Campo (bioma)",
     "desde": "2026-11-24T21:39+00:00"
   },
-  "tedio": 30,
-  "cena": null,
-  "sem_quintal_ate": null,
+  "tedio": 8,
+  "cena": {
+    "id": 22,
+    "quando": "2026-11-24T23:14:06+00:00",
+    "tipo": "briga",
+    "visitante": "coruja",
+    "conversa": [
+      {
+        "q": "v",
+        "e": "😠"
+      },
+      {
+        "q": "p",
+        "e": "😨"
+      },
+      {
+        "q": "v",
+        "e": "💢"
+      },
+      {
+        "q": "p",
+        "e": "😠"
+      },
+      {
+        "q": "v",
+        "e": "😤"
+      },
+      {
+        "q": "p",
+        "e": "😣"
+      }
+    ],
+    "resultado": "perdeu",
+    "assunto": null,
+    "iniciou": null
+  },
+  "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 15,
-        "tipo": "passarinho",
-        "desde": "2026-11-24T20:00:07+00:00",
-        "ate": "2026-11-24T21:12:37+00:00"
-      },
       {
         "id": 16,
         "tipo": "borboleta",
@@ -261,6 +289,16 @@
         "ate": "2026-11-24T23:59:27+00:00",
         "fim": {
           "quando": "2026-11-24T23:59:21+00:00",
+          "resultado": "pegou"
+        }
+      },
+      {
+        "id": 21,
+        "tipo": "ratinho",
+        "desde": "2026-11-25T00:35:50+00:00",
+        "ate": "2026-11-25T00:40:40+00:00",
+        "fim": {
+          "quando": "2026-11-25T00:40:34+00:00",
           "resultado": "pegou"
         }
       }
@@ -363,6 +401,10 @@
         "texto": "Pangolimo comeu cupins no cupinzeiro"
       },
       {
+        "quando": "2026-11-24T22:40:49+00:00",
+        "texto": "Pangolimo rolou na lama"
+      },
+      {
         "quando": "2026-11-24T22:59:29+00:00",
         "texto": "um ratinho apareceu perto da árvore"
       },
@@ -383,11 +425,19 @@
         "texto": "a coruja pegou o ratinho"
       },
       {
-        "quando": "2026-11-24T22:40:49+00:00",
-        "texto": "Pangolimo rolou na lama"
+        "quando": "2026-11-25T00:35:50+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-25T00:40:34+00:00",
+        "texto": "a coruja pegou o ratinho"
+      },
+      {
+        "quando": "2026-11-24T23:14:06+00:00",
+        "texto": "Pangolimo brigou com uma coruja, perdeu e voltou para a toca"
       }
     ],
-    "seq": 20,
-    "agenda_ate": "2026-11-25T00:10:49+00:00"
+    "seq": 22,
+    "agenda_ate": "2026-11-25T00:44:06+00:00"
   }
 }

@@ -707,5 +707,20 @@
     "via": "Nuvem",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 53,
+    "quando": "2026-11-25T09:53+00:00",
+    "atividade": "pesquisa",
+    "tema": "Cumulonimbus",
+    "fonte": "https://pt.wikipedia.org/wiki/Cumulonimbus",
+    "texto": "São seis horas da manhã e meu soninho ainda está aqui, bem pesado. Fiquei olhando pro computador e li sobre uma nuvem grandona chamada Cumulonimbus, que cresce tanto que parece uma bigorna lá no alto. Achei meio de espantar que ela faz raio e vento forte, mas lá fora o tempo está tão calmo que nem parece verdade. De repente, cliquei sem querer num link escrito Altocumulus stratiformis e fui parar lá.",
+    "aprendeu": "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
+    "humor": "sono",
+    "desenho": "desenhos/0053.svg",
+    "titulo_desenho": "Nuvem bigorna",
+    "via": "Frente subtropical",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

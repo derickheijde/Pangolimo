@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 72,
+  "energia": 53,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.746
+      "recente": 3.727
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.964
+      "recente": 2.949
+    },
+    {
+      "tema": "Cumulonimbus",
+      "peso": 3,
+      "recente": 2.995
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.787
+      "recente": 2.773
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.133
+      "recente": 2.122
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.332
+      "recente": 1.325
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.917
+      "recente": 1.907
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.309
+      "recente": 1.302
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.794
+      "recente": 1.785
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.762
+      "recente": 1.753
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.736
+      "recente": 1.727
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.271
+      "recente": 1.265
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.366
-    },
-    {
-      "tema": "Espécies ameaçadas",
-      "peso": 2,
-      "recente": 1.28
+      "recente": 1.359
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.98
+      "recente": 0.975
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.98
+      "recente": 0.975
+    },
+    {
+      "tema": "Espécies ameaçadas",
+      "peso": 2,
+      "recente": 1.273
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.03
+      "recente": 1.025
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.985
+      "recente": 0.98
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.856
+      "recente": 0.852
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.809
+      "recente": 0.805
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.778
+      "recente": 0.774
+    },
+    {
+      "tema": "Altocumulus stratiformis",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Cumulonimbus",
-      "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Nefologia",
-      "peso": 1,
-      "recente": 0.982
-    },
-    {
-      "tema": "Atmosfera",
-      "peso": 1,
-      "recente": 0.982
+      "recente": 0.995
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.681
+      "recente": 0.678
+    },
+    {
+      "tema": "Nefologia",
+      "peso": 1,
+      "recente": 0.977
+    },
+    {
+      "tema": "Atmosfera",
+      "peso": 1,
+      "recente": 0.977
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.653
+      "recente": 0.65
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.653
+      "recente": 0.65
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.653
+      "recente": 0.65
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.919
-    },
-    {
-      "tema": "Gasto energético",
-      "peso": 1,
-      "recente": 0.919
+      "recente": 0.914
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As tocas servem para proteger os animais dos perigos e do clima.",
     "Os tatus também constroem tocas para se proteger dos perigos.",
     "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
@@ -203,17 +202,18 @@
     "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
     "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
-    "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera."
+    "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
+    "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo."
   ],
-  "proximo_tema": "Cumulonimbus",
-  "ultima_execucao": "2026-11-25T09:32+00:00",
+  "proximo_tema": "Altocumulus stratiformis",
+  "ultima_execucao": "2026-11-25T09:53+00:00",
   "tipo": "Limo / Terra",
-  "fome": 55,
+  "fome": 59,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Frente subtropical",
+  "origem_do_proximo": "Cumulonimbus",
   "via_do_proximo": {
-    "de": "Frente subtropical",
+    "de": "Cumulonimbus",
     "sorteado": true,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 72,
+  "tedio": 74,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -279,13 +279,15 @@
         "tipo": "lagarta",
         "desde": "2026-11-25T10:36:38+00:00",
         "ate": "2026-11-25T12:48:41+00:00"
+      },
+      {
+        "id": 30,
+        "tipo": "passarinho",
+        "desde": "2026-11-25T11:03:34+00:00",
+        "ate": "2026-11-25T12:43:53+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-23T23:48:24+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
       {
         "quando": "2026-11-24T02:16:15+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -441,9 +443,13 @@
       {
         "quando": "2026-11-25T10:36:38+00:00",
         "texto": "uma lagarta subiu no tronco"
+      },
+      {
+        "quando": "2026-11-25T11:03:34+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 29,
-    "agenda_ate": "2026-11-25T11:02:35+00:00"
+    "seq": 30,
+    "agenda_ate": "2026-11-25T11:23:12+00:00"
   }
 }

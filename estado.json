@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 34,
+  "energia": 39,
   "dormindo": false,
-  "acao": "assistindo_programa",
+  "acao": "comendo",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.175
+      "recente": 4.104
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.304
+      "recente": 3.247
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.377
+      "recente": 2.336
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.483
+      "recente": 1.458
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.458
+      "recente": 1.433
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.966
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.964
+      "recente": 1.93
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.934
+      "recente": 1.901
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.417
+      "recente": 1.393
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.523
+      "recente": 1.497
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.404
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.093
+      "recente": 1.074
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.093
+      "recente": 1.074
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.148
+      "recente": 1.128
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.098
+      "recente": 1.079
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.955
+      "recente": 0.939
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.901
+      "recente": 0.886
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.868
+      "recente": 0.853
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.76
+      "recente": 0.747
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.727
+      "recente": 0.715
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.727
+      "recente": 0.715
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.727
+      "recente": 0.715
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.983
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.976
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.976
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.971
+      "recente": 0.954
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 0.964
+      "recente": 0.948
     },
     {
       "tema": "Campo",
       "peso": 1,
-      "recente": 0.964
+      "recente": 0.948
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.752
+      "recente": 0.739
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.752
+      "recente": 0.739
     }
   ],
   "gostos": {
@@ -202,11 +202,11 @@
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas."
   ],
   "proximo_tema": "Dormência",
-  "ultima_execucao": "2026-11-25T02:05+00:00",
+  "ultima_execucao": "2026-11-25T03:16+00:00",
   "tipo": "Limo / Terra",
-  "fome": 56,
+  "fome": 9,
   "evento": null,
-  "ultima_atividade": "programa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Fisiologia vegetal",
   "via_do_proximo": {
     "de": "Fisiologia vegetal",
@@ -219,7 +219,7 @@
     "tema": "Fisiologia vegetal",
     "desde": "2026-11-25T02:05+00:00"
   },
-  "tedio": 25,
+  "tedio": 32,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -263,26 +263,6 @@
         "tipo": "coruja",
         "desde": "2026-11-24T23:08:13+00:00",
         "ate": "2026-11-25T01:19:04+00:00"
-      },
-      {
-        "id": 21,
-        "tipo": "ratinho",
-        "desde": "2026-11-25T00:35:50+00:00",
-        "ate": "2026-11-25T00:40:40+00:00",
-        "fim": {
-          "quando": "2026-11-25T00:40:34+00:00",
-          "resultado": "pegou"
-        }
-      },
-      {
-        "id": 23,
-        "tipo": "ratinho",
-        "desde": "2026-11-25T00:50:49+00:00",
-        "ate": "2026-11-25T00:56:36+00:00",
-        "fim": {
-          "quando": "2026-11-25T00:56:30+00:00",
-          "resultado": "pegou"
-        }
       },
       {
         "id": 24,
@@ -456,6 +436,6 @@
       }
     ],
     "seq": 25,
-    "agenda_ate": "2026-11-25T03:35:43+00:00"
+    "agenda_ate": "2026-11-25T04:46:41+00:00"
   }
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 80,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 96,
+  "dormindo": false,
+  "acao": "comendo",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.386
+      "recente": 3.369
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.678
+      "recente": 2.664
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.72
+      "recente": 2.706
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.518
+      "recente": 2.505
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.928
+      "recente": 1.918
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.881
+      "recente": 1.871
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.841
+      "recente": 1.832
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.205
+      "recente": 1.199
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.182
+      "recente": 1.176
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.732
+      "recente": 1.723
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.623
+      "recente": 1.615
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.592
+      "recente": 1.584
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.569
+      "recente": 1.561
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.149
+      "recente": 1.143
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.233
+      "recente": 1.227
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.887
+      "recente": 0.882
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.887
+      "recente": 0.882
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.156
+      "recente": 1.15
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.931
+      "recente": 0.926
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.891
+      "recente": 0.886
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.774
+      "recente": 0.77
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.731
+      "recente": 0.727
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.703
+      "recente": 0.699
     },
     {
       "tema": "Cartografia",
       "peso": 1,
-      "recente": 0.948
+      "recente": 0.943
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.932
+      "recente": 0.927
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.903
+      "recente": 0.898
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.617
+      "recente": 0.614
     },
     {
       "tema": "Nefologia",
       "peso": 1,
-      "recente": 0.888
+      "recente": 0.883
     },
     {
       "tema": "Atmosfera",
       "peso": 1,
-      "recente": 0.888
+      "recente": 0.883
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.591
+      "recente": 0.588
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica."
   ],
   "proximo_tema": "Cartografia",
-  "ultima_execucao": "2026-11-25T16:27+00:00",
+  "ultima_execucao": "2026-11-25T16:48+00:00",
   "tipo": "Limo / Terra",
-  "fome": 64,
+  "fome": 19,
   "evento": null,
-  "ultima_atividade": "dormir",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Altitude",
   "via_do_proximo": {
     "de": "Altitude",
@@ -456,6 +456,6 @@
       }
     ],
     "seq": 36,
-    "agenda_ate": "2026-11-25T17:57:31+00:00"
+    "agenda_ate": "2026-11-25T18:18:27+00:00"
   }
 }

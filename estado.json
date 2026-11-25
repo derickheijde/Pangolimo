@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 62,
+  "energia": 59,
   "dormindo": false,
-  "acao": "desenhando",
-  "humor": "sono",
+  "acao": "olhando_lua",
+  "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.109
+      "recente": 3.093
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.456
+      "recente": 2.444
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 2.085
+      "recente": 2.074
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.496
+      "recente": 2.483
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.31
+      "recente": 2.298
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.77
+      "recente": 1.761
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.831
+      "recente": 1.822
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.725
+      "recente": 1.716
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.106
+      "recente": 1.1
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.69
+      "recente": 1.681
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.59
+      "recente": 1.582
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.489
+      "recente": 1.481
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.462
+      "recente": 1.455
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.44
+      "recente": 1.433
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.054
+      "recente": 1.049
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.132
+      "recente": 1.126
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.814
+      "recente": 0.81
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.814
+      "recente": 0.81
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.061
+      "recente": 1.056
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.854
+      "recente": 0.85
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.817
+      "recente": 0.813
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.709
+      "recente": 0.705
+    },
+    {
+      "tema": "fases da lua",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "2016 no cinema",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "Turner Classic Movies",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.995
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.671
+      "recente": 0.668
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.963
+      "recente": 0.958
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.963
+      "recente": 0.958
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.646
+      "recente": 0.643
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.565
-    },
-    {
-      "tema": "Tempestade",
-      "peso": 1,
-      "recente": 0.855
+      "recente": 0.562
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes."
   ],
   "proximo_tema": "2016 no cinema",
-  "ultima_execucao": "2026-11-25T22:18+00:00",
+  "ultima_execucao": "2026-11-25T22:39+00:00",
   "tipo": "Limo / Terra",
-  "fome": 26,
+  "fome": 30,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "lua",
   "origem_do_proximo": "animais noturnos",
   "via_do_proximo": {
     "de": "animais noturnos",
@@ -242,12 +242,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 37,
-        "tipo": "esquilo",
-        "desde": "2026-11-25T18:54:25+00:00",
-        "ate": "2026-11-25T20:23:23+00:00"
-      },
       {
         "id": 38,
         "tipo": "passarinho",
@@ -424,6 +418,6 @@
       }
     ],
     "seq": 40,
-    "agenda_ate": "2026-11-25T23:48:22+00:00"
+    "agenda_ate": "2026-11-26T00:09:07+00:00"
   }
 }

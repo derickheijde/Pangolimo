@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 40,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "pesquisando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.63
+      "recente": 3.593
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.872
+      "recente": 2.842
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.917
+      "recente": 2.887
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.701
+      "recente": 2.673
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.067
+      "recente": 2.046
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.974
+      "recente": 1.954
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.291
+      "recente": 1.278
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.268
+      "recente": 1.255
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.857
+      "recente": 1.838
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.739
+      "recente": 1.721
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.707
+      "recente": 1.689
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.682
+      "recente": 1.665
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.232
+      "recente": 1.219
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.323
+      "recente": 1.309
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.95
+      "recente": 0.94
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.95
+      "recente": 0.94
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.24
+      "recente": 1.227
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.999
+      "recente": 0.989
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.955
+      "recente": 0.945
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.83
+      "recente": 0.821
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.784
+      "recente": 0.776
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.754
+      "recente": 0.746
     },
     {
       "tema": "Altitude",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.99
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.99
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.969
+      "recente": 0.959
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.661
+      "recente": 0.654
     },
     {
       "tema": "Nefologia",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.942
     },
     {
       "tema": "Atmosfera",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.942
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.633
+      "recente": 0.626
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.633
+      "recente": 0.626
     }
   ],
   "gostos": {
@@ -206,10 +206,14 @@
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu."
   ],
   "proximo_tema": "Altitude",
-  "ultima_execucao": "2026-11-25T11:41+00:00",
+  "ultima_execucao": "2026-11-25T12:23+00:00",
   "tipo": "Limo / Terra",
-  "fome": 27,
-  "evento": null,
+  "fome": 34,
+  "evento": {
+    "nome": "clima",
+    "tipo": "vendaval",
+    "ate": "2026-11-25T14:29+00:00"
+  },
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "Altocumulus stratiformis",
   "via_do_proximo": {
@@ -223,7 +227,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 85,
+  "tedio": 89,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -291,13 +295,15 @@
         "tipo": "aranha",
         "desde": "2026-11-25T11:52:05+00:00",
         "ate": "2026-11-25T12:55:48+00:00"
+      },
+      {
+        "id": 32,
+        "tipo": "borboleta",
+        "desde": "2026-11-25T13:21:14+00:00",
+        "ate": "2026-11-25T14:52:01+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T02:21:34+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
       {
         "quando": "2026-11-24T02:34:19+00:00",
         "texto": "uma coruja pousou num galho"
@@ -453,9 +459,13 @@
       {
         "quando": "2026-11-25T11:52:05+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-25T13:21:14+00:00",
+        "texto": "uma borboleta chegou voando"
       }
     ],
-    "seq": 31,
-    "agenda_ate": "2026-11-25T13:11:47+00:00"
+    "seq": 32,
+    "agenda_ate": "2026-11-25T13:53:58+00:00"
   }
 }

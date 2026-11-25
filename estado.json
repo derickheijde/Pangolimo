@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 64,
+  "energia": 50,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.333
+      "recente": 4.302
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.429
+      "recente": 3.404
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.468
+      "recente": 2.45
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.539
+      "recente": 1.528
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.513
+      "recente": 1.502
+    },
+    {
+      "tema": "Erva",
+      "peso": 2,
+      "recente": 1.993
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.47
+      "recente": 1.459
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.58
+      "recente": 1.569
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.483
+      "recente": 1.472
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.134
+      "recente": 1.126
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.134
+      "recente": 1.126
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.192
+      "recente": 1.183
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.139
+      "recente": 1.131
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.99
+      "recente": 0.983
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.935
+      "recente": 0.928
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.901
+      "recente": 0.895
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.789
+      "recente": 0.783
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.754
+      "recente": 0.749
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.754
+      "recente": 0.749
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.754
+      "recente": 0.749
+    },
+    {
+      "tema": "Planta lenhosa",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Botânica",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Erva",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Campo",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.781
+      "recente": 0.775
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.781
+      "recente": 0.775
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.771
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.771
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.777
+      "recente": 0.771
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.756
-    },
-    {
-      "tema": "Habitats",
-      "peso": 1,
-      "recente": 0.741
-    },
-    {
-      "tema": "língua dos animais",
-      "peso": 1,
-      "recente": 0.704
+      "recente": 0.751
     }
   ],
   "gostos": {
@@ -196,17 +196,18 @@
     "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros.",
     "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
-    "Aprendi que o campo é um lugar com muita vegetação rasteira e grama."
+    "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
+    "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio."
   ],
-  "proximo_tema": "Erva",
-  "ultima_execucao": "2026-11-24T23:34+00:00",
+  "proximo_tema": "Botânica",
+  "ultima_execucao": "2026-11-25T00:03+00:00",
   "tipo": "Limo / Terra",
-  "fome": 30,
+  "fome": 35,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Campo (bioma)",
+  "origem_do_proximo": "Erva",
   "via_do_proximo": {
-    "de": "Campo (bioma)",
+    "de": "Erva",
     "sorteado": false,
     "lang": "pt"
   },
@@ -216,7 +217,7 @@
     "tema": "Campo (bioma)",
     "desde": "2026-11-24T21:39+00:00"
   },
-  "tedio": 10,
+  "tedio": 13,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -312,6 +313,12 @@
           "quando": "2026-11-25T00:56:30+00:00",
           "resultado": "pegou"
         }
+      },
+      {
+        "id": 24,
+        "tipo": "coruja",
+        "desde": "2026-11-25T01:28:11+00:00",
+        "ate": "2026-11-25T03:59:35+00:00"
       }
     ],
     "log": [
@@ -454,9 +461,13 @@
       {
         "quando": "2026-11-25T00:56:30+00:00",
         "texto": "a coruja pegou o ratinho"
+      },
+      {
+        "quando": "2026-11-25T01:28:11+00:00",
+        "texto": "uma coruja pousou num galho"
       }
     ],
-    "seq": 23,
-    "agenda_ate": "2026-11-25T01:04:01+00:00"
+    "seq": 24,
+    "agenda_ate": "2026-11-25T01:33:52+00:00"
   }
 }

@@ -602,5 +602,20 @@
     "via": "Plantae",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 46,
+    "quando": "2026-11-25T00:03+00:00",
+    "atividade": "pesquisa",
+    "tema": "Erva",
+    "fonte": "https://pt.wikipedia.org/wiki/Erva",
+    "texto": "Já passa das nove da noite e meus olhos estão ficando bem pesadinhos. Fiquei curioso lendo no computador sobre as ervas, que são aquelas plantinhas de caule macio e pequeno. Fico pensando se o capim lá fora do quintal também é assim. Vou dar uma última olhadinha no meu mural antes de ir deitar.",
+    "aprendeu": "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
+    "humor": "com sono",
+    "desenho": "desenhos/0046.svg",
+    "titulo_desenho": "Plantinha macia",
+    "via": "Campo (bioma)",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

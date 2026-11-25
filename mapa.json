@@ -422,7 +422,7 @@
   {
     "tema": "Erva",
     "origem": "Campo (bioma)",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-24T23:34+00:00"
   },
   {
@@ -430,5 +430,17 @@
     "origem": "Campo (bioma)",
     "vezes": 0,
     "desde": "2026-11-24T23:34+00:00"
+  },
+  {
+    "tema": "Planta lenhosa",
+    "origem": "Erva",
+    "vezes": 0,
+    "desde": "2026-11-25T00:03+00:00"
+  },
+  {
+    "tema": "Botânica",
+    "origem": "Erva",
+    "vezes": 0,
+    "desde": "2026-11-25T00:03+00:00"
   }
 ]

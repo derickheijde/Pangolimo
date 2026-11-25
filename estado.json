@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.206
+      "recente": 3.186
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.534
+      "recente": 2.518
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.574
+      "recente": 2.558
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.382
+      "recente": 2.367
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.825
+      "recente": 1.814
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.889
+      "recente": 1.877
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.779
+      "recente": 1.768
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.743
+      "recente": 1.732
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.141
+      "recente": 1.134
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.119
+      "recente": 1.112
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.639
+      "recente": 1.629
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.536
+      "recente": 1.526
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.507
+      "recente": 1.498
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.485
+      "recente": 1.476
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.087
+      "recente": 1.08
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.167
+      "recente": 1.16
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.839
+      "recente": 0.834
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.839
+      "recente": 0.834
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.094
+      "recente": 1.087
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.881
+      "recente": 0.876
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.842
+      "recente": 0.837
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.732
+      "recente": 0.727
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.986
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.992
+      "recente": 0.986
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.691
+      "recente": 0.687
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.666
+      "recente": 0.662
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.882
+      "recente": 0.877
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.583
+      "recente": 0.579
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.559
+      "recente": 0.556
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.854
+      "recente": 0.849
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
   ],
   "proximo_tema": "",
-  "ultima_execucao": "2026-11-25T20:12+00:00",
+  "ultima_execucao": "2026-11-25T20:37+00:00",
   "tipo": "Limo / Terra",
-  "fome": 53,
+  "fome": 57,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": null,
@@ -219,7 +219,7 @@
     "tema": null,
     "desde": "2026-11-25T18:00+00:00"
   },
-  "tedio": 96,
+  "tedio": 99,
   "cena": {
     "id": 39,
     "quando": "2026-11-25T19:13:30+00:00",
@@ -239,18 +239,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 33,
-        "tipo": "lagarta",
-        "desde": "2026-11-25T15:33:02+00:00",
-        "ate": "2026-11-25T18:32:16+00:00"
-      },
-      {
-        "id": 36,
-        "tipo": "borboleta",
-        "desde": "2026-11-25T17:00:05+00:00",
-        "ate": "2026-11-25T18:27:39+00:00"
-      },
-      {
         "id": 37,
         "tipo": "esquilo",
         "desde": "2026-11-25T18:54:25+00:00",
@@ -261,13 +249,15 @@
         "tipo": "passarinho",
         "desde": "2026-11-25T19:41:16+00:00",
         "ate": "2026-11-25T21:05:53+00:00"
+      },
+      {
+        "id": 40,
+        "tipo": "coruja",
+        "desde": "2026-11-25T22:02:51+00:00",
+        "ate": "2026-11-26T00:16:32+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T08:05:23+00:00",
-        "texto": "a coruja pegou o ratinho"
-      },
       {
         "quando": "2026-11-24T09:04:40+00:00",
         "texto": "um passarinho pousou na árvore"
@@ -423,9 +413,13 @@
       {
         "quando": "2026-11-25T19:41:16+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-25T22:02:51+00:00",
+        "texto": "uma coruja pousou num galho"
       }
     ],
-    "seq": 39,
-    "agenda_ate": "2026-11-25T21:42:59+00:00"
+    "seq": 40,
+    "agenda_ate": "2026-11-25T22:07:47+00:00"
   }
 }

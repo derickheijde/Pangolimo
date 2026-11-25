@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 90,
+  "energia": 86,
   "dormindo": false,
-  "acao": "assistindo_tv",
+  "acao": "observando_visita",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.286
+      "recente": 3.253
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.598
+      "recente": 2.572
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.639
+      "recente": 2.612
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.443
+      "recente": 2.418
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.871
+      "recente": 1.852
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.825
+      "recente": 1.806
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.786
+      "recente": 1.768
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.169
+      "recente": 1.157
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.147
+      "recente": 1.135
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.68
+      "recente": 1.663
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.575
+      "recente": 1.559
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.545
+      "recente": 1.529
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.522
+      "recente": 1.507
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.114
+      "recente": 1.103
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.197
+      "recente": 1.185
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.86
+      "recente": 0.851
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.86
+      "recente": 0.851
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.121
+      "recente": 1.11
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.903
+      "recente": 0.894
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.864
+      "recente": 0.855
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.751
+      "recente": 0.743
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.709
+      "recente": 0.702
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.682
+      "recente": 0.675
     },
     {
       "tema": "Cartografia",
       "peso": 1,
-      "recente": 0.92
+      "recente": 0.911
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.904
+      "recente": 0.895
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.876
+      "recente": 0.867
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.598
+      "recente": 0.592
     },
     {
       "tema": "Nefologia",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.852
     },
     {
       "tema": "Atmosfera",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.852
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.574
+      "recente": 0.568
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica."
   ],
   "proximo_tema": "Cartografia",
-  "ultima_execucao": "2026-11-25T18:31+00:00",
+  "ultima_execucao": "2026-11-25T19:13+00:00",
   "tipo": "Limo / Terra",
-  "fome": 36,
+  "fome": 43,
   "evento": null,
-  "ultima_atividade": "tv",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Altitude",
   "via_do_proximo": {
     "de": "Altitude",
@@ -223,39 +223,19 @@
     "tema": null,
     "desde": "2026-11-25T18:00+00:00"
   },
-  "tedio": 100,
+  "tedio": 90,
   "cena": {
-    "id": 22,
-    "quando": "2026-11-24T23:14:06+00:00",
-    "tipo": "briga",
-    "visitante": "coruja",
+    "id": 39,
+    "quando": "2026-11-25T19:13:30+00:00",
+    "tipo": "observa",
+    "visitante": "esquilo",
     "conversa": [
       {
-        "q": "v",
-        "e": "😠"
-      },
-      {
         "q": "p",
-        "e": "😨"
-      },
-      {
-        "q": "v",
-        "e": "💢"
-      },
-      {
-        "q": "p",
-        "e": "😠"
-      },
-      {
-        "q": "v",
-        "e": "😤"
-      },
-      {
-        "q": "p",
-        "e": "😣"
+        "e": "😮"
       }
     ],
-    "resultado": "perdeu",
+    "resultado": "observou",
     "assunto": null,
     "iniciou": null
   },
@@ -267,12 +247,6 @@
         "tipo": "lagarta",
         "desde": "2026-11-25T15:33:02+00:00",
         "ate": "2026-11-25T18:32:16+00:00"
-      },
-      {
-        "id": 34,
-        "tipo": "esquilo",
-        "desde": "2026-11-25T15:47:46+00:00",
-        "ate": "2026-11-25T16:45:41+00:00"
       },
       {
         "id": 35,
@@ -459,9 +433,13 @@
       {
         "quando": "2026-11-25T19:41:16+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-25T19:13:30+00:00",
+        "texto": "Pangolimo ficou observando um esquilo"
       }
     ],
-    "seq": 38,
-    "agenda_ate": "2026-11-25T20:01:53+00:00"
+    "seq": 39,
+    "agenda_ate": "2026-11-25T20:43:30+00:00"
   }
 }

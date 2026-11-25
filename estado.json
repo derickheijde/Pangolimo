@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 50,
+  "energia": 46,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "assistindo_tv",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.302
+      "recente": 4.269
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.404
+      "recente": 3.378
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.45
+      "recente": 2.431
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.528
+      "recente": 1.516
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.502
+      "recente": 1.491
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.993
+      "recente": 1.978
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.459
+      "recente": 1.448
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.569
+      "recente": 1.557
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.472
+      "recente": 1.461
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.126
+      "recente": 1.117
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.126
+      "recente": 1.117
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.183
+      "recente": 1.174
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.131
+      "recente": 1.122
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.983
+      "recente": 0.976
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.928
+      "recente": 0.921
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.895
+      "recente": 0.888
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.783
+      "recente": 0.777
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.749
+      "recente": 0.743
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.749
+      "recente": 0.743
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.749
+      "recente": 0.743
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "Botânica",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.985
     },
     {
       "tema": "Campo",
       "peso": 1,
-      "recente": 0.993
+      "recente": 0.985
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.775
+      "recente": 0.769
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.775
+      "recente": 0.769
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.771
+      "recente": 0.765
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.771
+      "recente": 0.765
     },
     {
       "tema": "Praia",
       "peso": 1,
-      "recente": 0.771
+      "recente": 0.765
     },
     {
       "tema": "Tartaruga-de-couro",
       "peso": 1,
-      "recente": 0.751
+      "recente": 0.745
     }
   ],
   "gostos": {
@@ -200,11 +200,11 @@
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio."
   ],
   "proximo_tema": "Botânica",
-  "ultima_execucao": "2026-11-25T00:03+00:00",
+  "ultima_execucao": "2026-11-25T00:34+00:00",
   "tipo": "Limo / Terra",
-  "fome": 35,
+  "fome": 40,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Erva",
   "via_do_proximo": {
     "de": "Erva",
@@ -212,12 +212,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "documentario",
-    "descricao": "um programa sobre Campo (bioma)",
-    "tema": "Campo (bioma)",
-    "desde": "2026-11-24T21:39+00:00"
+    "genero": "jornal",
+    "descricao": "um programa de entrevistas",
+    "tema": null,
+    "desde": "2026-11-25T00:34+00:00"
   },
-  "tedio": 13,
+  "tedio": 16,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -256,12 +256,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 16,
-        "tipo": "borboleta",
-        "desde": "2026-11-24T20:37:34+00:00",
-        "ate": "2026-11-24T22:24:25+00:00"
-      },
       {
         "id": 17,
         "tipo": "aranha",
@@ -319,6 +313,16 @@
         "tipo": "coruja",
         "desde": "2026-11-25T01:28:11+00:00",
         "ate": "2026-11-25T03:59:35+00:00"
+      },
+      {
+        "id": 25,
+        "tipo": "ratinho",
+        "desde": "2026-11-25T01:56:47+00:00",
+        "ate": "2026-11-25T02:03:14+00:00",
+        "fim": {
+          "quando": "2026-11-25T02:03:08+00:00",
+          "resultado": "fugiu"
+        }
       }
     ],
     "log": [
@@ -465,9 +469,17 @@
       {
         "quando": "2026-11-25T01:28:11+00:00",
         "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-25T01:56:47+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-25T02:03:08+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
-    "seq": 24,
-    "agenda_ate": "2026-11-25T01:33:52+00:00"
+    "seq": 25,
+    "agenda_ate": "2026-11-25T02:04:38+00:00"
   }
 }

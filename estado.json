@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 76,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "pesquisando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.156
+      "recente": 3.136
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.494
+      "recente": 2.478
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.534
+      "recente": 2.518
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.345
+      "recente": 2.33
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.797
+      "recente": 1.786
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.859
+      "recente": 1.847
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.751
+      "recente": 1.74
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.716
+      "recente": 1.705
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.123
+      "recente": 1.116
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.102
+      "recente": 1.095
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.614
+      "recente": 1.604
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.512
+      "recente": 1.502
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.484
+      "recente": 1.475
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.462
+      "recente": 1.453
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.07
+      "recente": 1.063
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.149
+      "recente": 1.142
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.826
+      "recente": 0.821
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.826
+      "recente": 0.821
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.077
+      "recente": 1.07
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.868
+      "recente": 0.862
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.829
+      "recente": 0.824
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.72
+      "recente": 0.715
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.971
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.971
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.681
+      "recente": 0.677
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.656
+      "recente": 0.652
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.869
+      "recente": 0.863
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.574
+      "recente": 0.57
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.551
+      "recente": 0.547
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.841
+      "recente": 0.836
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
   ],
   "proximo_tema": "",
-  "ultima_execucao": "2026-11-25T21:16+00:00",
+  "ultima_execucao": "2026-11-25T21:42+00:00",
   "tipo": "Limo / Terra",
-  "fome": 16,
+  "fome": 20,
   "evento": null,
   "ultima_atividade": "comida",
   "origem_do_proximo": null,
@@ -420,6 +420,6 @@
       }
     ],
     "seq": 40,
-    "agenda_ate": "2026-11-25T22:46:09+00:00"
+    "agenda_ate": "2026-11-25T23:12:30+00:00"
   }
 }

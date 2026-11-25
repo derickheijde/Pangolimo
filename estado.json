@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 71,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "pesquisando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.232
+      "recente": 3.206
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.555
+      "recente": 2.534
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.595
+      "recente": 2.574
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.402
+      "recente": 2.382
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.84
+      "recente": 1.825
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.905
+      "recente": 1.889
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.794
+      "recente": 1.779
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.757
+      "recente": 1.743
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.15
+      "recente": 1.141
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.128
+      "recente": 1.119
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.652
+      "recente": 1.639
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.549
+      "recente": 1.536
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.519
+      "recente": 1.507
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.497
+      "recente": 1.485
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.096
+      "recente": 1.087
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.177
+      "recente": 1.167
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.846
+      "recente": 0.839
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.846
+      "recente": 0.839
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.103
+      "recente": 1.094
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.881
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.849
+      "recente": 0.842
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.738
+      "recente": 0.732
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.992
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.697
+      "recente": 0.691
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.671
+      "recente": 0.666
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.889
+      "recente": 0.882
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.588
+      "recente": 0.583
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.564
+      "recente": 0.559
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.861
+      "recente": 0.854
     }
   ],
   "gostos": {
@@ -205,25 +205,21 @@
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
   ],
-  "proximo_tema": "Geografia regional",
-  "ultima_execucao": "2026-11-25T19:39+00:00",
+  "proximo_tema": "",
+  "ultima_execucao": "2026-11-25T20:12+00:00",
   "tipo": "Limo / Terra",
-  "fome": 47,
+  "fome": 53,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Cartografia",
-  "via_do_proximo": {
-    "de": "Cartografia",
-    "sorteado": false,
-    "lang": "pt"
-  },
+  "origem_do_proximo": null,
+  "via_do_proximo": null,
   "tv": {
     "genero": "reality",
     "descricao": "um reality show de culinária",
     "tema": null,
     "desde": "2026-11-25T18:00+00:00"
   },
-  "tedio": 93,
+  "tedio": 96,
   "cena": {
     "id": 39,
     "quando": "2026-11-25T19:13:30+00:00",
@@ -430,6 +426,6 @@
       }
     ],
     "seq": 39,
-    "agenda_ate": "2026-11-25T21:09:53+00:00"
+    "agenda_ate": "2026-11-25T21:42:59+00:00"
   }
 }

@@ -502,5 +502,17 @@
     "origem": "Nuvem",
     "vezes": 0,
     "desde": "2026-11-25T08:17+00:00"
+  },
+  {
+    "tema": "Frente subtropical",
+    "origem": "Nuvem",
+    "vezes": 1,
+    "desde": "2026-11-25T09:32+00:00"
+  },
+  {
+    "tema": "Cumulonimbus",
+    "origem": "Frente subtropical",
+    "vezes": 0,
+    "desde": "2026-11-25T09:32+00:00"
   }
 ]

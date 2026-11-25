@@ -692,5 +692,20 @@
     "via": "Inverno",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 52,
+    "quando": "2026-11-25T09:32+00:00",
+    "atividade": "pesquisa",
+    "tema": "Frente subtropical",
+    "fonte": "https://pt.wikipedia.org/wiki/Frente_subtropical",
+    "texto": "São seis horas da manhã e eu estou com bastante sono, mas olhei um pouco para a tela do computador. Sem querer, acabei lendo um texto meio difícil sobre uma coisa chamada frente subtropical, que mexe com o ar lá em cima no céu. Achei curioso que ela separa o ar de lugares quentes de outros ventos, mas confesso que foi meio confuso de entender. Meu corpinho verde-limo deixou um rastro brilhante na mesinha enquanto eu piscava os olhinhos de sono. No fim, cliquei sem querer em um link escrito Cumulonimbus e fui parar lá.",
+    "aprendeu": "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
+    "humor": "sono",
+    "desenho": "desenhos/0052.svg",
+    "titulo_desenho": "Ar e Nuvens no Céu",
+    "via": "Nuvem",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

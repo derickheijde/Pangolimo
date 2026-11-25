@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 84,
+  "energia": 72,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.815
+      "recente": 3.746
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.018
+      "recente": 2.964
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.838
+      "recente": 2.787
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.172
+      "recente": 2.133
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.356
+      "recente": 1.332
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.952
+      "recente": 1.917
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.333
+      "recente": 1.309
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.827
+      "recente": 1.794
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.794
+      "recente": 1.762
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.768
+      "recente": 1.736
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.294
+      "recente": 1.271
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.391
+      "recente": 1.366
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.304
+      "recente": 1.28
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.998
+      "recente": 0.98
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.998
+      "recente": 0.98
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.049
+      "recente": 1.03
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.003
+      "recente": 0.985
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.872
+      "recente": 0.856
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.824
+      "recente": 0.809
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.792
+      "recente": 0.778
+    },
+    {
+      "tema": "Frente subtropical",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Cumulonimbus",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Nefologia",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.982
     },
     {
       "tema": "Atmosfera",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.982
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.694
+      "recente": 0.681
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.665
+      "recente": 0.653
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.665
+      "recente": 0.653
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.665
+      "recente": 0.653
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.936
+      "recente": 0.919
     },
     {
       "tema": "Gasto energético",
       "peso": 1,
-      "recente": 0.936
-    },
-    {
-      "tema": "Dormencia",
-      "peso": 1,
-      "recente": 0.913
-    },
-    {
-      "tema": "Biologia vegetal",
-      "peso": 1,
-      "recente": 0.908
+      "recente": 0.919
     }
   ],
   "gostos": {
@@ -202,17 +202,18 @@
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
     "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
-    "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera."
+    "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
+    "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera."
   ],
-  "proximo_tema": "Frente subtropical",
-  "ultima_execucao": "2026-11-25T08:17+00:00",
+  "proximo_tema": "Cumulonimbus",
+  "ultima_execucao": "2026-11-25T09:32+00:00",
   "tipo": "Limo / Terra",
-  "fome": 42,
+  "fome": 55,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Nuvem",
+  "origem_do_proximo": "Frente subtropical",
   "via_do_proximo": {
-    "de": "Nuvem",
+    "de": "Frente subtropical",
     "sorteado": true,
     "lang": "pt"
   },
@@ -222,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 64,
+  "tedio": 72,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -262,27 +263,25 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 26,
-        "tipo": "aranha",
-        "desde": "2026-11-25T06:29:26+00:00",
-        "ate": "2026-11-25T07:25:04+00:00"
-      },
-      {
         "id": 27,
         "tipo": "passarinho",
         "desde": "2026-11-25T09:12:17+00:00",
         "ate": "2026-11-25T10:50:46+00:00"
+      },
+      {
+        "id": 28,
+        "tipo": "borboleta",
+        "desde": "2026-11-25T10:24:21+00:00",
+        "ate": "2026-11-25T11:57:27+00:00"
+      },
+      {
+        "id": 29,
+        "tipo": "lagarta",
+        "desde": "2026-11-25T10:36:38+00:00",
+        "ate": "2026-11-25T12:48:41+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-23T23:27:26+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
-      {
-        "quando": "2026-11-23T23:41:26+00:00",
-        "texto": "uma coruja pousou num galho"
-      },
       {
         "quando": "2026-11-23T23:48:24+00:00",
         "texto": "o ratinho escapou da coruja"
@@ -434,9 +433,17 @@
       {
         "quando": "2026-11-25T09:12:17+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-25T10:24:21+00:00",
+        "texto": "uma borboleta chegou voando"
+      },
+      {
+        "quando": "2026-11-25T10:36:38+00:00",
+        "texto": "uma lagarta subiu no tronco"
       }
     ],
-    "seq": 27,
-    "agenda_ate": "2026-11-25T09:47:12+00:00"
+    "seq": 29,
+    "agenda_ate": "2026-11-25T11:02:35+00:00"
   }
 }

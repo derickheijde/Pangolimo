@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 86,
+  "energia": 71,
   "dormindo": false,
-  "acao": "observando_visita",
+  "acao": "desenhando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.253
+      "recente": 3.232
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.572
+      "recente": 2.555
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.612
+      "recente": 2.595
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.418
+      "recente": 2.402
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.852
+      "recente": 1.84
+    },
+    {
+      "tema": "Cartografia",
+      "peso": 2,
+      "recente": 1.905
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.806
+      "recente": 1.794
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.768
+      "recente": 1.757
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.157
+      "recente": 1.15
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.135
+      "recente": 1.128
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.663
+      "recente": 1.652
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.559
+      "recente": 1.549
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.529
+      "recente": 1.519
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.507
+      "recente": 1.497
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.103
+      "recente": 1.096
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.185
+      "recente": 1.177
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.851
+      "recente": 0.846
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.851
+      "recente": 0.846
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.11
+      "recente": 1.103
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.894
+      "recente": 0.888
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.855
+      "recente": 0.849
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.738
+    },
+    {
+      "tema": "Geografia regional",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Pré-história",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.702
+      "recente": 0.697
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.675
-    },
-    {
-      "tema": "Cartografia",
-      "peso": 1,
-      "recente": 0.911
+      "recente": 0.671
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.895
-    },
-    {
-      "tema": "Frente subtropical",
-      "peso": 1,
-      "recente": 0.867
+      "recente": 0.889
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.592
-    },
-    {
-      "tema": "Nefologia",
-      "peso": 1,
-      "recente": 0.852
-    },
-    {
-      "tema": "Atmosfera",
-      "peso": 1,
-      "recente": 0.852
+      "recente": 0.588
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.568
+      "recente": 0.564
+    },
+    {
+      "tema": "Frente subtropical",
+      "peso": 1,
+      "recente": 0.861
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
@@ -203,17 +202,18 @@
     "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
     "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
-    "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica."
+    "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
+    "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
   ],
-  "proximo_tema": "Cartografia",
-  "ultima_execucao": "2026-11-25T19:13+00:00",
+  "proximo_tema": "Geografia regional",
+  "ultima_execucao": "2026-11-25T19:39+00:00",
   "tipo": "Limo / Terra",
-  "fome": 43,
+  "fome": 47,
   "evento": null,
-  "ultima_atividade": "quintal",
-  "origem_do_proximo": "Altitude",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Cartografia",
   "via_do_proximo": {
-    "de": "Altitude",
+    "de": "Cartografia",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T18:00+00:00"
   },
-  "tedio": 90,
+  "tedio": 93,
   "cena": {
     "id": 39,
     "quando": "2026-11-25T19:13:30+00:00",
@@ -249,12 +249,6 @@
         "ate": "2026-11-25T18:32:16+00:00"
       },
       {
-        "id": 35,
-        "tipo": "passarinho",
-        "desde": "2026-11-25T16:06:26+00:00",
-        "ate": "2026-11-25T17:25:08+00:00"
-      },
-      {
         "id": 36,
         "tipo": "borboleta",
         "desde": "2026-11-25T17:00:05+00:00",
@@ -274,10 +268,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T08:03:18+00:00",
-        "texto": "uma coruja pousou num galho"
-      },
       {
         "quando": "2026-11-24T08:05:23+00:00",
         "texto": "a coruja pegou o ratinho"
@@ -431,15 +421,15 @@
         "texto": "um esquilo veio ao buraco da árvore"
       },
       {
-        "quando": "2026-11-25T19:41:16+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
-      {
         "quando": "2026-11-25T19:13:30+00:00",
         "texto": "Pangolimo ficou observando um esquilo"
+      },
+      {
+        "quando": "2026-11-25T19:41:16+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
     "seq": 39,
-    "agenda_ate": "2026-11-25T20:43:30+00:00"
+    "agenda_ate": "2026-11-25T21:09:53+00:00"
   }
 }

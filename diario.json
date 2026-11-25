@@ -752,5 +752,20 @@
     "via": "Altocumulus stratiformis",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 56,
+    "quando": "2026-11-25T19:39+00:00",
+    "atividade": "pesquisa",
+    "tema": "Cartografia",
+    "fonte": "https://pt.wikipedia.org/wiki/Cartografia",
+    "texto": "Oi, diário... Eu estava olhando sobre a altitude, que faz a gente ficar mais alto e sentir friozinho, e acabei clicando num link que fala de cartografia. Descobri que cartografia é um jeito de desenhar mapas para a gente saber onde as coisas ficam. Eu fiquei pensando em como seria legal fazer um mapa do meu quintal inteiro, com a árvore, a lama e o cupinzeiro. Mas confesso que os números e as contas pareceram um pouco difíceis, e meus olhinhos já estão pesados de sono.",
+    "aprendeu": "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
+    "humor": "sono",
+    "desenho": "desenhos/0056.svg",
+    "titulo_desenho": "Meu mapa do quintal",
+    "via": "Altitude",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

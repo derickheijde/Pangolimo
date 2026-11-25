@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 39,
+  "energia": 34,
   "dormindo": false,
   "acao": "assistindo_programa",
   "humor": "com sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.203
+      "recente": 4.175
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.326
+      "recente": 3.304
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.393
+      "recente": 2.377
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.493
+      "recente": 1.483
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.468
+      "recente": 1.458
+    },
+    {
+      "tema": "Fisiologia vegetal",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.977
+      "recente": 1.964
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.947
+      "recente": 1.934
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.426
+      "recente": 1.417
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.533
+      "recente": 1.523
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.438
+      "recente": 1.428
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.1
+      "recente": 1.093
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.1
+      "recente": 1.093
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.156
+      "recente": 1.148
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.105
+      "recente": 1.098
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.961
+      "recente": 0.955
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.907
+      "recente": 0.901
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.874
+      "recente": 0.868
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.765
+      "recente": 0.76
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.732
+      "recente": 0.727
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.732
+      "recente": 0.727
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.732
+      "recente": 0.727
+    },
+    {
+      "tema": "Dormencia",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.971
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 0.97
+      "recente": 0.964
     },
     {
       "tema": "Campo",
       "peso": 1,
-      "recente": 0.97
+      "recente": 0.964
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.757
+      "recente": 0.752
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.757
-    },
-    {
-      "tema": "Fundação Pró-Tamar",
-      "peso": 1,
-      "recente": 0.753
-    },
-    {
-      "tema": "Tartaruga-marinha",
-      "peso": 1,
-      "recente": 0.753
+      "recente": 0.752
     }
   ],
   "gostos": {
@@ -198,27 +198,28 @@
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
     "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
-    "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel."
+    "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
+    "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas."
   ],
-  "proximo_tema": "Fisiologia vegetal",
-  "ultima_execucao": "2026-11-25T01:38+00:00",
+  "proximo_tema": "Dormência",
+  "ultima_execucao": "2026-11-25T02:05+00:00",
   "tipo": "Limo / Terra",
-  "fome": 51,
+  "fome": 56,
   "evento": null,
   "ultima_atividade": "programa",
-  "origem_do_proximo": "Botânica",
+  "origem_do_proximo": "Fisiologia vegetal",
   "via_do_proximo": {
-    "de": "Botânica",
-    "sorteado": false,
+    "de": "Fisiologia vegetal",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
     "genero": "documentario",
-    "descricao": "um programa sobre Botânica",
-    "tema": "Botânica",
-    "desde": "2026-11-25T01:38+00:00"
+    "descricao": "um programa sobre Fisiologia vegetal",
+    "tema": "Fisiologia vegetal",
+    "desde": "2026-11-25T02:05+00:00"
   },
-  "tedio": 22,
+  "tedio": 25,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -262,16 +263,6 @@
         "tipo": "coruja",
         "desde": "2026-11-24T23:08:13+00:00",
         "ate": "2026-11-25T01:19:04+00:00"
-      },
-      {
-        "id": 20,
-        "tipo": "ratinho",
-        "desde": "2026-11-24T23:52:59+00:00",
-        "ate": "2026-11-24T23:59:27+00:00",
-        "fim": {
-          "quando": "2026-11-24T23:59:21+00:00",
-          "resultado": "pegou"
-        }
       },
       {
         "id": 21,
@@ -465,6 +456,6 @@
       }
     ],
     "seq": 25,
-    "agenda_ate": "2026-11-25T03:08:48+00:00"
+    "agenda_ate": "2026-11-25T03:35:43+00:00"
   }
 }

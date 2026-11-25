@@ -632,5 +632,20 @@
     "via": "Erva",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 48,
+    "quando": "2026-11-25T02:05+00:00",
+    "atividade": "programa",
+    "tema": "Fisiologia vegetal",
+    "fonte": "https://pt.wikipedia.org/wiki/Fisiologia_vegetal",
+    "texto": "Ja sao onze horas da noite e estou sentadinho no sofa, olhando a televisao com meus olhinhos bem pesados. O programa de hoje falou sobre fisiologia vegetal, que estuda como as plantas funcionam por dentro e fazem aquela comidinha verde com a luz do sol. Eu vi que elas respiram, crescem e ate se movimentam de jeitinhos bem devagar. Fiquei pensando em como a plantinha la fora na arvore consegue fazer tudo isso quietinha. No fim, apertei o botao errado e fui parar em um programa sobre dormencia.",
+    "aprendeu": "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
+    "humor": "com sono",
+    "desenho": "desenhos/0048.svg",
+    "titulo_desenho": "Folhinha dormindo",
+    "via": "Botânica",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

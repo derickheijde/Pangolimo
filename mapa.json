@@ -482,7 +482,13 @@
   {
     "tema": "Inverno",
     "origem": "Dormência",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-25T03:43+00:00"
+  },
+  {
+    "tema": "Nuvem",
+    "origem": "Inverno",
+    "vezes": 0,
+    "desde": "2026-11-25T04:50+00:00"
   }
 ]

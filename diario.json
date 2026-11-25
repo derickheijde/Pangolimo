@@ -662,5 +662,20 @@
     "via": "Fisiologia vegetal",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 50,
+    "quando": "2026-11-25T04:50+00:00",
+    "atividade": "pesquisa",
+    "tema": "Inverno",
+    "fonte": "https://pt.wikipedia.org/wiki/Inverno",
+    "texto": "São uma hora da manhã e a minha cabecinha está tão pesada que quase não consigo abrir os olhinhos. Fui seguindo as letrinhas da dormência até chegar no inverno, que é a estação mais fria do ano com dias bem curtinhos. Aprendi que nesse tempo a natureza descansa bastante, igualzinho a mim agora. Vou deitar na minha caminha quentinha e deixar meu liminho brilhando no escuro até o sol nascer.",
+    "aprendeu": "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
+    "humor": "sono",
+    "desenho": "desenhos/0050.svg",
+    "titulo_desenho": "Frio e sono",
+    "via": "Dormência",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

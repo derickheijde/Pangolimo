@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 31,
-  "dormindo": false,
-  "acao": "assistindo_tv",
+  "energia": 12,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.029
+      "recente": 4.011
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.188
+      "recente": 3.174
+    },
+    {
+      "tema": "Inverno",
+      "peso": 3,
+      "recente": 2.984
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.293
+      "recente": 2.283
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.432
+      "recente": 1.426
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.407
+      "recente": 1.401
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.93
+      "recente": 1.921
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.894
+      "recente": 1.886
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.867
+      "recente": 1.859
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.368
+      "recente": 1.362
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.469
+      "recente": 1.462
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.378
+      "recente": 1.372
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.054
+      "recente": 1.049
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.054
+      "recente": 1.049
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.108
+      "recente": 1.103
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.059
+      "recente": 1.054
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.922
+      "recente": 0.918
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.87
+      "recente": 0.866
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.837
+      "recente": 0.833
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.733
+      "recente": 0.73
+    },
+    {
+      "tema": "Nuvem",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.702
+      "recente": 0.699
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.702
+      "recente": 0.699
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.702
+      "recente": 0.699
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.988
+      "recente": 0.984
     },
     {
       "tema": "Gasto energético",
       "peso": 1,
-      "recente": 0.988
-    },
-    {
-      "tema": "Inverno",
-      "peso": 1,
-      "recente": 0.988
+      "recente": 0.984
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 0.965
+      "recente": 0.961
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.954
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.954
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.937
-    },
-    {
-      "tema": "Campo (bioma)",
-      "peso": 1,
-      "recente": 0.931
+      "recente": 0.933
     }
   ],
   "gostos": {
@@ -200,17 +200,18 @@
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
     "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
-    "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar."
+    "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
+    "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos."
   ],
-  "proximo_tema": "Inverno",
-  "ultima_execucao": "2026-11-25T04:32+00:00",
+  "proximo_tema": "Nuvem",
+  "ultima_execucao": "2026-11-25T04:50+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 25,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "Dormência",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Inverno",
   "via_do_proximo": {
-    "de": "Dormência",
+    "de": "Inverno",
     "sorteado": false,
     "lang": "pt"
   },
@@ -220,7 +221,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 40,
+  "tedio": 42,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -421,6 +422,6 @@
       }
     ],
     "seq": 25,
-    "agenda_ate": "2026-11-25T06:02:37+00:00"
+    "agenda_ate": "2026-11-25T06:20:40+00:00"
   }
 }

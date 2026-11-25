@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 39,
+  "energia": 34,
   "dormindo": false,
-  "acao": "comendo",
-  "humor": "com sono",
+  "acao": "assistindo_programa",
+  "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.104
+      "recente": 4.077
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.247
+      "recente": 3.226
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.336
+      "recente": 2.321
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.458
+      "recente": 1.449
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.433
+      "recente": 1.424
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.966
+      "recente": 1.953
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.93
+      "recente": 1.917
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.901
+      "recente": 1.889
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.393
+      "recente": 1.384
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.497
+      "recente": 1.487
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.404
+      "recente": 1.395
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.074
+      "recente": 1.067
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.074
+      "recente": 1.067
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.128
+      "recente": 1.121
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.079
+      "recente": 1.072
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.939
+      "recente": 0.933
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.886
+      "recente": 0.88
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.853
+      "recente": 0.847
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.747
+      "recente": 0.742
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.71
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.71
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.71
+    },
+    {
+      "tema": "Dormência",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Gasto energético",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Inverno",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.977
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.97
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.97
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.954
+      "recente": 0.948
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 0.948
-    },
-    {
-      "tema": "Campo",
-      "peso": 1,
-      "recente": 0.948
-    },
-    {
-      "tema": "Praia do Forte (Mata de São João)",
-      "peso": 1,
-      "recente": 0.739
-    },
-    {
-      "tema": "Oceano Atlântico",
-      "peso": 1,
-      "recente": 0.739
+      "recente": 0.942
     }
   ],
   "gostos": {
@@ -199,27 +199,28 @@
     "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
     "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
-    "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas."
+    "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
+    "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar."
   ],
-  "proximo_tema": "Dormência",
-  "ultima_execucao": "2026-11-25T03:16+00:00",
+  "proximo_tema": "Inverno",
+  "ultima_execucao": "2026-11-25T03:43+00:00",
   "tipo": "Limo / Terra",
-  "fome": 9,
+  "fome": 14,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": "Fisiologia vegetal",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Dormência",
   "via_do_proximo": {
-    "de": "Fisiologia vegetal",
-    "sorteado": true,
+    "de": "Dormência",
+    "sorteado": false,
     "lang": "pt"
   },
   "tv": {
     "genero": "documentario",
-    "descricao": "um programa sobre Fisiologia vegetal",
-    "tema": "Fisiologia vegetal",
-    "desde": "2026-11-25T02:05+00:00"
+    "descricao": "um programa sobre Dormência",
+    "tema": "Dormência",
+    "desde": "2026-11-25T03:43+00:00"
   },
-  "tedio": 32,
+  "tedio": 35,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -258,12 +259,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 19,
-        "tipo": "coruja",
-        "desde": "2026-11-24T23:08:13+00:00",
-        "ate": "2026-11-25T01:19:04+00:00"
-      },
       {
         "id": 24,
         "tipo": "coruja",
@@ -436,6 +431,6 @@
       }
     ],
     "seq": 25,
-    "agenda_ate": "2026-11-25T04:46:41+00:00"
+    "agenda_ate": "2026-11-25T05:13:07+00:00"
   }
 }

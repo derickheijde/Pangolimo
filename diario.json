@@ -647,5 +647,20 @@
     "via": "Botânica",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 49,
+    "quando": "2026-11-25T03:43+00:00",
+    "atividade": "programa",
+    "tema": "Dormência",
+    "fonte": "https://pt.wikipedia.org/wiki/Dorm%C3%AAncia",
+    "texto": "Hoje o controle remoto escorregou da minha patinha e a televisão mostrou uma coisa chamada dormência. Aprendi que alguns bichinhos e plantinhas param um pouquinho para descansar e guardar energia quando o tempo muda. Achei isso muito bonitinho e parecido com o que eu faço agora, porque meus olhos estão bem pesadinhos. Vou desligar a televisão e deitar na minha caminha para dormir um pouco.",
+    "aprendeu": "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
+    "humor": "sono",
+    "desenho": "desenhos/0049.svg",
+    "titulo_desenho": "Hora de Dormir",
+    "via": "Fisiologia vegetal",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

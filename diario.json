@@ -677,5 +677,20 @@
     "via": "Dormência",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 51,
+    "quando": "2026-11-25T08:17+00:00",
+    "atividade": "pesquisa",
+    "tema": "Nuvem",
+    "fonte": "https://pt.wikipedia.org/wiki/Nuvem",
+    "texto": "Ainda são cinco horas da manhã e o tempo lá fora está bem calmo. Fiquei curioso lendo sobre as nuvens no computador, que são formadas por gotinhas de água ou gelo bem pequenininhas flutuando no ar. Elas mudam de formato por causa do vento e da luz. Fiquei pensando se as nuvens também sentem frio nas noites compridas de inverno. Sem querer, cliquei em outro link e fui parar em frente subtropical.",
+    "aprendeu": "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
+    "humor": "sono",
+    "desenho": "desenhos/0051.svg",
+    "titulo_desenho": "Nuvens no céu",
+    "via": "Inverno",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

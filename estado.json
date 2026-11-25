@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 100,
+  "energia": 84,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.84
+      "recente": 3.815
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.038
+      "recente": 3.018
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.857
+      "recente": 2.838
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.186
+      "recente": 2.172
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.365
+      "recente": 1.356
+    },
+    {
+      "tema": "Nuvem",
+      "peso": 2,
+      "recente": 1.952
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.342
+      "recente": 1.333
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.839
+      "recente": 1.827
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.806
+      "recente": 1.794
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.78
+      "recente": 1.768
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.303
+      "recente": 1.294
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.4
+      "recente": 1.391
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.313
+      "recente": 1.304
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.005
+      "recente": 0.998
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.005
+      "recente": 0.998
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.056
+      "recente": 1.049
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.01
+      "recente": 1.003
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.878
+      "recente": 0.872
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.829
+      "recente": 0.824
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.797
+      "recente": 0.792
+    },
+    {
+      "tema": "Nefologia",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Atmosfera",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.699
-    },
-    {
-      "tema": "Nuvem",
-      "peso": 1,
-      "recente": 0.958
+      "recente": 0.694
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.669
+      "recente": 0.665
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.669
+      "recente": 0.665
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.669
+      "recente": 0.665
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.936
     },
     {
       "tema": "Gasto energético",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.936
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 0.919
+      "recente": 0.913
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.914
-    },
-    {
-      "tema": "Algas",
-      "peso": 1,
-      "recente": 0.914
-    },
-    {
-      "tema": "Planta lenhosa",
-      "peso": 1,
-      "recente": 0.893
+      "recente": 0.908
     }
   ],
   "gostos": {
@@ -201,22 +201,19 @@
     "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
     "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
-    "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos."
+    "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
+    "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera."
   ],
-  "proximo_tema": "Nuvem",
-  "ultima_execucao": "2026-11-25T07:50+00:00",
+  "proximo_tema": "Frente subtropical",
+  "ultima_execucao": "2026-11-25T08:17+00:00",
   "tipo": "Limo / Terra",
-  "fome": 37,
-  "evento": {
-    "nome": "clima",
-    "tipo": "garoa",
-    "ate": "2026-11-25T08:08+00:00"
-  },
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Inverno",
+  "fome": 42,
+  "evento": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Nuvem",
   "via_do_proximo": {
-    "de": "Inverno",
-    "sorteado": false,
+    "de": "Nuvem",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -225,7 +222,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 61,
+  "tedio": 64,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -440,6 +437,6 @@
       }
     ],
     "seq": 27,
-    "agenda_ate": "2026-11-25T09:20:06+00:00"
+    "agenda_ate": "2026-11-25T09:47:12+00:00"
   }
 }

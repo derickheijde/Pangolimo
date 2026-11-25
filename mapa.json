@@ -440,7 +440,19 @@
   {
     "tema": "Botânica",
     "origem": "Erva",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-25T00:03+00:00"
+  },
+  {
+    "tema": "Biologia vegetal",
+    "origem": "Botânica",
+    "vezes": 0,
+    "desde": "2026-11-25T01:38+00:00"
+  },
+  {
+    "tema": "Algas",
+    "origem": "Botânica",
+    "vezes": 0,
+    "desde": "2026-11-25T01:38+00:00"
   }
 ]

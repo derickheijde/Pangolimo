@@ -617,5 +617,20 @@
     "via": "Campo (bioma)",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 47,
+    "quando": "2026-11-25T01:38+00:00",
+    "atividade": "programa",
+    "tema": "Botânica",
+    "fonte": "https://pt.wikipedia.org/wiki/Bot%C3%A2nica",
+    "texto": "São dez horas da noite e eu estou enroladinho no sofá, olhando a televisão. Vi um programa chamado Botânica que fala sobre as plantas e algas. Descobri que as plantas ajudam a gente de muitas maneiras, dando madeira para abrigo e até papel para os livros. Fiquei pensando em como as plantas são importantes para o mundo e para a minha casinha.",
+    "aprendeu": "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
+    "humor": "com sono",
+    "desenho": "desenhos/0047.svg",
+    "titulo_desenho": "Folha verde e simples",
+    "via": "Erva",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

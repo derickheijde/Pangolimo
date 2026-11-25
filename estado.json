@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 46,
+  "energia": 39,
   "dormindo": false,
-  "acao": "assistindo_tv",
+  "acao": "assistindo_programa",
   "humor": "com sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 4.269
+      "recente": 4.203
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.378
+      "recente": 3.326
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.431
+      "recente": 2.393
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.516
+      "recente": 1.493
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.491
+      "recente": 1.468
+    },
+    {
+      "tema": "Botânica",
+      "peso": 2,
+      "recente": 1.977
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.978
+      "recente": 1.947
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.448
+      "recente": 1.426
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.557
+      "recente": 1.533
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.461
+      "recente": 1.438
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.117
+      "recente": 1.1
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.117
+      "recente": 1.1
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.174
+      "recente": 1.156
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.122
+      "recente": 1.105
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.976
+      "recente": 0.961
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.921
+      "recente": 0.907
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.874
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.777
+      "recente": 0.765
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.732
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.732
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.732
+    },
+    {
+      "tema": "Biologia vegetal",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Algas",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.992
-    },
-    {
-      "tema": "Botânica",
-      "peso": 1,
-      "recente": 0.992
+      "recente": 0.977
     },
     {
       "tema": "Campo (bioma)",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.97
     },
     {
       "tema": "Campo",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.97
     },
     {
       "tema": "Praia do Forte (Mata de São João)",
       "peso": 1,
-      "recente": 0.769
+      "recente": 0.757
     },
     {
       "tema": "Oceano Atlântico",
       "peso": 1,
-      "recente": 0.769
+      "recente": 0.757
     },
     {
       "tema": "Fundação Pró-Tamar",
       "peso": 1,
-      "recente": 0.765
+      "recente": 0.753
     },
     {
       "tema": "Tartaruga-marinha",
       "peso": 1,
-      "recente": 0.765
-    },
-    {
-      "tema": "Praia",
-      "peso": 1,
-      "recente": 0.765
-    },
-    {
-      "tema": "Tartaruga-de-couro",
-      "peso": 1,
-      "recente": 0.745
+      "recente": 0.753
     }
   ],
   "gostos": {
@@ -197,27 +197,28 @@
     "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
     "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
-    "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio."
+    "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
+    "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel."
   ],
-  "proximo_tema": "Botânica",
-  "ultima_execucao": "2026-11-25T00:34+00:00",
+  "proximo_tema": "Fisiologia vegetal",
+  "ultima_execucao": "2026-11-25T01:38+00:00",
   "tipo": "Limo / Terra",
-  "fome": 40,
+  "fome": 51,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "Erva",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Botânica",
   "via_do_proximo": {
-    "de": "Erva",
+    "de": "Botânica",
     "sorteado": false,
     "lang": "pt"
   },
   "tv": {
-    "genero": "jornal",
-    "descricao": "um programa de entrevistas",
-    "tema": null,
-    "desde": "2026-11-25T00:34+00:00"
+    "genero": "documentario",
+    "descricao": "um programa sobre Botânica",
+    "tema": "Botânica",
+    "desde": "2026-11-25T01:38+00:00"
   },
-  "tedio": 16,
+  "tedio": 22,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -256,22 +257,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 17,
-        "tipo": "aranha",
-        "desde": "2026-11-24T21:59:29+00:00",
-        "ate": "2026-11-24T23:29:10+00:00"
-      },
-      {
-        "id": 18,
-        "tipo": "ratinho",
-        "desde": "2026-11-24T22:59:29+00:00",
-        "ate": "2026-11-24T23:13:30+00:00",
-        "fim": {
-          "quando": "2026-11-24T23:13:24+00:00",
-          "resultado": "fugiu"
-        }
-      },
       {
         "id": 19,
         "tipo": "coruja",
@@ -480,6 +465,6 @@
       }
     ],
     "seq": 25,
-    "agenda_ate": "2026-11-25T02:04:38+00:00"
+    "agenda_ate": "2026-11-25T03:08:48+00:00"
   }
 }

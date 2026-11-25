@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 40,
+  "energia": 26,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.593
+      "recente": 3.569
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.842
+      "recente": 2.823
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.887
+      "recente": 2.868
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.673
+      "recente": 2.655
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.046
+      "recente": 2.033
+    },
+    {
+      "tema": "Altitude",
+      "peso": 2,
+      "recente": 1.983
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.954
+      "recente": 1.941
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.278
+      "recente": 1.27
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.255
+      "recente": 1.247
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.838
+      "recente": 1.826
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.721
+      "recente": 1.71
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.689
+      "recente": 1.678
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.665
+      "recente": 1.654
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.219
+      "recente": 1.211
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.309
+      "recente": 1.3
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.94
+      "recente": 0.934
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.94
+      "recente": 0.934
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.227
+      "recente": 1.219
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.989
+      "recente": 0.982
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.945
+      "recente": 0.939
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.821
+      "recente": 0.816
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.776
+      "recente": 0.771
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.746
+      "recente": 0.741
     },
     {
-      "tema": "Altitude",
+      "tema": "Cartografia",
       "peso": 1,
-      "recente": 0.99
+      "recente": 1.0
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.99
+      "recente": 0.983
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.953
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.654
+      "recente": 0.65
     },
     {
       "tema": "Nefologia",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.936
     },
     {
       "tema": "Atmosfera",
       "peso": 1,
-      "recente": 0.942
+      "recente": 0.936
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.626
-    },
-    {
-      "tema": "tatus",
-      "peso": 2,
-      "recente": 0.626
+      "recente": 0.622
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Os tatus e seus parentes formam um grupo chamado Cingulata que vive nas Américas.",
     "O compositor Saint-Saëns escreveu uma peça musical sobre animais que só foi publicada depois de sua morte.",
     "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
@@ -203,21 +202,22 @@
     "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
     "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
     "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
-    "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu."
+    "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
+    "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica."
   ],
-  "proximo_tema": "Altitude",
-  "ultima_execucao": "2026-11-25T12:23+00:00",
+  "proximo_tema": "Cartografia",
+  "ultima_execucao": "2026-11-25T12:50+00:00",
   "tipo": "Limo / Terra",
-  "fome": 34,
+  "fome": 39,
   "evento": {
     "nome": "clima",
     "tipo": "vendaval",
     "ate": "2026-11-25T14:29+00:00"
   },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Altocumulus stratiformis",
+  "origem_do_proximo": "Altitude",
   "via_do_proximo": {
-    "de": "Altocumulus stratiformis",
+    "de": "Altitude",
     "sorteado": false,
     "lang": "pt"
   },
@@ -227,7 +227,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 89,
+  "tedio": 92,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -466,6 +466,6 @@
       }
     ],
     "seq": 32,
-    "agenda_ate": "2026-11-25T13:53:58+00:00"
+    "agenda_ate": "2026-11-25T14:20:28+00:00"
   }
 }

@@ -737,5 +737,20 @@
     "via": "Cumulonimbus",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 55,
+    "quando": "2026-11-25T12:50+00:00",
+    "atividade": "pesquisa",
+    "tema": "Altitude",
+    "fonte": "https://pt.wikipedia.org/wiki/Altitude",
+    "texto": "O vento forte sacode a janela lá fora enquanto eu continuo aqui na luz da tela. Fiquei sabendo de uma coisa chamada altitude, que mede a distância lá de baixo do mar até os lugares mais altos. Li que quanto mais a gente sobe, mais a temperatura cai, ficando friozinho como no inverno. Meus olhos estão pesados de sono e acho que vou fechar o computador logo para dormir na minha caminha quentinha.",
+    "aprendeu": "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
+    "humor": "sono",
+    "desenho": "desenhos/0055.svg",
+    "titulo_desenho": "Montanha e nuvem",
+    "via": "Altocumulus stratiformis",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

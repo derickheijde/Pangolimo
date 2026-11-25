@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 59,
+  "energia": 54,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "assistindo_tv",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.093
+      "recente": 3.052
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.444
+      "recente": 2.411
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 2.074
+      "recente": 2.046
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.483
+      "recente": 2.45
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.298
+      "recente": 2.267
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.761
+      "recente": 1.737
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.822
+      "recente": 1.798
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.716
+      "recente": 1.693
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.1
+      "recente": 1.085
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.681
+      "recente": 1.659
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.582
+      "recente": 1.561
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.481
+      "recente": 1.461
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.455
+      "recente": 1.436
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.433
+      "recente": 1.414
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.049
+      "recente": 1.035
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.126
+      "recente": 1.111
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.81
+      "recente": 0.799
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.81
+      "recente": 0.799
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.056
+      "recente": 1.042
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.85
+      "recente": 0.839
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.813
+      "recente": 0.802
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.705
+      "recente": 0.696
     },
     {
       "tema": "fases da lua",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.987
     },
     {
       "tema": "2016 no cinema",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.982
     },
     {
       "tema": "Turner Classic Movies",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.982
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.668
+      "recente": 0.659
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.945
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.945
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.643
+      "recente": 0.634
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.562
+      "recente": 0.554
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes."
   ],
   "proximo_tema": "2016 no cinema",
-  "ultima_execucao": "2026-11-25T22:39+00:00",
+  "ultima_execucao": "2026-11-25T23:34+00:00",
   "tipo": "Limo / Terra",
-  "fome": 30,
+  "fome": 39,
   "evento": null,
-  "ultima_atividade": "lua",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "animais noturnos",
   "via_do_proximo": {
     "de": "animais noturnos",
@@ -218,10 +218,10 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "reality",
-    "descricao": "um reality show de culinária",
+    "genero": "musical",
+    "descricao": "um show de música",
     "tema": null,
-    "desde": "2026-11-25T18:00+00:00"
+    "desde": "2026-11-25T23:34+00:00"
   },
   "tedio": 100,
   "cena": {
@@ -243,31 +243,29 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 38,
-        "tipo": "passarinho",
-        "desde": "2026-11-25T19:41:16+00:00",
-        "ate": "2026-11-25T21:05:53+00:00"
-      },
-      {
         "id": 40,
         "tipo": "coruja",
         "desde": "2026-11-25T22:02:51+00:00",
         "ate": "2026-11-26T00:16:32+00:00"
+      },
+      {
+        "id": 41,
+        "tipo": "coruja",
+        "desde": "2026-11-26T00:27:34+00:00",
+        "ate": "2026-11-26T02:03:17+00:00"
+      },
+      {
+        "id": 42,
+        "tipo": "ratinho",
+        "desde": "2026-11-26T00:34:29+00:00",
+        "ate": "2026-11-26T00:36:54+00:00",
+        "fim": {
+          "quando": "2026-11-26T00:36:48+00:00",
+          "resultado": "fugiu"
+        }
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T09:04:40+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
-      {
-        "quando": "2026-11-24T09:30:01+00:00",
-        "texto": "um esquilo veio ao buraco da árvore"
-      },
-      {
-        "quando": "2026-11-24T11:28:24+00:00",
-        "texto": "uma cobra entrou no quintal"
-      },
       {
         "quando": "2026-11-24T17:45:47+00:00",
         "texto": "uma lagarta subiu no tronco"
@@ -415,9 +413,21 @@
       {
         "quando": "2026-11-25T22:02:51+00:00",
         "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-26T00:27:34+00:00",
+        "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-26T00:34:29+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-26T00:36:48+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
-    "seq": 40,
-    "agenda_ate": "2026-11-26T00:09:07+00:00"
+    "seq": 42,
+    "agenda_ate": "2026-11-26T01:04:50+00:00"
   }
 }

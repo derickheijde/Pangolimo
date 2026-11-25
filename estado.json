@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 55,
+  "energia": 70,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sono",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.929
+      "recente": 3.901
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.109
+      "recente": 3.086
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.923
+      "recente": 2.902
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.237
+      "recente": 2.221
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.397
+      "recente": 1.387
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.373
+      "recente": 1.363
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.882
+      "recente": 1.868
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.848
+      "recente": 1.835
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.821
+      "recente": 1.808
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.334
+      "recente": 1.324
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.432
+      "recente": 1.422
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.344
+      "recente": 1.334
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.028
+      "recente": 1.021
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.028
+      "recente": 1.021
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.081
+      "recente": 1.073
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.033
+      "recente": 1.026
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.899
+      "recente": 0.892
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.848
+      "recente": 0.842
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.816
+      "recente": 0.81
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.71
     },
     {
       "tema": "Nuvem",
       "peso": 1,
-      "recente": 0.98
+      "recente": 0.973
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.685
+      "recente": 0.68
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.685
+      "recente": 0.68
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.685
+      "recente": 0.68
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.964
+      "recente": 0.957
     },
     {
       "tema": "Gasto energético",
       "peso": 1,
-      "recente": 0.964
+      "recente": 0.957
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.934
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.928
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 0.935
+      "recente": 0.928
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.914
+      "recente": 0.907
     }
   ],
   "gostos": {
@@ -204,10 +204,14 @@
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos."
   ],
   "proximo_tema": "Nuvem",
-  "ultima_execucao": "2026-11-25T06:15+00:00",
+  "ultima_execucao": "2026-11-25T06:45+00:00",
   "tipo": "Limo / Terra",
-  "fome": 31,
-  "evento": null,
+  "fome": 33,
+  "evento": {
+    "nome": "clima",
+    "tipo": "garoa",
+    "ate": "2026-11-25T08:08+00:00"
+  },
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Inverno",
   "via_do_proximo": {
@@ -221,7 +225,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 51,
+  "tedio": 54,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -426,6 +430,6 @@
       }
     ],
     "seq": 26,
-    "agenda_ate": "2026-11-25T07:45:22+00:00"
+    "agenda_ate": "2026-11-25T08:15:13+00:00"
   }
 }

@@ -767,5 +767,20 @@
     "via": "Altitude",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 57,
+    "quando": "2026-11-25T22:18+00:00",
+    "atividade": "pesquisa",
+    "tema": "animais noturnos",
+    "fonte": "https://pt.wikipedia.org/wiki/Animais_Noturnos",
+    "texto": "A tela do computador brilha de leve no meu quarto escuro e eu estive lendo sobre bichinhos que preferem a noite como eu. Fiquei sabendo de uma história inventada com esse mesmo nome que fala de gente famosa e de telas grandes lá longe. É um pouco difícil de entender tudo, mas gosto de pensar em como o mundo fica quietinho quando o sol vai embora. Enquanto as patinhas deixam um rastro verde brilhante no chão, sinto um soninho manso chegando de mansinho.",
+    "aprendeu": "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes.",
+    "humor": "sono",
+    "desenho": "desenhos/0057.svg",
+    "titulo_desenho": "Tela brilhante na noite",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

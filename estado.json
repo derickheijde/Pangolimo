@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 76,
+  "energia": 62,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.136
+      "recente": 3.109
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.478
+      "recente": 2.456
+    },
+    {
+      "tema": "animais noturnos",
+      "peso": 5,
+      "recente": 2.085
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.518
+      "recente": 2.496
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.33
+      "recente": 2.31
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.786
+      "recente": 1.77
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.847
+      "recente": 1.831
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.74
-    },
-    {
-      "tema": "Altocumulus stratiformis",
-      "peso": 2,
-      "recente": 1.705
+      "recente": 1.725
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.116
+      "recente": 1.106
     },
     {
-      "tema": "animais noturnos",
-      "peso": 4,
-      "recente": 1.095
+      "tema": "Altocumulus stratiformis",
+      "peso": 2,
+      "recente": 1.69
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.604
+      "recente": 1.59
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.502
+      "recente": 1.489
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.475
+      "recente": 1.462
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.453
+      "recente": 1.44
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.063
+      "recente": 1.054
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.142
+      "recente": 1.132
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.821
+      "recente": 0.814
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.821
+      "recente": 0.814
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.07
+      "recente": 1.061
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.862
+      "recente": 0.854
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.824
+      "recente": 0.817
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.709
     },
     {
-      "tema": "Geografia regional",
+      "tema": "2016 no cinema",
       "peso": 1,
-      "recente": 0.971
+      "recente": 1.0
     },
     {
-      "tema": "Pré-história",
+      "tema": "Turner Classic Movies",
       "peso": 1,
-      "recente": 0.971
+      "recente": 1.0
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.677
+      "recente": 0.671
+    },
+    {
+      "tema": "Geografia regional",
+      "peso": 1,
+      "recente": 0.963
+    },
+    {
+      "tema": "Pré-história",
+      "peso": 1,
+      "recente": 0.963
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.652
-    },
-    {
-      "tema": "Tempestade",
-      "peso": 1,
-      "recente": 0.863
+      "recente": 0.646
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.57
+      "recente": 0.565
     },
     {
-      "tema": "escamas e queratina",
-      "peso": 2,
-      "recente": 0.547
-    },
-    {
-      "tema": "Frente subtropical",
+      "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.836
+      "recente": 0.855
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "O leão é um grande felino que hoje vive na África subsaariana e na Índia.",
     "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
     "As formigas constroem túneis fundos na terra que servem de casa para elas.",
@@ -203,16 +202,21 @@
     "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
-    "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
+    "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
+    "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes."
   ],
-  "proximo_tema": "",
-  "ultima_execucao": "2026-11-25T21:42+00:00",
+  "proximo_tema": "2016 no cinema",
+  "ultima_execucao": "2026-11-25T22:18+00:00",
   "tipo": "Limo / Terra",
-  "fome": 20,
+  "fome": 26,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": null,
-  "via_do_proximo": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "animais noturnos",
+  "via_do_proximo": {
+    "de": "animais noturnos",
+    "sorteado": false,
+    "lang": "pt"
+  },
   "tv": {
     "genero": "reality",
     "descricao": "um reality show de culinária",
@@ -420,6 +424,6 @@
       }
     ],
     "seq": 40,
-    "agenda_ate": "2026-11-25T23:12:30+00:00"
+    "agenda_ate": "2026-11-25T23:48:22+00:00"
   }
 }

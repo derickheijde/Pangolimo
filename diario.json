@@ -722,5 +722,20 @@
     "via": "Frente subtropical",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 54,
+    "quando": "2026-11-25T11:41+00:00",
+    "atividade": "pesquisa",
+    "tema": "Altocumulus stratiformis",
+    "fonte": "https://pt.wikipedia.org/wiki/Altocumulus",
+    "texto": "Acordei meio com sono às oito da manhã e fui olhar o computador. Acabei clicando num lugar errado e li sobre nuvens chamadas altocumulus. Elas parecem carneirinhos no céu e ficam bem altas, entre dois e seis quilômetros. Fiquei imaginando se um carneirinho de nuvem é fofinho como os bichinhos que passam lá no quintal.",
+    "aprendeu": "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
+    "humor": "sono",
+    "desenho": "desenhos/0054.svg",
+    "titulo_desenho": "Carneirinhos no ceu",
+    "via": "Cumulonimbus",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

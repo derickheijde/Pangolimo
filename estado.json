@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 71,
+  "energia": 76,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "comendo",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.186
+      "recente": 3.156
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.518
+      "recente": 2.494
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.558
+      "recente": 2.534
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.367
+      "recente": 2.345
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.814
+      "recente": 1.797
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.877
+      "recente": 1.859
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.768
+      "recente": 1.751
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.732
+      "recente": 1.716
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.134
+      "recente": 1.123
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.112
+      "recente": 1.102
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.629
+      "recente": 1.614
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.526
+      "recente": 1.512
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.498
+      "recente": 1.484
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.476
+      "recente": 1.462
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.08
+      "recente": 1.07
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.16
+      "recente": 1.149
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.834
+      "recente": 0.826
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.834
+      "recente": 0.826
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.087
+      "recente": 1.077
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.876
+      "recente": 0.868
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.837
+      "recente": 0.829
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.727
+      "recente": 0.72
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.977
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.977
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.687
+      "recente": 0.681
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.662
+      "recente": 0.656
     },
     {
       "tema": "Tempestade",
       "peso": 1,
-      "recente": 0.877
+      "recente": 0.869
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.579
+      "recente": 0.574
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.556
+      "recente": 0.551
     },
     {
       "tema": "Frente subtropical",
       "peso": 1,
-      "recente": 0.849
+      "recente": 0.841
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos."
   ],
   "proximo_tema": "",
-  "ultima_execucao": "2026-11-25T20:37+00:00",
+  "ultima_execucao": "2026-11-25T21:16+00:00",
   "tipo": "Limo / Terra",
-  "fome": 57,
+  "fome": 16,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": null,
   "via_do_proximo": null,
   "tv": {
@@ -219,7 +219,7 @@
     "tema": null,
     "desde": "2026-11-25T18:00+00:00"
   },
-  "tedio": 99,
+  "tedio": 100,
   "cena": {
     "id": 39,
     "quando": "2026-11-25T19:13:30+00:00",
@@ -420,6 +420,6 @@
       }
     ],
     "seq": 40,
-    "agenda_ate": "2026-11-25T22:07:47+00:00"
+    "agenda_ate": "2026-11-25T22:46:09+00:00"
   }
 }

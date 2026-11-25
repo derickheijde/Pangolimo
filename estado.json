@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 70,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 100,
+  "dormindo": false,
+  "acao": "pesquisando",
   "humor": "sono",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.901
+      "recente": 3.84
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 3.086
+      "recente": 3.038
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.902
+      "recente": 2.857
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 2.221
+      "recente": 2.186
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.387
+      "recente": 1.365
     },
     {
       "tema": "animais noturnos",
       "peso": 4,
-      "recente": 1.363
+      "recente": 1.342
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.868
+      "recente": 1.839
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.835
+      "recente": 1.806
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.808
+      "recente": 1.78
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.324
+      "recente": 1.303
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.422
+      "recente": 1.4
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.334
+      "recente": 1.313
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 1.021
+      "recente": 1.005
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 1.021
+      "recente": 1.005
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 1.073
+      "recente": 1.056
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 1.026
+      "recente": 1.01
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.892
+      "recente": 0.878
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.842
+      "recente": 0.829
     },
     {
       "tema": "túneis de formigas",
       "peso": 2,
-      "recente": 0.81
+      "recente": 0.797
     },
     {
       "tema": "leões",
       "peso": 2,
-      "recente": 0.71
+      "recente": 0.699
     },
     {
       "tema": "Nuvem",
       "peso": 1,
-      "recente": 0.973
+      "recente": 0.958
     },
     {
       "tema": "escamas e queratina",
       "peso": 2,
-      "recente": 0.68
+      "recente": 0.669
     },
     {
       "tema": "tatus",
       "peso": 2,
-      "recente": 0.68
+      "recente": 0.669
     },
     {
       "tema": "Cingulata",
       "peso": 2,
-      "recente": 0.68
+      "recente": 0.669
     },
     {
       "tema": "Dormência",
       "peso": 1,
-      "recente": 0.957
+      "recente": 0.942
     },
     {
       "tema": "Gasto energético",
       "peso": 1,
-      "recente": 0.957
+      "recente": 0.942
     },
     {
       "tema": "Dormencia",
       "peso": 1,
-      "recente": 0.934
+      "recente": 0.919
     },
     {
       "tema": "Biologia vegetal",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.914
     },
     {
       "tema": "Algas",
       "peso": 1,
-      "recente": 0.928
+      "recente": 0.914
     },
     {
       "tema": "Planta lenhosa",
       "peso": 1,
-      "recente": 0.907
+      "recente": 0.893
     }
   ],
   "gostos": {
@@ -204,9 +204,9 @@
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos."
   ],
   "proximo_tema": "Nuvem",
-  "ultima_execucao": "2026-11-25T06:45+00:00",
+  "ultima_execucao": "2026-11-25T07:50+00:00",
   "tipo": "Limo / Terra",
-  "fome": 33,
+  "fome": 37,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
@@ -225,7 +225,7 @@
     "tema": null,
     "desde": "2026-11-25T04:32+00:00"
   },
-  "tedio": 54,
+  "tedio": 61,
   "cena": {
     "id": 22,
     "quando": "2026-11-24T23:14:06+00:00",
@@ -269,6 +269,12 @@
         "tipo": "aranha",
         "desde": "2026-11-25T06:29:26+00:00",
         "ate": "2026-11-25T07:25:04+00:00"
+      },
+      {
+        "id": 27,
+        "tipo": "passarinho",
+        "desde": "2026-11-25T09:12:17+00:00",
+        "ate": "2026-11-25T10:50:46+00:00"
       }
     ],
     "log": [
@@ -427,9 +433,13 @@
       {
         "quando": "2026-11-25T06:29:26+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-25T09:12:17+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 26,
-    "agenda_ate": "2026-11-25T08:15:13+00:00"
+    "seq": 27,
+    "agenda_ate": "2026-11-25T09:20:06+00:00"
   }
 }

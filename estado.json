@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 54,
+  "energia": 34,
   "dormindo": false,
-  "acao": "assistindo_tv",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 3.052
+      "recente": 3.031
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.411
+      "recente": 2.395
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 2.046
+      "recente": 2.032
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.45
+      "recente": 2.433
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.267
+      "recente": 2.252
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.737
+      "recente": 1.725
+    },
+    {
+      "tema": "2016 no cinema",
+      "peso": 2,
+      "recente": 1.975
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.798
+      "recente": 1.786
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.693
+      "recente": 1.682
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.085
+      "recente": 1.078
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.659
+      "recente": 1.648
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.561
+      "recente": 1.55
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.461
+      "recente": 1.451
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.436
+      "recente": 1.426
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.414
+      "recente": 1.404
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.035
+      "recente": 1.028
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.111
+      "recente": 1.103
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.799
+      "recente": 0.794
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.799
+      "recente": 0.794
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.042
+      "recente": 1.035
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.839
+      "recente": 0.833
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.802
+      "recente": 0.797
+    },
+    {
+      "tema": "cinema",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "premiações",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.696
+      "recente": 0.691
     },
     {
       "tema": "fases da lua",
       "peso": 1,
-      "recente": 0.987
-    },
-    {
-      "tema": "2016 no cinema",
-      "peso": 1,
-      "recente": 0.982
+      "recente": 0.98
     },
     {
       "tema": "Turner Classic Movies",
       "peso": 1,
-      "recente": 0.982
+      "recente": 0.975
     },
     {
       "tema": "voo nupcial",
       "peso": 2,
-      "recente": 0.659
+      "recente": 0.655
     },
     {
       "tema": "Geografia regional",
       "peso": 1,
-      "recente": 0.945
+      "recente": 0.939
     },
     {
       "tema": "Pré-história",
       "peso": 1,
-      "recente": 0.945
-    },
-    {
-      "tema": "túneis de formigas",
-      "peso": 2,
-      "recente": 0.634
-    },
-    {
-      "tema": "leões",
-      "peso": 2,
-      "recente": 0.554
+      "recente": 0.939
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Descobri que vários animais diferentes, como peixes, anfíbios e aranhas, também constroem tocas para se abrigar.",
     "Descobri que às vezes peixes e sapos caem do céu em tempestades altas e geladas.",
     "As formigas constroem túneis fundos na terra que servem de casa para elas.",
     "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
@@ -203,18 +202,19 @@
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
-    "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes."
+    "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes.",
+    "Aprendi que em dois mil e dezesseis aconteceram várias premiações de cinema com muitos filmes e atores."
   ],
-  "proximo_tema": "2016 no cinema",
-  "ultima_execucao": "2026-11-25T23:34+00:00",
+  "proximo_tema": "Oscar Martínez",
+  "ultima_execucao": "2026-11-26T00:02+00:00",
   "tipo": "Limo / Terra",
-  "fome": 39,
+  "fome": 44,
   "evento": null,
-  "ultima_atividade": "tv",
-  "origem_do_proximo": "animais noturnos",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "2016 no cinema",
   "via_do_proximo": {
-    "de": "animais noturnos",
-    "sorteado": false,
+    "de": "2016 no cinema",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -428,6 +428,6 @@
       }
     ],
     "seq": 42,
-    "agenda_ate": "2026-11-26T01:04:50+00:00"
+    "agenda_ate": "2026-11-26T01:32:15+00:00"
   }
 }

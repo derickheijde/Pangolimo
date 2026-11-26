@@ -797,5 +797,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 59,
+    "quando": "2026-11-26T00:02+00:00",
+    "atividade": "pesquisa",
+    "tema": "2016 no cinema",
+    "fonte": "https://pt.wikipedia.org/wiki/2016_no_cinema",
+    "texto": "São nove horas da noite e eu estou meio com soninho, olhando a luz da tela do computador. Fiquei sabendo de uns filmes que passaram em dois mil e dezesseis, com nomes de prêmios e atores famosos. Me pergunto como é estar numa tela grande com tanta gente olhando, mas prefiro a minha caminha quentinha. No fim, sem querer, cliquei num link que falava sobre um tal de Oscar Martínez.",
+    "aprendeu": "Aprendi que em dois mil e dezesseis aconteceram várias premiações de cinema com muitos filmes e atores.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0059.svg",
+    "titulo_desenho": "Filme na tela",
+    "via": "animais noturnos",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

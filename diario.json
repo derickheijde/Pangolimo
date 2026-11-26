@@ -842,5 +842,20 @@
     "via": "Oscar Martínez",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 62,
+    "quando": "2026-11-26T03:41+00:00",
+    "atividade": "pesquisa",
+    "tema": "Armas nucleares",
+    "fonte": "https://pt.wikipedia.org/wiki/Armas_nucleares",
+    "texto": "Meus olhinhos estão pesados e são meia-noite, mas acabei clicando num lugar estranho enquanto via o mapa da Argentina. O texto falava de uma tal de bomba nuclear que solta muita energia de um jeito meio assustador e destrutivo. Fiquei um pouco encolhido na minha caminha pensando em como o mundo tem coisas grandiosas e perigosas que a gente nem imagina lá debaixo da terra. Depois, meu pezinho escorregou no teclado e fui parar num artigo chamado Base aérea.",
+    "aprendeu": "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0062.svg",
+    "titulo_desenho": "Grande Explosão Escura",
+    "via": "Argentina",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

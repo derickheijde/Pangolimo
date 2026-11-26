@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 85,
+  "energia": 70,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.88
+      "recente": 2.874
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.275
+      "recente": 2.27
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.931
+      "recente": 1.927
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.311
+      "recente": 2.306
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.14
+      "recente": 2.135
+    },
+    {
+      "tema": "Armas nucleares",
+      "peso": 2,
+      "recente": 1.998
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.958
+      "recente": 1.954
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.639
+      "recente": 1.635
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.876
+      "recente": 1.872
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.697
+      "recente": 1.693
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.024
+      "recente": 1.022
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.597
+      "recente": 1.594
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.565
+      "recente": 1.562
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.473
+      "recente": 1.47
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.377
+      "recente": 1.374
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.355
+      "recente": 1.352
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.335
+      "recente": 1.332
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.976
+      "recente": 0.974
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.754
+      "recente": 0.752
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.754
+      "recente": 0.752
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.048
+      "recente": 1.046
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.983
+      "recente": 0.981
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.79
+      "recente": 0.788
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.757
+      "recente": 0.755
     },
     {
-      "tema": "Armas nucleares",
+      "tema": "Base aérea",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "Oscar Martínez",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.956
     },
     {
       "tema": "Festival Internacional de Cinema de San Sebastian",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.956
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.656
+      "recente": 0.655
     },
     {
       "tema": "cinema",
       "peso": 1,
-      "recente": 0.95
+      "recente": 0.948
     },
     {
       "tema": "premiações",
       "peso": 1,
-      "recente": 0.95
-    },
-    {
-      "tema": "fases da lua",
-      "peso": 1,
-      "recente": 0.931
+      "recente": 0.948
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
     "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
@@ -203,17 +202,18 @@
     "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes.",
     "Aprendi que em dois mil e dezesseis aconteceram várias premiações de cinema com muitos filmes e atores.",
     "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras.",
-    "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico."
+    "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico.",
+    "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições."
   ],
-  "proximo_tema": "Armas nucleares",
-  "ultima_execucao": "2026-11-26T03:33+00:00",
+  "proximo_tema": "Base aérea",
+  "ultima_execucao": "2026-11-26T03:41+00:00",
   "tipo": "Limo / Terra",
-  "fome": 6,
+  "fome": 7,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Argentina",
+  "origem_do_proximo": "Armas nucleares",
   "via_do_proximo": {
-    "de": "Argentina",
+    "de": "Armas nucleares",
     "sorteado": true,
     "lang": "pt"
   },
@@ -450,6 +450,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T05:03:55+00:00"
+    "agenda_ate": "2026-11-26T05:11:57+00:00"
   }
 }

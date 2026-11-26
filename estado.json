@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 13,
+  "energia": 51,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.372
+      "recente": 2.328
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.8
+      "recente": 2.749
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.873
+      "recente": 1.839
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.59
+      "recente": 1.561
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.903
+      "recente": 1.868
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.762
+      "recente": 1.73
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.937
+      "recente": 1.901
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.886
+      "recente": 1.851
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.821
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.719
+      "recente": 1.687
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.696
+      "recente": 1.665
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.664
+      "recente": 1.633
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.349
+      "recente": 1.324
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.648
+      "recente": 1.618
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.613
+      "recente": 1.583
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.546
+      "recente": 1.518
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.842
+      "recente": 0.827
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.397
+      "recente": 1.371
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.316
+      "recente": 1.292
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.291
+      "recente": 1.267
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.213
+      "recente": 1.191
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.135
+      "recente": 1.114
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.115
+      "recente": 1.095
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.803
+      "recente": 0.788
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.099
+      "recente": 1.079
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.621
+      "recente": 0.61
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.621
+      "recente": 0.61
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.865
+      "recente": 0.849
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.809
+      "recente": 0.794
     },
     {
       "tema": "Berbigão",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.982
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil."
   ],
   "proximo_tema": "Eliezer de Carvalho Rios",
-  "ultima_execucao": "2026-11-26T16:49+00:00",
+  "ultima_execucao": "2026-11-26T18:05+00:00",
   "tipo": "Limo / Terra",
-  "fome": 27,
+  "fome": 32,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Berbigão",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 54,
+  "tedio": 62,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -251,17 +251,21 @@
         "tipo": "esquilo",
         "desde": "2026-11-26T17:46:25+00:00",
         "ate": "2026-11-26T18:59:48+00:00"
+      },
+      {
+        "id": 60,
+        "tipo": "passarinho",
+        "desde": "2026-11-26T18:58:10+00:00",
+        "ate": "2026-11-26T20:22:59+00:00"
+      },
+      {
+        "id": 61,
+        "tipo": "cobra",
+        "desde": "2026-11-26T19:19:03+00:00",
+        "ate": "2026-11-26T20:03:55+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T06:29:26+00:00",
-        "texto": "uma aranha desceu pela parede da toca"
-      },
-      {
-        "quando": "2026-11-25T09:12:17+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
       {
         "quando": "2026-11-25T10:24:21+00:00",
         "texto": "uma borboleta chegou voando"
@@ -413,9 +417,17 @@
       {
         "quando": "2026-11-26T17:46:25+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
+      },
+      {
+        "quando": "2026-11-26T18:58:10+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-26T19:19:03+00:00",
+        "texto": "uma cobra entrou no quintal"
       }
     ],
-    "seq": 59,
-    "agenda_ate": "2026-11-26T18:19:56+00:00"
+    "seq": 61,
+    "agenda_ate": "2026-11-26T19:35:55+00:00"
   }
 }

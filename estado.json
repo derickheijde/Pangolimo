@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 53,
+  "energia": 49,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "observando_aranha",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.515
+      "recente": 2.454
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.97
+      "recente": 2.897
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.986
+      "recente": 1.938
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.686
+      "recente": 1.645
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.019
+      "recente": 1.97
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.869
+      "recente": 1.823
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.951
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.967
+      "recente": 1.919
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.824
+      "recente": 1.779
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.799
+      "recente": 1.755
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.765
+      "recente": 1.722
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.749
+      "recente": 1.706
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.431
+      "recente": 1.396
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.711
+      "recente": 1.669
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.639
+      "recente": 1.599
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.894
+      "recente": 0.872
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.481
+      "recente": 1.445
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.396
+      "recente": 1.362
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.368
+      "recente": 1.335
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.285
+      "recente": 1.254
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.204
+      "recente": 1.175
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.183
+      "recente": 1.154
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.165
+      "recente": 1.137
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.852
+      "recente": 0.831
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.658
+      "recente": 0.642
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.658
+      "recente": 0.642
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.917
+      "recente": 0.895
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.858
+      "recente": 0.837
     },
     {
       "tema": "Molusco",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.976
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.689
+      "recente": 0.672
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar."
   ],
   "proximo_tema": "Molusco",
-  "ultima_execucao": "2026-11-26T12:48+00:00",
+  "ultima_execucao": "2026-11-26T14:30+00:00",
   "tipo": "Limo / Terra",
-  "fome": 34,
+  "fome": 51,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "aranha",
   "origem_do_proximo": "Rotifera",
   "via_do_proximo": {
     "de": "Rotifera",
@@ -225,47 +225,23 @@
   },
   "tedio": 80,
   "cena": {
-    "id": 52,
-    "quando": "2026-11-26T09:50:18+00:00",
-    "tipo": "conversa",
-    "visitante": "borboleta",
+    "id": 58,
+    "quando": "2026-11-26T14:30:41+00:00",
+    "tipo": "observa",
+    "visitante": "aranha",
     "conversa": [
       {
-        "q": "v",
-        "e": "🌼"
-      },
-      {
         "q": "p",
-        "e": "🤔"
-      },
-      {
-        "q": "v",
-        "e": "🦋"
-      },
-      {
-        "q": "p",
-        "e": "😄"
+        "e": "😮"
       }
     ],
-    "resultado": "amizade",
-    "assunto": "brincaram de seguir flores",
-    "iniciou": "pangolimo"
+    "resultado": "observou",
+    "assunto": null,
+    "iniciou": null
   },
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 49,
-        "tipo": "borboleta",
-        "desde": "2026-11-26T09:01:59+00:00",
-        "ate": "2026-11-26T10:56:54+00:00"
-      },
-      {
-        "id": 50,
-        "tipo": "passarinho",
-        "desde": "2026-11-26T10:24:33+00:00",
-        "ate": "2026-11-26T12:17:16+00:00"
-      },
       {
         "id": 53,
         "tipo": "passarinho",
@@ -277,21 +253,27 @@
         "tipo": "aranha",
         "desde": "2026-11-26T14:10:04+00:00",
         "ate": "2026-11-26T14:46:58+00:00"
+      },
+      {
+        "id": 55,
+        "tipo": "passarinho",
+        "desde": "2026-11-26T14:36:17+00:00",
+        "ate": "2026-11-26T16:26:14+00:00"
+      },
+      {
+        "id": 56,
+        "tipo": "lagarta",
+        "desde": "2026-11-26T14:46:27+00:00",
+        "ate": "2026-11-26T16:53:10+00:00"
+      },
+      {
+        "id": 57,
+        "tipo": "borboleta",
+        "desde": "2026-11-26T15:11:00+00:00",
+        "ate": "2026-11-26T17:10:03+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T00:35:50+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
-      {
-        "quando": "2026-11-25T00:40:34+00:00",
-        "texto": "a coruja pegou o ratinho"
-      },
-      {
-        "quando": "2026-11-25T00:50:49+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-25T00:56:30+00:00",
         "texto": "a coruja pegou o ratinho"
@@ -439,9 +421,25 @@
       {
         "quando": "2026-11-26T14:10:04+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-26T14:36:17+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-26T14:46:27+00:00",
+        "texto": "uma lagarta subiu no tronco"
+      },
+      {
+        "quando": "2026-11-26T15:11:00+00:00",
+        "texto": "uma borboleta chegou voando"
+      },
+      {
+        "quando": "2026-11-26T14:30:41+00:00",
+        "texto": "Pangolimo ficou observando a aranha na parede"
       }
     ],
-    "seq": 54,
-    "agenda_ate": "2026-11-26T14:18:32+00:00"
+    "seq": 58,
+    "agenda_ate": "2026-11-26T16:00:41+00:00"
   }
 }

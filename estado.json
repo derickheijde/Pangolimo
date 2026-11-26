@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 66,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 95,
+  "dormindo": false,
+  "acao": "conversando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.689
+      "recente": 2.64
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.123
+      "recente": 2.085
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.803
+      "recente": 1.77
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.158
+      "recente": 2.119
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.998
+      "recente": 1.962
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.949
+      "recente": 1.914
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.923
+      "recente": 1.888
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.886
+      "recente": 1.852
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.87
+      "recente": 1.836
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.829
+      "recente": 1.796
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.53
+      "recente": 1.502
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.751
+      "recente": 1.719
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.584
+      "recente": 1.555
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.956
+      "recente": 0.939
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.492
+      "recente": 1.465
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.461
+      "recente": 1.435
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.375
+      "recente": 1.35
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.286
+      "recente": 1.263
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.265
+      "recente": 1.242
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.245
+      "recente": 1.222
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.91
+      "recente": 0.894
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.704
+      "recente": 0.691
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.704
+      "recente": 0.691
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.98
+      "recente": 0.962
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.917
+      "recente": 0.9
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.737
+      "recente": 0.724
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.707
+      "recente": 0.694
     },
     {
       "tema": "Espaço intergaláctico",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.961
     },
     {
       "tema": "Animais no espaço",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.961
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.612
+      "recente": 0.601
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas."
   ],
   "proximo_tema": "Animais no espaço",
-  "ultima_execucao": "2026-11-26T08:14+00:00",
+  "ultima_execucao": "2026-11-26T09:30+00:00",
   "tipo": "Limo / Terra",
-  "fome": 44,
+  "fome": 49,
   "evento": null,
-  "ultima_atividade": "dormir",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Viagem só de ida",
   "via_do_proximo": {
     "de": "Viagem só de ida",
@@ -223,21 +223,33 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 100,
+  "tedio": 80,
   "cena": {
-    "id": 39,
-    "quando": "2026-11-25T19:13:30+00:00",
-    "tipo": "observa",
-    "visitante": "esquilo",
+    "id": 51,
+    "quando": "2026-11-26T09:30:00+00:00",
+    "tipo": "conversa",
+    "visitante": "borboleta",
     "conversa": [
       {
+        "q": "v",
+        "e": "🌼"
+      },
+      {
         "q": "p",
-        "e": "😮"
+        "e": "🤔"
+      },
+      {
+        "q": "v",
+        "e": "🦋"
+      },
+      {
+        "q": "p",
+        "e": "😄"
       }
     ],
-    "resultado": "observou",
-    "assunto": null,
-    "iniciou": null
+    "resultado": "amizade",
+    "assunto": "brincaram de seguir flores",
+    "iniciou": "visitante"
   },
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -253,13 +265,15 @@
         "tipo": "borboleta",
         "desde": "2026-11-26T09:01:59+00:00",
         "ate": "2026-11-26T10:56:54+00:00"
+      },
+      {
+        "id": 50,
+        "tipo": "passarinho",
+        "desde": "2026-11-26T10:24:33+00:00",
+        "ate": "2026-11-26T12:17:16+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T22:59:29+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-24T23:08:13+00:00",
         "texto": "uma coruja pousou num galho"
@@ -415,9 +429,17 @@
       {
         "quando": "2026-11-26T09:01:59+00:00",
         "texto": "uma borboleta chegou voando"
+      },
+      {
+        "quando": "2026-11-26T10:24:33+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-26T09:30:00+00:00",
+        "texto": "Pangolimo conversou com uma borboleta"
       }
     ],
-    "seq": 49,
-    "agenda_ate": "2026-11-26T09:44:15+00:00"
+    "seq": 51,
+    "agenda_ate": "2026-11-26T11:00:00+00:00"
   }
 }

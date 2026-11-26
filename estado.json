@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 54,
+  "energia": 67,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.961
+      "recente": 2.943
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.339
+      "recente": 2.325
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.985
+      "recente": 1.973
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.376
+      "recente": 2.362
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.2
+      "recente": 2.187
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.685
+      "recente": 1.675
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.929
+      "recente": 1.917
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.745
+      "recente": 1.734
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.053
+      "recente": 1.047
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.642
+      "recente": 1.632
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.61
+      "recente": 1.6
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.514
+      "recente": 1.505
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.417
+      "recente": 1.408
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.393
+      "recente": 1.385
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.372
+      "recente": 1.364
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 1.004
+      "recente": 0.998
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.077
+      "recente": 1.071
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.776
+      "recente": 0.771
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.776
+      "recente": 0.771
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 1.011
+      "recente": 1.005
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.813
+      "recente": 0.808
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.779
+      "recente": 0.774
     },
     {
       "tema": "Oscar Martínez",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Argentina",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Festival Internacional de Cinema de San Sebastian",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "cinema",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.971
     },
     {
       "tema": "premiações",
       "peso": 1,
-      "recente": 0.977
+      "recente": 0.971
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.674
+      "recente": 0.67
     },
     {
       "tema": "fases da lua",
       "peso": 1,
-      "recente": 0.957
+      "recente": 0.951
     },
     {
       "tema": "Turner Classic Movies",
       "peso": 1,
-      "recente": 0.952
+      "recente": 0.946
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras."
   ],
   "proximo_tema": "Argentina",
-  "ultima_execucao": "2026-11-26T01:39+00:00",
+  "ultima_execucao": "2026-11-26T02:04+00:00",
   "tipo": "Limo / Terra",
-  "fome": 54,
+  "fome": 56,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Oscar Martínez",
@@ -285,17 +285,19 @@
           "quando": "2026-11-26T02:59:29+00:00",
           "resultado": "pegou"
         }
+      },
+      {
+        "id": 46,
+        "tipo": "ratinho",
+        "desde": "2026-11-26T03:23:02+00:00",
+        "ate": "2026-11-26T03:29:23+00:00",
+        "fim": {
+          "quando": "2026-11-26T03:29:17+00:00",
+          "resultado": "pegou"
+        }
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T20:37:34+00:00",
-        "texto": "uma borboleta chegou voando"
-      },
-      {
-        "quando": "2026-11-24T21:10:43+00:00",
-        "texto": "Pangolimo rolou na lama"
-      },
       {
         "quando": "2026-11-24T21:59:29+00:00",
         "texto": "uma aranha desceu pela parede da toca"
@@ -447,9 +449,17 @@
       {
         "quando": "2026-11-26T02:59:29+00:00",
         "texto": "a coruja pegou o ratinho"
+      },
+      {
+        "quando": "2026-11-26T03:23:02+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-26T03:29:17+00:00",
+        "texto": "a coruja pegou o ratinho"
       }
     ],
-    "seq": 45,
-    "agenda_ate": "2026-11-26T03:09:32+00:00"
+    "seq": 46,
+    "agenda_ate": "2026-11-26T03:34:05+00:00"
   }
 }

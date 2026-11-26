@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 53,
+  "energia": 40,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.827
+      "recente": 2.769
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.232
+      "recente": 2.186
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.895
+      "recente": 1.856
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.268
+      "recente": 2.222
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.1
+      "recente": 2.057
+    },
+    {
+      "tema": "Aviação comercial",
+      "peso": 2,
+      "recente": 1.98
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.983
+      "recente": 1.942
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.965
+      "recente": 1.925
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.922
+      "recente": 1.883
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.608
+      "recente": 1.575
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.841
+      "recente": 1.803
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.665
+      "recente": 1.631
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.005
+      "recente": 0.984
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.536
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.536
+      "recente": 1.505
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.446
+      "recente": 1.416
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.351
+      "recente": 1.323
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.329
+      "recente": 1.302
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.309
+      "recente": 1.282
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.957
+      "recente": 0.937
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.74
+      "recente": 0.725
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.74
+      "recente": 0.725
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.029
+      "recente": 1.008
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.964
+      "recente": 0.944
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.775
+      "recente": 0.759
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.728
     },
     {
-      "tema": "Aviação comercial",
+      "tema": "Viagem só de ida",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.644
+      "recente": 0.631
     },
     {
       "tema": "Oscar Martínez",
       "peso": 1,
-      "recente": 0.941
+      "recente": 0.922
     },
     {
       "tema": "Festival Internacional de Cinema de San Sebastian",
       "peso": 1,
-      "recente": 0.941
-    },
-    {
-      "tema": "cinema",
-      "peso": 1,
-      "recente": 0.933
+      "recente": 0.922
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
     "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
@@ -203,17 +202,18 @@
     "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras.",
     "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico.",
     "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições.",
-    "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns."
+    "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns.",
+    "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado."
   ],
-  "proximo_tema": "Aviação comercial",
-  "ultima_execucao": "2026-11-26T04:49+00:00",
+  "proximo_tema": "Viagem só de ida",
+  "ultima_execucao": "2026-11-26T06:14+00:00",
   "tipo": "Limo / Terra",
-  "fome": 19,
+  "fome": 33,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Base aérea",
+  "origem_do_proximo": "Aviação comercial",
   "via_do_proximo": {
-    "de": "Base aérea",
+    "de": "Aviação comercial",
     "sorteado": false,
     "lang": "pt"
   },
@@ -243,36 +243,10 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 43,
-        "tipo": "aranha",
-        "desde": "2026-11-26T02:27:57+00:00",
-        "ate": "2026-11-26T03:19:44+00:00"
-      },
-      {
         "id": 44,
         "tipo": "coruja",
         "desde": "2026-11-26T02:43:14+00:00",
         "ate": "2026-11-26T05:31:47+00:00"
-      },
-      {
-        "id": 45,
-        "tipo": "ratinho",
-        "desde": "2026-11-26T02:54:01+00:00",
-        "ate": "2026-11-26T02:59:35+00:00",
-        "fim": {
-          "quando": "2026-11-26T02:59:29+00:00",
-          "resultado": "pegou"
-        }
-      },
-      {
-        "id": 46,
-        "tipo": "ratinho",
-        "desde": "2026-11-26T03:23:02+00:00",
-        "ate": "2026-11-26T03:29:23+00:00",
-        "fim": {
-          "quando": "2026-11-26T03:29:17+00:00",
-          "resultado": "pegou"
-        }
       },
       {
         "id": 47,
@@ -444,6 +418,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T06:19:48+00:00"
+    "agenda_ate": "2026-11-26T07:44:52+00:00"
   }
 }

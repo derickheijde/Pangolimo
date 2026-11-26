@@ -872,5 +872,20 @@
     "via": "Armas nucleares",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 64,
+    "quando": "2026-11-26T06:14+00:00",
+    "atividade": "pesquisa",
+    "tema": "Aviação comercial",
+    "fonte": "https://pt.wikipedia.org/wiki/Avia%C3%A7%C3%A3o_comercial",
+    "texto": "Estava olhando a telinha do computador bem devagar, já com os olhinhos pesados de sono por causa da hora. Fiquei sabendo que lá em cima tem aviões que levam pessoas e pacotes de um lado para o outro desde antigamente. Me perguntei se esses voos passam muito longe da minha toca e se fazem barulho na janela.",
+    "aprendeu": "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0064.svg",
+    "titulo_desenho": "Aviao de giz",
+    "via": "Base aérea",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

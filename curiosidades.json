@@ -26,5 +26,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T04:49+00:00"
+  },
+  {
+    "id": 3,
+    "pergunta": "Será que dá para viajar bem longe num avião comercial sem nunca mais voltar para a mesma toca?",
+    "termo": "Viagem só de ida",
+    "origem": "lendo sobre Aviação comercial",
+    "entrada": 64,
+    "criada": "2026-11-26T06:14+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T06:14+00:00"
   }
 ]

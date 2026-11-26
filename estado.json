@@ -3,158 +3,158 @@
   "especie": "pangolim",
   "energia": 70,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "pesquisando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.874
+      "recente": 2.843
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.27
+      "recente": 2.245
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.927
+      "recente": 1.906
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.306
+      "recente": 2.281
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.135
+      "recente": 2.112
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.998
+      "recente": 1.976
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.954
+      "recente": 1.933
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.635
+      "recente": 1.617
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.872
+      "recente": 1.852
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.693
+      "recente": 1.675
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.022
+      "recente": 1.011
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.594
+      "recente": 1.577
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.562
+      "recente": 1.545
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.47
+      "recente": 1.454
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.374
+      "recente": 1.359
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.352
+      "recente": 1.337
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.332
+      "recente": 1.317
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.974
+      "recente": 0.963
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.752
+      "recente": 0.744
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.752
+      "recente": 0.744
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.046
+      "recente": 1.035
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.981
+      "recente": 0.97
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.788
+      "recente": 0.779
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.755
+      "recente": 0.747
     },
     {
       "tema": "Base aérea",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.989
     },
     {
       "tema": "Oscar Martínez",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.946
     },
     {
       "tema": "Festival Internacional de Cinema de San Sebastian",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.946
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.655
+      "recente": 0.648
     },
     {
       "tema": "cinema",
       "peso": 1,
-      "recente": 0.948
+      "recente": 0.938
     },
     {
       "tema": "premiações",
       "peso": 1,
-      "recente": 0.948
+      "recente": 0.938
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições."
   ],
   "proximo_tema": "Base aérea",
-  "ultima_execucao": "2026-11-26T03:41+00:00",
+  "ultima_execucao": "2026-11-26T04:26+00:00",
   "tipo": "Limo / Terra",
-  "fome": 7,
+  "fome": 15,
   "evento": null,
   "ultima_atividade": "pesquisa",
   "origem_do_proximo": "Armas nucleares",
@@ -242,12 +242,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 41,
-        "tipo": "coruja",
-        "desde": "2026-11-26T00:27:34+00:00",
-        "ate": "2026-11-26T02:03:17+00:00"
-      },
       {
         "id": 43,
         "tipo": "aranha",
@@ -450,6 +444,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T05:11:57+00:00"
+    "agenda_ate": "2026-11-26T05:56:33+00:00"
   }
 }

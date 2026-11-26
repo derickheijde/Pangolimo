@@ -1007,5 +1007,20 @@
     "via": "Berbigão",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 73,
+    "quando": "2026-11-26T19:50+00:00",
+    "atividade": "pesquisa",
+    "tema": "Nicolas Vilhar",
+    "fonte": "https://pt.wikipedia.org/wiki/Museu_Oceanogr%C3%A1fico_de_Rio_Grande",
+    "texto": "Hum... cliquei sem querer num nome diferente na página daquele museu, e acabei lendo sobre um tal de Nicolas Vilhar que ajudou a fundar a sociedade que criou o museu junto com o seu Eliezer. Fiquei imaginando se ele também gostava de juntar conchinhas e de olhar as coisas quietinho no canto dele. A luz do computador estava meio forte para os meus olhos sonolentos, então fechei um pouquinho o meu rostinho. Deixei um rastro de limo verde bem devagarzinho na beirada da mesa.",
+    "aprendeu": "Aprendi que um engenheiro chamado Nicolas Vilhar ajudou a fundar a sociedade que deu origem ao museu oceanográfico em Rio Grande.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0073.svg",
+    "titulo_desenho": "O museu e o engenheiro",
+    "via": "Eliezer de Carvalho Rios",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

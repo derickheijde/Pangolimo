@@ -152,5 +152,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T19:20+00:00"
+  },
+  {
+    "id": 12,
+    "pergunta": "Será que esse estado tão comprido do sul tem mais lugares cheios de conchinhas e bichinhos de corpo mole perto da água?",
+    "termo": "Rio Grande do Sul",
+    "origem": "lendo sobre Nicolas Vilhar",
+    "entrada": 73,
+    "criada": "2026-11-26T19:50+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T19:50+00:00"
   }
 ]

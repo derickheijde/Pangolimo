@@ -1052,5 +1052,20 @@
     "via": "Rio Grande do Sul",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 76,
+    "quando": "2026-11-26T22:38+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fiquei quietinho na grama úmida olhando para a coruja lá no alto da árvore do quintal. Ela piscava os olhos grandes e redondos enquanto a garoa caía bem de leve. Fiquei com um pouquinho de medo e quase me enrolei em bola, mas achei tão bonito o jeito dela cuidar da noite.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0076.svg",
+    "titulo_desenho": "coruja na chuva",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "observando uma coruja"
   }
 ]

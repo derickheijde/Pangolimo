@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 30,
+  "energia": 27,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "observando_visita",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.191
+      "recente": 2.178
+    },
+    {
+      "tema": "animais noturnos",
+      "peso": 6,
+      "recente": 2.461
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.731
+      "recente": 1.72
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.589
-    },
-    {
-      "tema": "animais noturnos",
-      "peso": 5,
-      "recente": 1.47
+      "recente": 2.573
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.759
+      "recente": 1.748
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.629
+      "recente": 1.619
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.789
+      "recente": 1.778
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.743
+      "recente": 1.732
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.714
+      "recente": 1.703
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.589
+      "recente": 1.579
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.568
+      "recente": 1.558
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.247
+      "recente": 1.239
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.537
+      "recente": 1.528
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.523
+      "recente": 1.514
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.492
+      "recente": 1.483
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.419
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.779
+      "recente": 0.774
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.29
+      "recente": 1.282
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.217
+      "recente": 1.21
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.193
+      "recente": 1.186
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.122
+      "recente": 1.115
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.049
+      "recente": 1.043
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.741
+      "recente": 0.736
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.026
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.016
+      "recente": 1.01
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.575
+      "recente": 0.571
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.575
+      "recente": 0.571
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.799
+      "recente": 0.794
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.747
+      "recente": 0.742
     },
     {
       "tema": "Fronteira Brasil–Guiana",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.994
     }
   ],
   "gostos": {
@@ -206,15 +206,15 @@
     "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima."
   ],
   "proximo_tema": "Rio Rupunúni",
-  "ultima_execucao": "2026-11-26T22:13+00:00",
+  "ultima_execucao": "2026-11-26T22:38+00:00",
   "tipo": "Limo / Terra",
-  "fome": 8,
+  "fome": 12,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
     "ate": "2026-11-26T22:52+00:00"
   },
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Fronteira Brasil–Guiana",
   "via_do_proximo": {
     "de": "Fronteira Brasil–Guiana",
@@ -227,17 +227,25 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 87,
-  "cena": null,
+  "tedio": 80,
+  "cena": {
+    "id": 63,
+    "quando": "2026-11-26T22:38:38+00:00",
+    "tipo": "observa",
+    "visitante": "coruja",
+    "conversa": [
+      {
+        "q": "p",
+        "e": "🤔"
+      }
+    ],
+    "resultado": "observou",
+    "assunto": null,
+    "iniciou": null
+  },
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 60,
-        "tipo": "passarinho",
-        "desde": "2026-11-26T18:58:10+00:00",
-        "ate": "2026-11-26T20:22:59+00:00"
-      },
       {
         "id": 62,
         "tipo": "coruja",
@@ -405,9 +413,13 @@
       {
         "quando": "2026-11-26T22:20:16+00:00",
         "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-26T22:38:38+00:00",
+        "texto": "Pangolimo ficou observando uma coruja"
       }
     ],
-    "seq": 62,
-    "agenda_ate": "2026-11-26T23:43:24+00:00"
+    "seq": 63,
+    "agenda_ate": "2026-11-27T00:08:38+00:00"
   }
 }

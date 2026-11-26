@@ -812,5 +812,20 @@
     "via": "animais noturnos",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 60,
+    "quando": "2026-11-26T00:35+00:00",
+    "atividade": "pesquisa",
+    "tema": "Oscar Martínez",
+    "fonte": "https://pt.wikipedia.org/wiki/Oscar_Mart%C3%ADnez",
+    "texto": "São nove horas da noite e meus olhinhos estão bem pesadinhos. Fui parar num texto sobre um ator chamado Oscar Martínez, que ganhou um prêmio num festival de cinema em dois mil e dezesseis. Ele nasceu em Buenos Aires e também escreve peças de teatro. Achei curioso que ele faz parte da Academia Argentina de Letras. Agora vou fechar os olhos e dormir um pouquinho.",
+    "aprendeu": "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0060.svg",
+    "titulo_desenho": "Ator de Cinema",
+    "via": "2016 no cinema",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

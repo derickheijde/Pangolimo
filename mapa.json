@@ -632,7 +632,7 @@
   {
     "tema": "Animais no espaço",
     "origem": "Viagem só de ida",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-26T06:43+00:00"
   },
   {
@@ -646,5 +646,11 @@
     "origem": null,
     "vezes": 0,
     "desde": "2026-11-26T09:50+00:00"
+  },
+  {
+    "tema": "Tardigrada",
+    "origem": "Animais no espaço",
+    "vezes": 0,
+    "desde": "2026-11-26T11:40+00:00"
   }
 ]

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 98,
+  "energia": 83,
   "dormindo": false,
-  "acao": "comendo_cupinzeiro",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.574
+      "recente": 2.557
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.033
+      "recente": 2.02
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.726
+      "recente": 1.715
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.067
+      "recente": 2.053
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.913
+      "recente": 1.9
+    },
+    {
+      "tema": "Animais no espaço",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.867
+      "recente": 1.855
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.841
+      "recente": 1.829
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.806
+      "recente": 1.794
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.79
+      "recente": 1.778
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.465
+      "recente": 1.455
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.751
+      "recente": 1.74
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.677
-    },
-    {
-      "tema": "Cartografia",
-      "peso": 2,
-      "recente": 1.516
+      "recente": 1.666
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.915
+      "recente": 0.909
+    },
+    {
+      "tema": "Cartografia",
+      "peso": 2,
+      "recente": 1.506
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.429
+      "recente": 1.42
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.399
+      "recente": 1.39
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.316
+      "recente": 1.307
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.232
+      "recente": 1.224
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.211
+      "recente": 1.203
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.192
+      "recente": 1.184
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.872
+      "recente": 0.866
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.674
+      "recente": 0.67
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.674
+      "recente": 0.67
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.938
+      "recente": 0.932
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.878
+      "recente": 0.872
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.706
+      "recente": 0.701
+    },
+    {
+      "tema": "Tardigrada",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Borboletas",
       "peso": 1,
-      "recente": 0.98
+      "recente": 0.974
     },
     {
       "tema": "Voo de insetos",
       "peso": 1,
-      "recente": 0.98
-    },
-    {
-      "tema": "Bonobo",
-      "peso": 2,
-      "recente": 0.677
-    },
-    {
-      "tema": "Espaço intergaláctico",
-      "peso": 1,
-      "recente": 0.937
+      "recente": 0.974
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
     "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
     "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
@@ -203,17 +202,18 @@
     "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns.",
     "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado.",
     "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas.",
-    "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves."
+    "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves.",
+    "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima."
   ],
-  "proximo_tema": "Animais no espaço",
-  "ultima_execucao": "2026-11-26T11:13+00:00",
+  "proximo_tema": "Tardigrada",
+  "ultima_execucao": "2026-11-26T11:40+00:00",
   "tipo": "Limo / Terra",
-  "fome": 17,
+  "fome": 22,
   "evento": null,
-  "ultima_atividade": "cupinzeiro",
-  "origem_do_proximo": "Viagem só de ida",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Animais no espaço",
   "via_do_proximo": {
-    "de": "Viagem só de ida",
+    "de": "Animais no espaço",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 70,
+  "tedio": 73,
   "cena": {
     "id": 52,
     "quando": "2026-11-26T09:50:18+00:00",
@@ -274,10 +274,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T23:52:59+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-24T23:59:21+00:00",
         "texto": "a coruja pegou o ratinho"
@@ -431,15 +427,15 @@
         "texto": "um passarinho pousou na árvore"
       },
       {
-        "quando": "2026-11-26T12:17:24+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
-      {
         "quando": "2026-11-26T11:13:58+00:00",
         "texto": "Pangolimo comeu cupins no cupinzeiro"
+      },
+      {
+        "quando": "2026-11-26T12:17:24+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
     "seq": 53,
-    "agenda_ate": "2026-11-26T12:43:58+00:00"
+    "agenda_ate": "2026-11-26T13:10:21+00:00"
   }
 }

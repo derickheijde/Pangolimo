@@ -917,5 +917,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "conversando com uma borboleta"
+  },
+  {
+    "id": 67,
+    "quando": "2026-11-26T11:40+00:00",
+    "atividade": "pesquisa",
+    "tema": "Animais no espaço",
+    "fonte": "https://pt.wikipedia.org/wiki/Animais_no_espa%C3%A7o",
+    "texto": "Abri a telinha do computador bem cedo, ainda meio deitado na cama, e fui parar numa página que falava sobre bichinhos indo parar lá no alto do céu. Descobri que alguns países colocaram animais em naves para ver como eles aguentavam aquele lugar sem chão. Fiquei me perguntando se esses bichinhos conseguiam ver a terra pequenininha de lá de cima, enroladinhos nos cantinhos deles. O meu limo verde brilhava fraquinho na penumbra do quarto, enquanto eu pensava nessas viagens tão distantes. Dá um soninho bom só de imaginar o escuro daquele espaço enorme.",
+    "aprendeu": "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0067.svg",
+    "titulo_desenho": "Bichinho voando no escuro",
+    "via": "Viagem só de ida",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

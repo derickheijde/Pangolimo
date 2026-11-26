@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 37,
+  "energia": 42,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "comendo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.226
+      "recente": 2.211
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.759
+      "recente": 1.747
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.629
+      "recente": 2.612
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.493
+      "recente": 1.483
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.787
+      "recente": 1.775
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.655
+      "recente": 1.644
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.817
+      "recente": 1.805
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.771
+      "recente": 1.759
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.741
+      "recente": 1.73
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.614
+      "recente": 1.603
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.592
+      "recente": 1.582
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.266
+      "recente": 1.258
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.561
+      "recente": 1.551
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.547
+      "recente": 1.537
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.515
+      "recente": 1.505
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.451
+      "recente": 1.441
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.791
+      "recente": 0.786
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.311
+      "recente": 1.302
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.236
+      "recente": 1.228
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.212
+      "recente": 1.204
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.139
+      "recente": 1.132
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.065
+      "recente": 1.058
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.753
+      "recente": 0.748
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.048
+      "recente": 1.041
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.025
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.584
+      "recente": 0.58
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.584
+      "recente": 0.58
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.811
+      "recente": 0.806
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.759
+      "recente": 0.754
     },
     {
       "tema": "Rio Grande do Sul",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     }
   ],
   "gostos": {
@@ -206,15 +206,15 @@
     "Aprendi que o Rio Grande do Sul é um estado brasileiro grande com clima subtropical, muitas cidades e rios importantes."
   ],
   "proximo_tema": "Fronteira Brasil–Guiana",
-  "ultima_execucao": "2026-11-26T21:09+00:00",
+  "ultima_execucao": "2026-11-26T21:36+00:00",
   "tipo": "Limo / Terra",
-  "fome": 55,
+  "fome": 2,
   "evento": {
     "nome": "clima",
     "tipo": "garoa",
     "ate": "2026-11-26T22:52+00:00"
   },
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Rio Grande do Sul",
   "via_do_proximo": {
     "de": "Rio Grande do Sul",
@@ -227,7 +227,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 80,
+  "tedio": 83,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -414,6 +414,6 @@
       }
     ],
     "seq": 62,
-    "agenda_ate": "2026-11-26T22:39:44+00:00"
+    "agenda_ate": "2026-11-26T23:06:24+00:00"
   }
 }

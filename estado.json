@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 49,
+  "energia": 41,
   "dormindo": false,
-  "acao": "observando_aranha",
+  "acao": "brincando_lama",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.454
+      "recente": 2.446
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.897
+      "recente": 2.887
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.938
+      "recente": 1.932
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.645
+      "recente": 1.64
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.97
+      "recente": 1.963
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.823
+      "recente": 1.817
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.951
+      "recente": 1.945
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.919
+      "recente": 1.913
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.779
+      "recente": 1.773
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.755
+      "recente": 1.749
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.722
+      "recente": 1.716
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.706
+      "recente": 1.7
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.396
+      "recente": 1.391
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.669
+      "recente": 1.663
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.599
+      "recente": 1.594
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.872
+      "recente": 0.869
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.445
+      "recente": 1.44
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.362
+      "recente": 1.357
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.335
+      "recente": 1.331
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.254
+      "recente": 1.25
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.175
+      "recente": 1.171
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.154
+      "recente": 1.15
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.137
+      "recente": 1.133
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.831
+      "recente": 0.828
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.642
+      "recente": 0.64
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.642
+      "recente": 0.64
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.895
+      "recente": 0.892
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.837
+      "recente": 0.834
     },
     {
       "tema": "Molusco",
       "peso": 1,
-      "recente": 0.976
+      "recente": 0.973
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.672
+      "recente": 0.67
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar."
   ],
   "proximo_tema": "Molusco",
-  "ultima_execucao": "2026-11-26T14:30+00:00",
+  "ultima_execucao": "2026-11-26T14:43+00:00",
   "tipo": "Limo / Terra",
-  "fome": 51,
+  "fome": 53,
   "evento": null,
-  "ultima_atividade": "aranha",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Rotifera",
   "via_do_proximo": {
     "de": "Rotifera",
@@ -223,22 +223,8 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 80,
-  "cena": {
-    "id": 58,
-    "quando": "2026-11-26T14:30:41+00:00",
-    "tipo": "observa",
-    "visitante": "aranha",
-    "conversa": [
-      {
-        "q": "p",
-        "e": "😮"
-      }
-    ],
-    "resultado": "observou",
-    "assunto": null,
-    "iniciou": null
-  },
+  "tedio": 41,
+  "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
@@ -274,10 +260,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T00:56:30+00:00",
-        "texto": "a coruja pegou o ratinho"
-      },
       {
         "quando": "2026-11-25T01:28:11+00:00",
         "texto": "uma coruja pousou num galho"
@@ -423,6 +405,10 @@
         "texto": "uma aranha desceu pela parede da toca"
       },
       {
+        "quando": "2026-11-26T14:30:41+00:00",
+        "texto": "Pangolimo ficou observando a aranha na parede"
+      },
+      {
         "quando": "2026-11-26T14:36:17+00:00",
         "texto": "um passarinho pousou na árvore"
       },
@@ -435,11 +421,11 @@
         "texto": "uma borboleta chegou voando"
       },
       {
-        "quando": "2026-11-26T14:30:41+00:00",
-        "texto": "Pangolimo ficou observando a aranha na parede"
+        "quando": "2026-11-26T14:43:51+00:00",
+        "texto": "Pangolimo rolou na lama"
       }
     ],
     "seq": 58,
-    "agenda_ate": "2026-11-26T16:00:41+00:00"
+    "agenda_ate": "2026-11-26T16:13:51+00:00"
   }
 }

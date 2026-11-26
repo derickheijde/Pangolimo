@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 52,
+  "energia": 66,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.707
+      "recente": 2.689
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.137
+      "recente": 2.123
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.815
+      "recente": 1.803
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.172
+      "recente": 2.158
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.011
+      "recente": 1.998
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.962
+      "recente": 1.949
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.936
+      "recente": 1.923
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.898
+      "recente": 1.886
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.882
+      "recente": 1.87
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.841
+      "recente": 1.829
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.54
+      "recente": 1.53
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.763
+      "recente": 1.751
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.594
+      "recente": 1.584
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.962
+      "recente": 0.956
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.502
+      "recente": 1.492
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.461
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.384
+      "recente": 1.375
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.294
+      "recente": 1.286
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.273
+      "recente": 1.265
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.253
+      "recente": 1.245
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.916
+      "recente": 0.91
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.709
+      "recente": 0.704
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.709
+      "recente": 0.704
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.986
+      "recente": 0.98
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.742
+      "recente": 0.737
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.712
+      "recente": 0.707
     },
     {
       "tema": "Espaço intergaláctico",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Animais no espaço",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.616
+      "recente": 0.612
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas."
   ],
   "proximo_tema": "Animais no espaço",
-  "ultima_execucao": "2026-11-26T07:47+00:00",
+  "ultima_execucao": "2026-11-26T08:14+00:00",
   "tipo": "Limo / Terra",
-  "fome": 42,
+  "fome": 44,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Viagem só de ida",
@@ -418,6 +418,6 @@
       }
     ],
     "seq": 49,
-    "agenda_ate": "2026-11-26T09:17:13+00:00"
+    "agenda_ate": "2026-11-26T09:44:15+00:00"
   }
 }

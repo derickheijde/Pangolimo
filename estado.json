@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 21,
+  "energia": 34,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.159
+      "recente": 2.146
     },
     {
       "tema": "animais noturnos",
       "peso": 6,
-      "recente": 2.439
+      "recente": 2.424
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.705
+      "recente": 1.695
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.55
+      "recente": 2.535
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.733
+      "recente": 1.723
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.605
+      "recente": 1.595
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.762
+      "recente": 1.751
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.717
+      "recente": 1.707
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.688
+      "recente": 1.678
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.565
+      "recente": 1.556
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.544
+      "recente": 1.535
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.228
+      "recente": 1.221
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.514
+      "recente": 1.505
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.501
+      "recente": 1.492
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.47
+      "recente": 1.461
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.406
+      "recente": 1.398
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.767
+      "recente": 0.762
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.271
+      "recente": 1.263
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.199
+      "recente": 1.192
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.175
+      "recente": 1.168
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.105
+      "recente": 1.098
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.034
+      "recente": 1.028
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.729
+      "recente": 0.725
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.017
+      "recente": 1.011
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.001
+      "recente": 0.995
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.566
+      "recente": 0.563
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.566
+      "recente": 0.563
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.787
+      "recente": 0.782
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.735
+      "recente": 0.731
     },
     {
       "tema": "Fronteira Brasil–Guiana",
       "peso": 1,
-      "recente": 0.985
+      "recente": 0.979
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima."
   ],
   "proximo_tema": "Rio Rupunúni",
-  "ultima_execucao": "2026-11-26T23:14+00:00",
+  "ultima_execucao": "2026-11-26T23:39+00:00",
   "tipo": "Limo / Terra",
-  "fome": 18,
+  "fome": 20,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Fronteira Brasil–Guiana",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 44,
+  "tedio": 47,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -236,10 +236,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T11:03:34+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
       {
         "quando": "2026-11-25T11:52:05+00:00",
         "texto": "uma aranha desceu pela parede da toca"
@@ -402,6 +398,6 @@
       }
     ],
     "seq": 63,
-    "agenda_ate": "2026-11-27T00:44:57+00:00"
+    "agenda_ate": "2026-11-27T01:09:07+00:00"
   }
 }

@@ -827,5 +827,20 @@
     "via": "2016 no cinema",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 61,
+    "quando": "2026-11-26T03:33+00:00",
+    "atividade": "pesquisa",
+    "tema": "Argentina",
+    "fonte": "https://pt.wikipedia.org/wiki/Argentina",
+    "texto": "Terminei indo parar num lugar chamado Argentina, que tem montanhas bem altas chamadas Cordilheira dos Andes de um lado e o mar do outro. Vi que lá é bem grande e fica na América do Sul, onde vivem tantas coisas diferentes. Fiquei curioso sobre como um país pode ser tão comprido e ter gelo e montanhas ao mesmo tempo. Enquanto olhava a tela, meu pé escorregou e acabei clicando num link azul escrito Armas nucleares.",
+    "aprendeu": "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0061.svg",
+    "titulo_desenho": "Paisagem comprida com montanhas",
+    "via": "Oscar Martínez",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

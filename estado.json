@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 100,
+  "energia": 85,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.894
+      "recente": 2.88
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.286
+      "recente": 2.275
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.94
+      "recente": 1.931
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.322
+      "recente": 2.311
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.15
+      "recente": 2.14
+    },
+    {
+      "tema": "Argentina",
+      "peso": 2,
+      "recente": 1.958
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.647
+      "recente": 1.639
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.885
+      "recente": 1.876
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.705
+      "recente": 1.697
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.029
+      "recente": 1.024
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.605
+      "recente": 1.597
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.573
+      "recente": 1.565
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.48
+      "recente": 1.473
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.384
+      "recente": 1.377
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.362
+      "recente": 1.355
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.341
+      "recente": 1.335
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.981
-    },
-    {
-      "tema": "Coqueiro",
-      "peso": 2,
-      "recente": 1.053
+      "recente": 0.976
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.758
+      "recente": 0.754
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.758
+      "recente": 0.754
+    },
+    {
+      "tema": "Coqueiro",
+      "peso": 2,
+      "recente": 1.048
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.988
+      "recente": 0.983
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.794
+      "recente": 0.79
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.761
+      "recente": 0.757
+    },
+    {
+      "tema": "Armas nucleares",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Oscar Martínez",
       "peso": 1,
-      "recente": 0.963
-    },
-    {
-      "tema": "Argentina",
-      "peso": 1,
-      "recente": 0.963
+      "recente": 0.958
     },
     {
       "tema": "Festival Internacional de Cinema de San Sebastian",
       "peso": 1,
-      "recente": 0.963
-    },
-    {
-      "tema": "cinema",
-      "peso": 1,
-      "recente": 0.955
-    },
-    {
-      "tema": "premiações",
-      "peso": 1,
-      "recente": 0.955
+      "recente": 0.958
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.659
+      "recente": 0.656
+    },
+    {
+      "tema": "cinema",
+      "peso": 1,
+      "recente": 0.95
+    },
+    {
+      "tema": "premiações",
+      "peso": 1,
+      "recente": 0.95
     },
     {
       "tema": "fases da lua",
       "peso": 1,
-      "recente": 0.935
-    },
-    {
-      "tema": "Turner Classic Movies",
-      "peso": 1,
-      "recente": 0.93
+      "recente": 0.931
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As formigas constroem túneis fundos na terra que servem de casa para elas.",
     "As colônias de formigas funcionam como um superorganismo onde todas trabalham juntas.",
     "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
@@ -203,18 +202,19 @@
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
     "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes.",
     "Aprendi que em dois mil e dezesseis aconteceram várias premiações de cinema com muitos filmes e atores.",
-    "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras."
+    "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras.",
+    "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico."
   ],
-  "proximo_tema": "Argentina",
-  "ultima_execucao": "2026-11-26T03:14+00:00",
+  "proximo_tema": "Armas nucleares",
+  "ultima_execucao": "2026-11-26T03:33+00:00",
   "tipo": "Limo / Terra",
-  "fome": 3,
+  "fome": 6,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": "Oscar Martínez",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Argentina",
   "via_do_proximo": {
-    "de": "Oscar Martínez",
-    "sorteado": false,
+    "de": "Argentina",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -450,6 +450,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T04:44:10+00:00"
+    "agenda_ate": "2026-11-26T05:03:55+00:00"
   }
 }

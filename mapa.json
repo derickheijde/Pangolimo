@@ -590,7 +590,7 @@
   {
     "tema": "Argentina",
     "origem": "Oscar Martínez",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-26T00:35+00:00"
   },
   {
@@ -598,5 +598,11 @@
     "origem": "Oscar Martínez",
     "vezes": 0,
     "desde": "2026-11-26T00:35+00:00"
+  },
+  {
+    "tema": "Armas nucleares",
+    "origem": "Argentina",
+    "vezes": 0,
+    "desde": "2026-11-26T03:33+00:00"
   }
 ]

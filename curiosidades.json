@@ -124,5 +124,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T16:22+00:00"
+  },
+  {
+    "id": 10,
+    "pergunta": "Será que esses berbigões que moram no mar conseguem respirar embaixo d'água usando conchinhas parecidas com a casquinha dura que protege os bichinhos daqui de cima?",
+    "termo": "Berbigão",
+    "origem": "lendo sobre Berbigão",
+    "entrada": 71,
+    "criada": "2026-11-26T16:49+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T16:49+00:00"
   }
 ]

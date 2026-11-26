@@ -1,158 +1,158 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 33,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 13,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.388
+      "recente": 2.372
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.819
+      "recente": 2.8
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.886
+      "recente": 1.873
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.601
+      "recente": 1.59
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.916
+      "recente": 1.903
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.774
+      "recente": 1.762
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.95
+      "recente": 1.937
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.899
+      "recente": 1.886
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.868
+      "recente": 1.855
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.731
+      "recente": 1.719
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.707
+      "recente": 1.696
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.675
-    },
-    {
-      "tema": "Armas nucleares",
-      "peso": 2,
-      "recente": 1.659
+      "recente": 1.664
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.358
+      "recente": 1.349
+    },
+    {
+      "tema": "Armas nucleares",
+      "peso": 2,
+      "recente": 1.648
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.624
+      "recente": 1.613
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.556
+      "recente": 1.546
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.848
+      "recente": 0.842
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.406
+      "recente": 1.397
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.325
+      "recente": 1.316
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.3
+      "recente": 1.291
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.221
+      "recente": 1.213
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.143
+      "recente": 1.135
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.123
+      "recente": 1.115
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.808
+      "recente": 0.803
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.106
+      "recente": 1.099
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.625
+      "recente": 0.621
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.625
+      "recente": 0.621
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.871
+      "recente": 0.865
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.814
+      "recente": 0.809
     },
     {
-      "tema": "moluscos",
+      "tema": "Berbigão",
       "peso": 1,
       "recente": 1.0
     }
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
     "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
@@ -203,18 +202,19 @@
     "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima.",
     "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte.",
     "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar.",
-    "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra."
+    "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra.",
+    "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil."
   ],
-  "proximo_tema": "Berbigão",
-  "ultima_execucao": "2026-11-26T16:22+00:00",
+  "proximo_tema": "Eliezer de Carvalho Rios",
+  "ultima_execucao": "2026-11-26T16:49+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 27,
   "evento": null,
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Molusco",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Berbigão",
   "via_do_proximo": {
-    "de": "Molusco",
-    "sorteado": false,
+    "de": "Berbigão",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -223,17 +223,11 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 51,
+  "tedio": 54,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 54,
-        "tipo": "aranha",
-        "desde": "2026-11-26T14:10:04+00:00",
-        "ate": "2026-11-26T14:46:58+00:00"
-      },
       {
         "id": 55,
         "tipo": "passarinho",
@@ -422,6 +416,6 @@
       }
     ],
     "seq": 59,
-    "agenda_ate": "2026-11-26T17:52:40+00:00"
+    "agenda_ate": "2026-11-26T18:19:56+00:00"
   }
 }

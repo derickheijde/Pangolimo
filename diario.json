@@ -977,5 +977,20 @@
     "via": "Rotifera",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 71,
+    "quando": "2026-11-26T16:49+00:00",
+    "atividade": "pesquisa",
+    "tema": "Berbigão",
+    "fonte": "https://pt.wikipedia.org/wiki/Berbig%C3%A3o",
+    "texto": "Hum... hoje o sol já está alto lá fora, são treze horas, e eu sinto meus olhinhos bem pesados de sono. Fiquei na minha mesinha olhando a tela do computador e descobri que existem uns bichinhos molengas debaixo da água chamados berbigões, que têm nomes diferentes em Portugal e no Brasil. Tem até uns tais de berbigões-de-bicos. Meu limo verde deixou um brilhinho fraco na tecla, mas acho que vou ter que deitar na minha caminha logo, porque a minha energia está quase no fim. Sem querer, cliquei em outro nome ali no canto da tela, chamado Eliezer de Carvalho Rios.",
+    "aprendeu": "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0071.svg",
+    "titulo_desenho": "Berbigão na agua",
+    "via": "Molusco",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

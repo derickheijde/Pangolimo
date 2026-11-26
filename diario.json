@@ -902,5 +902,20 @@
     "via": "Aviação comercial",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 66,
+    "quando": "2026-11-26T09:50+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "Hoje de manhãzinha brinquei de seguir uma borboleta bem colorida aqui no quintal. A gente voava devagarzinho de flor em flor, sem pressa e sem briga, só fazendo cócegas no ar. Achei tão bonitinho ver as asas dela balançando enquanto eu deixava meu rastro brilhante na grama.",
+    "aprendeu": "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0066.svg",
+    "titulo_desenho": "Eu e a borboleta na grama",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "conversando com uma borboleta"
   }
 ]

@@ -54,5 +54,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T06:43+00:00"
+  },
+  {
+    "id": 5,
+    "pergunta": "Será que as borboletas também sentem cócegas quando a gente passa perto delas com o vento?",
+    "termo": "como borboletas voam",
+    "origem": "conversando com uma borboleta",
+    "entrada": 66,
+    "criada": "2026-11-26T09:50+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T09:50+00:00"
   }
 ]

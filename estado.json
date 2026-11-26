@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 40,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 20,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.769
+      "recente": 2.749
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.186
+      "recente": 2.17
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.856
+      "recente": 1.843
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.222
+      "recente": 2.206
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.057
+      "recente": 2.042
+    },
+    {
+      "tema": "Viagem só de ida",
+      "peso": 2,
+      "recente": 1.993
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.98
+      "recente": 1.966
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.942
+      "recente": 1.928
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.925
+      "recente": 1.911
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.883
+      "recente": 1.87
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.575
+      "recente": 1.564
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.803
+      "recente": 1.79
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.631
+      "recente": 1.619
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.984
+      "recente": 0.977
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.536
+      "recente": 1.525
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.505
+      "recente": 1.494
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.416
+      "recente": 1.406
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.323
+      "recente": 1.314
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.302
+      "recente": 1.293
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.282
+      "recente": 1.273
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.937
+      "recente": 0.93
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.725
+      "recente": 0.72
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.725
+      "recente": 0.72
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.008
+      "recente": 1.001
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.944
+      "recente": 0.937
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.759
+      "recente": 0.754
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.728
+      "recente": 0.723
     },
     {
-      "tema": "Viagem só de ida",
+      "tema": "Espaço intergaláctico",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "Animais no espaço",
       "peso": 1,
       "recente": 1.0
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.631
-    },
-    {
-      "tema": "Oscar Martínez",
-      "peso": 1,
-      "recente": 0.922
-    },
-    {
-      "tema": "Festival Internacional de Cinema de San Sebastian",
-      "peso": 1,
-      "recente": 0.922
+      "recente": 0.626
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
     "As formigas-cortadeiras cultivam fungos dentro do formigueiro para usar como alimento.",
     "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
@@ -203,17 +202,18 @@
     "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico.",
     "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições.",
     "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns.",
-    "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado."
+    "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado.",
+    "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas."
   ],
-  "proximo_tema": "Viagem só de ida",
-  "ultima_execucao": "2026-11-26T06:14+00:00",
+  "proximo_tema": "Animais no espaço",
+  "ultima_execucao": "2026-11-26T06:43+00:00",
   "tipo": "Limo / Terra",
-  "fome": 33,
+  "fome": 38,
   "evento": null,
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Aviação comercial",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Viagem só de ida",
   "via_do_proximo": {
-    "de": "Aviação comercial",
+    "de": "Viagem só de ida",
     "sorteado": false,
     "lang": "pt"
   },
@@ -418,6 +418,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T07:44:52+00:00"
+    "agenda_ate": "2026-11-26T08:13:48+00:00"
   }
 }

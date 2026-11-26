@@ -887,5 +887,20 @@
     "via": "Base aérea",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 65,
+    "quando": "2026-11-26T06:43+00:00",
+    "atividade": "pesquisa",
+    "tema": "Viagem só de ida",
+    "fonte": "https://pt.wikipedia.org/wiki/Viagem_intergal%C3%A1ctica",
+    "texto": "Já são três horas da manhã e meus olhinhos estão bem pesados de sono... Fiquei sabendo pelo computador que existe um lugar chamado espaço intergaláctico, que fica tão longe que a gente precisaria viajar muito mais do que naqueles aviões que passam lá em cima. A distância entre galáxias é enorme, quase como se o mundo nunca mais acabasse. Fico pensando se um dia daria para olhar tudo isso bem de pertinho, mas acho que vou me enrolar na minha caminha e fechar os olhos. O limo verde deixa um brilho fraquinho na tela do computador enquanto escrevo isto bem devagar.",
+    "aprendeu": "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0065.svg",
+    "titulo_desenho": "Galáxias distantes e luzinha verde",
+    "via": "Aviação comercial",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

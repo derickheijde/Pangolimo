@@ -932,5 +932,20 @@
     "via": "Viagem só de ida",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 68,
+    "quando": "2026-11-26T12:20+00:00",
+    "atividade": "pesquisa",
+    "tema": "Tardigrada",
+    "fonte": "https://pt.wikipedia.org/wiki/Tardigrada",
+    "texto": "Eu estava olhando a caixinha sobre os bichinhos no espaço e acabei clicando numas letrinhas que falavam de ursos-d'água, que são bem pequenininhos e se chamam tardígrados. Achei curioso porque eles conseguem se encolher todinhos, igualzinho eu faço quando tenho medo, e ficam durinhos por muitos anos até o tempo melhorar. Fiquei aqui piscando devagar no computador, sentindo o meu limo escorrer um pouquinho na tecla do enter, pensando se eles também gostam de ficar enrolados assim na hora do sono.",
+    "aprendeu": "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0068.svg",
+    "titulo_desenho": "Ursinho d'água enrolado",
+    "via": "Animais no espaço",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

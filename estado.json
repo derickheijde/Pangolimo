@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 83,
+  "energia": 71,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.557
+      "recente": 2.532
+    },
+    {
+      "tema": "Tardigrada",
+      "peso": 3,
+      "recente": 2.99
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.02
+      "recente": 2.0
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.715
+      "recente": 1.698
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.053
+      "recente": 2.033
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.9
+      "recente": 1.882
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.981
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.855
+      "recente": 1.837
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.829
+      "recente": 1.811
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.794
+      "recente": 1.777
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.778
+      "recente": 1.761
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.455
+      "recente": 1.441
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.74
+      "recente": 1.723
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.666
+      "recente": 1.65
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.909
+      "recente": 0.9
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.506
+      "recente": 1.491
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.42
+      "recente": 1.406
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.39
+      "recente": 1.377
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.307
+      "recente": 1.294
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.224
+      "recente": 1.212
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.203
+      "recente": 1.191
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.184
+      "recente": 1.173
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.866
+      "recente": 0.858
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.67
+      "recente": 0.663
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.67
+      "recente": 0.663
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.932
+      "recente": 0.923
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.872
+      "recente": 0.864
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.701
-    },
-    {
-      "tema": "Tardigrada",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.694
     },
     {
       "tema": "Borboletas",
       "peso": 1,
-      "recente": 0.974
+      "recente": 0.965
     },
     {
       "tema": "Voo de insetos",
       "peso": 1,
-      "recente": 0.974
+      "recente": 0.965
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "O micélio é uma massa de fios emaranhados que forma a parte vegetativa de um fungo.",
     "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
@@ -203,17 +202,18 @@
     "Aprendi que a aviação comercial serve para transportar passageiros e cargas em aviões e começou no começo do século passado.",
     "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas.",
     "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves.",
-    "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima."
+    "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima.",
+    "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte."
   ],
-  "proximo_tema": "Tardigrada",
-  "ultima_execucao": "2026-11-26T11:40+00:00",
+  "proximo_tema": "Rotifera",
+  "ultima_execucao": "2026-11-26T12:20+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 29,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Animais no espaço",
+  "origem_do_proximo": "Tardigrada",
   "via_do_proximo": {
-    "de": "Animais no espaço",
+    "de": "Tardigrada",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 73,
+  "tedio": 77,
   "cena": {
     "id": 52,
     "quando": "2026-11-26T09:50:18+00:00",
@@ -436,6 +436,6 @@
       }
     ],
     "seq": 53,
-    "agenda_ate": "2026-11-26T13:10:21+00:00"
+    "agenda_ate": "2026-11-26T13:50:30+00:00"
   }
 }

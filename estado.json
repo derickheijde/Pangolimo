@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 93,
+  "energia": 98,
   "dormindo": false,
-  "acao": "conversando",
+  "acao": "comendo_cupinzeiro",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.627
+      "recente": 2.574
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.075
+      "recente": 2.033
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.761
+      "recente": 1.726
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.109
+      "recente": 2.067
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.952
+      "recente": 1.913
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.905
+      "recente": 1.867
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.879
+      "recente": 1.841
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.843
+      "recente": 1.806
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.827
+      "recente": 1.79
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.495
+      "recente": 1.465
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.787
+      "recente": 1.751
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.711
+      "recente": 1.677
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.547
+      "recente": 1.516
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.934
+      "recente": 0.915
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.458
+      "recente": 1.429
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.428
+      "recente": 1.399
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.343
+      "recente": 1.316
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.257
+      "recente": 1.232
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.236
+      "recente": 1.211
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.216
+      "recente": 1.192
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.89
+      "recente": 0.872
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.688
+      "recente": 0.674
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.688
+      "recente": 0.674
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.957
+      "recente": 0.938
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.896
+      "recente": 0.878
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.72
+      "recente": 0.706
     },
     {
       "tema": "Borboletas",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.98
     },
     {
       "tema": "Voo de insetos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.98
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.691
+      "recente": 0.677
     },
     {
       "tema": "Espaço intergaláctico",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.937
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves."
   ],
   "proximo_tema": "Animais no espaço",
-  "ultima_execucao": "2026-11-26T09:50+00:00",
+  "ultima_execucao": "2026-11-26T11:13+00:00",
   "tipo": "Limo / Terra",
-  "fome": 52,
+  "fome": 17,
   "evento": null,
-  "ultima_atividade": "quintal",
+  "ultima_atividade": "cupinzeiro",
   "origem_do_proximo": "Viagem só de ida",
   "via_do_proximo": {
     "de": "Viagem só de ida",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 62,
+  "tedio": 70,
   "cena": {
     "id": 52,
     "quando": "2026-11-26T09:50:18+00:00",
@@ -255,12 +255,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 48,
-        "tipo": "aranha",
-        "desde": "2026-11-26T08:27:31+00:00",
-        "ate": "2026-11-26T09:04:13+00:00"
-      },
-      {
         "id": 49,
         "tipo": "borboleta",
         "desde": "2026-11-26T09:01:59+00:00",
@@ -271,17 +265,15 @@
         "tipo": "passarinho",
         "desde": "2026-11-26T10:24:33+00:00",
         "ate": "2026-11-26T12:17:16+00:00"
+      },
+      {
+        "id": 53,
+        "tipo": "passarinho",
+        "desde": "2026-11-26T12:17:24+00:00",
+        "ate": "2026-11-26T13:54:22+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T23:13:24+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
-      {
-        "quando": "2026-11-24T23:14:06+00:00",
-        "texto": "Pangolimo brigou com uma coruja, perdeu e voltou para a toca"
-      },
       {
         "quando": "2026-11-24T23:52:59+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -431,15 +423,23 @@
         "texto": "Pangolimo conversou com uma borboleta"
       },
       {
+        "quando": "2026-11-26T09:50:18+00:00",
+        "texto": "Pangolimo conversou com uma borboleta"
+      },
+      {
         "quando": "2026-11-26T10:24:33+00:00",
         "texto": "um passarinho pousou na árvore"
       },
       {
-        "quando": "2026-11-26T09:50:18+00:00",
-        "texto": "Pangolimo conversou com uma borboleta"
+        "quando": "2026-11-26T12:17:24+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-26T11:13:58+00:00",
+        "texto": "Pangolimo comeu cupins no cupinzeiro"
       }
     ],
-    "seq": 52,
-    "agenda_ate": "2026-11-26T11:20:18+00:00"
+    "seq": 53,
+    "agenda_ate": "2026-11-26T12:43:58+00:00"
   }
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 67,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 71,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.31
-    },
-    {
-      "tema": "Tardigrada",
-      "peso": 3,
-      "recente": 2.728
+      "recente": 2.286
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.825
+      "recente": 1.806
+    },
+    {
+      "tema": "Tardigrada",
+      "peso": 3,
+      "recente": 2.7
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.549
+      "recente": 1.533
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.854
+      "recente": 1.835
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.717
+      "recente": 1.699
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.886
+      "recente": 1.866
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.837
+      "recente": 1.818
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.807
+      "recente": 1.788
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.674
+      "recente": 1.657
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.652
+      "recente": 1.635
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.62
+      "recente": 1.603
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.314
+      "recente": 1.3
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.606
+      "recente": 1.589
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.571
+      "recente": 1.555
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.506
+      "recente": 1.49
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.821
+      "recente": 0.812
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.36
+      "recente": 1.346
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.282
+      "recente": 1.269
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.257
+      "recente": 1.244
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.182
+      "recente": 1.17
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.105
+      "recente": 1.094
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.087
+      "recente": 1.076
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.782
+      "recente": 0.774
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.071
+      "recente": 1.06
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.605
+      "recente": 0.599
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.605
+      "recente": 0.599
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.842
+      "recente": 0.833
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.788
+      "recente": 0.78
     },
     {
-      "tema": "Berbigão",
+      "tema": "Eliezer de Carvalho Rios",
       "peso": 1,
-      "recente": 0.974
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
     "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
@@ -203,17 +202,18 @@
     "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte.",
     "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar.",
     "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra.",
-    "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil."
+    "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil.",
+    "Aprendi que Eliezer de Carvalho Rios fundou um museu oceanográfico e guardou milhares de espécies de conchas ao longo de sua vida."
   ],
-  "proximo_tema": "Eliezer de Carvalho Rios",
-  "ultima_execucao": "2026-11-26T18:37+00:00",
+  "proximo_tema": "Nicolas Vilhar",
+  "ultima_execucao": "2026-11-26T19:20+00:00",
   "tipo": "Limo / Terra",
-  "fome": 34,
+  "fome": 37,
   "evento": null,
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Berbigão",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Eliezer de Carvalho Rios",
   "via_do_proximo": {
-    "de": "Berbigão",
+    "de": "Eliezer de Carvalho Rios",
     "sorteado": true,
     "lang": "pt"
   },
@@ -223,23 +223,11 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 65,
+  "tedio": 69,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 56,
-        "tipo": "lagarta",
-        "desde": "2026-11-26T14:46:27+00:00",
-        "ate": "2026-11-26T16:53:10+00:00"
-      },
-      {
-        "id": 57,
-        "tipo": "borboleta",
-        "desde": "2026-11-26T15:11:00+00:00",
-        "ate": "2026-11-26T17:10:03+00:00"
-      },
       {
         "id": 59,
         "tipo": "esquilo",
@@ -422,6 +410,6 @@
       }
     ],
     "seq": 61,
-    "agenda_ate": "2026-11-26T20:07:04+00:00"
+    "agenda_ate": "2026-11-26T20:50:27+00:00"
   }
 }

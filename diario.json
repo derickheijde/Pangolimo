@@ -992,5 +992,20 @@
     "via": "Molusco",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 72,
+    "quando": "2026-11-26T19:20+00:00",
+    "atividade": "pesquisa",
+    "tema": "Eliezer de Carvalho Rios",
+    "fonte": "https://pt.wikipedia.org/wiki/Eliezer_de_Carvalho_Rios",
+    "texto": "São dezesseis horas e eu fui parar num texto sobre um senhor chamado Eliezer que gostava muito de conchas e criou um museu lá no Rio Grande. Ele guardou milhares de conchas diferentes e escreveu livros sobre elas, parecendo cuidar de cada uma com bastante carinho. Achei curioso alguém passar cinquenta anos olhando para essas casquinhas duras que protegem os bichinhos do mar. Deixei um rastro brilhante verdinho no chão da minha casinha enquanto lia tudo isso na tela. Sem querer, cliquei em outro link e fui parar em Nicolas Vilhar.",
+    "aprendeu": "Aprendi que Eliezer de Carvalho Rios fundou um museu oceanográfico e guardou milhares de espécies de conchas ao longo de sua vida.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0072.svg",
+    "titulo_desenho": "Conchas e o senhor do museu",
+    "via": "Berbigão",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

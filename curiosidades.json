@@ -138,5 +138,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T16:49+00:00"
+  },
+  {
+    "id": 11,
+    "pergunta": "Será que esse museu cheio de conchas é grande o bastante para caber todos os moluscos do mundo lá dentro?",
+    "termo": "Museu Oceanográfico",
+    "origem": "lendo sobre Eliezer de Carvalho Rios",
+    "entrada": 72,
+    "criada": "2026-11-26T19:20+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T19:20+00:00"
   }
 ]

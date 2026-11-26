@@ -662,7 +662,13 @@
   {
     "tema": "Molusco",
     "origem": "Rotifera",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-26T12:48+00:00"
+  },
+  {
+    "tema": "moluscos",
+    "origem": "Molusco",
+    "vezes": 0,
+    "desde": "2026-11-26T16:22+00:00"
   }
 ]

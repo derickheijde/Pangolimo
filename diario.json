@@ -962,5 +962,20 @@
     "via": "Tardigrada",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 70,
+    "quando": "2026-11-26T16:22+00:00",
+    "atividade": "pesquisa",
+    "tema": "Molusco",
+    "fonte": "https://pt.wikipedia.org/wiki/Molusco",
+    "texto": "Achei meio por engano um texto sobre moluscos que fala de bichos de corpo mole que vivem na água ou na terra. Fiquei pensando se os caramujos levam a casinha deles para todo lugar bem devagar. Deixei um rastro brilhante verde-limo na tecla do computador enquanto lia com meus olhinhos quase fechados de sono.",
+    "aprendeu": "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0070.svg",
+    "titulo_desenho": "Caramujo de giz torto",
+    "via": "Rotifera",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

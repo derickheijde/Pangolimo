@@ -110,5 +110,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T12:48+00:00"
+  },
+  {
+    "id": 9,
+    "pergunta": "Será que esses caramujos comem a mesma quantidade de formigas e cupins que eu quando viajam bem devagar?",
+    "termo": "Berbigão",
+    "origem": "lendo sobre Molusco",
+    "entrada": 70,
+    "criada": "2026-11-26T16:22+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-26T16:22+00:00"
   }
 ]

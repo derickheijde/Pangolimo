@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 46,
+  "energia": 33,
   "dormindo": false,
-  "acao": "comendo_cupinzeiro",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.41
+      "recente": 2.388
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.845
+      "recente": 2.819
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.904
+      "recente": 1.886
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.616
+      "recente": 1.601
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.934
+      "recente": 1.916
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.791
+      "recente": 1.774
+    },
+    {
+      "tema": "Molusco",
+      "peso": 2,
+      "recente": 1.95
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.917
+      "recente": 1.899
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.885
+      "recente": 1.868
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.747
+      "recente": 1.731
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.723
+      "recente": 1.707
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.691
+      "recente": 1.675
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.675
+      "recente": 1.659
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.371
+      "recente": 1.358
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.639
+      "recente": 1.624
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.571
+      "recente": 1.556
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.856
+      "recente": 0.848
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.419
+      "recente": 1.406
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.337
+      "recente": 1.325
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.312
+      "recente": 1.3
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.232
+      "recente": 1.221
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.154
+      "recente": 1.143
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.133
-    },
-    {
-      "tema": "Erva",
-      "peso": 2,
-      "recente": 1.116
+      "recente": 1.123
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.816
+      "recente": 0.808
+    },
+    {
+      "tema": "Erva",
+      "peso": 2,
+      "recente": 1.106
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.631
+      "recente": 0.625
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.631
+      "recente": 0.625
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.879
+      "recente": 0.871
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.822
+      "recente": 0.814
     },
     {
-      "tema": "Molusco",
+      "tema": "moluscos",
       "peso": 1,
-      "recente": 0.959
-    },
-    {
-      "tema": "Estado de conservação",
-      "peso": 2,
-      "recente": 0.66
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
     "Os piteciídeos são uma família de macacos do Novo Mundo que inclui uacaris e cuxiús.",
@@ -203,18 +202,19 @@
     "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves.",
     "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima.",
     "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte.",
-    "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar."
+    "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar.",
+    "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra."
   ],
-  "proximo_tema": "Molusco",
-  "ultima_execucao": "2026-11-26T15:44+00:00",
+  "proximo_tema": "Berbigão",
+  "ultima_execucao": "2026-11-26T16:22+00:00",
   "tipo": "Limo / Terra",
-  "fome": 16,
+  "fome": 22,
   "evento": null,
-  "ultima_atividade": "cupinzeiro",
-  "origem_do_proximo": "Rotifera",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Molusco",
   "via_do_proximo": {
-    "de": "Rotifera",
-    "sorteado": true,
+    "de": "Molusco",
+    "sorteado": false,
     "lang": "pt"
   },
   "tv": {
@@ -223,17 +223,11 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 47,
+  "tedio": 51,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 53,
-        "tipo": "passarinho",
-        "desde": "2026-11-26T12:17:24+00:00",
-        "ate": "2026-11-26T13:54:22+00:00"
-      },
       {
         "id": 54,
         "tipo": "aranha",
@@ -257,17 +251,15 @@
         "tipo": "borboleta",
         "desde": "2026-11-26T15:11:00+00:00",
         "ate": "2026-11-26T17:10:03+00:00"
+      },
+      {
+        "id": 59,
+        "tipo": "esquilo",
+        "desde": "2026-11-26T17:46:25+00:00",
+        "ate": "2026-11-26T18:59:48+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T01:56:47+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
-      {
-        "quando": "2026-11-25T02:03:08+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
       {
         "quando": "2026-11-25T06:29:26+00:00",
         "texto": "uma aranha desceu pela parede da toca"
@@ -423,9 +415,13 @@
       {
         "quando": "2026-11-26T15:44:02+00:00",
         "texto": "Pangolimo comeu cupins no cupinzeiro"
+      },
+      {
+        "quando": "2026-11-26T17:46:25+00:00",
+        "texto": "um esquilo veio ao buraco da árvore"
       }
     ],
-    "seq": 58,
-    "agenda_ate": "2026-11-26T17:14:02+00:00"
+    "seq": 59,
+    "agenda_ate": "2026-11-26T17:52:40+00:00"
   }
 }

@@ -1037,5 +1037,20 @@
     "via": "Nicolas Vilhar",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 75,
+    "quando": "2026-11-26T22:13+00:00",
+    "atividade": "pesquisa",
+    "tema": "Fronteira Brasil–Guiana",
+    "fonte": "https://pt.wikipedia.org/wiki/Fronteira_Brasil%E2%80%93Guiana",
+    "texto": "Já são sete horas da noite e meus olhinhos estão bem pesados de sono, mas continuei aqui na luzinha do computador. Acabei clicando sem querer num lugar chamado fronteira entre o Brasil e a Guiana, bem longe da minha toca. Vi que lá tem montes altos chamados tepuis e montanhas como o Monte Caburaí e o monte Roraima, onde os países se encontram. Fiquei imaginando se lá em cima desses montes grandões o vento sopra bem forte nas plantinhas e nos bichinhos.",
+    "aprendeu": "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0075.svg",
+    "titulo_desenho": "Montanha alta e nuvem",
+    "via": "Rio Grande do Sul",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

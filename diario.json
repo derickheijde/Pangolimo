@@ -947,5 +947,20 @@
     "via": "Animais no espaço",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 69,
+    "quando": "2026-11-26T12:48+00:00",
+    "atividade": "pesquisa",
+    "tema": "Rotifera",
+    "fonte": "https://pt.wikipedia.org/wiki/Rotifera",
+    "texto": "São nove horas da manhã e o dia está bem calmo lá fora, mas eu continuo sentindo aquele soninho gostoso de quem passou a noite acordado. Fiquei no computador olhando uns bichinhos bem pequenininhos chamados rotíferos que vivem na água e até no musgo das árvores. Eles têm uma coroa de cílios perto da boca que gira igualzinho a uma roda para pegar comida. Achei curioso pensar que eles conseguem viver em poças de chuva e lugares tão pequenininhos perto da minha toca. No fim das contas, acabei clicando sem querer num link que me mandou direto para uma página chamada Molusco.",
+    "aprendeu": "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0069.svg",
+    "titulo_desenho": "Bichinho na agua",
+    "via": "Tardigrada",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

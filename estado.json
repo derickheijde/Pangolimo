@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 71,
+  "energia": 53,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.532
+      "recente": 2.515
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.99
+      "recente": 2.97
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.0
+      "recente": 1.986
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.698
+      "recente": 1.686
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.033
+      "recente": 2.019
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.882
+      "recente": 1.869
+    },
+    {
+      "tema": "Rotifera",
+      "peso": 2,
+      "recente": 2.0
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.981
+      "recente": 1.967
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.837
+      "recente": 1.824
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.811
+      "recente": 1.799
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.777
+      "recente": 1.765
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.761
+      "recente": 1.749
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.441
+      "recente": 1.431
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.723
+      "recente": 1.711
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.65
+      "recente": 1.639
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.9
+      "recente": 0.894
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.491
+      "recente": 1.481
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.406
+      "recente": 1.396
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.377
+      "recente": 1.368
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.294
+      "recente": 1.285
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.212
+      "recente": 1.204
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.191
+      "recente": 1.183
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.173
+      "recente": 1.165
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.858
+      "recente": 0.852
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.663
+      "recente": 0.658
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.663
+      "recente": 0.658
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.864
+      "recente": 0.858
+    },
+    {
+      "tema": "Molusco",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.694
-    },
-    {
-      "tema": "Borboletas",
-      "peso": 1,
-      "recente": 0.965
-    },
-    {
-      "tema": "Voo de insetos",
-      "peso": 1,
-      "recente": 0.965
+      "recente": 0.689
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que simbiose é uma relação próxima entre seres de espécies diferentes que podem ajudar um ao outro.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Os ancestrais dos mamíferos perderam alguns receptores de cor por causa do hábito noturno.",
     "Os lêmures são primatas que vivem na ilha de Madagascar e têm hábitos noturnos ou crepusculares.",
@@ -203,18 +202,19 @@
     "Aprendi que a viagem intergaláctica é o deslocamento entre galáxias diferentes e que as distâncias lá fora são gigantescas.",
     "Aprendi que dá para conversar com os bichinhos do quintal só fazendo gestos e barulhinhos leves.",
     "Aprendi que vários países já enviaram animais para o espaço para testar a sobrevivência e estudar o corpo deles lá em cima.",
-    "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte."
+    "Aprendi que os tardígrados conseguem se encolher e desligar tudo por dentro para aguentar o frio ou o calor bem forte.",
+    "Aprendi que os rotíferos são animais aquáticos microscópicos que têm cílios em volta da boca que parecem rodas a girar."
   ],
-  "proximo_tema": "Rotifera",
-  "ultima_execucao": "2026-11-26T12:20+00:00",
+  "proximo_tema": "Molusco",
+  "ultima_execucao": "2026-11-26T12:48+00:00",
   "tipo": "Limo / Terra",
-  "fome": 29,
+  "fome": 34,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Tardigrada",
+  "origem_do_proximo": "Rotifera",
   "via_do_proximo": {
-    "de": "Tardigrada",
-    "sorteado": false,
+    "de": "Rotifera",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 77,
+  "tedio": 80,
   "cena": {
     "id": 52,
     "quando": "2026-11-26T09:50:18+00:00",
@@ -271,13 +271,15 @@
         "tipo": "passarinho",
         "desde": "2026-11-26T12:17:24+00:00",
         "ate": "2026-11-26T13:54:22+00:00"
+      },
+      {
+        "id": 54,
+        "tipo": "aranha",
+        "desde": "2026-11-26T14:10:04+00:00",
+        "ate": "2026-11-26T14:46:58+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-24T23:59:21+00:00",
-        "texto": "a coruja pegou o ratinho"
-      },
       {
         "quando": "2026-11-25T00:35:50+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -433,9 +435,13 @@
       {
         "quando": "2026-11-26T12:17:24+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-26T14:10:04+00:00",
+        "texto": "uma aranha desceu pela parede da toca"
       }
     ],
-    "seq": 53,
-    "agenda_ate": "2026-11-26T13:50:30+00:00"
+    "seq": 54,
+    "agenda_ate": "2026-11-26T14:18:32+00:00"
   }
 }

@@ -652,5 +652,17 @@
     "origem": "Animais no espaço",
     "vezes": 1,
     "desde": "2026-11-26T11:40+00:00"
+  },
+  {
+    "tema": "Rotifera",
+    "origem": "Tardigrada",
+    "vezes": 1,
+    "desde": "2026-11-26T12:48+00:00"
+  },
+  {
+    "tema": "Molusco",
+    "origem": "Rotifera",
+    "vezes": 0,
+    "desde": "2026-11-26T12:48+00:00"
   }
 ]

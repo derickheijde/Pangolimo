@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 70,
+  "energia": 53,
   "dormindo": false,
-  "acao": "pesquisando",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.843
+      "recente": 2.827
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 2.245
+      "recente": 2.232
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.906
+      "recente": 1.895
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 2.281
+      "recente": 2.268
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 2.112
+      "recente": 2.1
+    },
+    {
+      "tema": "Base aérea",
+      "peso": 2,
+      "recente": 1.983
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.976
+      "recente": 1.965
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.933
+      "recente": 1.922
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.617
+      "recente": 1.608
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.852
+      "recente": 1.841
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.675
+      "recente": 1.665
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 1.011
+      "recente": 1.005
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.577
+      "recente": 1.568
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.545
+      "recente": 1.536
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.454
+      "recente": 1.446
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.359
+      "recente": 1.351
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 1.337
+      "recente": 1.329
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.317
+      "recente": 1.309
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.963
+      "recente": 0.957
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.744
+      "recente": 0.74
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.744
+      "recente": 0.74
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 1.035
+      "recente": 1.029
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.97
+      "recente": 0.964
     },
     {
       "tema": "Estado de conservação",
       "peso": 2,
-      "recente": 0.779
+      "recente": 0.775
     },
     {
       "tema": "Bonobo",
       "peso": 2,
-      "recente": 0.747
+      "recente": 0.743
     },
     {
-      "tema": "Base aérea",
+      "tema": "Aviação comercial",
       "peso": 1,
-      "recente": 0.989
-    },
-    {
-      "tema": "Oscar Martínez",
-      "peso": 1,
-      "recente": 0.946
-    },
-    {
-      "tema": "Festival Internacional de Cinema de San Sebastian",
-      "peso": 1,
-      "recente": 0.946
+      "recente": 1.0
     },
     {
       "tema": "Simbiose",
       "peso": 2,
-      "recente": 0.648
+      "recente": 0.644
+    },
+    {
+      "tema": "Oscar Martínez",
+      "peso": 1,
+      "recente": 0.941
+    },
+    {
+      "tema": "Festival Internacional de Cinema de San Sebastian",
+      "peso": 1,
+      "recente": 0.941
     },
     {
       "tema": "cinema",
       "peso": 1,
-      "recente": 0.938
-    },
-    {
-      "tema": "premiações",
-      "peso": 1,
-      "recente": 0.938
+      "recente": 0.933
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As rainhas das formigas são fêmeas férteis que vivem nas colônias com operárias e soldados.",
     "Os soldados formigas, chamados dinergates, ajudam a defender as grandes colônias.",
     "As rainhas das formigas têm três olhos extras no topo da cabeça usados durante o voo nupcial.",
     "As saúvas cortam folhas para cultivar um fungo dentro do formigueiro que serve de alimento para elas.",
@@ -203,18 +202,19 @@
     "Aprendi que em dois mil e dezesseis aconteceram várias premiações de cinema com muitos filmes e atores.",
     "Aprendi que Oscar Martínez é um ator e autor argentino que recebeu prêmios de cinema e faz parte da Academia Argentina de Letras.",
     "Aprendi que a Argentina é um país grande na América do Sul, situado entre a Cordilheira dos Andes e o oceano Atlântico.",
-    "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições."
+    "Aprendi que as armas nucleares liberam muita energia por meio de reações na matéria e podem causar grandes destruições.",
+    "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns."
   ],
-  "proximo_tema": "Base aérea",
-  "ultima_execucao": "2026-11-26T04:26+00:00",
+  "proximo_tema": "Aviação comercial",
+  "ultima_execucao": "2026-11-26T04:49+00:00",
   "tipo": "Limo / Terra",
-  "fome": 15,
+  "fome": 19,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Armas nucleares",
+  "origem_do_proximo": "Base aérea",
   "via_do_proximo": {
-    "de": "Armas nucleares",
-    "sorteado": true,
+    "de": "Base aérea",
+    "sorteado": false,
     "lang": "pt"
   },
   "tv": {
@@ -444,6 +444,6 @@
       }
     ],
     "seq": 47,
-    "agenda_ate": "2026-11-26T05:56:33+00:00"
+    "agenda_ate": "2026-11-26T06:19:48+00:00"
   }
 }

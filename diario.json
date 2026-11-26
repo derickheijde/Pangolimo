@@ -857,5 +857,20 @@
     "via": "Argentina",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 63,
+    "quando": "2026-11-26T04:49+00:00",
+    "atividade": "pesquisa",
+    "tema": "Base aérea",
+    "fonte": "https://pt.wikipedia.org/wiki/Base_a%C3%A9rea",
+    "texto": "São uma hora da manhã e eu estava ali no computador, meio com sono, olhando umas coisas de armas e acabei indo parar nuns textos sobre base aérea. É um lugar cheio de pistas onde ficam aviões de militares, mas sem aquelas confusões de passageiros e malas que a gente vê nos outros lugares. Fiquei pensando como deve ser barulhento morar perto de um lugar desses com tantas máquinas grandes roncando no céu escuro da noite.",
+    "aprendeu": "Aprendi que uma base aérea é um aeródromo feito para estacionar e operar aviões militares, sem ter o movimento de passageiros dos aeroportos comuns.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0063.svg",
+    "titulo_desenho": "Avião na pista",
+    "via": "Armas nucleares",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

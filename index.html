@@ -79,8 +79,24 @@ dialog img{width:100%;background:#f6efd8;display:block}
 .atalhos{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
 .atalhos button{background:transparent;color:var(--texto);border:2px solid var(--linha);padding:6px 12px;font-size:15px}
 .atalhos button:hover{border-color:var(--lampada)}
-dialog#caderno{padding:0;border:0;background:transparent;width:min(94vw,560px);max-width:none;color:#2b2330}
-dialog#caderno::backdrop{background:#000a}
+dialog#caderno,dialog#curiosidades{padding:0;border:0;background:transparent;width:min(94vw,560px);max-width:none;color:#2b2330}
+dialog#caderno::backdrop,dialog#curiosidades::backdrop{background:#000a}
+#curiosidades .livro{background:#2f5a3a;border-color:#1e3a26}
+#curiosidades .lombada{background:#1e3a26}
+#curiosidades .folhas h2,#curiosidades .folhas header button{color:#2f5a3a}
+.filtros{display:flex;flex-wrap:wrap;gap:6px;padding:8px 16px;border-bottom:2px solid #cbbf9f}
+.filtros button{background:transparent;color:#2f5a3a;border:2px solid #2f5a3a;padding:1px 10px;font-size:15px}
+.filtros button[aria-pressed="true"]{background:#2f5a3a;color:#f4ead6}
+#duvidas{flex:1;overflow:auto;padding:6px 18px 14px;font-family:"Patrick Hand","Comic Sans MS",cursive;font-size:19px;line-height:27px}
+.duvida{padding:10px 0;border-bottom:1px dashed #cbbf9f}
+.duvida h3{margin:0;font:inherit;font-weight:400;color:#2f5a3a;font-size:21px}
+.duvida p{margin:2px 0}
+.duvida .meta{font-size:15px;color:#7a6a58}
+.selo{display:inline-block;font-size:14px;line-height:20px;padding:0 8px;border:2px solid;margin-right:8px}
+.selo.aberta{color:#8a5a00}.selo.respondida{color:#2f5a3a}.selo.deixada{color:#6a5d70}
+.duvida .resposta{padding-left:10px;border-left:3px solid #2f5a3a}
+.duvida .nota{padding-left:10px;border-left:3px solid #cbbf9f;color:#6a5d70}
+.duvida .ver{background:none;color:#2f5a3a;border:0;padding:0;margin-top:4px;font-size:15px;text-decoration:underline}
 .livro{display:flex;background:#5a2029;border:3px solid #3a1219;padding:10px 10px 10px 0}
 .lombada{flex:0 0 20px;background:#3a1219;margin:-10px 10px -10px 0}
 .folhas{flex:1;min-width:0;background:#f4ead6;display:flex;flex-direction:column;height:min(78vh,560px)}
@@ -140,6 +156,7 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
   <div class="atalhos">
     <button type="button" id="btnCutucar">Cutucar o Pangolimo</button>
     <button type="button" id="btnCaderno">Abrir o caderno</button>
+    <button type="button" id="btnCuriosidades">Livro de curiosidades</button>
     <span class="comodos" role="group" aria-label="Espiar os cômodos">
       <button type="button" data-comodo="toca">A toca</button>
       <button type="button" data-comodo="sala">A sala</button>
@@ -196,6 +213,21 @@ footer{margin-top:48px;color:var(--suave);font-size:14px}
     </div>
   </div>
 </dialog>
+<dialog id="curiosidades" aria-labelledby="curTitulo">
+  <div class="livro">
+    <div class="lombada" aria-hidden="true"></div>
+    <div class="folhas">
+      <header><h2 id="curTitulo">Livro de curiosidades</h2><button type="button" id="curFechar" aria-label="Fechar o livro">×</button></header>
+      <div class="filtros" role="group" aria-label="Filtrar as curiosidades">
+        <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+        <button type="button" data-filtro="aberta" aria-pressed="false">Em aberto</button>
+        <button type="button" data-filtro="respondida" aria-pressed="false">Respondidas</button>
+        <button type="button" data-filtro="deixada" aria-pressed="false">Deixou pra lá</button>
+      </div>
+      <div id="duvidas" tabindex="0"></div>
+    </div>
+  </div>
+</dialog>
 <dialog id="zoom"><img alt=""><p></p></dialog>
 
 <script>
@@ -211,7 +243,7 @@ const c=document.getElementById("cena"),cS=document.getElementById("sala"),gQ=c.
 const R=(x,y,w,h,col)=>{g.fillStyle=col;g.fillRect(x,y,w,h)};
 const spr=(s,x,y)=>s.forEach((r,j)=>[...r].forEach((ch,i)=>PAL[ch]&&R(x+i,y+j,1,1,PAL[ch])));
 const zzz=(x,y,col)=>Z.forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+i,y+j,1,1,col)));
-let estado=null,diario=[],imgs=[],mapa=[],quadro=0,chuvisco=0,tvAnterior,primeiraCarga=true;
+let estado=null,diario=[],imgs=[],mapa=[],curiosidades=[],filtroCur="todas",quadro=0,chuvisco=0,tvAnterior,primeiraCarga=true;
 const reduzMovimento=matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function climaAtivo(){const ev=estado&&estado.evento;return ev&&(ev.nome==="clima"||ev.nome==="chuva")&&new Date(ev.ate)>Date.now()?ev.tipo:null}
@@ -271,7 +303,11 @@ function desenharCaderno(){ // caderno em pé, encostado no monitor
   R(89,56,7,10,"#7a2f3a");R(89,56,1,10,"#5a2029");R(95,57,1,8,"#efe3c2");
   R(91,58,3,3,"#e8d9b0");R(92,59,1,1,"#c0504d");R(91,63,3,1,"#c0a060");
 }
-const CAIXA_CADERNO={x:88,y:55,w:9,h:12};
+function desenharLivroCuriosidades(){ // livro verde com "?", encostado do outro lado do monitor
+  R(120,56,7,10,"#2f6b4a");R(120,56,1,10,"#1e3a26");R(126,57,1,8,"#efe3c2");
+  [[122,58],[123,58],[124,59],[123,60],[122,61],[122,63]].forEach(([x,y])=>R(x,y,1,1,"#e8d9b0"));
+}
+const CAIXA_CADERNO={x:88,y:55,w:9,h:12},CAIXA_CURIOSIDADES={x:119,y:55,w:9,h:12};
 function poseXY(a){let px=57,py=88;
   if(a==="desenhando")px=138;else if(a==="comendo")px=146;
   else if(a==="olhando_lua"||a==="observando_clima"){px=79;py=31}
@@ -304,8 +340,9 @@ function cenaQuarto(){
   R(105,62,6,4,"#46301f");R(96,40,24,22,"#2b2b3d");R(98,42,20,17,"#0f2a2e");
   const pes=acao==="pesquisando";
   for(let i=0;i<5;i++){const w=6+((i*7+(pes?quadro:0))%12);R(100,44+i*3,w,1,pes?"#7fe0c0":"#2f6b66")}
-  R(122,60,6,5,"#c0a060");
+  R(128,61,4,5,"#c0a060");
   desenharCaderno();
+  desenharLivroCuriosidades();
   // mural
   R(136,8,58,52,"#7a4e2c");R(139,11,52,46,"#c28f55");
   imgs.slice(0,4).forEach((im,i)=>{
@@ -364,6 +401,8 @@ function telaTV(){ // 40x22 em (125,41)
     novela(){R(x,y,w,h,"#8a2f5a");const d=quadro%4<2?0:1;
       ["0110110","1111111","1111111","0111110","0011100","0001000"].forEach((r,j)=>[...r].forEach((ch,i)=>ch==="1"&&R(x+15+i*1,y+5+j+d,1,1,"#ff7a9a")));
       R(x+4,y+10,5,5,"#e8c9a0");R(x+3,y+15,7,7,"#2b2b3d");R(x+31,y+10,5,5,"#e8c9a0");R(x+30,y+15,7,7,"#f2c46d")},
+    esporte(){R(x,y,w,h,"#2f8a3a");R(x+19,y,2,h,"#e8f4e8");R(x+2,y+2,36,1,"#e8f4e8");R(x+2,y+h-3,36,1,"#e8f4e8");R(x+2,y+2,1,h-4,"#e8f4e8");R(x+37,y+2,1,h-4,"#e8f4e8");
+      R(x+8,y+8,2,3,"#d04040");R(x+28,y+12,2,3,"#4a86d0");R(x+14,y+14,2,3,"#d04040");R(x+4+((quadro*3)%(w-8)),y+9+Math.round(Math.sin(quadro/2)*4),3,3,"#fff")},
     documentario(){R(x,y,w,h,"#6fb7e8");R(x,y+15,w,7,"#4fa04a");R(x+6,y+8,14,8,"#6a7a5a");R(x+10,y+4,6,5,"#6a7a5a");
       R(x+30,y+3,5,5,"#ffe27a");R(x+(quadro%(w-7)),y+15,7,3,"#3a2a1a")}
   };
@@ -709,7 +748,7 @@ const HUMORES=[
  [/surpre|espant|chocad/,["😮"]],[/entedi|monoton/,["😑"]],[/irrit|brav|zangad/,["😠"]],
  [/timid|envergonh/,["😳"]],[/satisfeit|saciad/,["😋"]],[/preocup|ansios/,["😟"]]];
 const EMOJI_GENERO={terror:["😱","😨"],reality:["😬","🤭","😮"],musical:["🎶","😄","🥳"],comedia:["😂","🤣"],
-  desenho:["😄","🥰"],jornal:["🤨","😐"],novela:["😢","🥹","😮"],documentario:["🤩","🧐"]};
+  desenho:["😄","🥰"],jornal:["🤨","😐"],novela:["😢","🥹","😮"],documentario:["🤩","🧐"],esporte:["🤩","😮","😬"]};
 const sorteia=l=>l[Math.floor(Math.random()*l.length)];
 function emojiDoMomento(){
   const e=estado||{},clima=climaAtivo();
@@ -744,17 +783,17 @@ function cutucar(){
 const pontoNaCena=(ev,cv)=>{const r=cv.getBoundingClientRect();return{x:(ev.clientX-r.left)*200/r.width,y:(ev.clientY-r.top)*116/r.height}};
 const dentro=(p,b,m=3)=>p.x>=b.x-m&&p.x<=b.x+b.w+m&&p.y>=b.y-m&&p.y<=b.y+b.h+m;
 const eleEstaEm=nome=>ondeEle()===nome;
-c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(eleEstaEm("toca")&&dentro(p,caixaPangolim()))cutucar()});
-c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||(eleEstaEm("toca")&&dentro(p,caixaPangolim()))?"pointer":"default"});
+c.addEventListener("click",ev=>{const p=pontoNaCena(ev,c);if(dentro(p,CAIXA_CADERNO))abrirCaderno();else if(dentro(p,CAIXA_CURIOSIDADES))abrirCuriosidades();else if(eleEstaEm("toca")&&dentro(p,caixaPangolim()))cutucar()});
+c.addEventListener("mousemove",ev=>{const p=pontoNaCena(ev,c);c.style.cursor=dentro(p,CAIXA_CADERNO)||dentro(p,CAIXA_CURIOSIDADES)||(eleEstaEm("toca")&&dentro(p,caixaPangolim()))?"pointer":"default"});
 [[cS,"sala"],[cY,"quintal"]].forEach(([cv,nome])=>{
   cv.addEventListener("click",ev=>{if(eleEstaEm(nome)&&dentro(pontoNaCena(ev,cv),caixaPangolim()))cutucar()});
   cv.addEventListener("mousemove",ev=>{cv.style.cursor=eleEstaEm(nome)&&dentro(pontoNaCena(ev,cv),caixaPangolim())?"pointer":"default"})});
 document.querySelectorAll(".comodos button").forEach(b=>b.onclick=()=>{comodoManual=b.dataset.comodo===ondeEle()?null:b.dataset.comodo;mostrarComodo(true)});
-q("#btnCutucar").onclick=cutucar;q("#btnCaderno").onclick=()=>abrirCaderno();
+q("#btnCutucar").onclick=cutucar;q("#btnCaderno").onclick=()=>abrirCaderno();q("#btnCuriosidades").onclick=()=>abrirCuriosidades();
 
 // ---- caderno: uma anotação por página
 const cad=()=>q("#caderno");let cadIdx=0;
-function abrirCaderno(){if(!cad().open)cad().showModal();cadIdx=Math.max(0,diario.length-1);montarPagina()}
+function abrirCaderno(id){if(!cad().open)cad().showModal();const i=id?diario.findIndex(d=>d.id===id):-1;cadIdx=i>=0?i:Math.max(0,diario.length-1);montarPagina()}
 function montarPagina(dir){
   const p=q("#pagina");p.replaceChildren();
   if(!diario.length){p.append(texto("O caderno ainda está em branco. A primeira anotação aparece depois da primeira execução.","p"));
@@ -778,6 +817,31 @@ cad().addEventListener("keydown",e=>{if(e.key==="ArrowLeft")virar(-1);else if(e.
 let toqueX=null;
 q("#pagina").addEventListener("touchstart",e=>{toqueX=e.touches[0].clientX},{passive:true});
 q("#pagina").addEventListener("touchend",e=>{if(toqueX===null)return;const dx=e.changedTouches[0].clientX-toqueX;toqueX=null;if(Math.abs(dx)>60)virar(dx<0?1:-1)},{passive:true});
+
+// ---- livro de curiosidades: dúvidas dele, com resposta, consideração ou "deixei pra lá"
+const curDlg=()=>q("#curiosidades");
+const SELOS={aberta:"Em aberto",respondida:"Respondida",deixada:"Deixou pra lá"};
+function desenharCuriosidades(){
+  const box=q("#duvidas");box.replaceChildren();
+  if(!curiosidades.length){box.append(texto("O livro ainda está vazio. As dúvidas e curiosidades do Pangolimo vão aparecendo aqui.","p"));return}
+  const lista=[...curiosidades].reverse().filter(c=>filtroCur==="todas"||c.status===filtroCur);
+  if(!lista.length){box.append(texto("Nada por aqui neste filtro.","p"));return}
+  lista.forEach(c=>{
+    const el=document.createElement("article");el.className="duvida";
+    el.append(texto(c.pergunta,"h3"));
+    const meta=document.createElement("p"),selo=document.createElement("span");meta.className="meta";selo.className="selo "+c.status;selo.textContent=SELOS[c.status]||c.status;
+    meta.append(selo,document.createTextNode(quando(c.criada)+(c.origem?`, ${c.origem}`:"")));el.append(meta);
+    if(c.resposta)el.append(texto("Resposta: "+c.resposta,"p","resposta"));
+    (c.notas||[]).forEach(n=>el.append(texto(`${n.tipo==="deixar"?"Por que deixou pra lá":"Consideração"} (${quando(n.quando)}): ${n.texto}`,"p","nota")));
+    if(c.entrada&&diario.some(d=>d.id===c.entrada)){const b=document.createElement("button");b.type="button";b.className="ver";b.textContent="Ver a anotação do diário";
+      b.onclick=()=>{curDlg().close();abrirCaderno(c.entrada)};el.append(b)}
+    box.append(el)});
+}
+function abrirCuriosidades(){desenharCuriosidades();if(!curDlg().open)curDlg().showModal();q("#duvidas").scrollTop=0}
+document.querySelectorAll(".filtros button").forEach(b=>b.onclick=()=>{filtroCur=b.dataset.filtro;
+  document.querySelectorAll(".filtros button").forEach(x=>x.setAttribute("aria-pressed",x===b?"true":"false"));desenharCuriosidades()});
+q("#curFechar").onclick=()=>curDlg().close();
+curDlg().addEventListener("click",e=>{if(e.target===curDlg())curDlg().close()});
 
 function desenharMapa(){
   const box=q("#arvore");
@@ -804,7 +868,7 @@ function desenharMapa(){
 
 async function carregar(){
   const t="?t="+Date.now(),idAberto=cad().open&&diario[cadIdx]?diario[cadIdx].id:null;
-  [estado,diario,mapa]=await Promise.all([fetch("estado.json"+t).then(r=>r.json()),fetch("diario.json"+t).then(r=>r.json()),fetch("mapa.json"+t).then(r=>r.ok?r.json():[]).catch(()=>[])]);
+  [estado,diario,mapa,curiosidades]=await Promise.all([fetch("estado.json"+t).then(r=>r.json()),fetch("diario.json"+t).then(r=>r.json()),fetch("mapa.json"+t).then(r=>r.ok?r.json():[]).catch(()=>[]),fetch("curiosidades.json"+t).then(r=>r.ok?r.json():[]).catch(()=>[])]);
   const idTv=estado.tv?estado.tv.desde+"|"+estado.tv.descricao:null;
   if(tvAnterior!==undefined&&idTv&&idTv!==tvAnterior&&!reduzMovimento)chuvisco=quadro+4; // trocou de canal: chuvisco
   tvAnterior=idTv;
@@ -833,6 +897,7 @@ async function carregar(){
   if(!comDesenho.length)mural.append(texto("O mural está vazio. Os desenhos aparecem aqui depois que o Pangolimo começar a pesquisar.","p"));
   if(!diario.length)q("#diario").append(texto("O Pangolimo ainda não escreveu nada. A primeira entrada aparece depois da primeira execução.","p"));
   desenharMapa();
+  if(curDlg().open)desenharCuriosidades();
   desenharMovimento();
   atualizarCaderno(idAberto);
   mostrados=0;q("#diario").querySelectorAll(".entrada").forEach(e=>e.remove());mais();

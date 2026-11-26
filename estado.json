@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 56,
+  "energia": 37,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,150 +9,150 @@
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.269
+      "recente": 2.226
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.793
+      "recente": 1.759
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.68
+      "recente": 2.629
     },
     {
       "tema": "animais noturnos",
       "peso": 5,
-      "recente": 1.522
+      "recente": 1.493
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.822
+      "recente": 1.787
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.687
+      "recente": 1.655
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.852
+      "recente": 1.817
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.805
+      "recente": 1.771
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.775
+      "recente": 1.741
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.645
+      "recente": 1.614
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.623
-    },
-    {
-      "tema": "Base aérea",
-      "peso": 2,
-      "recente": 1.591
+      "recente": 1.592
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.291
+      "recente": 1.266
+    },
+    {
+      "tema": "Base aérea",
+      "peso": 2,
+      "recente": 1.561
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.577
+      "recente": 1.547
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.544
+      "recente": 1.515
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.479
+      "recente": 1.451
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.806
+      "recente": 0.791
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.336
+      "recente": 1.311
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.26
+      "recente": 1.236
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.235
+      "recente": 1.212
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.161
+      "recente": 1.139
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 1.086
-    },
-    {
-      "tema": "Botânica",
-      "peso": 2,
-      "recente": 1.068
+      "recente": 1.065
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.768
+      "recente": 0.753
+    },
+    {
+      "tema": "Botânica",
+      "peso": 2,
+      "recente": 1.048
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 1.052
+      "recente": 1.032
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.595
+      "recente": 0.584
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.595
+      "recente": 0.584
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.827
+      "recente": 0.811
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.774
+      "recente": 0.759
     },
     {
-      "tema": "Nicolas Vilhar",
+      "tema": "Rio Grande do Sul",
       "peso": 1,
       "recente": 1.0
     }
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Os hominídeos são uma família de grandes primatas que inclui chimpanzés, gorilas, orangotangos e humanos.",
     "Os bonobos são encontrados na Bacia do Congo e se alimentam principalmente de frutas e folhas.",
     "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
@@ -203,18 +202,23 @@
     "Aprendi que os moluscos são bichos de corpo mole, sem divisão nos segmentos, e que muitos deles têm conchas e vivem na água ou na terra.",
     "Aprendi que berbigão é o nome dado a vários tipos de moluscos bivalves marinhos que vivem na costa, tanto em Portugal quanto no Brasil.",
     "Aprendi que Eliezer de Carvalho Rios fundou um museu oceanográfico e guardou milhares de espécies de conchas ao longo de sua vida.",
-    "Aprendi que um engenheiro chamado Nicolas Vilhar ajudou a fundar a sociedade que deu origem ao museu oceanográfico em Rio Grande."
+    "Aprendi que um engenheiro chamado Nicolas Vilhar ajudou a fundar a sociedade que deu origem ao museu oceanográfico em Rio Grande.",
+    "Aprendi que o Rio Grande do Sul é um estado brasileiro grande com clima subtropical, muitas cidades e rios importantes."
   ],
-  "proximo_tema": "Rio Grande do Sul",
-  "ultima_execucao": "2026-11-26T19:50+00:00",
+  "proximo_tema": "Fronteira Brasil–Guiana",
+  "ultima_execucao": "2026-11-26T21:09+00:00",
   "tipo": "Limo / Terra",
-  "fome": 42,
-  "evento": null,
+  "fome": 55,
+  "evento": {
+    "nome": "clima",
+    "tipo": "garoa",
+    "ate": "2026-11-26T22:52+00:00"
+  },
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Nicolas Vilhar",
+  "origem_do_proximo": "Rio Grande do Sul",
   "via_do_proximo": {
-    "de": "Nicolas Vilhar",
-    "sorteado": false,
+    "de": "Rio Grande do Sul",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -223,17 +227,11 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 72,
+  "tedio": 80,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 59,
-        "tipo": "esquilo",
-        "desde": "2026-11-26T17:46:25+00:00",
-        "ate": "2026-11-26T18:59:48+00:00"
-      },
       {
         "id": 60,
         "tipo": "passarinho",
@@ -245,13 +243,15 @@
         "tipo": "cobra",
         "desde": "2026-11-26T19:19:03+00:00",
         "ate": "2026-11-26T20:03:55+00:00"
+      },
+      {
+        "id": 62,
+        "tipo": "coruja",
+        "desde": "2026-11-26T22:20:16+00:00",
+        "ate": "2026-11-26T23:22:25+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T10:24:21+00:00",
-        "texto": "uma borboleta chegou voando"
-      },
       {
         "quando": "2026-11-25T10:36:38+00:00",
         "texto": "uma lagarta subiu no tronco"
@@ -407,9 +407,13 @@
       {
         "quando": "2026-11-26T19:19:03+00:00",
         "texto": "uma cobra entrou no quintal"
+      },
+      {
+        "quando": "2026-11-26T22:20:16+00:00",
+        "texto": "uma coruja pousou num galho"
       }
     ],
-    "seq": 61,
-    "agenda_ate": "2026-11-26T21:20:24+00:00"
+    "seq": 62,
+    "agenda_ate": "2026-11-26T22:39:44+00:00"
   }
 }

@@ -1022,5 +1022,20 @@
     "via": "Eliezer de Carvalho Rios",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 74,
+    "quando": "2026-11-26T21:09+00:00",
+    "atividade": "pesquisa",
+    "tema": "Rio Grande do Sul",
+    "fonte": "https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul",
+    "texto": "A garoa batia na janela enquanto eu lia sobre um lugar chamado Rio Grande do Sul, que fica bem comprido lá embaixo e tem até montanhas de gelo e oceano. Descobri que lá eles plantam milho e criam gado numa área enorme cheia de rios importantes. Fiquei imaginando se esse estado comprido é tão grande quanto parece no mapa do computador. De repente, cliquei num link sem querer e fui parar numa tal de Fronteira Brasil-Guiana.",
+    "aprendeu": "Aprendi que o Rio Grande do Sul é um estado brasileiro grande com clima subtropical, muitas cidades e rios importantes.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0074.svg",
+    "titulo_desenho": "Estado comprido e rios",
+    "via": "Nicolas Vilhar",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

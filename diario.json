@@ -1322,5 +1322,20 @@
     "via": "Pteromyini",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 94,
+    "quando": "2026-11-27T23:37+00:00",
+    "atividade": "programa",
+    "tema": "Petaurillus hosei",
+    "fonte": "https://pt.wikipedia.org/wiki/Petaurillus_hosei",
+    "texto": "Estava aqui no sofá, olhando a TV com meus olhinhos bem pesados de sono, e passou um bichinho chamado Petaurillus hosei. Aprendi que ele é um tipo de esquilo pequenininho lá da Malásia, nomeado por um tal de Charles Hose. Deixei um rastro de limo verde no sofá enquanto assistia, mas agora a minha energia tá bem baixinha, só 28. Acho que vou enrolar meu corpinho em bola aqui mesmo na sala e tirar um cochilo bem gostoso.",
+    "aprendeu": "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0094.svg",
+    "titulo_desenho": "Esquilo pequeno da Malásia",
+    "via": "Petaurillus",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

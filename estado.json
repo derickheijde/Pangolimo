@@ -1,158 +1,158 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 28,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 20,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.783
+      "recente": 3.761
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.468
+      "recente": 2.454
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.52
+      "recente": 1.511
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.178
+      "recente": 2.165
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.201
+      "recente": 1.194
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.795
+      "recente": 1.785
+    },
+    {
+      "tema": "Petaurillus hosei",
+      "peso": 2,
+      "recente": 1.994
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.863
+      "recente": 1.852
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.22
+      "recente": 1.213
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.463
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.131
+      "recente": 1.124
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.208
+      "recente": 1.201
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.189
+      "recente": 1.182
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.866
+      "recente": 0.861
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.539
+      "recente": 0.536
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.104
+      "recente": 1.098
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.086
+      "recente": 1.08
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.066
+      "recente": 1.06
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.056
+      "recente": 1.05
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.032
+      "recente": 1.026
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.985
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.895
+      "recente": 0.89
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.844
+      "recente": 0.839
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.82
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.512
+      "recente": 0.509
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.779
+      "recente": 0.775
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.727
+      "recente": 0.723
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.718
+      "recente": 0.714
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.705
+      "recente": 0.701
     },
     {
-      "tema": "Petaurillus",
-      "peso": 1,
-      "recente": 1.0
-    },
-    {
-      "tema": "Petaurillus hosei",
+      "tema": "Charles Hose",
       "peso": 1,
       "recente": 1.0
     }
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
     "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
     "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
@@ -203,27 +202,28 @@
     "Aprendi que os esquilos também são conhecidos como caxinguelê e ajudam a plantar novas árvores ao enterrar sementes.",
     "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos.",
     "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo.",
-    "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos."
+    "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos.",
+    "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia."
   ],
-  "proximo_tema": "Petaurillus hosei",
-  "ultima_execucao": "2026-11-27T23:13+00:00",
+  "proximo_tema": "Charles Hose",
+  "ultima_execucao": "2026-11-27T23:37+00:00",
   "tipo": "Limo / Terra",
-  "fome": 12,
+  "fome": 16,
   "evento": null,
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Petaurillus",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Petaurillus hosei",
   "via_do_proximo": {
-    "de": "Petaurillus",
+    "de": "Petaurillus hosei",
     "sorteado": false,
     "lang": "pt"
   },
   "tv": {
-    "genero": "musical",
-    "descricao": "um show de música",
-    "tema": null,
-    "desde": "2026-11-27T15:42+00:00"
+    "genero": "documentario",
+    "descricao": "um programa sobre Petaurillus hosei",
+    "tema": "Petaurillus hosei",
+    "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 51,
+  "tedio": 53,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -255,12 +255,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 83,
-        "tipo": "aranha",
-        "desde": "2026-11-27T20:10:40+00:00",
-        "ate": "2026-11-27T21:15:21+00:00"
-      },
-      {
         "id": 84,
         "tipo": "borboleta",
         "desde": "2026-11-27T20:20:24+00:00",
@@ -291,13 +285,15 @@
           "quando": "2026-11-27T23:27:15+00:00",
           "resultado": "pegou"
         }
+      },
+      {
+        "id": 88,
+        "tipo": "ratinho",
+        "desde": "2026-11-28T01:00:01+00:00",
+        "ate": "2026-11-28T02:02:46+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T15:44:02+00:00",
-        "texto": "Pangolimo comeu cupins no cupinzeiro"
-      },
       {
         "quando": "2026-11-26T17:46:25+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
@@ -453,9 +449,13 @@
       {
         "quando": "2026-11-27T23:27:15+00:00",
         "texto": "a coruja pegou o ratinho"
+      },
+      {
+        "quando": "2026-11-28T01:00:01+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
       }
     ],
-    "seq": 87,
-    "agenda_ate": "2026-11-28T00:43:14+00:00"
+    "seq": 88,
+    "agenda_ate": "2026-11-28T01:07:04+00:00"
   }
 }

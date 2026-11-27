@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 70,
+  "energia": 65,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "assistindo_tv",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.071
+      "recente": 2.035
     },
     {
       "tema": "animais noturnos",
       "peso": 6,
-      "recente": 2.338
+      "recente": 2.298
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.635
+      "recente": 1.607
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.446
+      "recente": 2.404
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 2.0
+      "recente": 1.966
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.662
+      "recente": 1.633
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.539
+      "recente": 1.513
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.69
+      "recente": 1.661
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.646
+      "recente": 1.618
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.619
+      "recente": 1.591
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.502
+      "recente": 1.476
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.481
+      "recente": 1.456
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.179
+      "recente": 1.159
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.451
+      "recente": 1.426
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.439
+      "recente": 1.414
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.409
+      "recente": 1.385
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.349
+      "recente": 1.326
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.735
+      "recente": 0.722
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.218
+      "recente": 1.197
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.15
+      "recente": 1.13
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.126
+      "recente": 1.107
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.059
+      "recente": 1.041
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.699
+      "recente": 0.687
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.992
+      "recente": 0.975
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.975
+      "recente": 0.958
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.96
+      "recente": 0.944
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.543
+      "recente": 0.534
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.543
+      "recente": 0.534
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.754
+      "recente": 0.741
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.705
+      "recente": 0.693
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo."
   ],
   "proximo_tema": "Guepardo",
-  "ultima_execucao": "2026-11-27T02:06+00:00",
+  "ultima_execucao": "2026-11-27T03:17+00:00",
   "tipo": "Limo / Terra",
-  "fome": 32,
+  "fome": 44,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Savana",
   "via_do_proximo": {
     "de": "Savana",
@@ -218,12 +218,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "musical",
-    "descricao": "um show de música",
+    "genero": "novela",
+    "descricao": "uma série de drama",
     "tema": null,
-    "desde": "2026-11-25T23:34+00:00"
+    "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 62,
+  "tedio": 69,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -249,13 +249,15 @@
         "tipo": "ratinho",
         "desde": "2026-11-27T03:29:44+00:00",
         "ate": "2026-11-27T04:14:34+00:00"
+      },
+      {
+        "id": 67,
+        "tipo": "ratinho",
+        "desde": "2026-11-27T04:21:43+00:00",
+        "ate": "2026-11-27T05:12:04+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T16:06:26+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
       {
         "quando": "2026-11-25T17:00:05+00:00",
         "texto": "uma borboleta chegou voando"
@@ -411,9 +413,13 @@
       {
         "quando": "2026-11-27T03:29:44+00:00",
         "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-27T04:21:43+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
       }
     ],
-    "seq": 66,
-    "agenda_ate": "2026-11-27T03:36:30+00:00"
+    "seq": 67,
+    "agenda_ate": "2026-11-27T04:47:54+00:00"
   }
 }

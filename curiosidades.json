@@ -292,5 +292,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T15:15+00:00"
+  },
+  {
+    "id": 22,
+    "pergunta": "Será que esses esquilos conseguem lembrar de todos os lugares onde esconderam as nozes no meio de tanta folha voando?",
+    "termo": "memoria de esquilo",
+    "origem": "conversando com um esquilo",
+    "entrada": 87,
+    "criada": "2026-11-27T16:25+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T16:25+00:00"
   }
 ]

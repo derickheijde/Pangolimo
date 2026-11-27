@@ -1217,5 +1217,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "conversando com uma aranha"
+  },
+  {
+    "id": 87,
+    "quando": "2026-11-27T16:25+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fui dar uma olhada lá no quintal e encontrei um esquilo simpático perto da árvore. Ele me mostrou onde guarda as nozes dele, fazendo gestos rápidos e barulhinhos baixos. Achei muito legal ver a cauda fofa dele se mexendo com o vento forte.",
+    "aprendeu": "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0087.svg",
+    "titulo_desenho": "Esquilo na arvore",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "conversando com um esquilo"
   }
 ]

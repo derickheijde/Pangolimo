@@ -417,10 +417,12 @@ function cenaSala(){
   R(0,76,200,4,"#222c42");
   janela(clima,flash); // a janela da sala mostra o mesmo tempo lá fora
   relogio(16,10);
+  if(emNatal())luzesSala();
   R(34,92,128,18,"#7a2f3a");R(36,94,124,14,"#8f4352");R(40,98,116,1,"#c0a060");R(40,103,116,1,"#c0a060"); // tapete
   R(186,52,2,30,"#3a3a4a");R(183,44,8,9,"#f2c46d");R(184,45,6,2,"#ffe9a8"); // abajur
-  R(84,72,22,3,"#8a5a3a");R(86,75,2,5,"#5a3b28");R(102,75,2,5,"#5a3b28"); // mesinha com planta
-  R(91,65,8,7,"#a8573a");R(88,56,14,9,"#4fa04a");R(93,51,5,6,"#86d36a");R(90,58,2,2,"#86d36a");
+  if(emNatal())arvoreSala();
+  else{R(84,72,22,3,"#8a5a3a");R(86,75,2,5,"#5a3b28");R(102,75,2,5,"#5a3b28"); // mesinha com planta
+    R(91,65,8,7,"#a8573a");R(88,56,14,9,"#4fa04a");R(93,51,5,6,"#86d36a");R(90,58,2,2,"#86d36a")}
   R(12,48,12,34,"#7a2f3a");R(12,48,2,34,"#8f4352");R(12,66,62,14,"#8f3a4c");R(24,62,48,5,"#a8465a");R(66,56,8,24,"#7a2f3a"); // sofá
   R(14,80,3,3,"#3a1219");R(69,80,3,3,"#3a1219");
   R(112,68,64,12,"#4a3322");R(112,68,64,2,"#5e4330");R(138,66,14,2,"#15151f");R(122,38,46,28,"#15151f"); // TV
@@ -590,7 +592,53 @@ function poseEstatica(acao,qd,b,salto){
   if(acao==="brigando"){noChao(84,88+b-salto,false);return{x:84,y:88,w:27,h:10}}
   noChao(66,88+b-salto,true);return{x:66,y:88,w:27,h:10}}
 
-function copa(sw){[[30,26,20],[50,18,22],[68,28,18],[44,34,16],[20,36,12],[76,40,10]].forEach(([cx,cy,r])=>{
+// ================= ENFEITES DE NATAL: de 25 de novembro a 5 de janeiro, todos os anos =================
+function emNatal(){const d=new Date(),m=d.getMonth()+1,dia=d.getDate();return(m===11&&dia>=25)||m===12||(m===1&&dia<=5)}
+const CORES_PISCA=["#ff5050","#ffd24a","#5aa0ff","#60e080","#ff9ad0"];
+function lampada(x,y,i,brilho){ // pisca-pisca: as lâmpadas acendem em turnos
+  const lig=reduzMovimento?i%2===0:((quadro+(i%3)*2)%6)<3;
+  if(lig){R(x-1,y-1,4,4,`rgba(255,240,170,${brilho})`);R(x,y,2,2,CORES_PISCA[i%5])}else R(x,y,2,2,"#2e3a2e");
+}
+function estrela(x,y,brilho){
+  R(x-1,y+1,9,3,`rgba(255,240,170,${brilho*0.45})`);R(x+2,y-1,3,7,`rgba(255,240,170,${brilho*0.45})`); // brilho em cruz
+  ["...Y...","..YYY..","YYYYYYY",".YYYYY.",".YY.YY."].forEach((r,j)=>[...r].forEach((ch,i)=>ch==="Y"&&R(x+i,y+j,1,1,i===3&&j===2?"#fff4b0":"#ffd84a")));
+  if(!reduzMovimento&&quadro%4<2){R(x-2,y+2,1,1,"#fff8cc");R(x+8,y+2,1,1,"#fff8cc");R(x+3,y-2,1,1,"#fff8cc")}
+}
+const COPA=[[30,26,20],[50,18,22],[68,28,18],[44,34,16],[20,36,12],[76,40,10]];
+const naCopa=(x,y)=>COPA.some(([cx,cy,r])=>(x-cx)**2+(y-cy)**2<(r-2)**2);
+function enfeitesArvore(sw,fase){ // a árvore do quintal ganha enfeites sem mudar o desenho dela
+  const brilho=fase==="noite"?0.4:0.18;let i=0;
+  [[12,5],[24,5],[36,4]].forEach(([y0,amp])=>{for(let x=14;x<=84;x++){
+    const y=y0+Math.round(Math.sin((x-14)/70*Math.PI*3)*amp);
+    if(naCopa(x,y)){R(x+sw,y,1,1,"#16381c");if((x-14)%5===0)lampada(x+sw,y+1,i++,brilho)}}});
+  [[24,30,"#d04040"],[35,22,"#f2c94c"],[46,29,"#4a86d0"],[58,13,"#d04040"],[64,35,"#e87aa8"],[73,25,"#f2c94c"],[39,42,"#4a86d0"],
+   [53,37,"#e8873a"],[27,43,"#e87aa8"],[79,36,"#d04040"],[17,35,"#4a86d0"],[57,24,"#e87aa8"],[68,17,"#4a86d0"],[33,12,"#e8873a"]]
+    .forEach(([x,y,c])=>{if(naCopa(x+1,y+1)){R(x+sw,y,3,3,c);R(x+sw+1,y,1,1,"#ffffffaa")}});
+  [[28,18,3,"#f2c94c"],[48,38,3,"#d04040"],[62,24,3,"#c8c8ff"],[72,32,3,"#f2c94c"],[36,30,3,"#e87aa8"]]
+    .forEach(([x,y,n,c])=>{if(naCopa(x,y)){R(x+sw,y,1,n,"#e0e0e0");R(x+sw,y+n,1,3,c);R(x+sw-1,y+n+1,3,1,c);R(x+sw,y+n+1,1,1,"#fff")}});
+  [[22,26],[60,40]].forEach(([x,y])=>{if(naCopa(x,y+2)){for(let k=0;k<5;k++)R(x+sw,y+k,1,1,k%2?"#fff":"#d04040");R(x+sw+1,y,1,1,"#d04040");R(x+sw+2,y+1,1,1,"#fff")}});
+  [[31,17],[66,29],[44,45]].forEach(([x,y])=>{if(naCopa(x+1,y+1)){R(x+sw,y+1,3,1,"#ffe27a");R(x+sw+1,y,1,3,"#ffe27a")}});
+  estrela(47+sw,1,brilho+0.1);
+}
+function luzesSala(){ // pisca-pisca no alto da parede e em volta da janela
+  let i=0;
+  for(let s=0;s<4;s++)for(let x=s*50;x<(s+1)*50;x++){const y=2+Math.round(Math.sin((x-s*50)/50*Math.PI)*6);R(x,y,1,1,"#14301a");if(x%6===3)lampada(x,y+1,i++,0.22)}
+  for(let x=76;x<=110;x++)R(x,8,1,1,"#14301a");for(let y=8;y<=40;y++){R(75,y,1,1,"#14301a");R(112,y,1,1,"#14301a")}
+  for(let x=77;x<=109;x+=4)lampada(x,9,i++,0.22);
+  for(let y=13;y<=37;y+=4){lampada(73,y,i++,0.22);lampada(112,y,i++,0.22)}
+}
+const larguraArvoreSala=y=>[[54,63,1,0.55],[60,70,3,0.65],[67,80,5,0.65]].reduce((m,[y0,y1,b,s])=>y>=y0&&y<=y1?Math.max(m,b+Math.round((y-y0)*s)):m,-1);
+function arvoreSala(){ // pequena árvore enfeitada, com presentes embaixo (ocupa o lugar da mesinha com planta)
+  const cx=96;R(cx-2,77,4,5,"#5a3820");
+  [[67,80,5,0.65],[60,70,3,0.65],[54,63,1,0.55]].forEach(([y0,y1,b,s])=>{for(let y=y0;y<=y1;y++){const hw=b+Math.round((y-y0)*s);R(cx-hw,y,hw*2+1,1,y===y1?"#1f5a2a":y%3===0?"#3f9a4a":"#2f7a3a")}});
+  [[93,60,"#d04040"],[99,65,"#f2c94c"],[90,72,"#4a86d0"],[97,74,"#e87aa8"],[103,76,"#d04040"],[94,68,"#e8873a"],[88,77,"#f2c94c"],[99,59,"#4a86d0"]]
+    .forEach(([x,y,c])=>{if(larguraArvoreSala(y)>=Math.abs(x+1-cx)+1){R(x,y,3,3,c);R(x+1,y,1,1,"#ffffffaa")}});
+  let i=0;for(let y=57;y<=78;y+=3){const hw=larguraArvoreSala(y),x=cx+Math.round(Math.sin(y/2.2)*hw*0.7);if(hw>0)lampada(x,y,i++,0.28)}
+  estrela(cx-3,49,0.3);
+  [[84,82,7,6,"#d04040","#ffd24a"],[92,84,6,5,"#4a86d0","#ffffff"],[99,82,8,7,"#4fa04a","#d04040"],[107,85,5,4,"#e87aa8","#ffd24a"],[78,86,5,4,"#f2c94c","#d04040"]]
+    .forEach(([x,y,w,hh,c,f])=>{R(x,y,w,hh,c);R(x+Math.floor(w/2),y,1,hh,f);R(x,y+Math.floor(hh/2)-1,w,1,f);R(x+Math.floor(w/2)-1,y-1,3,1,f)});
+}
+function copa(sw){COPA.forEach(([cx,cy,r])=>{
   [["#3a7a3a",0,0,r],["#4fa04a",-2,-2,r-3],["#6bbf5a",-4,-4,r-8]].forEach(([cor,dx,dy,rr])=>{
     for(let j=-rr;j<=rr;j++){const hw=Math.round(Math.sqrt(rr*rr-j*j));R(cx+dx+sw-hw,cy+dy+j,hw*2,1,cor)}})})}
 function fundoQuintal(fase,clima,flash){
@@ -618,6 +666,7 @@ function fundoQuintal(fase,clima,flash){
   R(28,50,14,3,"#7a4e2c");R(22,46,8,3,"#7a4e2c");R(53,48,16,3,"#7a4e2c");R(66,42,8,3,"#7a4e2c");
   R(43,63,8,1,"#5a3820");R(44,64,6,10,"#1a0e06");R(45,66,4,6,"#0d0703"); // buraco no tronco
   copa(sw);
+  if(emNatal())enfeitesArvore(sw,fase);
   for(let j=0;j<38;j++){const y=56+j,hw=3+Math.round(j*0.28)+(j%7<2?1:0);R(172-hw,y,hw*2+1,1,"#b78a5b");R(172+hw-2,y,2,1,"#8f6a43")} // cupinzeiro
   R(166,89,10,6,"#241608");R(167,88,8,1,"#241608");[[168,70],[174,64],[170,80],[176,76]].forEach(([x,y])=>R(x,y,2,1,"#d2a674"));
   for(let i=0;i<4;i++)R(158+((quadro*2+i*5)%22),96,1,1,"#e8c9a0");

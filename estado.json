@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 81,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 100,
+  "dormindo": false,
+  "acao": "comendo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.926
+      "recente": 2.9
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.8
+      "recente": 1.784
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.424
+      "recente": 1.411
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.128
+      "recente": 2.109
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.74
+      "recente": 1.725
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.446
+      "recente": 1.433
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.339
+      "recente": 1.327
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.472
+      "recente": 1.459
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.432
+      "recente": 1.419
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.409
+      "recente": 1.397
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.026
+      "recente": 1.017
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.307
+      "recente": 1.296
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.289
+      "recente": 1.278
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.262
+      "recente": 1.251
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.251
+      "recente": 1.24
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.225
+      "recente": 1.214
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.64
+      "recente": 0.634
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.174
+      "recente": 1.164
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.06
+      "recente": 1.051
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.001
+      "recente": 0.992
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.979
+      "recente": 0.97
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.921
+      "recente": 0.913
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.608
+      "recente": 0.603
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.863
+      "recente": 0.855
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.849
+      "recente": 0.842
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.836
+      "recente": 0.829
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.473
+      "recente": 0.469
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.473
+      "recente": 0.469
     },
     {
       "tema": "Hienas",
       "peso": 1,
-      "recente": 0.969
+      "recente": 0.96
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.654
+      "recente": 0.648
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia."
   ],
   "proximo_tema": "Caracal (género)",
-  "ultima_execucao": "2026-11-27T11:38+00:00",
+  "ultima_execucao": "2026-11-27T12:14+00:00",
   "tipo": "Limo / Terra",
-  "fome": 60,
+  "fome": 17,
   "evento": null,
-  "ultima_atividade": "dormir",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Hienas",
   "via_do_proximo": {
     "de": "Hienas",
@@ -223,17 +223,11 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 61,
+  "tedio": 65,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 71,
-        "tipo": "coruja",
-        "desde": "2026-11-27T07:17:10+00:00",
-        "ate": "2026-11-27T09:57:09+00:00"
-      },
       {
         "id": 74,
         "tipo": "passarinho",
@@ -410,6 +404,6 @@
       }
     ],
     "seq": 75,
-    "agenda_ate": "2026-11-27T13:08:30+00:00"
+    "agenda_ate": "2026-11-27T13:44:42+00:00"
   }
 }

@@ -1097,5 +1097,20 @@
     "via": "Rio Rupunúni",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 79,
+    "quando": "2026-11-27T03:42+00:00",
+    "atividade": "lua",
+    "tema": null,
+    "fonte": null,
+    "texto": "Fiquei sentado no parapeito da janela olhando para a lua brilhando lá no alto, enquanto o meu rastro verde-limo deixava um brilho fraquinho na madeira. Fiquei me perguntando se a lua é redonda como um bolinho de terra ou se ela tem formigueiros lá em cima também. A noite está tão quieta que dá até um soninho manso.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0079.svg",
+    "titulo_desenho": "A lua da janela",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

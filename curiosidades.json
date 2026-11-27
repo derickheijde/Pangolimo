@@ -208,5 +208,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T02:06+00:00"
+  },
+  {
+    "id": 16,
+    "pergunta": "Será que a lua tem formigueiros redondinhos igual aos que eu tenho aqui no meu quintal?",
+    "termo": "Lua",
+    "origem": "olhando a lua",
+    "entrada": 79,
+    "criada": "2026-11-27T03:42+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T03:42+00:00"
   }
 ]

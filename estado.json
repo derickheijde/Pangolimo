@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 39,
+  "energia": 44,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "comendo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.839
+      "recente": 3.813
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.505
+      "recente": 2.488
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.542
+      "recente": 1.532
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.21
+      "recente": 2.195
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.219
+      "recente": 1.211
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.821
+      "recente": 1.809
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.891
+      "recente": 1.878
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.238
+      "recente": 1.23
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.493
+      "recente": 1.483
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.148
+      "recente": 1.14
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.226
+      "recente": 1.218
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.207
+      "recente": 1.199
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.879
+      "recente": 0.873
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.547
+      "recente": 0.543
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.121
+      "recente": 1.113
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.103
+      "recente": 1.095
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.082
+      "recente": 1.075
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.071
+      "recente": 1.064
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.047
+      "recente": 1.04
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.006
+      "recente": 0.999
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.908
+      "recente": 0.902
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.857
+      "recente": 0.851
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.838
+      "recente": 0.832
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.52
+      "recente": 0.516
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.79
+      "recente": 0.785
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.738
+      "recente": 0.733
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.729
+      "recente": 0.724
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.716
+      "recente": 0.711
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.405
+      "recente": 0.402
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.405
+      "recente": 0.402
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo."
   ],
   "proximo_tema": "Petaurillus",
-  "ultima_execucao": "2026-11-27T22:12+00:00",
+  "ultima_execucao": "2026-11-27T22:40+00:00",
   "tipo": "Limo / Terra",
-  "fome": 56,
+  "fome": 6,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "comida",
   "origem_do_proximo": "Pteromyini",
   "via_do_proximo": {
     "de": "Pteromyini",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 45,
+  "tedio": 48,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -462,6 +462,6 @@
       }
     ],
     "seq": 87,
-    "agenda_ate": "2026-11-27T23:42:55+00:00"
+    "agenda_ate": "2026-11-28T00:10:22+00:00"
   }
 }

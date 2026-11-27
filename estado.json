@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 43,
+  "energia": 57,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.616
+      "recente": 2.598
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.61
+      "recente": 1.599
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.307
+      "recente": 2.291
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.273
+      "recente": 1.264
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.901
+      "recente": 1.888
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.973
+      "recente": 1.96
     },
     {
       "tema": "Esquilo",
       "peso": 2,
-      "recente": 1.942
+      "recente": 1.929
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.293
+      "recente": 1.284
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.557
+      "recente": 1.547
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.197
+      "recente": 1.189
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.28
+      "recente": 1.271
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.26
+      "recente": 1.252
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.917
+      "recente": 0.911
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.17
+      "recente": 1.162
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.571
+      "recente": 0.567
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.152
+      "recente": 1.144
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.13
+      "recente": 1.122
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.119
+      "recente": 1.111
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.094
+      "recente": 1.087
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.049
+      "recente": 1.042
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.947
+      "recente": 0.941
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.895
+      "recente": 0.889
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.876
+      "recente": 0.87
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.543
+      "recente": 0.539
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.819
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.77
+      "recente": 0.765
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.761
+      "recente": 0.756
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.748
+      "recente": 0.743
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.422
+      "recente": 0.419
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.422
+      "recente": 0.419
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes."
   ],
   "proximo_tema": "Esquilo",
-  "ultima_execucao": "2026-11-27T19:16+00:00",
+  "ultima_execucao": "2026-11-27T19:44+00:00",
   "tipo": "Limo / Terra",
-  "fome": 35,
+  "fome": 37,
   "evento": {
     "nome": "clima",
     "tipo": "tempestade",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 28,
+  "tedio": 31,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -436,6 +436,6 @@
       }
     ],
     "seq": 84,
-    "agenda_ate": "2026-11-27T20:46:59+00:00"
+    "agenda_ate": "2026-11-27T21:14:01+00:00"
   }
 }

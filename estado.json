@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 33,
-  "dormindo": false,
-  "acao": "brincando_lama",
+  "energia": 15,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 3.075
+      "recente": 3.019
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.893
+      "recente": 1.858
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.496
+      "recente": 1.469
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.237
+      "recente": 2.196
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.829
+      "recente": 1.796
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.52
+      "recente": 1.492
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.409
+      "recente": 1.383
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.546
+      "recente": 1.518
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.505
+      "recente": 1.478
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.481
+      "recente": 1.454
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.078
+      "recente": 1.058
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.373
+      "recente": 1.348
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.355
+      "recente": 1.33
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.302
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.315
+      "recente": 1.291
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.289
+      "recente": 1.265
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.673
+      "recente": 0.661
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.234
+      "recente": 1.211
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.114
+      "recente": 1.094
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.052
+      "recente": 1.033
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.03
+      "recente": 1.011
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.969
+      "recente": 0.951
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.639
+      "recente": 0.627
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.907
+      "recente": 0.89
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.892
+      "recente": 0.876
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.879
+      "recente": 0.863
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.496
+      "recente": 0.487
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.496
+      "recente": 0.487
+    },
+    {
+      "tema": "Hienas",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.688
-    },
-    {
-      "tema": "Guepardo",
-      "peso": 1,
-      "recente": 0.951
+      "recente": 0.675
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
     "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
     "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
     "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
@@ -203,17 +202,18 @@
     "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima.",
     "Aprendi que o rio Rupunúni fica no sul da Guiana, nasce nos montes Canucu e deságua no rio Essequibo.",
     "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo.",
-    "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas."
+    "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas.",
+    "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia."
   ],
-  "proximo_tema": "Hienas",
-  "ultima_execucao": "2026-11-27T08:13+00:00",
+  "proximo_tema": "Caracal (género)",
+  "ultima_execucao": "2026-11-27T09:29+00:00",
   "tipo": "Limo / Terra",
-  "fome": 39,
+  "fome": 52,
   "evento": null,
-  "ultima_atividade": "quintal",
-  "origem_do_proximo": "Guepardo",
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Hienas",
   "via_do_proximo": {
-    "de": "Guepardo",
+    "de": "Hienas",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,37 +223,11 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 40,
+  "tedio": 48,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 68,
-        "tipo": "coruja",
-        "desde": "2026-11-27T05:09:32+00:00",
-        "ate": "2026-11-27T07:13:10+00:00"
-      },
-      {
-        "id": 69,
-        "tipo": "ratinho",
-        "desde": "2026-11-27T06:40:32+00:00",
-        "ate": "2026-11-27T06:49:11+00:00",
-        "fim": {
-          "quando": "2026-11-27T06:49:05+00:00",
-          "resultado": "fugiu"
-        }
-      },
-      {
-        "id": 70,
-        "tipo": "ratinho",
-        "desde": "2026-11-27T06:56:10+00:00",
-        "ate": "2026-11-27T06:59:49+00:00",
-        "fim": {
-          "quando": "2026-11-27T06:59:43+00:00",
-          "resultado": "fugiu"
-        }
-      },
       {
         "id": 71,
         "tipo": "coruja",
@@ -272,10 +246,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T02:43:14+00:00",
-        "texto": "uma coruja pousou num galho"
-      },
       {
         "quando": "2026-11-26T02:54:01+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -429,15 +399,15 @@
         "texto": "um ratinho apareceu perto da árvore"
       },
       {
-        "quando": "2026-11-27T08:13:33+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
-      {
         "quando": "2026-11-27T08:13:05+00:00",
         "texto": "Pangolimo rolou na lama"
+      },
+      {
+        "quando": "2026-11-27T08:13:33+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
     "seq": 73,
-    "agenda_ate": "2026-11-27T09:43:05+00:00"
+    "agenda_ate": "2026-11-27T10:59:32+00:00"
   }
 }

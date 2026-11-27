@@ -1142,5 +1142,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 82,
+    "quando": "2026-11-27T09:29+00:00",
+    "atividade": "pesquisa",
+    "tema": "Hienas",
+    "fonte": "https://pt.wikipedia.org/wiki/Hienas",
+    "texto": "Estava olhando a telinha do computador bem devagar, com meus olhinhos quase fechando de tanto sono, quando li sobre as hienas. Achei curioso que elas parecem cachorros por fora mas são parentes de outros bichos, e têm uma força enorme na boca. Fiquei imaginando se elas correm pelas savanas lá longe enquanto eu bocejo aqui na minha caminha. A claridade da tela estava me dando uma preguicinha mansa, e acho que vou enrolar meu corpinho de limo bem apertado para tirar um cochilo.",
+    "aprendeu": "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0082.svg",
+    "titulo_desenho": "Hiena na savana de giz",
+    "via": "Guepardo",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

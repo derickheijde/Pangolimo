@@ -236,5 +236,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T04:49+00:00"
+  },
+  {
+    "id": 18,
+    "pergunta": "Será que a mordida forte dessas hienas faz barulho lá no fundo da terra quando elas caçam à noite?",
+    "termo": "Pachycrocuta",
+    "origem": "lendo sobre Hienas",
+    "entrada": 82,
+    "criada": "2026-11-27T09:29+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T09:29+00:00"
   }
 ]

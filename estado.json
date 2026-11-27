@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 46,
+  "energia": 51,
   "dormindo": false,
-  "acao": "conversando",
+  "acao": "comendo_cupinzeiro",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.727
+      "recente": 2.711
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.678
+      "recente": 1.668
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.327
+      "recente": 1.319
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.982
+      "recente": 1.97
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.347
+      "recente": 1.339
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.623
+      "recente": 1.613
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.248
+      "recente": 1.24
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.372
+      "recente": 1.364
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.334
+      "recente": 1.326
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.314
+      "recente": 1.306
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.956
+      "recente": 0.95
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.219
+      "recente": 1.212
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.201
+      "recente": 1.194
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.596
+      "recente": 0.592
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.177
+      "recente": 1.17
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.166
+      "recente": 1.159
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.141
+      "recente": 1.134
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.095
+      "recente": 1.088
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.988
+      "recente": 0.982
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.933
+      "recente": 0.927
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.912
+      "recente": 0.907
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.566
+      "recente": 0.563
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.859
+      "recente": 0.854
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.803
+      "recente": 0.798
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.793
+      "recente": 0.788
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.78
+      "recente": 0.775
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.44
+      "recente": 0.437
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.44
+      "recente": 0.437
     },
     {
       "tema": "Esquilo",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.994
     },
     {
       "tema": "Aranhas",
       "peso": 1,
-      "recente": 0.983
+      "recente": 0.977
     }
   ],
   "gostos": {
@@ -206,15 +206,15 @@
     "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar."
   ],
   "proximo_tema": "Esquilo",
-  "ultima_execucao": "2026-11-27T16:25+00:00",
+  "ultima_execucao": "2026-11-27T16:50+00:00",
   "tipo": "Limo / Terra",
-  "fome": 59,
+  "fome": 14,
   "evento": {
     "nome": "clima",
     "tipo": "vendaval",
     "ate": "2026-11-27T16:52+00:00"
   },
-  "ultima_atividade": "quintal",
+  "ultima_atividade": "cupinzeiro",
   "origem_do_proximo": null,
   "via_do_proximo": null,
   "tv": {
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 10,
+  "tedio": 13,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -274,10 +274,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T09:50:18+00:00",
-        "texto": "Pangolimo conversou com uma borboleta"
-      },
       {
         "quando": "2026-11-26T10:24:33+00:00",
         "texto": "um passarinho pousou na árvore"
@@ -437,9 +433,13 @@
       {
         "quando": "2026-11-27T16:25:50+00:00",
         "texto": "Pangolimo conversou com um esquilo"
+      },
+      {
+        "quando": "2026-11-27T16:50:04+00:00",
+        "texto": "Pangolimo comeu cupins no cupinzeiro"
       }
     ],
     "seq": 81,
-    "agenda_ate": "2026-11-27T17:55:50+00:00"
+    "agenda_ate": "2026-11-27T18:20:04+00:00"
   }
 }

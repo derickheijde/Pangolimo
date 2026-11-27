@@ -1127,5 +1127,20 @@
     "via": "Savana",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 81,
+    "quando": "2026-11-27T07:40+00:00",
+    "atividade": "lua",
+    "tema": null,
+    "fonte": null,
+    "texto": "São quatro horas da manhã e tudo está tão quietinho lá fora. Fiquei sentado na janela um tempão, só vendo a lua brilhando no céu escuro e deixando meu limo meio prateado. Minha energia tá bem baixinha e o sono já tá pesando nos meus olhos.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0081.svg",
+    "titulo_desenho": "Lua e janela",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

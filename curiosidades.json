@@ -320,5 +320,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T18:06+00:00"
+  },
+  {
+    "id": 24,
+    "pergunta": "Será que esse bicho com nome tão comprido que eu cliquei sem querer também mora em alguma árvore perto do meu quintal?",
+    "termo": "Petaurista petaurista",
+    "origem": "lendo sobre Esquilo",
+    "entrada": 90,
+    "criada": "2026-11-27T20:38+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T20:38+00:00"
   }
 ]

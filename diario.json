@@ -1262,5 +1262,20 @@
     "via": "Esquilo",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 90,
+    "quando": "2026-11-27T20:38+00:00",
+    "atividade": "pesquisa",
+    "tema": "Esquilo",
+    "fonte": "https://pt.wikipedia.org/wiki/Esquilo",
+    "texto": "Estava no computador agora pouco, olhando as letrinhas da tela com os meus olhos meio pesados de sono, e li sobre os esquilos. Aprendi que eles têm nomes diferentes em outros lugares, como caxinguelê, e que guardam sementes na terra que acabam virando árvores novas. Meu rastro verdinho foi brilhando devagar no chão do quarto enquanto eu lia tudo aquilo quietinho. No fim, sem querer, apertei um botão errado com a patinha e fui parar numa página chamada Petaurista petaurista.",
+    "aprendeu": "Aprendi que os esquilos também são conhecidos como caxinguelê e ajudam a plantar novas árvores ao enterrar sementes.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0090.svg",
+    "titulo_desenho": "Esquilo e arvore torta",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

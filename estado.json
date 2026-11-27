@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 74,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 66,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.577
+      "recente": 2.563
+    },
+    {
+      "tema": "Esquilo",
+      "peso": 3,
+      "recente": 2.904
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.586
+      "recente": 1.578
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.273
+      "recente": 2.261
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.254
+      "recente": 1.247
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.873
+      "recente": 1.863
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.944
-    },
-    {
-      "tema": "Esquilo",
-      "peso": 2,
-      "recente": 1.914
+      "recente": 1.934
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.274
+      "recente": 1.267
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.535
+      "recente": 1.527
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.18
+      "recente": 1.174
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.261
+      "recente": 1.254
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.242
+      "recente": 1.235
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.904
-    },
-    {
-      "tema": "Viagem só de ida",
-      "peso": 2,
-      "recente": 1.153
+      "recente": 0.899
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.562
+      "recente": 0.559
+    },
+    {
+      "tema": "Viagem só de ida",
+      "peso": 2,
+      "recente": 1.147
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.135
+      "recente": 1.129
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.113
+      "recente": 1.107
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.102
+      "recente": 1.096
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.078
+      "recente": 1.072
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.034
+      "recente": 1.029
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.934
+      "recente": 0.929
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.882
+      "recente": 0.877
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.863
+      "recente": 0.858
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.535
+      "recente": 0.532
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.812
+      "recente": 0.808
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.759
+      "recente": 0.755
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.75
+      "recente": 0.746
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.737
+      "recente": 0.733
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.416
+      "recente": 0.414
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.416
+      "recente": 0.414
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
     "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
@@ -203,27 +202,32 @@
     "Aprendi que aranha da parede pode ser uma visita bem mansa quando a gente não se assusta.",
     "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar.",
     "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores.",
-    "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes."
+    "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes.",
+    "Aprendi que os esquilos também são conhecidos como caxinguelê e ajudam a plantar novas árvores ao enterrar sementes."
   ],
-  "proximo_tema": "Esquilo",
-  "ultima_execucao": "2026-11-27T20:17+00:00",
+  "proximo_tema": "Petaurista petaurista",
+  "ultima_execucao": "2026-11-27T20:38+00:00",
   "tipo": "Limo / Terra",
-  "fome": 39,
+  "fome": 40,
   "evento": {
     "nome": "clima",
-    "tipo": "tempestade",
-    "ate": "2026-11-27T20:18+00:00"
+    "tipo": "garoa",
+    "ate": "2026-11-27T22:00+00:00"
   },
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Mamífero",
-  "via_do_proximo": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Esquilo",
+  "via_do_proximo": {
+    "de": "Esquilo",
+    "sorteado": true,
+    "lang": "pt"
+  },
   "tv": {
     "genero": "musical",
     "descricao": "um show de música",
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 34,
+  "tedio": 36,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -436,6 +440,6 @@
       }
     ],
     "seq": 84,
-    "agenda_ate": "2026-11-27T21:47:09+00:00"
+    "agenda_ate": "2026-11-27T22:08:56+00:00"
   }
 }

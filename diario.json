@@ -1202,5 +1202,20 @@
     "via": "Caracal (género)",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 86,
+    "quando": "2026-11-27T15:15+00:00",
+    "atividade": "aranha",
+    "tema": null,
+    "fonte": null,
+    "texto": "Hoje a aranha desceu bem devagarzinho pela parede do meu quarto e ficou me olhando com suas patinhas finas. A gente trocou uns toquezinhos leves e eu deixei um rastro de limo verde brilhando perto dela. Foi uma visita tão quietinha e boa, fiquei com o coração quentinho.",
+    "aprendeu": "Aprendi que aranha da parede pode ser uma visita bem mansa quando a gente não se assusta.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0086.svg",
+    "titulo_desenho": "Eu e a aranha",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "conversando com uma aranha"
   }
 ]

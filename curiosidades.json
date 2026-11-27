@@ -278,5 +278,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T13:39+00:00"
+  },
+  {
+    "id": 21,
+    "pergunta": "Será que essa aranha que desce na minha parede tem muitos filhotinhos escondidos lá em cima no teto?",
+    "termo": "filhotes de aranha",
+    "origem": "conversando com uma aranha",
+    "entrada": 86,
+    "criada": "2026-11-27T15:15+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T15:15+00:00"
   }
 ]

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 74,
+  "energia": 56,
   "dormindo": false,
-  "acao": "brincando_grama",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.823
+      "recente": 2.804
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.736
+      "recente": 1.725
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.374
+      "recente": 1.365
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.052
+      "recente": 2.038
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.394
+      "recente": 1.385
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.68
+      "recente": 1.669
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.292
+      "recente": 1.283
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.42
+      "recente": 1.411
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.381
+      "recente": 1.372
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.36
+      "recente": 1.351
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.99
+      "recente": 0.983
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.261
+      "recente": 1.253
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.243
-    },
-    {
-      "tema": "Base aérea",
-      "peso": 2,
-      "recente": 1.218
+      "recente": 1.235
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.617
+      "recente": 0.613
+    },
+    {
+      "tema": "Base aérea",
+      "peso": 2,
+      "recente": 1.21
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.207
+      "recente": 1.199
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.182
+      "recente": 1.174
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.133
+      "recente": 1.126
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.023
+      "recente": 1.016
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.965
+      "recente": 0.959
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.944
+      "recente": 0.938
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.889
+      "recente": 0.883
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.586
+      "recente": 0.582
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.832
+      "recente": 0.826
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.82
+      "recente": 0.815
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.807
+      "recente": 0.802
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.456
+      "recente": 0.453
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.456
+      "recente": 0.453
+    },
+    {
+      "tema": "Animal",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Caracal (género)",
       "peso": 1,
-      "recente": 0.994
-    },
-    {
-      "tema": "Caracal",
-      "peso": 1,
-      "recente": 0.994
+      "recente": 0.987
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
     "A Fundação Projeto Tamar ajuda a cuidar de tartarugas-marinhas que correm risco de sumir.",
     "Aprendi que na Praia do Forte tem doze quilômetros de praia cheia de coqueiros.",
     "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
@@ -203,27 +202,24 @@
     "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo.",
     "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas.",
     "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia.",
-    "Aprendi que o caracal é um género de felinos encontrados na África e na Ásia, e que o gato-dourado-africano faz parte do mesmo grupo."
+    "Aprendi que o caracal é um género de felinos encontrados na África e na Ásia, e que o gato-dourado-africano faz parte do mesmo grupo.",
+    "Aprendi que existem milhões de espécies de animais diferentes na Terra, e a maioria delas são insetos."
   ],
-  "proximo_tema": "Animal",
-  "ultima_execucao": "2026-11-27T14:04+00:00",
+  "proximo_tema": "Insetos",
+  "ultima_execucao": "2026-11-27T14:31+00:00",
   "tipo": "Limo / Terra",
-  "fome": 35,
+  "fome": 40,
   "evento": null,
-  "ultima_atividade": "quintal",
-  "origem_do_proximo": "Caracal (género)",
-  "via_do_proximo": {
-    "de": "Caracal (género)",
-    "sorteado": true,
-    "lang": "pt"
-  },
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Animal",
+  "via_do_proximo": null,
   "tv": {
     "genero": "novela",
     "descricao": "uma série de drama",
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 36,
+  "tedio": 39,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -260,10 +256,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T09:01:59+00:00",
-        "texto": "uma borboleta chegou voando"
-      },
       {
         "quando": "2026-11-26T09:30:00+00:00",
         "texto": "Pangolimo conversou com uma borboleta"
@@ -409,6 +401,10 @@
         "texto": "Pangolimo conversou com uma aranha"
       },
       {
+        "quando": "2026-11-27T14:04:23+00:00",
+        "texto": "Pangolimo brincou na grama"
+      },
+      {
         "quando": "2026-11-27T14:58:09+00:00",
         "texto": "uma aranha desceu pela parede da toca"
       },
@@ -419,13 +415,9 @@
       {
         "quando": "2026-11-27T15:32:00+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
-      },
-      {
-        "quando": "2026-11-27T14:04:23+00:00",
-        "texto": "Pangolimo brincou na grama"
       }
     ],
     "seq": 79,
-    "agenda_ate": "2026-11-27T15:34:23+00:00"
+    "agenda_ate": "2026-11-27T16:01:35+00:00"
   }
 }

@@ -1187,5 +1187,20 @@
     "via": "Hienas",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 85,
+    "quando": "2026-11-27T14:31+00:00",
+    "atividade": "pesquisa",
+    "tema": "Animal",
+    "fonte": "https://pt.wikipedia.org/wiki/Animal",
+    "texto": "Eu cliquei num lugar errado na tela do computador e fui parar num texto bem grandão sobre o que são os animais. Achei meio curioso saber que existem tantas espécies diferentes espalhadas pelo mundo, muito mais do que eu conseguia imaginar. Fiquei pensando se eu e meus amigos do formigueiro fazemos parte desse montão de bichinhos. Dei uma enroladinha de leve na ponta da cama porque meu corpinho verde está pesando de sono.",
+    "aprendeu": "Aprendi que existem milhões de espécies de animais diferentes na Terra, e a maioria delas são insetos.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0085.svg",
+    "titulo_desenho": "Muitos bichinhos",
+    "via": "Caracal (género)",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

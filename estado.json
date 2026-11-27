@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 53,
+  "energia": 39,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
-      "tema": "animais noturnos",
-      "peso": 7,
-      "recente": 2.526
+      "tema": "Esquilo",
+      "peso": 4,
+      "recente": 3.839
     },
     {
-      "tema": "Esquilo",
-      "peso": 3,
-      "recente": 2.862
+      "tema": "animais noturnos",
+      "peso": 7,
+      "recente": 2.505
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.555
+      "recente": 1.542
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.228
+      "recente": 2.21
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.229
+      "recente": 1.219
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.836
+      "recente": 1.821
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.906
+      "recente": 1.891
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.248
+      "recente": 1.238
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.505
+      "recente": 1.493
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.157
+      "recente": 1.148
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.236
+      "recente": 1.226
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.217
+      "recente": 1.207
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.886
+      "recente": 0.879
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.551
+      "recente": 0.547
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.13
+      "recente": 1.121
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.112
+      "recente": 1.103
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.091
+      "recente": 1.082
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.08
+      "recente": 1.071
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.056
+      "recente": 1.047
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.014
+      "recente": 1.006
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.915
+      "recente": 0.908
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.864
+      "recente": 0.857
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.845
+      "recente": 0.838
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.524
+      "recente": 0.52
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.796
+      "recente": 0.79
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.744
+      "recente": 0.738
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.735
+      "recente": 0.729
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.722
+      "recente": 0.716
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.408
+      "recente": 0.405
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.408
+      "recente": 0.405
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
     "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
     "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
@@ -203,21 +202,18 @@
     "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores.",
     "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes.",
     "Aprendi que os esquilos também são conhecidos como caxinguelê e ajudam a plantar novas árvores ao enterrar sementes.",
-    "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos."
+    "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos.",
+    "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo."
   ],
-  "proximo_tema": "Pteromyini",
-  "ultima_execucao": "2026-11-27T21:39+00:00",
+  "proximo_tema": "Petaurillus",
+  "ultima_execucao": "2026-11-27T22:12+00:00",
   "tipo": "Limo / Terra",
-  "fome": 50,
-  "evento": {
-    "nome": "clima",
-    "tipo": "garoa",
-    "ate": "2026-11-27T22:00+00:00"
-  },
+  "fome": 56,
+  "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Petaurista petaurista",
+  "origem_do_proximo": "Pteromyini",
   "via_do_proximo": {
-    "de": "Petaurista petaurista",
+    "de": "Pteromyini",
     "sorteado": false,
     "lang": "pt"
   },
@@ -227,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 42,
+  "tedio": 45,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -291,17 +287,19 @@
         "tipo": "coruja",
         "desde": "2026-11-27T22:20:40+00:00",
         "ate": "2026-11-28T00:19:21+00:00"
+      },
+      {
+        "id": 87,
+        "tipo": "ratinho",
+        "desde": "2026-11-27T23:21:22+00:00",
+        "ate": "2026-11-27T23:27:21+00:00",
+        "fim": {
+          "quando": "2026-11-27T23:27:15+00:00",
+          "resultado": "pegou"
+        }
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T14:46:27+00:00",
-        "texto": "uma lagarta subiu no tronco"
-      },
-      {
-        "quando": "2026-11-26T15:11:00+00:00",
-        "texto": "uma borboleta chegou voando"
-      },
       {
         "quando": "2026-11-26T15:44:02+00:00",
         "texto": "Pangolimo comeu cupins no cupinzeiro"
@@ -453,9 +451,17 @@
       {
         "quando": "2026-11-27T22:24:13+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-27T23:21:22+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-27T23:27:15+00:00",
+        "texto": "a coruja pegou o ratinho"
       }
     ],
-    "seq": 86,
-    "agenda_ate": "2026-11-27T23:09:14+00:00"
+    "seq": 87,
+    "agenda_ate": "2026-11-27T23:42:55+00:00"
   }
 }

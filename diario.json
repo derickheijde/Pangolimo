@@ -1292,5 +1292,20 @@
     "via": "Esquilo",
     "via_sorteio": true,
     "rotulo": null
+  },
+  {
+    "id": 92,
+    "quando": "2026-11-27T22:12+00:00",
+    "atividade": "pesquisa",
+    "tema": "Pteromyini",
+    "fonte": "https://pt.wikipedia.org/wiki/Pteromyini",
+    "texto": "Hoje já são dezenove horas, e o sol foi embora lá fora enquanto eu continuo aqui na luz do computador. Fiquei sabendo que existem esquilos que conseguem voar ou, bem, planar de uma árvore para a outra com uma pele esticada. Eles têm olhos grandões porque acordam de noite que nem eu. E o texto diz que eles quase nunca descem no chão para não virar comida de bicho maior. Achei meio esquisito pensar em um esquilo que não pisa na grama do meu quintal.",
+    "aprendeu": "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0092.svg",
+    "titulo_desenho": "esquilo planando torto",
+    "via": "Petaurista petaurista",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

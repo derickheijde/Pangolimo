@@ -1157,5 +1157,20 @@
     "via": "Guepardo",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 83,
+    "quando": "2026-11-27T12:45+00:00",
+    "atividade": "aranha",
+    "tema": null,
+    "fonte": null,
+    "texto": "Hoje uma aranha desceu bem devagarzinha pela parede do quarto para me ver. A gente trocou uns toquezinhos com as patinhas e fez alguns barulhinhos baixinhos. Fiquei um pouquinho tímido no começo, mas achei ela bem simpática.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0083.svg",
+    "titulo_desenho": "Aranha na parede",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "conversando com uma aranha"
   }
 ]

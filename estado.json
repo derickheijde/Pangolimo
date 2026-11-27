@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 100,
+  "energia": 98,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "conversando_toca",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.9
+      "recente": 2.878
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.784
+      "recente": 1.77
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.411
+      "recente": 1.4
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.109
-    },
-    {
-      "tema": "Savana",
-      "peso": 2,
-      "recente": 1.725
+      "recente": 2.093
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.433
+      "recente": 1.422
+    },
+    {
+      "tema": "Savana",
+      "peso": 2,
+      "recente": 1.712
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.327
+      "recente": 1.317
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.459
+      "recente": 1.448
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.419
+      "recente": 1.408
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.397
+      "recente": 1.386
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.017
+      "recente": 1.009
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.296
+      "recente": 1.286
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.278
+      "recente": 1.268
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.251
+      "recente": 1.241
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.24
-    },
-    {
-      "tema": "Argentina",
-      "peso": 2,
-      "recente": 1.214
+      "recente": 1.23
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.634
+      "recente": 0.629
+    },
+    {
+      "tema": "Argentina",
+      "peso": 2,
+      "recente": 1.205
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.164
+      "recente": 1.155
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.051
+      "recente": 1.043
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.992
+      "recente": 0.984
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.97
+      "recente": 0.963
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.913
+      "recente": 0.906
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.603
+      "recente": 0.598
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.855
+      "recente": 0.848
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.842
+      "recente": 0.836
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.829
+      "recente": 0.823
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.469
+      "recente": 0.465
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.469
+      "recente": 0.465
     },
     {
       "tema": "Hienas",
       "peso": 1,
-      "recente": 0.96
+      "recente": 0.953
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.648
+      "recente": 0.643
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia."
   ],
   "proximo_tema": "Caracal (género)",
-  "ultima_execucao": "2026-11-27T12:14+00:00",
+  "ultima_execucao": "2026-11-27T12:45+00:00",
   "tipo": "Limo / Terra",
-  "fome": 17,
+  "fome": 22,
   "evento": null,
-  "ultima_atividade": "comida",
+  "ultima_atividade": "aranha",
   "origem_do_proximo": "Hienas",
   "via_do_proximo": {
     "de": "Hienas",
@@ -223,8 +223,34 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 65,
-  "cena": null,
+  "tedio": 48,
+  "cena": {
+    "id": 76,
+    "quando": "2026-11-27T12:45:57+00:00",
+    "tipo": "conversa",
+    "visitante": "aranha",
+    "conversa": [
+      {
+        "q": "v",
+        "e": "👀"
+      },
+      {
+        "q": "p",
+        "e": "🙂"
+      },
+      {
+        "q": "v",
+        "e": "🕷️"
+      },
+      {
+        "q": "p",
+        "e": "😊"
+      }
+    ],
+    "resultado": "amizade",
+    "assunto": "a aranha desceu para espiar o que ele fazia",
+    "iniciou": "pangolimo"
+  },
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
@@ -401,9 +427,13 @@
       {
         "quando": "2026-11-27T12:09:12+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-27T12:45:57+00:00",
+        "texto": "Pangolimo conversou com uma aranha"
       }
     ],
-    "seq": 75,
-    "agenda_ate": "2026-11-27T13:44:42+00:00"
+    "seq": 76,
+    "agenda_ate": "2026-11-27T14:15:57+00:00"
   }
 }

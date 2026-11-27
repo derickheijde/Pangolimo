@@ -250,5 +250,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T09:29+00:00"
+  },
+  {
+    "id": 19,
+    "pergunta": "Será que a aranha que mora na parede da minha toca consegue ver o meu rastro verde brilhante no escuro?",
+    "termo": "visao das aranhas",
+    "origem": "conversando com uma aranha",
+    "entrada": 83,
+    "criada": "2026-11-27T12:45+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T12:45+00:00"
   }
 ]

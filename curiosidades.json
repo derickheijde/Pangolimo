@@ -306,5 +306,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T16:25+00:00"
+  },
+  {
+    "id": 23,
+    "pergunta": "Será que os esquilos que vêm no meu quintal lembram de todos os buraquinhos onde esconderam as sementes na terra?",
+    "termo": "Esquilo-arborícola",
+    "origem": "lendo sobre Esquilo",
+    "entrada": 88,
+    "criada": "2026-11-27T18:06+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T18:06+00:00"
   }
 ]

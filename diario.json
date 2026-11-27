@@ -1232,5 +1232,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "conversando com um esquilo"
+  },
+  {
+    "id": 88,
+    "quando": "2026-11-27T18:06+00:00",
+    "atividade": "pesquisa",
+    "tema": "Esquilo",
+    "fonte": "https://pt.wikipedia.org/wiki/Esquilo",
+    "texto": "A chuva forte lá fora está fazendo um soninho danado, mas eu continuei aqui na luzinha do computador. Fiquei sabendo que os esquilos, que às vezes vêm visitar a árvore do quintal, também são chamados de serelepes e caxinguelês por aí. Achei bonito pensar que eles enterram sementes e acabam ajudando a plantar novas árvores sem querer. Dei uma piscada de olho e quase cochilei na cadeira de tanto barulho da água batendo na janela.",
+    "aprendeu": "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0088.svg",
+    "titulo_desenho": "Esquilo e semente torta",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

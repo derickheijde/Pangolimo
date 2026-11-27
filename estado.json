@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 51,
+  "energia": 39,
   "dormindo": false,
-  "acao": "comendo_cupinzeiro",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.711
+      "recente": 2.662
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.668
+      "recente": 1.638
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.319
+      "recente": 1.295
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.97
+      "recente": 1.934
+    },
+    {
+      "tema": "Esquilo",
+      "peso": 2,
+      "recente": 1.976
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.339
+      "recente": 1.315
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.613
+      "recente": 1.584
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.24
+      "recente": 1.218
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.364
+      "recente": 1.339
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.302
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.306
+      "recente": 1.282
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.95
+      "recente": 0.933
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.212
-    },
-    {
-      "tema": "Aviação comercial",
-      "peso": 2,
-      "recente": 1.194
+      "recente": 1.19
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.592
+      "recente": 0.581
+    },
+    {
+      "tema": "Aviação comercial",
+      "peso": 2,
+      "recente": 1.172
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.17
+      "recente": 1.149
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.159
+      "recente": 1.138
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.134
+      "recente": 1.113
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.088
+      "recente": 1.068
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.982
+      "recente": 0.964
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.927
+      "recente": 0.91
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.907
+      "recente": 0.891
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.563
+      "recente": 0.553
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.854
+      "recente": 0.839
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.798
+      "recente": 0.784
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.788
+      "recente": 0.774
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.775
+      "recente": 0.761
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.437
+      "recente": 0.429
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.437
+      "recente": 0.429
     },
     {
-      "tema": "Esquilo",
+      "tema": "Mamífero",
       "peso": 1,
-      "recente": 0.994
-    },
-    {
-      "tema": "Aranhas",
-      "peso": 1,
-      "recente": 0.977
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "O coco consegue flutuar na água do mar e se espalhar por longas distâncias.",
     "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
     "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
@@ -203,27 +202,32 @@
     "Aprendi que o caracal é um género de felinos encontrados na África e na Ásia, e que o gato-dourado-africano faz parte do mesmo grupo.",
     "Aprendi que existem milhões de espécies de animais diferentes na Terra, e a maioria delas são insetos.",
     "Aprendi que aranha da parede pode ser uma visita bem mansa quando a gente não se assusta.",
-    "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar."
+    "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar.",
+    "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores."
   ],
-  "proximo_tema": "Esquilo",
-  "ultima_execucao": "2026-11-27T16:50+00:00",
+  "proximo_tema": "Mamífero",
+  "ultima_execucao": "2026-11-27T18:06+00:00",
   "tipo": "Limo / Terra",
-  "fome": 14,
+  "fome": 27,
   "evento": {
     "nome": "clima",
-    "tipo": "vendaval",
-    "ate": "2026-11-27T16:52+00:00"
+    "tipo": "tempestade",
+    "ate": "2026-11-27T20:18+00:00"
   },
-  "ultima_atividade": "cupinzeiro",
-  "origem_do_proximo": null,
-  "via_do_proximo": null,
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Esquilo",
+  "via_do_proximo": {
+    "de": "Esquilo",
+    "sorteado": false,
+    "lang": "pt"
+  },
   "tv": {
     "genero": "musical",
     "descricao": "um show de música",
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 13,
+  "tedio": 21,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -274,10 +278,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T10:24:33+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
       {
         "quando": "2026-11-26T11:13:58+00:00",
         "texto": "Pangolimo comeu cupins no cupinzeiro"
@@ -440,6 +440,6 @@
       }
     ],
     "seq": 81,
-    "agenda_ate": "2026-11-27T18:20:04+00:00"
+    "agenda_ate": "2026-11-27T19:36:01+00:00"
   }
 }

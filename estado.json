@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 57,
+  "energia": 40,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 3.284
+      "recente": 3.231
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.022
+      "recente": 1.989
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.597
+      "recente": 1.571
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.389
+      "recente": 2.35
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.954
+      "recente": 1.922
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.623
+      "recente": 1.597
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.504
+      "recente": 1.48
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.651
+      "recente": 1.624
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.608
+      "recente": 1.582
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.581
+      "recente": 1.556
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.467
+      "recente": 1.443
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.152
+      "recente": 1.133
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.447
+      "recente": 1.424
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.417
+      "recente": 1.394
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.405
+      "recente": 1.382
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.376
-    },
-    {
-      "tema": "2016 no cinema",
-      "peso": 2,
-      "recente": 1.318
+      "recente": 1.354
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.718
+      "recente": 0.706
+    },
+    {
+      "tema": "2016 no cinema",
+      "peso": 2,
+      "recente": 1.297
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.19
+      "recente": 1.171
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.123
+      "recente": 1.105
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.1
+      "recente": 1.082
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.035
+      "recente": 1.018
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.683
+      "recente": 0.672
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.969
+      "recente": 0.953
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.952
+      "recente": 0.937
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.938
+      "recente": 0.923
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.531
+      "recente": 0.522
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.531
+      "recente": 0.522
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.736
+      "recente": 0.724
     },
     {
-      "tema": "Espécies ameaçadas",
-      "peso": 2,
-      "recente": 0.689
+      "tema": "Guepardo",
+      "peso": 1,
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
     "A tartaruga-de-couro é a maior das espécies de tartarugas e pode nadar bem rápido no mar.",
     "As formigas trabalhadoras trazem comidinha para a rainha que fica guardada bem no fundo do formigueiro.",
@@ -203,17 +202,18 @@
     "Aprendi que o Rio Grande do Sul é um estado brasileiro grande com clima subtropical, muitas cidades e rios importantes.",
     "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima.",
     "Aprendi que o rio Rupunúni fica no sul da Guiana, nasce nos montes Canucu e deságua no rio Essequibo.",
-    "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo."
+    "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo.",
+    "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas."
   ],
-  "proximo_tema": "Guepardo",
-  "ultima_execucao": "2026-11-27T03:42+00:00",
+  "proximo_tema": "Hienas",
+  "ultima_execucao": "2026-11-27T04:49+00:00",
   "tipo": "Limo / Terra",
-  "fome": 48,
+  "fome": 59,
   "evento": null,
-  "ultima_atividade": "lua",
-  "origem_do_proximo": "Savana",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Guepardo",
   "via_do_proximo": {
-    "de": "Savana",
+    "de": "Guepardo",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,21 +223,11 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 72,
+  "tedio": 79,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 64,
-        "tipo": "ratinho",
-        "desde": "2026-11-27T01:37:13+00:00",
-        "ate": "2026-11-27T02:36:31+00:00",
-        "fim": {
-          "quando": "2026-11-27T02:36:25+00:00",
-          "resultado": "fugiu"
-        }
-      },
       {
         "id": 65,
         "tipo": "coruja",
@@ -426,6 +416,6 @@
       }
     ],
     "seq": 68,
-    "agenda_ate": "2026-11-27T05:12:40+00:00"
+    "agenda_ate": "2026-11-27T06:19:32+00:00"
   }
 }

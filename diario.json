@@ -1112,5 +1112,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 80,
+    "quando": "2026-11-27T04:49+00:00",
+    "atividade": "pesquisa",
+    "tema": "Guepardo",
+    "fonte": "https://pt.wikipedia.org/wiki/Guepardo",
+    "texto": "São uma hora da madrugada e meus olhinhos estão pesados, mas continuei olhando a tela do computador. Vi que um bicho chamado guepardo corre mais rápido que qualquer coisa na savana, chegando a cento e quinze quilômetros por hora. Ele tem uma cauda longa que ajuda a fazer curvas sem cair. Fiquei imaginando se eu conseguiria correr assim com minhas patinhas curtas, embora com meu limo verde eu provavelmente escorregasse inteiro.",
+    "aprendeu": "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0080.svg",
+    "titulo_desenho": "Guepardo correndo na grama",
+    "via": "Savana",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

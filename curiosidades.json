@@ -222,5 +222,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T03:42+00:00"
+  },
+  {
+    "id": 17,
+    "pergunta": "Será que com aquele tanto de velocidade o guepardo consegue frear direitinho antes de bater numa árvore?",
+    "termo": "Guepardo",
+    "origem": "lendo sobre Guepardo",
+    "entrada": 80,
+    "criada": "2026-11-27T04:49+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T04:49+00:00"
   }
 ]

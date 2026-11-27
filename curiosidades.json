@@ -264,5 +264,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T12:45+00:00"
+  },
+  {
+    "id": 20,
+    "pergunta": "Será que esses felinos lá da África conseguem ouvir o barulho do meu formigueiro quando andam de noite?",
+    "termo": "Caracal",
+    "origem": "lendo sobre Caracal (género)",
+    "entrada": 84,
+    "criada": "2026-11-27T13:39+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T13:39+00:00"
   }
 ]

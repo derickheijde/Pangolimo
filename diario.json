@@ -1172,5 +1172,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "conversando com uma aranha"
+  },
+  {
+    "id": 84,
+    "quando": "2026-11-27T13:39+00:00",
+    "atividade": "pesquisa",
+    "tema": "Caracal (género)",
+    "fonte": "https://pt.wikipedia.org/wiki/Caracal_%28g%C3%A9nero%29",
+    "texto": "Acabei de ler sobre o caracal, que é um felino de lá de longe, na África e na Ásia, e descobri que o gato-dourado-africano é bem achegado a ele. Fiquei imaginando como deve ser viver num lugar tão distante da minha toca e andar por aquelas terras. De repente, sem querer, cliquei num link e fui parar no artigo chamado Animal.",
+    "aprendeu": "Aprendi que o caracal é um género de felinos encontrados na África e na Ásia, e que o gato-dourado-africano faz parte do mesmo grupo.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0084.svg",
+    "titulo_desenho": "Felino na noite",
+    "via": "Hienas",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

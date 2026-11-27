@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 39,
+  "energia": 33,
   "dormindo": false,
-  "acao": "olhando_lua",
+  "acao": "brincando_lama",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 3.1
+      "recente": 3.075
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.908
+      "recente": 1.893
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.508
+      "recente": 1.496
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.255
+      "recente": 2.237
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.844
+      "recente": 1.829
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.532
+      "recente": 1.52
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.42
+      "recente": 1.409
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.558
+      "recente": 1.546
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.517
+      "recente": 1.505
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.493
+      "recente": 1.481
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.087
+      "recente": 1.078
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.384
+      "recente": 1.373
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.366
+      "recente": 1.355
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.337
+      "recente": 1.326
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.326
+      "recente": 1.315
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.299
+      "recente": 1.289
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.678
+      "recente": 0.673
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.244
+      "recente": 1.234
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.123
+      "recente": 1.114
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.06
+      "recente": 1.052
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.038
+      "recente": 1.03
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.977
+      "recente": 0.969
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.644
+      "recente": 0.639
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.914
+      "recente": 0.907
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.899
+      "recente": 0.892
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.886
+      "recente": 0.879
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.5
+      "recente": 0.496
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.5
+      "recente": 0.496
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.694
+      "recente": 0.688
     },
     {
       "tema": "Guepardo",
       "peso": 1,
-      "recente": 0.959
+      "recente": 0.951
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que o guepardo é um felino que vive na savana e consegue correr a cento e quinze quilômetros por hora para caçar suas presas."
   ],
   "proximo_tema": "Hienas",
-  "ultima_execucao": "2026-11-27T07:40+00:00",
+  "ultima_execucao": "2026-11-27T08:13+00:00",
   "tipo": "Limo / Terra",
-  "fome": 33,
+  "fome": 39,
   "evento": null,
-  "ultima_atividade": "lua",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Guepardo",
   "via_do_proximo": {
     "de": "Guepardo",
@@ -223,34 +223,8 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 77,
-  "cena": {
-    "id": 73,
-    "quando": "2026-11-27T06:45:12+00:00",
-    "tipo": "conversa",
-    "visitante": "ratinho",
-    "conversa": [
-      {
-        "q": "v",
-        "e": "🌙"
-      },
-      {
-        "q": "p",
-        "e": "😌"
-      },
-      {
-        "q": "v",
-        "e": "⭐"
-      },
-      {
-        "q": "p",
-        "e": "🥰"
-      }
-    ],
-    "resultado": "amizade",
-    "assunto": "conversaram sobre a noite",
-    "iniciou": "pangolimo"
-  },
+  "tedio": 40,
+  "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
@@ -457,9 +431,13 @@
       {
         "quando": "2026-11-27T08:13:33+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-27T08:13:05+00:00",
+        "texto": "Pangolimo rolou na lama"
       }
     ],
     "seq": 73,
-    "agenda_ate": "2026-11-27T09:10:47+00:00"
+    "agenda_ate": "2026-11-27T09:43:05+00:00"
   }
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 39,
-  "dormindo": false,
-  "acao": "desenhando",
+  "energia": 22,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.662
+      "recente": 2.643
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.638
+      "recente": 1.626
+    },
+    {
+      "tema": "Molusco",
+      "peso": 3,
+      "recente": 2.33
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.295
+      "recente": 1.286
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.934
+      "recente": 1.92
+    },
+    {
+      "tema": "Mamífero",
+      "peso": 2,
+      "recente": 1.993
     },
     {
       "tema": "Esquilo",
       "peso": 2,
-      "recente": 1.976
+      "recente": 1.962
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.315
+      "recente": 1.306
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.584
+      "recente": 1.573
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.218
-    },
-    {
-      "tema": "Molusco",
-      "peso": 2,
-      "recente": 1.339
+      "recente": 1.209
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.302
+      "recente": 1.293
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.282
+      "recente": 1.273
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.933
+      "recente": 0.926
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.19
+      "recente": 1.182
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.581
+      "recente": 0.577
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.172
+      "recente": 1.164
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.149
+      "recente": 1.141
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.138
+      "recente": 1.13
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.113
+      "recente": 1.105
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.068
+      "recente": 1.06
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.964
+      "recente": 0.957
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.91
+      "recente": 0.904
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.891
+      "recente": 0.885
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.553
+      "recente": 0.549
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.839
+      "recente": 0.833
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.784
+      "recente": 0.778
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.774
+      "recente": 0.769
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.761
+      "recente": 0.756
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.429
+      "recente": 0.426
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.429
-    },
-    {
-      "tema": "Mamífero",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.426
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "As plantas usam a luz do sol para fabricar sua própria comidinha verde.",
     "Aprendi que o campo é um lugar com muita vegetação rasteira e grama.",
     "Aprendi que as ervas são plantas geralmente de pequeno porte e com caule macio.",
     "Aprendi que a botânica é a área que estuda a vida das plantas e algas, que nos fornecem madeira, fibras e papel.",
@@ -203,31 +202,28 @@
     "Aprendi que existem milhões de espécies de animais diferentes na Terra, e a maioria delas são insetos.",
     "Aprendi que aranha da parede pode ser uma visita bem mansa quando a gente não se assusta.",
     "Aprendi que alguns esquilos escondem nozes em buracos na árvore para guardar.",
-    "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores."
+    "Aprendi que os esquilos enterram sementes que acabam germinando e virando árvores.",
+    "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes."
   ],
-  "proximo_tema": "Mamífero",
-  "ultima_execucao": "2026-11-27T18:06+00:00",
+  "proximo_tema": "Esquilo",
+  "ultima_execucao": "2026-11-27T18:35+00:00",
   "tipo": "Limo / Terra",
-  "fome": 27,
+  "fome": 32,
   "evento": {
     "nome": "clima",
     "tipo": "tempestade",
     "ate": "2026-11-27T20:18+00:00"
   },
-  "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Esquilo",
-  "via_do_proximo": {
-    "de": "Esquilo",
-    "sorteado": false,
-    "lang": "pt"
-  },
+  "ultima_atividade": "dormir",
+  "origem_do_proximo": "Mamífero",
+  "via_do_proximo": null,
   "tv": {
     "genero": "musical",
     "descricao": "um show de música",
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 21,
+  "tedio": 24,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -259,12 +255,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 77,
-        "tipo": "aranha",
-        "desde": "2026-11-27T14:58:09+00:00",
-        "ate": "2026-11-27T16:07:23+00:00"
-      },
-      {
         "id": 78,
         "tipo": "passarinho",
         "desde": "2026-11-27T15:20:46+00:00",
@@ -275,13 +265,15 @@
         "tipo": "esquilo",
         "desde": "2026-11-27T15:32:00+00:00",
         "ate": "2026-11-27T16:53:55+00:00"
+      },
+      {
+        "id": 82,
+        "tipo": "passarinho",
+        "desde": "2026-11-27T19:38:40+00:00",
+        "ate": "2026-11-27T20:47:21+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T11:13:58+00:00",
-        "texto": "Pangolimo comeu cupins no cupinzeiro"
-      },
       {
         "quando": "2026-11-26T12:17:24+00:00",
         "texto": "um passarinho pousou na árvore"
@@ -437,9 +429,13 @@
       {
         "quando": "2026-11-27T16:50:04+00:00",
         "texto": "Pangolimo comeu cupins no cupinzeiro"
+      },
+      {
+        "quando": "2026-11-27T19:38:40+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 81,
-    "agenda_ate": "2026-11-27T19:36:01+00:00"
+    "seq": 82,
+    "agenda_ate": "2026-11-27T20:05:31+00:00"
   }
 }

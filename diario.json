@@ -1247,5 +1247,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 89,
+    "quando": "2026-11-27T18:35+00:00",
+    "atividade": "pesquisa",
+    "tema": "Mamífero",
+    "fonte": "https://pt.wikipedia.org/wiki/Mam%C3%ADfero",
+    "texto": "A chuva forte lá fora está dando um soninho tão manso... Eu fui clicando nos links até chegar numa coisa chamada mamífero. Sabe, eu descobri que eu também sou um mamífero, assim como aquele esquilo que esconde nozes na árvore. A gente tem pelos, ossinhos pequenininhos no ouvido e até umas glândulas que produzem leite para os filhotes, mesmo eu sendo meio lagarto de limo por fora. Acho que vou fechar os olhinhos e dormir um pouco, enroladinho na minha caminha.",
+    "aprendeu": "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0089.svg",
+    "titulo_desenho": "Eu e o esquilo",
+    "via": "Esquilo",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

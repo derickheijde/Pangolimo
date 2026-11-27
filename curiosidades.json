@@ -194,5 +194,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T01:44+00:00"
+  },
+  {
+    "id": 15,
+    "pergunta": "Será que as formigas da savana conseguem andar por esse capim todo sem se perder no meio de tanta planície?",
+    "termo": "Savana",
+    "origem": "lendo sobre Savana",
+    "entrada": 78,
+    "criada": "2026-11-27T02:06+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T02:06+00:00"
   }
 ]

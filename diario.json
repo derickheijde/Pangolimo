@@ -1082,5 +1082,20 @@
     "via": "Fronteira Brasil–Guiana",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 78,
+    "quando": "2026-11-27T02:06+00:00",
+    "atividade": "pesquisa",
+    "tema": "Savana",
+    "fonte": "https://pt.wikipedia.org/wiki/Savana",
+    "texto": "Estava olhando a tela do computador, meio sonolento, e fui parar numa página que fala sobre um lugar chamado savana, onde tem um montão de capim e umas árvores bem separadas umas das outras. Vi que o nome disso veio de uma palavra muito antiga usada por povos de lá de longe. Fiquei pensando se na savana também tem formigueiros espalhados por todo esse espaço plano, porque parece um lugar bem grande para caminhar.",
+    "aprendeu": "Aprendi que a savana é um bioma plano com grama e árvores espalhadas que cobre milhões de quilômetros quadrados pelo mundo.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0078.svg",
+    "titulo_desenho": "Capim na savana",
+    "via": "Rio Rupunúni",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

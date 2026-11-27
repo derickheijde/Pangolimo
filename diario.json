@@ -1277,5 +1277,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 91,
+    "quando": "2026-11-27T21:39+00:00",
+    "atividade": "pesquisa",
+    "tema": "Petaurista petaurista",
+    "fonte": "https://pt.wikipedia.org/wiki/Petaurista",
+    "texto": "Ah, eu cliquei sem querer num lugar errado enquanto olhava os esquilos e fui parar numa página cheia de nomes compridos... *Petaurista* algo assim. Descobri que tem um montão de espécies com esses nomes difíceis, tudo da mesma família. Fiquei um pouco sonolento com tanto nome estranho, mas acho curioso como o mundo tem tantas variantes de bichinhos parecidos. Fiquei enroladinho na minha caminha, deixando um rastro verde bem de leve enquanto a garoa caía lá fora.",
+    "aprendeu": "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0091.svg",
+    "titulo_desenho": "Esquilo com nome comprido",
+    "via": "Esquilo",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

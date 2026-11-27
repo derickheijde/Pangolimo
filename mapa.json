@@ -824,7 +824,19 @@
   {
     "tema": "Petaurista petaurista",
     "origem": "Esquilo",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-27T20:38+00:00"
+  },
+  {
+    "tema": "Sciuridae",
+    "origem": "Petaurista petaurista",
+    "vezes": 0,
+    "desde": "2026-11-27T21:39+00:00"
+  },
+  {
+    "tema": "Pteromyini",
+    "origem": "Petaurista petaurista",
+    "vezes": 0,
+    "desde": "2026-11-27T21:39+00:00"
   }
 ]

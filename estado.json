@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 25,
+  "energia": 66,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 3.005
+      "recente": 2.947
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.849
+      "recente": 1.813
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.462
+      "recente": 1.434
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.186
+      "recente": 2.143
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.787
+      "recente": 1.752
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.485
+      "recente": 1.456
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.376
+      "recente": 1.349
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.511
+      "recente": 1.482
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.471
+      "recente": 1.442
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.447
+      "recente": 1.419
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.053
+      "recente": 1.033
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.342
+      "recente": 1.316
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.324
+      "recente": 1.298
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.296
+      "recente": 1.271
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.285
+      "recente": 1.26
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.259
+      "recente": 1.234
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.658
+      "recente": 0.645
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.205
+      "recente": 1.182
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.089
+      "recente": 1.068
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.028
+      "recente": 1.008
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.006
+      "recente": 0.986
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.946
+      "recente": 0.928
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.624
+      "recente": 0.612
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.886
+      "recente": 0.869
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.872
+      "recente": 0.855
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.859
+      "recente": 0.842
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.485
+      "recente": 0.476
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.485
+      "recente": 0.476
     },
     {
       "tema": "Hienas",
       "peso": 1,
-      "recente": 0.995
+      "recente": 0.976
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.672
+      "recente": 0.659
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que as hienas têm músculos maxilares muito poderosos e vivem nas savanas da África e da Ásia."
   ],
   "proximo_tema": "Caracal (género)",
-  "ultima_execucao": "2026-11-27T09:48+00:00",
+  "ultima_execucao": "2026-11-27T11:09+00:00",
   "tipo": "Limo / Terra",
-  "fome": 53,
+  "fome": 58,
   "evento": {
     "nome": "clima",
     "tipo": "chuva",
@@ -227,7 +227,7 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 50,
+  "tedio": 58,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
@@ -239,25 +239,19 @@
         "ate": "2026-11-27T09:57:09+00:00"
       },
       {
-        "id": 72,
-        "tipo": "ratinho",
-        "desde": "2026-11-27T08:05:06+00:00",
-        "ate": "2026-11-27T08:13:39+00:00",
-        "fim": {
-          "quando": "2026-11-27T08:13:33+00:00",
-          "resultado": "fugiu"
-        }
+        "id": 74,
+        "tipo": "passarinho",
+        "desde": "2026-11-27T11:50:41+00:00",
+        "ate": "2026-11-27T13:14:37+00:00"
+      },
+      {
+        "id": 75,
+        "tipo": "aranha",
+        "desde": "2026-11-27T12:09:12+00:00",
+        "ate": "2026-11-27T13:20:47+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T02:54:01+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
-      {
-        "quando": "2026-11-26T02:59:29+00:00",
-        "texto": "a coruja pegou o ratinho"
-      },
       {
         "quando": "2026-11-26T03:23:02+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -409,9 +403,17 @@
       {
         "quando": "2026-11-27T08:13:33+00:00",
         "texto": "o ratinho escapou da coruja"
+      },
+      {
+        "quando": "2026-11-27T11:50:41+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-27T12:09:12+00:00",
+        "texto": "uma aranha desceu pela parede da toca"
       }
     ],
-    "seq": 73,
-    "agenda_ate": "2026-11-27T11:18:47+00:00"
+    "seq": 75,
+    "agenda_ate": "2026-11-27T12:39:39+00:00"
   }
 }

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 44,
+  "energia": 28,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.813
+      "recente": 3.783
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.488
+      "recente": 2.468
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.532
+      "recente": 1.52
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.195
+      "recente": 2.178
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.211
+      "recente": 1.201
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.809
+      "recente": 1.795
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.878
+      "recente": 1.863
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.23
+      "recente": 1.22
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.483
+      "recente": 1.471
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.14
+      "recente": 1.131
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.218
+      "recente": 1.208
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.199
+      "recente": 1.189
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.873
+      "recente": 0.866
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.543
+      "recente": 0.539
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.113
+      "recente": 1.104
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.095
+      "recente": 1.086
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.075
+      "recente": 1.066
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.064
+      "recente": 1.056
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.04
+      "recente": 1.032
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.999
+      "recente": 0.991
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.902
+      "recente": 0.895
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.851
+      "recente": 0.844
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.832
+      "recente": 0.825
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.516
+      "recente": 0.512
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.785
+      "recente": 0.779
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.733
+      "recente": 0.727
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.724
+      "recente": 0.718
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.711
+      "recente": 0.705
     },
     {
-      "tema": "formigas",
-      "peso": 3,
-      "recente": 0.402
+      "tema": "Petaurillus",
+      "peso": 1,
+      "recente": 1.0
     },
     {
-      "tema": "cupins",
-      "peso": 3,
-      "recente": 0.402
+      "tema": "Petaurillus hosei",
+      "peso": 1,
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que a fisiologia vegetal estuda os processos vitais e as funcoes internas das plantas.",
     "A dormência é um tempinho em que o organismo reduz a atividade para guardar energia e descansar.",
     "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
     "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
@@ -203,17 +202,18 @@
     "Aprendi que os mamíferos são animais vertebrados que têm pelos, três ossículos no ouvido e produzem leite para os filhotes.",
     "Aprendi que os esquilos também são conhecidos como caxinguelê e ajudam a plantar novas árvores ao enterrar sementes.",
     "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos.",
-    "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo."
+    "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo.",
+    "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos."
   ],
-  "proximo_tema": "Petaurillus",
-  "ultima_execucao": "2026-11-27T22:40+00:00",
+  "proximo_tema": "Petaurillus hosei",
+  "ultima_execucao": "2026-11-27T23:13+00:00",
   "tipo": "Limo / Terra",
-  "fome": 6,
+  "fome": 12,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": "Pteromyini",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Petaurillus",
   "via_do_proximo": {
-    "de": "Pteromyini",
+    "de": "Petaurillus",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-27T15:42+00:00"
   },
-  "tedio": 48,
+  "tedio": 51,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -254,12 +254,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 82,
-        "tipo": "passarinho",
-        "desde": "2026-11-27T19:38:40+00:00",
-        "ate": "2026-11-27T20:47:21+00:00"
-      },
       {
         "id": 83,
         "tipo": "aranha",
@@ -462,6 +456,6 @@
       }
     ],
     "seq": 87,
-    "agenda_ate": "2026-11-28T00:10:22+00:00"
+    "agenda_ate": "2026-11-28T00:43:14+00:00"
   }
 }

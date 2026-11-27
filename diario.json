@@ -1307,5 +1307,20 @@
     "via": "Petaurista petaurista",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 93,
+    "quando": "2026-11-27T23:13+00:00",
+    "atividade": "pesquisa",
+    "tema": "Petaurillus",
+    "fonte": "https://pt.wikipedia.org/wiki/Petaurillus",
+    "texto": "Hum... as luzes da noite já estão piscando lá fora e meus olhinhos estão bem pesadinhos, mas eu continuei olhando a tela do computador. Li sobre o Petaurillus, que é um grupinho de esquilos-voadores bem pequenininhos. Fico pensando em como deve ser bom dar um saltinho da árvore e planar assim no vento calmo. Vou fechar a casinha e dormir um pouquinho agora.",
+    "aprendeu": "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0093.svg",
+    "titulo_desenho": "Esquilo pequeno na árvore",
+    "via": "Pteromyini",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

@@ -362,5 +362,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T22:12+00:00"
+  },
+  {
+    "id": 27,
+    "pergunta": "Será que esses esquilos-voadores pequenininhos conseguem planar até a minha janela no escuro?",
+    "termo": "Petaurillus hosei",
+    "origem": "lendo sobre Petaurillus",
+    "entrada": 93,
+    "criada": "2026-11-27T23:13+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T23:13+00:00"
   }
 ]

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 66,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 84,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 2.114
+      "recente": 2.082
     },
     {
       "tema": "animais noturnos",
       "peso": 6,
-      "recente": 2.387
+      "recente": 2.351
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.669
+      "recente": 1.644
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.497
+      "recente": 2.459
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.697
+      "recente": 1.671
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.571
+      "recente": 1.547
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.725
+      "recente": 1.699
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.681
+      "recente": 1.655
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.653
+      "recente": 1.628
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.533
+      "recente": 1.51
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.512
+      "recente": 1.489
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 1.203
+      "recente": 1.185
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.482
+      "recente": 1.459
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.469
+      "recente": 1.447
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.439
+      "recente": 1.417
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.377
+      "recente": 1.356
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.75
+      "recente": 0.739
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.244
+      "recente": 1.225
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 1.174
+      "recente": 1.156
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 1.15
+      "recente": 1.132
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 1.082
-    },
-    {
-      "tema": "Fisiologia vegetal",
-      "peso": 2,
-      "recente": 1.012
+      "recente": 1.065
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.714
+      "recente": 0.703
+    },
+    {
+      "tema": "Fisiologia vegetal",
+      "peso": 2,
+      "recente": 0.997
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.995
+      "recente": 0.98
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.98
+      "recente": 0.965
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.554
+      "recente": 0.546
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.554
+      "recente": 0.546
     },
     {
       "tema": "Coqueiro",
       "peso": 2,
-      "recente": 0.77
+      "recente": 0.758
     },
     {
       "tema": "Espécies ameaçadas",
       "peso": 2,
-      "recente": 0.72
+      "recente": 0.709
     },
     {
-      "tema": "Fronteira Brasil–Guiana",
+      "tema": "Rio Rupunúni",
       "peso": 1,
-      "recente": 0.965
+      "recente": 1.0
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "O estado de conservação mostra se uma espécie de animal corre o risco de sumir da natureza.",
     "Uma espécie pouco preocupante é aquela que tem bastantes animais na natureza e não corre risco de sumir agora.",
     "As formigas andam em filas organizadas para encontrar comida para a colônia.",
     "Aprendi que uma espécie ameaçada é aquela cujas populações estão diminuindo a ponto de correr o risco de sumir da natureza.",
@@ -203,17 +202,18 @@
     "Aprendi que Eliezer de Carvalho Rios fundou um museu oceanográfico e guardou milhares de espécies de conchas ao longo de sua vida.",
     "Aprendi que um engenheiro chamado Nicolas Vilhar ajudou a fundar a sociedade que deu origem ao museu oceanográfico em Rio Grande.",
     "Aprendi que o Rio Grande do Sul é um estado brasileiro grande com clima subtropical, muitas cidades e rios importantes.",
-    "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima."
+    "Aprendi que a fronteira entre Brasil e Guiana passa por montes altos chamados tepuis e termina no monte Roraima.",
+    "Aprendi que o rio Rupunúni fica no sul da Guiana, nasce nos montes Canucu e deságua no rio Essequibo."
   ],
-  "proximo_tema": "Rio Rupunúni",
-  "ultima_execucao": "2026-11-27T00:41+00:00",
+  "proximo_tema": "Savana",
+  "ultima_execucao": "2026-11-27T01:44+00:00",
   "tipo": "Limo / Terra",
-  "fome": 24,
+  "fome": 28,
   "evento": null,
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Fronteira Brasil–Guiana",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Rio Rupunúni",
   "via_do_proximo": {
-    "de": "Fronteira Brasil–Guiana",
+    "de": "Rio Rupunúni",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,33 +223,29 @@
     "tema": null,
     "desde": "2026-11-25T23:34+00:00"
   },
-  "tedio": 54,
+  "tedio": 60,
   "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
       {
-        "id": 62,
-        "tipo": "coruja",
-        "desde": "2026-11-26T22:20:16+00:00",
-        "ate": "2026-11-26T23:22:25+00:00"
-      },
-      {
         "id": 64,
         "tipo": "ratinho",
         "desde": "2026-11-27T01:37:13+00:00",
-        "ate": "2026-11-27T02:59:39+00:00"
+        "ate": "2026-11-27T02:36:31+00:00",
+        "fim": {
+          "quando": "2026-11-27T02:36:25+00:00",
+          "resultado": "fugiu"
+        }
+      },
+      {
+        "id": 65,
+        "tipo": "coruja",
+        "desde": "2026-11-27T02:29:21+00:00",
+        "ate": "2026-11-27T03:32:46+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-25T13:21:14+00:00",
-        "texto": "uma borboleta chegou voando"
-      },
-      {
-        "quando": "2026-11-25T15:33:02+00:00",
-        "texto": "uma lagarta subiu no tronco"
-      },
       {
         "quando": "2026-11-25T15:47:46+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
@@ -401,9 +397,17 @@
       {
         "quando": "2026-11-27T01:37:13+00:00",
         "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-27T02:29:21+00:00",
+        "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-27T02:36:25+00:00",
+        "texto": "o ratinho escapou da coruja"
       }
     ],
-    "seq": 64,
-    "agenda_ate": "2026-11-27T02:11:18+00:00"
+    "seq": 65,
+    "agenda_ate": "2026-11-27T03:14:51+00:00"
   }
 }

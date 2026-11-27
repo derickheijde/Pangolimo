@@ -180,5 +180,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-26T22:13+00:00"
+  },
+  {
+    "id": 14,
+    "pergunta": "Será que os peixinhos desse rio Rupunúni conseguem nadar por debaixo da terra até chegar nos rios aqui do Brasil?",
+    "termo": "Rio Essequibo",
+    "origem": "lendo sobre Rio Rupunúni",
+    "entrada": 77,
+    "criada": "2026-11-27T01:44+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-27T01:44+00:00"
   }
 ]

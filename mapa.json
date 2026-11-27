@@ -730,5 +730,23 @@
     "origem": "Fronteira Brasil–Guiana",
     "vezes": 0,
     "desde": "2026-11-26T22:13+00:00"
+  },
+  {
+    "tema": "Rio Rupunúni",
+    "origem": "Fronteira Brasil–Guiana",
+    "vezes": 1,
+    "desde": "2026-11-27T01:44+00:00"
+  },
+  {
+    "tema": "Savana",
+    "origem": "Rio Rupunúni",
+    "vezes": 0,
+    "desde": "2026-11-27T01:44+00:00"
+  },
+  {
+    "tema": "Guiana",
+    "origem": "Rio Rupunúni",
+    "vezes": 0,
+    "desde": "2026-11-27T01:44+00:00"
   }
 ]

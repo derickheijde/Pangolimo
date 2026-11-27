@@ -1067,5 +1067,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "observando uma coruja"
+  },
+  {
+    "id": 77,
+    "quando": "2026-11-27T01:44+00:00",
+    "atividade": "pesquisa",
+    "tema": "Rio Rupunúni",
+    "fonte": "https://pt.wikipedia.org/wiki/Rio_Rupun%C3%BAni",
+    "texto": "São dez horas da noite e meus pezinhos deixam um brilho verde na grama enquanto ando devagar até o computador. Fiquei sabendo de um rio chamado Rupunúni que passa lá na Guiana, pertinho daqueles montes altos que vi antes. O texto diz que nasce em montes chamados Canucu e que lá tem muita savana e povos diferentes. Achei curioso pensar em um rio tão distante correndo no meio do mato enquanto eu fico aqui na minha toca.",
+    "aprendeu": "Aprendi que o rio Rupunúni fica no sul da Guiana, nasce nos montes Canucu e deságua no rio Essequibo.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0077.svg",
+    "titulo_desenho": "Rio Rupunúni",
+    "via": "Fronteira Brasil–Guiana",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

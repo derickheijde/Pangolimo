@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 79,
+  "energia": 74,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "brincando_grama",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.84
+      "recente": 2.823
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.747
+      "recente": 1.736
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.382
+      "recente": 1.374
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 2.065
+      "recente": 2.052
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.403
+      "recente": 1.394
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.69
+      "recente": 1.68
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.3
+      "recente": 1.292
     },
     {
       "tema": "Molusco",
       "peso": 2,
-      "recente": 1.429
+      "recente": 1.42
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.389
+      "recente": 1.381
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.368
+      "recente": 1.36
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.996
+      "recente": 0.99
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.269
+      "recente": 1.261
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.251
+      "recente": 1.243
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.225
+      "recente": 1.218
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.621
+      "recente": 0.617
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.214
+      "recente": 1.207
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.189
+      "recente": 1.182
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 1.14
+      "recente": 1.133
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 1.029
+      "recente": 1.023
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.971
+      "recente": 0.965
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.944
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.894
+      "recente": 0.889
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.59
+      "recente": 0.586
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.837
+      "recente": 0.832
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.82
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.812
+      "recente": 0.807
     },
     {
       "tema": "formigas",
       "peso": 3,
-      "recente": 0.459
+      "recente": 0.456
     },
     {
       "tema": "cupins",
       "peso": 3,
-      "recente": 0.459
+      "recente": 0.456
     },
     {
       "tema": "Caracal (género)",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.994
     },
     {
       "tema": "Caracal",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.994
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que o caracal é um género de felinos encontrados na África e na Ásia, e que o gato-dourado-africano faz parte do mesmo grupo."
   ],
   "proximo_tema": "Animal",
-  "ultima_execucao": "2026-11-27T13:39+00:00",
+  "ultima_execucao": "2026-11-27T14:04+00:00",
   "tipo": "Limo / Terra",
-  "fome": 31,
+  "fome": 35,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "quintal",
   "origem_do_proximo": "Caracal (género)",
   "via_do_proximo": {
     "de": "Caracal (género)",
@@ -223,34 +223,8 @@
     "tema": null,
     "desde": "2026-11-27T03:17+00:00"
   },
-  "tedio": 53,
-  "cena": {
-    "id": 76,
-    "quando": "2026-11-27T12:45:57+00:00",
-    "tipo": "conversa",
-    "visitante": "aranha",
-    "conversa": [
-      {
-        "q": "v",
-        "e": "👀"
-      },
-      {
-        "q": "p",
-        "e": "🙂"
-      },
-      {
-        "q": "v",
-        "e": "🕷️"
-      },
-      {
-        "q": "p",
-        "e": "😊"
-      }
-    ],
-    "resultado": "amizade",
-    "assunto": "a aranha desceu para espiar o que ele fazia",
-    "iniciou": "pangolimo"
-  },
+  "tedio": 36,
+  "cena": null,
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
@@ -271,17 +245,21 @@
         "tipo": "aranha",
         "desde": "2026-11-27T14:58:09+00:00",
         "ate": "2026-11-27T16:07:23+00:00"
+      },
+      {
+        "id": 78,
+        "tipo": "passarinho",
+        "desde": "2026-11-27T15:20:46+00:00",
+        "ate": "2026-11-27T17:01:31+00:00"
+      },
+      {
+        "id": 79,
+        "tipo": "esquilo",
+        "desde": "2026-11-27T15:32:00+00:00",
+        "ate": "2026-11-27T16:53:55+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T04:36:08+00:00",
-        "texto": "uma cobra entrou no quintal"
-      },
-      {
-        "quando": "2026-11-26T08:27:31+00:00",
-        "texto": "uma aranha desceu pela parede da toca"
-      },
       {
         "quando": "2026-11-26T09:01:59+00:00",
         "texto": "uma borboleta chegou voando"
@@ -433,9 +411,21 @@
       {
         "quando": "2026-11-27T14:58:09+00:00",
         "texto": "uma aranha desceu pela parede da toca"
+      },
+      {
+        "quando": "2026-11-27T15:20:46+00:00",
+        "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-27T15:32:00+00:00",
+        "texto": "um esquilo veio ao buraco da árvore"
+      },
+      {
+        "quando": "2026-11-27T14:04:23+00:00",
+        "texto": "Pangolimo brincou na grama"
       }
     ],
-    "seq": 77,
-    "agenda_ate": "2026-11-27T15:09:57+00:00"
+    "seq": 79,
+    "agenda_ate": "2026-11-27T15:34:23+00:00"
   }
 }

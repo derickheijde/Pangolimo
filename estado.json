@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 62,
+  "energia": 60,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "assistindo_tv",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.203
+      "recente": 3.181
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.09
+      "recente": 2.076
     },
     {
       "tema": "Molusco",
       "peso": 4,
-      "recente": 2.837
+      "recente": 2.818
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.616
+      "recente": 2.598
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.287
+      "recente": 1.278
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.931
+      "recente": 1.918
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.854
+      "recente": 1.841
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.017
+      "recente": 1.01
     },
     {
       "tema": "Zoólogo",
       "peso": 2,
-      "recente": 1.896
+      "recente": 1.883
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.521
+      "recente": 1.511
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.697
+      "recente": 1.685
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.579
+      "recente": 1.568
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.245
+      "recente": 1.237
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.457
+      "recente": 0.454
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.733
+      "recente": 0.728
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.024
+      "recente": 1.017
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.007
+      "recente": 1.0
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.936
+      "recente": 0.93
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.921
+      "recente": 0.915
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.902
+      "recente": 0.896
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.892
+      "recente": 0.886
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.875
+      "recente": 0.869
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.837
+      "recente": 0.831
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.759
+      "recente": 0.754
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.434
+      "recente": 0.431
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.715
+      "recente": 0.71
     },
     {
       "tema": "Moluscos",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "caracol",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "filo",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.699
+      "recente": 0.694
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis."
   ],
   "proximo_tema": "Filo",
-  "ultima_execucao": "2026-11-28T10:37+00:00",
+  "ultima_execucao": "2026-11-28T11:05+00:00",
   "tipo": "Limo / Terra",
-  "fome": 37,
+  "fome": 42,
   "evento": null,
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "tv",
   "origem_do_proximo": "Moluscos",
   "via_do_proximo": {
     "de": "Moluscos",
@@ -218,12 +218,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "documentario",
-    "descricao": "um programa sobre Petaurillus hosei",
-    "tema": "Petaurillus hosei",
-    "desde": "2026-11-27T23:37+00:00"
+    "genero": "comedia",
+    "descricao": "uma comédia",
+    "tema": null,
+    "desde": "2026-11-28T11:05+00:00"
   },
-  "tedio": 18,
+  "tedio": 21,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -263,17 +263,21 @@
         "tipo": "passarinho",
         "desde": "2026-11-28T11:31:48+00:00",
         "ate": "2026-11-28T13:17:31+00:00"
+      },
+      {
+        "id": 99,
+        "tipo": "lagarta",
+        "desde": "2026-11-28T12:08:39+00:00",
+        "ate": "2026-11-28T15:04:10+00:00"
+      },
+      {
+        "id": 100,
+        "tipo": "esquilo",
+        "desde": "2026-11-28T12:30:02+00:00",
+        "ate": "2026-11-28T13:59:43+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T06:59:43+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
-      {
-        "quando": "2026-11-27T07:17:10+00:00",
-        "texto": "uma coruja pousou num galho"
-      },
       {
         "quando": "2026-11-27T08:05:06+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -425,9 +429,17 @@
       {
         "quando": "2026-11-28T11:31:48+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-28T12:08:39+00:00",
+        "texto": "uma lagarta subiu no tronco"
+      },
+      {
+        "quando": "2026-11-28T12:30:02+00:00",
+        "texto": "um esquilo veio ao buraco da árvore"
       }
     ],
-    "seq": 98,
-    "agenda_ate": "2026-11-28T12:07:13+00:00"
+    "seq": 100,
+    "agenda_ate": "2026-11-28T12:35:16+00:00"
   }
 }

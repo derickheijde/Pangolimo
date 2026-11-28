@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 20,
+  "energia": 34,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.761
+      "recente": 3.735
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.454
+      "recente": 2.437
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.511
+      "recente": 1.501
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.165
+      "recente": 2.15
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.194
+      "recente": 1.186
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.785
+      "recente": 1.773
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.994
+      "recente": 1.98
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.852
+      "recente": 1.839
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.213
+      "recente": 1.205
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.463
+      "recente": 1.453
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.124
+      "recente": 1.116
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.201
+      "recente": 1.193
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.182
+      "recente": 1.174
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.861
+      "recente": 0.855
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.536
+      "recente": 0.532
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.098
+      "recente": 1.09
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.08
+      "recente": 1.073
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.06
+      "recente": 1.053
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.05
+      "recente": 1.043
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 1.026
+      "recente": 1.019
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.985
+      "recente": 0.978
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.89
+      "recente": 0.884
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.839
+      "recente": 0.833
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.82
+      "recente": 0.814
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.509
+      "recente": 0.505
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.775
+      "recente": 0.77
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.723
+      "recente": 0.718
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.714
+      "recente": 0.709
     },
     {
       "tema": "Erva",
       "peso": 2,
-      "recente": 0.701
+      "recente": 0.696
     },
     {
       "tema": "Charles Hose",
       "peso": 1,
-      "recente": 1.0
+      "recente": 0.993
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia."
   ],
   "proximo_tema": "Charles Hose",
-  "ultima_execucao": "2026-11-27T23:37+00:00",
+  "ultima_execucao": "2026-11-28T00:05+00:00",
   "tipo": "Limo / Terra",
-  "fome": 16,
+  "fome": 18,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Petaurillus hosei",
@@ -223,7 +223,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 53,
+  "tedio": 56,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -254,12 +254,6 @@
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 84,
-        "tipo": "borboleta",
-        "desde": "2026-11-27T20:20:24+00:00",
-        "ate": "2026-11-27T21:49:00+00:00"
-      },
       {
         "id": 85,
         "tipo": "ratinho",
@@ -456,6 +450,6 @@
       }
     ],
     "seq": 88,
-    "agenda_ate": "2026-11-28T01:07:04+00:00"
+    "agenda_ate": "2026-11-28T01:35:47+00:00"
   }
 }

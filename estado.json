@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 27,
+  "energia": 62,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.329
+      "recente": 3.273
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.172
+      "recente": 2.136
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.718
+      "recente": 2.672
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.337
+      "recente": 1.315
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 2.007
+      "recente": 1.973
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.926
+      "recente": 1.894
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.057
+      "recente": 1.039
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 1.916
+      "recente": 1.884
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.581
+      "recente": 1.555
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.764
+      "recente": 1.734
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.64
+      "recente": 1.613
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.295
+      "recente": 1.273
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.475
+      "recente": 0.467
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.064
+      "recente": 1.046
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.762
+      "recente": 0.749
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.047
+      "recente": 1.029
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.973
+      "recente": 0.957
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.956
+      "recente": 0.94
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.937
+      "recente": 0.921
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.927
+      "recente": 0.911
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.909
+      "recente": 0.894
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.871
+      "recente": 0.856
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.788
+      "recente": 0.775
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.451
+      "recente": 0.443
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.743
+      "recente": 0.731
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.726
+      "recente": 0.714
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.686
+      "recente": 0.675
     },
     {
       "tema": "coruja",
       "peso": 1,
-      "recente": 0.953
+      "recente": 0.937
     },
     {
       "tema": "Richard Bowdler Sharpe",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.922
     },
     {
       "tema": "Zoólogo",
       "peso": 1,
-      "recente": 0.938
+      "recente": 0.922
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos."
   ],
   "proximo_tema": "Zoólogo",
-  "ultima_execucao": "2026-11-28T07:58+00:00",
+  "ultima_execucao": "2026-11-28T09:08+00:00",
   "tipo": "Limo / Terra",
-  "fome": 23,
+  "fome": 28,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Richard Bowdler Sharpe",
@@ -223,7 +223,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 2,
+  "tedio": 9,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -438,6 +438,6 @@
       }
     ],
     "seq": 97,
-    "agenda_ate": "2026-11-28T09:28:34+00:00"
+    "agenda_ate": "2026-11-28T10:38:11+00:00"
   }
 }

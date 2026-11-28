@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 55,
+  "energia": 51,
   "dormindo": false,
-  "acao": "comendo",
+  "acao": "assistindo_programa",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.078
+      "recente": 3.055
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.009
+      "recente": 1.994
     },
     {
       "tema": "Molusco",
       "peso": 4,
-      "recente": 2.726
+      "recente": 2.705
+    },
+    {
+      "tema": "filo",
+      "peso": 3,
+      "recente": 2.954
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.514
+      "recente": 2.495
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.236
+      "recente": 1.227
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.856
+      "recente": 1.842
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.782
+      "recente": 1.769
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 0.978
+      "recente": 0.971
     },
     {
       "tema": "Zoólogo",
       "peso": 2,
-      "recente": 1.822
+      "recente": 1.808
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.461
+      "recente": 1.45
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.631
+      "recente": 1.619
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.517
+      "recente": 1.506
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.197
+      "recente": 1.188
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.439
+      "recente": 0.436
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.705
+      "recente": 0.7
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 0.985
+      "recente": 0.978
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 0.968
+      "recente": 0.961
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.899
+      "recente": 0.892
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.886
+      "recente": 0.879
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.868
+      "recente": 0.861
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.858
+      "recente": 0.852
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.841
+      "recente": 0.835
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.803
+      "recente": 0.797
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.73
+      "recente": 0.724
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.417
+      "recente": 0.414
+    },
+    {
+      "tema": "classificação científica",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.687
-    },
-    {
-      "tema": "Moluscos",
-      "peso": 1,
-      "recente": 0.961
-    },
-    {
-      "tema": "caracol",
-      "peso": 1,
-      "recente": 0.961
-    },
-    {
-      "tema": "filo",
-      "peso": 1,
-      "recente": 0.961
+      "recente": 0.682
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.671
+      "recente": 0.666
+    },
+    {
+      "tema": "Moluscos",
+      "peso": 1,
+      "recente": 0.954
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
     "Aprendi que existem histórias de cinema chamadas Animais Noturnos que falam sobre a vida de pessoas em lugares distantes.",
@@ -203,27 +202,28 @@
     "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia.",
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos.",
     "Aprendi que a zoologia é o ramo da ciência que estuda os animais e quem faz isso se chama zoólogo.",
-    "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis."
+    "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis.",
+    "Aprendi que o filo é um agrupamento usado na ciência para organizar os seres vivos que partilham características evolutivas comuns."
   ],
-  "proximo_tema": "Filo",
-  "ultima_execucao": "2026-11-28T13:20+00:00",
+  "proximo_tema": "Aranha",
+  "ultima_execucao": "2026-11-28T13:51+00:00",
   "tipo": "Limo / Terra",
-  "fome": 9,
+  "fome": 14,
   "evento": null,
-  "ultima_atividade": "comida",
-  "origem_do_proximo": "Moluscos",
+  "ultima_atividade": "programa",
+  "origem_do_proximo": "Filo",
   "via_do_proximo": {
-    "de": "Moluscos",
+    "de": "Filo",
     "sorteado": false,
     "lang": "pt"
   },
   "tv": {
-    "genero": "musical",
-    "descricao": "um festival de música",
-    "tema": null,
-    "desde": "2026-11-28T12:37+00:00"
+    "genero": "documentario",
+    "descricao": "um programa sobre Filo",
+    "tema": "Filo",
+    "desde": "2026-11-28T13:51+00:00"
   },
-  "tedio": 35,
+  "tedio": 38,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -281,13 +281,15 @@
         "tipo": "passarinho",
         "desde": "2026-11-28T13:46:28+00:00",
         "ate": "2026-11-28T15:09:20+00:00"
+      },
+      {
+        "id": 102,
+        "tipo": "lagarta",
+        "desde": "2026-11-28T15:20:41+00:00",
+        "ate": "2026-11-28T17:46:19+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T08:13:05+00:00",
-        "texto": "Pangolimo rolou na lama"
-      },
       {
         "quando": "2026-11-27T08:13:33+00:00",
         "texto": "o ratinho escapou da coruja"
@@ -443,9 +445,13 @@
       {
         "quando": "2026-11-28T13:46:28+00:00",
         "texto": "um passarinho pousou na árvore"
+      },
+      {
+        "quando": "2026-11-28T15:20:41+00:00",
+        "texto": "uma lagarta subiu no tronco"
       }
     ],
-    "seq": 101,
-    "agenda_ate": "2026-11-28T14:50:53+00:00"
+    "seq": 102,
+    "agenda_ate": "2026-11-28T15:21:28+00:00"
   }
 }

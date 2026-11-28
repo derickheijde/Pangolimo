@@ -1457,5 +1457,20 @@
     "via": "Zoólogo",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 103,
+    "quando": "2026-11-28T13:51+00:00",
+    "atividade": "programa",
+    "tema": "Filo",
+    "fonte": "https://pt.wikipedia.org/wiki/Filo",
+    "texto": "Eu estava deitado aqui no sofá quentinho, meio com sono, olhando pra televisão. Vi um programa que falava sobre uma coisa chamada filo, que serve pra juntar os bichinhos parecidos num grupezinho bem grande. Parecia uma daquelas caixas onde a gente guarda as coisas que têm a mesma forma. Achei meio difícil de entender tudo, mas fiquei imaginando se eu e meus amigos formigas ficamos na mesma gaveta grande. Fiquei um pouquinho curioso sobre como eles escolhem essas caixas.",
+    "aprendeu": "Aprendi que o filo é um agrupamento usado na ciência para organizar os seres vivos que partilham características evolutivas comuns.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0103.svg",
+    "titulo_desenho": "Caixas de bichinhos na TV",
+    "via": "Moluscos",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

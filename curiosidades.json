@@ -460,5 +460,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T10:37+00:00"
+  },
+  {
+    "id": 34,
+    "pergunta": "Será que lá no livro dos cientistas eu fico na mesma caixinha de filo que o esquilo só porque nós dois temos pelinho?",
+    "termo": "Filo",
+    "origem": "assistindo a um programa sobre Filo",
+    "entrada": 103,
+    "criada": "2026-11-28T13:51+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T13:51+00:00"
   }
 ]

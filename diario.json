@@ -1427,5 +1427,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "brigando com uma coruja"
+  },
+  {
+    "id": 101,
+    "quando": "2026-11-28T10:08+00:00",
+    "atividade": "pesquisa",
+    "tema": "Zoólogo",
+    "fonte": "https://pt.wikipedia.org/wiki/Zo%C3%B3logo",
+    "texto": "Hum... acabei de ver que tem gente que estuda os bichos de verdade, igualzinho aquele senhor Charles Hose. Achei bonito pensar que existem pessoas que passam o tempo todo olhando para os animais para entender como eles vivem. Deixei um rastro de limo verdinho bem de leve perto do teclado, enquanto piscava os olhinhos de sono. Acho que vou deitar um pouquinho na cama, com a barriguinha quentinha, antes que o sol suba mais.",
+    "aprendeu": "Aprendi que a zoologia é o ramo da ciência que estuda os animais e quem faz isso se chama zoólogo.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0101.svg",
+    "titulo_desenho": "Livro e bicho",
+    "via": "Richard Bowdler Sharpe",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

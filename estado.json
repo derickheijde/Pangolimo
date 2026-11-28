@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 76,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 74,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.251
+      "recente": 3.226
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.121
+      "recente": 2.105
+    },
+    {
+      "tema": "Molusco",
+      "peso": 4,
+      "recente": 2.857
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.654
+      "recente": 2.634
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.306
+      "recente": 1.296
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.96
+      "recente": 1.945
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.881
+      "recente": 1.867
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.032
+      "recente": 1.024
     },
     {
-      "tema": "Molusco",
-      "peso": 3,
-      "recente": 1.871
+      "tema": "Zoólogo",
+      "peso": 2,
+      "recente": 1.909
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.544
+      "recente": 1.532
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.722
+      "recente": 1.709
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.602
+      "recente": 1.59
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.264
+      "recente": 1.254
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.464
-    },
-    {
-      "tema": "Rotifera",
-      "peso": 2,
-      "recente": 1.039
+      "recente": 0.46
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.744
+      "recente": 0.738
+    },
+    {
+      "tema": "Rotifera",
+      "peso": 2,
+      "recente": 1.031
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.022
+      "recente": 1.014
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.943
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.934
+      "recente": 0.927
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.915
+      "recente": 0.908
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.905
+      "recente": 0.898
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.888
+      "recente": 0.881
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.85
+      "recente": 0.843
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.77
+      "recente": 0.764
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.44
+      "recente": 0.437
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.726
+      "recente": 0.72
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.709
+      "recente": 0.704
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.67
+      "recente": 0.665
     },
     {
       "tema": "coruja",
       "peso": 1,
-      "recente": 0.931
+      "recente": 0.924
     },
     {
       "tema": "Richard Bowdler Sharpe",
       "peso": 1,
-      "recente": 0.916
-    },
-    {
-      "tema": "Zoólogo",
-      "peso": 1,
-      "recente": 0.916
+      "recente": 0.909
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
     "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
@@ -203,17 +202,18 @@
     "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos.",
     "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia.",
     "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia.",
-    "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos."
+    "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos.",
+    "Aprendi que a zoologia é o ramo da ciência que estuda os animais e quem faz isso se chama zoólogo."
   ],
-  "proximo_tema": "Zoólogo",
-  "ultima_execucao": "2026-11-28T09:36+00:00",
+  "proximo_tema": "Moluscos",
+  "ultima_execucao": "2026-11-28T10:08+00:00",
   "tipo": "Limo / Terra",
-  "fome": 30,
+  "fome": 32,
   "evento": null,
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Richard Bowdler Sharpe",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Zoólogo",
   "via_do_proximo": {
-    "de": "Richard Bowdler Sharpe",
+    "de": "Zoólogo",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 12,
+  "tedio": 15,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -259,17 +259,13 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 96,
-        "tipo": "coruja",
-        "desde": "2026-11-28T07:25:09+00:00",
-        "ate": "2026-11-28T07:38:46+00:00"
+        "id": 98,
+        "tipo": "passarinho",
+        "desde": "2026-11-28T11:31:48+00:00",
+        "ate": "2026-11-28T13:17:31+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T06:56:10+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-27T06:59:43+00:00",
         "texto": "o ratinho escapou da coruja"
@@ -425,9 +421,13 @@
       {
         "quando": "2026-11-28T07:38:46+00:00",
         "texto": "Pangolimo brigou com uma coruja e ganhou: o visitante foi embora"
+      },
+      {
+        "quando": "2026-11-28T11:31:48+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 97,
-    "agenda_ate": "2026-11-28T11:06:19+00:00"
+    "seq": 98,
+    "agenda_ate": "2026-11-28T11:38:01+00:00"
   }
 }

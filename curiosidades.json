@@ -432,5 +432,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T04:44+00:00"
+  },
+  {
+    "id": 32,
+    "pergunta": "Será que esse pessoal que estuda os animais lá nos livros também acha formiguinhas doces igual eu acho?",
+    "termo": "Zoologia",
+    "origem": "lendo sobre Zoólogo",
+    "entrada": 101,
+    "criada": "2026-11-28T10:08+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T10:08+00:00"
   }
 ]

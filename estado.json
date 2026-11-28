@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 17,
+  "energia": 27,
   "dormindo": true,
   "acao": "dormindo",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.346
+      "recente": 3.329
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.183
+      "recente": 2.172
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.731
+      "recente": 2.718
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.344
+      "recente": 1.337
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 2.017
+      "recente": 2.007
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.936
+      "recente": 1.926
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.062
+      "recente": 1.057
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 1.926
+      "recente": 1.916
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.589
+      "recente": 1.581
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.773
+      "recente": 1.764
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.648
+      "recente": 1.64
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.301
+      "recente": 1.295
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.477
+      "recente": 0.475
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.069
+      "recente": 1.064
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.766
+      "recente": 0.762
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.052
+      "recente": 1.047
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.978
+      "recente": 0.973
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.961
+      "recente": 0.956
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.942
+      "recente": 0.937
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.932
+      "recente": 0.927
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.914
+      "recente": 0.909
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.875
+      "recente": 0.871
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.792
+      "recente": 0.788
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.453
+      "recente": 0.451
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.747
+      "recente": 0.743
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.73
+      "recente": 0.726
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.689
+      "recente": 0.686
     },
     {
       "tema": "coruja",
       "peso": 1,
-      "recente": 0.958
+      "recente": 0.953
     },
     {
       "tema": "Richard Bowdler Sharpe",
       "peso": 1,
-      "recente": 0.943
+      "recente": 0.938
     },
     {
       "tema": "Zoólogo",
       "peso": 1,
-      "recente": 0.943
+      "recente": 0.938
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos."
   ],
   "proximo_tema": "Zoólogo",
-  "ultima_execucao": "2026-11-28T07:38+00:00",
+  "ultima_execucao": "2026-11-28T07:58+00:00",
   "tipo": "Limo / Terra",
-  "fome": 22,
+  "fome": 23,
   "evento": null,
   "ultima_atividade": "dormir",
   "origem_do_proximo": "Richard Bowdler Sharpe",
@@ -223,7 +223,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 0,
+  "tedio": 2,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -259,16 +259,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 92,
-        "tipo": "ratinho",
-        "desde": "2026-11-28T05:33:15+00:00",
-        "ate": "2026-11-28T05:39:09+00:00",
-        "fim": {
-          "quando": "2026-11-28T05:39:03+00:00",
-          "resultado": "pegou"
-        }
-      },
-      {
         "id": 95,
         "tipo": "ratinho",
         "desde": "2026-11-28T07:18:50+00:00",
@@ -286,10 +276,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T06:49:05+00:00",
-        "texto": "o ratinho escapou da coruja"
-      },
       {
         "quando": "2026-11-27T06:56:10+00:00",
         "texto": "um ratinho apareceu perto da árvore"
@@ -452,6 +438,6 @@
       }
     ],
     "seq": 97,
-    "agenda_ate": "2026-11-28T09:08:46+00:00"
+    "agenda_ate": "2026-11-28T09:28:34+00:00"
   }
 }

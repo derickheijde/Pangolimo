@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 57,
+  "energia": 55,
   "dormindo": false,
   "acao": "assistindo_tv",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.159
+      "recente": 3.138
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.061
+      "recente": 2.047
     },
     {
       "tema": "Molusco",
       "peso": 4,
-      "recente": 2.798
+      "recente": 2.779
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.58
+      "recente": 2.563
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.269
+      "recente": 1.26
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.905
+      "recente": 1.892
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.828
+      "recente": 1.816
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.003
+      "recente": 0.996
     },
     {
       "tema": "Zoólogo",
       "peso": 2,
-      "recente": 1.87
+      "recente": 1.857
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.5
+      "recente": 1.49
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.673
+      "recente": 1.662
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.557
+      "recente": 1.546
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.228
+      "recente": 1.22
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.451
+      "recente": 0.448
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.723
+      "recente": 0.718
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.01
+      "recente": 1.003
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 0.993
+      "recente": 0.986
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.923
+      "recente": 0.917
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.909
+      "recente": 0.903
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.89
+      "recente": 0.884
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.88
+      "recente": 0.874
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.863
+      "recente": 0.857
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.825
+      "recente": 0.819
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.749
+      "recente": 0.744
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.428
+      "recente": 0.425
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.705
+      "recente": 0.7
     },
     {
       "tema": "Moluscos",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.979
     },
     {
       "tema": "caracol",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.979
     },
     {
       "tema": "filo",
       "peso": 1,
-      "recente": 0.986
+      "recente": 0.979
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.689
+      "recente": 0.684
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis."
   ],
   "proximo_tema": "Filo",
-  "ultima_execucao": "2026-11-28T11:34+00:00",
+  "ultima_execucao": "2026-11-28T12:02+00:00",
   "tipo": "Limo / Terra",
-  "fome": 47,
+  "fome": 52,
   "evento": null,
   "ultima_atividade": "tv",
   "origem_do_proximo": "Moluscos",
@@ -223,7 +223,7 @@
     "tema": null,
     "desde": "2026-11-28T11:05+00:00"
   },
-  "tedio": 24,
+  "tedio": 27,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -440,6 +440,6 @@
       }
     ],
     "seq": 100,
-    "agenda_ate": "2026-11-28T13:04:10+00:00"
+    "agenda_ate": "2026-11-28T13:32:08+00:00"
   }
 }

@@ -404,5 +404,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T03:10+00:00"
+  },
+  {
+    "id": 30,
+    "pergunta": "Será que os zoólogos que cuidam de museus de passarinhos também conseguem imitar o canto de todas aquelas aves quando estão sozinhos na sala?",
+    "termo": "Zoólogo",
+    "origem": "lendo sobre Richard Bowdler Sharpe",
+    "entrada": 97,
+    "criada": "2026-11-28T03:39+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T03:39+00:00"
   }
 ]

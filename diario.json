@@ -1367,5 +1367,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": null
+  },
+  {
+    "id": 97,
+    "quando": "2026-11-28T03:39+00:00",
+    "atividade": "pesquisa",
+    "tema": "Richard Bowdler Sharpe",
+    "fonte": "https://pt.wikipedia.org/wiki/Richard_Bowdler_Sharpe",
+    "texto": "Olha só, cliquei num lugar errado na tela do computador e fui parar na história de um tal de Richard Bowdler Sharpe que gostava tanto de pássaros que cuidou de um monte deles no museu. Ele até ajudou a criar um clube de ornitólogos bem antigamente. Lá fora a chuva está forte e balança a janela, e eu fiquei pensando em como esse homem passava os dias organizando fichas de aves enquanto eu fico aqui enroladinho no quentinho da minha cama de limo. De vez em quando é bom tropeçar em coisas novas sem querer, mesmo com esse sono todo querendo fechar meus olhinhos.",
+    "aprendeu": "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0097.svg",
+    "titulo_desenho": "homem e passarinho no museu",
+    "via": "Charles Hose",
+    "via_sorteio": true,
+    "rotulo": null
   }
 ]

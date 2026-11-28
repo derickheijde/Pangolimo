@@ -1397,5 +1397,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "brigando com um ratinho"
+  },
+  {
+    "id": 99,
+    "quando": "2026-11-28T04:44+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "Acorujona apareceu lá no quintal agitando as asas de um jeito bem assustador, mas eu me enrolei logo numa bola verde e ela acabou indo embora. Fiquei com o coração batendo forte e um pouco tonto de sono debaixo da árvore.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0099.svg",
+    "titulo_desenho": "Coruja e bola verde",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "brigando com uma coruja"
   }
 ]

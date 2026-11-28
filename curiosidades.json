@@ -418,5 +418,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T03:39+00:00"
+  },
+  {
+    "id": 31,
+    "pergunta": "Será que essa coruja grande consegue enxergar o brilho do meu limo verde lá do alto do galho no escuro?",
+    "termo": "visao da coruja",
+    "origem": "brigando com uma coruja",
+    "entrada": 99,
+    "criada": "2026-11-28T04:44+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T04:44+00:00"
   }
 ]

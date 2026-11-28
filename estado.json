@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 47,
+  "energia": 34,
   "dormindo": false,
   "acao": "brigando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.513
+      "recente": 3.49
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.293
+      "recente": 2.278
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.869
+      "recente": 2.85
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.411
+      "recente": 1.402
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 2.117
+      "recente": 2.103
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 2.033
+      "recente": 2.02
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.023
+      "recente": 2.01
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.115
+      "recente": 1.108
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.668
+      "recente": 1.657
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.862
+      "recente": 1.85
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.73
+      "recente": 1.719
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.367
+      "recente": 1.358
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.122
-    },
-    {
-      "tema": "Animais no espaço",
-      "peso": 2,
-      "recente": 1.105
+      "recente": 1.115
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.804
+      "recente": 0.799
+    },
+    {
+      "tema": "Animais no espaço",
+      "peso": 2,
+      "recente": 1.098
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.5
+      "recente": 0.497
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.027
+      "recente": 1.02
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.01
+      "recente": 1.003
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.99
+      "recente": 0.984
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.98
+      "recente": 0.974
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.959
+      "recente": 0.953
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.919
+      "recente": 0.913
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.831
+      "recente": 0.826
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.784
+      "recente": 0.779
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.476
+      "recente": 0.473
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.767
+      "recente": 0.762
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.724
+      "recente": 0.719
+    },
+    {
+      "tema": "coruja",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Richard Bowdler Sharpe",
       "peso": 1,
-      "recente": 0.991
+      "recente": 0.985
     },
     {
       "tema": "Zoólogo",
       "peso": 1,
-      "recente": 0.991
-    },
-    {
-      "tema": "Fisiologia vegetal",
-      "peso": 2,
-      "recente": 0.675
+      "recente": 0.985
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos."
   ],
   "proximo_tema": "Zoólogo",
-  "ultima_execucao": "2026-11-28T04:17+00:00",
+  "ultima_execucao": "2026-11-28T04:44+00:00",
   "tipo": "Limo / Terra",
-  "fome": 48,
+  "fome": 53,
   "evento": null,
   "ultima_atividade": "quintal",
   "origem_do_proximo": "Richard Bowdler Sharpe",
@@ -223,28 +223,28 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 57,
+  "tedio": 35,
   "cena": {
-    "id": 93,
-    "quando": "2026-11-28T04:17:15+00:00",
+    "id": 94,
+    "quando": "2026-11-28T04:44:08+00:00",
     "tipo": "briga",
-    "visitante": "ratinho",
+    "visitante": "coruja",
     "conversa": [
-      {
-        "q": "v",
-        "e": "🧀"
-      },
-      {
-        "q": "p",
-        "e": "🚫"
-      },
       {
         "q": "v",
         "e": "😠"
       },
       {
         "q": "p",
-        "e": "😡"
+        "e": "😨"
+      },
+      {
+        "q": "v",
+        "e": "💢"
+      },
+      {
+        "q": "p",
+        "e": "😠"
       },
       {
         "q": "p",
@@ -278,7 +278,7 @@
         "id": 91,
         "tipo": "coruja",
         "desde": "2026-11-28T04:24:54+00:00",
-        "ate": "2026-11-28T06:05:15+00:00"
+        "ate": "2026-11-28T04:44:08+00:00"
       },
       {
         "id": 92,
@@ -292,10 +292,6 @@
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T01:37:13+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-27T02:29:21+00:00",
         "texto": "uma coruja pousou num galho"
@@ -437,6 +433,10 @@
         "texto": "um ratinho apareceu perto da árvore"
       },
       {
+        "quando": "2026-11-28T04:17:15+00:00",
+        "texto": "Pangolimo brigou com um ratinho e ganhou: o visitante foi embora"
+      },
+      {
         "quando": "2026-11-28T04:24:54+00:00",
         "texto": "uma coruja pousou num galho"
       },
@@ -453,11 +453,11 @@
         "texto": "a coruja pegou o ratinho"
       },
       {
-        "quando": "2026-11-28T04:17:15+00:00",
-        "texto": "Pangolimo brigou com um ratinho e ganhou: o visitante foi embora"
+        "quando": "2026-11-28T04:44:08+00:00",
+        "texto": "Pangolimo brigou com uma coruja e ganhou: o visitante foi embora"
       }
     ],
-    "seq": 93,
-    "agenda_ate": "2026-11-28T05:47:15+00:00"
+    "seq": 94,
+    "agenda_ate": "2026-11-28T06:14:08+00:00"
   }
 }

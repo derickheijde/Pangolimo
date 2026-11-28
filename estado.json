@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 74,
+  "energia": 62,
   "dormindo": false,
   "acao": "desenhando",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.226
+      "recente": 3.203
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.105
+      "recente": 2.09
     },
     {
       "tema": "Molusco",
       "peso": 4,
-      "recente": 2.857
+      "recente": 2.837
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.634
+      "recente": 2.616
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.296
+      "recente": 1.287
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.945
+      "recente": 1.931
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.867
+      "recente": 1.854
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.024
+      "recente": 1.017
     },
     {
       "tema": "Zoólogo",
       "peso": 2,
-      "recente": 1.909
+      "recente": 1.896
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.532
+      "recente": 1.521
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.709
+      "recente": 1.697
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.59
+      "recente": 1.579
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.254
+      "recente": 1.245
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.46
+      "recente": 0.457
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.738
+      "recente": 0.733
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.031
+      "recente": 1.024
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.014
+      "recente": 1.007
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.943
+      "recente": 0.936
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.927
+      "recente": 0.921
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.908
+      "recente": 0.902
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.898
+      "recente": 0.892
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.881
+      "recente": 0.875
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.843
+      "recente": 0.837
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.764
+      "recente": 0.759
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.437
+      "recente": 0.434
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.72
+      "recente": 0.715
+    },
+    {
+      "tema": "Moluscos",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "caracol",
+      "peso": 1,
+      "recente": 1.0
+    },
+    {
+      "tema": "filo",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.704
-    },
-    {
-      "tema": "Nuvem",
-      "peso": 2,
-      "recente": 0.665
-    },
-    {
-      "tema": "coruja",
-      "peso": 1,
-      "recente": 0.924
-    },
-    {
-      "tema": "Richard Bowdler Sharpe",
-      "peso": 1,
-      "recente": 0.909
+      "recente": 0.699
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
     "Aprendi que os altocumulus são nuvens brancas ou cinzentas que formam camadas parecidas com carneirinhos no céu.",
     "Aprendi que a altitude é a distância vertical até o mar e que quanto mais alto a gente sobe, mais frio fica.",
     "Aprendi que a cartografia é a ciência e a arte de fazer mapas para representar lugares e fenômenos.",
@@ -203,17 +202,18 @@
     "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia.",
     "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia.",
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos.",
-    "Aprendi que a zoologia é o ramo da ciência que estuda os animais e quem faz isso se chama zoólogo."
+    "Aprendi que a zoologia é o ramo da ciência que estuda os animais e quem faz isso se chama zoólogo.",
+    "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis."
   ],
-  "proximo_tema": "Moluscos",
-  "ultima_execucao": "2026-11-28T10:08+00:00",
+  "proximo_tema": "Filo",
+  "ultima_execucao": "2026-11-28T10:37+00:00",
   "tipo": "Limo / Terra",
-  "fome": 32,
+  "fome": 37,
   "evento": null,
   "ultima_atividade": "pesquisa",
-  "origem_do_proximo": "Zoólogo",
+  "origem_do_proximo": "Moluscos",
   "via_do_proximo": {
-    "de": "Zoólogo",
+    "de": "Moluscos",
     "sorteado": false,
     "lang": "pt"
   },
@@ -223,7 +223,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 15,
+  "tedio": 18,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -428,6 +428,6 @@
       }
     ],
     "seq": 98,
-    "agenda_ate": "2026-11-28T11:38:01+00:00"
+    "agenda_ate": "2026-11-28T12:07:13+00:00"
   }
 }

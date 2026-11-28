@@ -668,7 +668,7 @@
   {
     "tema": "moluscos",
     "origem": "Molusco",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-26T16:22+00:00"
   },
   {
@@ -886,5 +886,17 @@
     "origem": null,
     "vezes": 0,
     "desde": "2026-11-28T04:44+00:00"
+  },
+  {
+    "tema": "caracol",
+    "origem": "Moluscos",
+    "vezes": 0,
+    "desde": "2026-11-28T10:37+00:00"
+  },
+  {
+    "tema": "filo",
+    "origem": "Moluscos",
+    "vezes": 0,
+    "desde": "2026-11-28T10:37+00:00"
   }
 ]

@@ -446,5 +446,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T10:08+00:00"
+  },
+  {
+    "id": 33,
+    "pergunta": "Será que os caracóis que são moluscos deixam um rastro brilhante parecido com o meu limo verde?",
+    "termo": "Caracol",
+    "origem": "lendo sobre Moluscos",
+    "entrada": 102,
+    "criada": "2026-11-28T10:37+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T10:37+00:00"
   }
 ]

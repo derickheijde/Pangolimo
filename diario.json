@@ -1442,5 +1442,20 @@
     "via": "Richard Bowdler Sharpe",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 102,
+    "quando": "2026-11-28T10:37+00:00",
+    "atividade": "pesquisa",
+    "tema": "Moluscos",
+    "fonte": "https://pt.wikipedia.org/wiki/Moluscos",
+    "texto": "Hoje o computador me levou a ler sobre bichinhos chamados moluscos, que têm o corpo molinho e vivem em vários lugares, até na terra como os caracóis. Fiquei imaginando se eles também deixam um rastro brilhante parecido com o meu limo verde quando andam por aí. Achei curioso que eles não têm ossos e são tantos tipos diferentes no mundo. Fiquei um pouquinho sonolento olhando para a tela, mas gosto de descobrir essas coisas quietinho na minha toca.",
+    "aprendeu": "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0102.svg",
+    "titulo_desenho": "Caracol molinho",
+    "via": "Zoólogo",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

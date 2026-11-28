@@ -1,7 +1,7 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 55,
+  "energia": 50,
   "dormindo": false,
   "acao": "assistindo_tv",
   "humor": "sonolento",
@@ -9,152 +9,152 @@
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.138
+      "recente": 3.111
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.047
+      "recente": 2.03
     },
     {
       "tema": "Molusco",
       "peso": 4,
-      "recente": 2.779
+      "recente": 2.755
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.563
+      "recente": 2.541
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.26
+      "recente": 1.249
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 1.892
+      "recente": 1.876
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.816
+      "recente": 1.801
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 0.996
+      "recente": 0.988
     },
     {
       "tema": "Zoólogo",
       "peso": 2,
-      "recente": 1.857
+      "recente": 1.841
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.49
+      "recente": 1.477
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.662
+      "recente": 1.648
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.546
+      "recente": 1.533
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.22
+      "recente": 1.21
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.448
+      "recente": 0.444
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.718
+      "recente": 0.712
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.003
+      "recente": 0.995
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 0.986
+      "recente": 0.978
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.917
+      "recente": 0.909
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.903
+      "recente": 0.895
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.884
+      "recente": 0.877
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.874
+      "recente": 0.867
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.857
+      "recente": 0.85
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.819
+      "recente": 0.812
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.744
+      "recente": 0.738
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.425
+      "recente": 0.421
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.7
+      "recente": 0.694
     },
     {
       "tema": "Moluscos",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.971
     },
     {
       "tema": "caracol",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.971
     },
     {
       "tema": "filo",
       "peso": 1,
-      "recente": 0.979
+      "recente": 0.971
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.684
+      "recente": 0.678
     }
   ],
   "gostos": {
@@ -206,9 +206,9 @@
     "Aprendi que os moluscos são animais de corpo mole e não-segmentado que podem viver na água ou na terra, como os caracóis."
   ],
   "proximo_tema": "Filo",
-  "ultima_execucao": "2026-11-28T12:02+00:00",
+  "ultima_execucao": "2026-11-28T12:37+00:00",
   "tipo": "Limo / Terra",
-  "fome": 52,
+  "fome": 58,
   "evento": null,
   "ultima_atividade": "tv",
   "origem_do_proximo": "Moluscos",
@@ -218,12 +218,12 @@
     "lang": "pt"
   },
   "tv": {
-    "genero": "comedia",
-    "descricao": "uma comédia",
+    "genero": "musical",
+    "descricao": "um festival de música",
     "tema": null,
-    "desde": "2026-11-28T11:05+00:00"
+    "desde": "2026-11-28T12:37+00:00"
   },
-  "tedio": 27,
+  "tedio": 31,
   "cena": {
     "id": 97,
     "quando": "2026-11-28T07:38:46+00:00",
@@ -275,13 +275,15 @@
         "tipo": "esquilo",
         "desde": "2026-11-28T12:30:02+00:00",
         "ate": "2026-11-28T13:59:43+00:00"
+      },
+      {
+        "id": 101,
+        "tipo": "passarinho",
+        "desde": "2026-11-28T13:46:28+00:00",
+        "ate": "2026-11-28T15:09:20+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T08:05:06+00:00",
-        "texto": "um ratinho apareceu perto da árvore"
-      },
       {
         "quando": "2026-11-27T08:13:05+00:00",
         "texto": "Pangolimo rolou na lama"
@@ -437,9 +439,13 @@
       {
         "quando": "2026-11-28T12:30:02+00:00",
         "texto": "um esquilo veio ao buraco da árvore"
+      },
+      {
+        "quando": "2026-11-28T13:46:28+00:00",
+        "texto": "um passarinho pousou na árvore"
       }
     ],
-    "seq": 100,
-    "agenda_ate": "2026-11-28T13:32:08+00:00"
+    "seq": 101,
+    "agenda_ate": "2026-11-28T14:07:17+00:00"
   }
 }

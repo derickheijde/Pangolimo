@@ -1412,5 +1412,20 @@
     "via": null,
     "via_sorteio": null,
     "rotulo": "brigando com uma coruja"
+  },
+  {
+    "id": 100,
+    "quando": "2026-11-28T07:38+00:00",
+    "atividade": "quintal",
+    "tema": null,
+    "fonte": null,
+    "texto": "A coruja grandona apareceu no quintal de madrugada e quis pegar meu lugar perto da árvore. Eu fiquei com tanto medo que me enrolei todinho numa bola de limo verde, e acho que ela achou estranho porque foi embora voando. Agora minha energia tá bem baixinha e meu corpinho quer cama.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": null,
+    "titulo_desenho": "",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": "brigando com uma coruja"
   }
 ]

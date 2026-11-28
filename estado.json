@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 31,
-  "dormindo": false,
-  "acao": "brincando_lama",
+  "energia": 17,
+  "dormindo": true,
+  "acao": "dormindo",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.391
+      "recente": 3.346
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.212
+      "recente": 2.183
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.768
+      "recente": 2.731
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.362
+      "recente": 1.344
     },
     {
       "tema": "Cumulonimbus",
       "peso": 4,
-      "recente": 2.044
+      "recente": 2.017
     },
     {
       "tema": "Inverno",
       "peso": 4,
-      "recente": 1.962
-    },
-    {
-      "tema": "Molusco",
-      "peso": 3,
-      "recente": 1.952
+      "recente": 1.936
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.076
+      "recente": 1.062
+    },
+    {
+      "tema": "Molusco",
+      "peso": 3,
+      "recente": 1.926
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.61
+      "recente": 1.589
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.797
+      "recente": 1.773
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.67
+      "recente": 1.648
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.319
-    },
-    {
-      "tema": "Rotifera",
-      "peso": 2,
-      "recente": 1.083
-    },
-    {
-      "tema": "Plantae",
-      "peso": 3,
-      "recente": 0.776
-    },
-    {
-      "tema": "Animais no espaço",
-      "peso": 2,
-      "recente": 1.066
+      "recente": 1.301
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.483
+      "recente": 0.477
+    },
+    {
+      "tema": "Rotifera",
+      "peso": 2,
+      "recente": 1.069
+    },
+    {
+      "tema": "Plantae",
+      "peso": 3,
+      "recente": 0.766
+    },
+    {
+      "tema": "Animais no espaço",
+      "peso": 2,
+      "recente": 1.052
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.978
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 0.974
+      "recente": 0.961
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 0.955
+      "recente": 0.942
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 0.945
+      "recente": 0.932
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.926
+      "recente": 0.914
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.887
+      "recente": 0.875
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.803
-    },
-    {
-      "tema": "Altitude",
-      "peso": 2,
-      "recente": 0.757
+      "recente": 0.792
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.459
+      "recente": 0.453
+    },
+    {
+      "tema": "Altitude",
+      "peso": 2,
+      "recente": 0.747
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.74
+      "recente": 0.73
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.698
+      "recente": 0.689
     },
     {
       "tema": "coruja",
       "peso": 1,
-      "recente": 0.971
+      "recente": 0.958
     },
     {
       "tema": "Richard Bowdler Sharpe",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.943
     },
     {
       "tema": "Zoólogo",
       "peso": 1,
-      "recente": 0.956
+      "recente": 0.943
     }
   ],
   "gostos": {
@@ -206,11 +206,11 @@
     "Aprendi que Richard Bowdler Sharpe foi um zoólogo inglês que cuidou da coleção de pássaros do Museu Britânico e fundou um clube de ornitólogos."
   ],
   "proximo_tema": "Zoólogo",
-  "ultima_execucao": "2026-11-28T06:43+00:00",
+  "ultima_execucao": "2026-11-28T07:38+00:00",
   "tipo": "Limo / Terra",
-  "fome": 13,
+  "fome": 22,
   "evento": null,
-  "ultima_atividade": "quintal",
+  "ultima_atividade": "dormir",
   "origem_do_proximo": "Richard Bowdler Sharpe",
   "via_do_proximo": {
     "de": "Richard Bowdler Sharpe",
@@ -224,16 +224,40 @@
     "desde": "2026-11-27T23:37+00:00"
   },
   "tedio": 0,
-  "cena": null,
+  "cena": {
+    "id": 97,
+    "quando": "2026-11-28T07:38:46+00:00",
+    "tipo": "briga",
+    "visitante": "coruja",
+    "conversa": [
+      {
+        "q": "v",
+        "e": "😠"
+      },
+      {
+        "q": "p",
+        "e": "😨"
+      },
+      {
+        "q": "v",
+        "e": "💢"
+      },
+      {
+        "q": "p",
+        "e": "😠"
+      },
+      {
+        "q": "p",
+        "e": "😎"
+      }
+    ],
+    "resultado": "venceu",
+    "assunto": null,
+    "iniciou": null
+  },
   "sem_quintal_ate": "2026-11-25T01:14:06+00:00",
   "quintal": {
     "visitantes": [
-      {
-        "id": 91,
-        "tipo": "coruja",
-        "desde": "2026-11-28T04:24:54+00:00",
-        "ate": "2026-11-28T04:44:08+00:00"
-      },
       {
         "id": 92,
         "tipo": "ratinho",
@@ -258,14 +282,10 @@
         "id": 96,
         "tipo": "coruja",
         "desde": "2026-11-28T07:25:09+00:00",
-        "ate": "2026-11-28T08:33:53+00:00"
+        "ate": "2026-11-28T07:38:46+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-27T06:45:12+00:00",
-        "texto": "Pangolimo conversou com um ratinho"
-      },
       {
         "quando": "2026-11-27T06:49:05+00:00",
         "texto": "o ratinho escapou da coruja"
@@ -411,6 +431,10 @@
         "texto": "Pangolimo rolou na lama"
       },
       {
+        "quando": "2026-11-28T06:43:20+00:00",
+        "texto": "Pangolimo rolou na lama"
+      },
+      {
         "quando": "2026-11-28T07:18:50+00:00",
         "texto": "um ratinho apareceu perto da árvore"
       },
@@ -423,11 +447,11 @@
         "texto": "a coruja pegou o ratinho"
       },
       {
-        "quando": "2026-11-28T06:43:20+00:00",
-        "texto": "Pangolimo rolou na lama"
+        "quando": "2026-11-28T07:38:46+00:00",
+        "texto": "Pangolimo brigou com uma coruja e ganhou: o visitante foi embora"
       }
     ],
-    "seq": 96,
-    "agenda_ate": "2026-11-28T08:13:20+00:00"
+    "seq": 97,
+    "agenda_ate": "2026-11-28T09:08:46+00:00"
   }
 }

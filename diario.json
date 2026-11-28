@@ -1352,5 +1352,20 @@
     "via": "Petaurillus hosei",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 96,
+    "quando": "2026-11-28T03:10+00:00",
+    "atividade": "clima",
+    "tema": null,
+    "fonte": null,
+    "texto": "Estou aqui sentado na janela vendo a chuva forte cair e o vento balançar os galhos da árvore lá fora. Deixo um rastro de limo verde brilhante no parapeito enquanto olho para a escuridão da noite. Me sinto meio sonolento com esse barulho de água batendo na madeira.",
+    "aprendeu": "",
+    "humor": "sonolento",
+    "desenho": "desenhos/0096.svg",
+    "titulo_desenho": "Chuva na janela",
+    "via": null,
+    "via_sorteio": null,
+    "rotulo": null
   }
 ]

@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 81,
+  "energia": 78,
   "dormindo": false,
-  "acao": "desenhando",
+  "acao": "observando_clima",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.63
+      "recente": 3.57
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.369
+      "recente": 2.33
     },
     {
       "tema": "Charles Hose",
       "peso": 3,
-      "recente": 2.965
+      "recente": 2.916
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.458
+      "recente": 1.434
+    },
+    {
+      "tema": "Cumulonimbus",
+      "peso": 4,
+      "recente": 2.152
+    },
+    {
+      "tema": "Inverno",
+      "peso": 4,
+      "recente": 2.066
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.09
+      "recente": 2.056
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.152
+      "recente": 1.133
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.723
+      "recente": 1.695
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.924
+      "recente": 1.892
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.787
-    },
-    {
-      "tema": "Cumulonimbus",
-      "peso": 3,
-      "recente": 1.171
+      "recente": 1.758
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.413
-    },
-    {
-      "tema": "Inverno",
-      "peso": 3,
-      "recente": 1.084
+      "recente": 1.39
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.159
+      "recente": 1.14
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.142
+      "recente": 1.123
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.831
+      "recente": 0.817
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.518
+      "recente": 0.509
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.06
+      "recente": 1.043
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.043
+      "recente": 1.026
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.023
+      "recente": 1.006
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.013
+      "recente": 0.996
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.991
+      "recente": 0.975
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.95
+      "recente": 0.934
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.859
+      "recente": 0.845
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.81
-    },
-    {
-      "tema": "Altocumulus stratiformis",
-      "peso": 2,
-      "recente": 0.792
+      "recente": 0.797
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.491
+      "recente": 0.483
+    },
+    {
+      "tema": "Altocumulus stratiformis",
+      "peso": 2,
+      "recente": 0.779
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.748
-    },
-    {
-      "tema": "Calyptomena hosii",
-      "peso": 1,
-      "recente": 1.0
+      "recente": 0.736
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.697
+      "recente": 0.686
+    },
+    {
+      "tema": "Calyptomena hosii",
+      "peso": 1,
+      "recente": 0.984
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.689
+      "recente": 0.678
     }
   ],
   "gostos": {
@@ -206,15 +206,15 @@
     "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia."
   ],
   "proximo_tema": "Richard Bowdler Sharpe",
-  "ultima_execucao": "2026-11-28T02:02+00:00",
+  "ultima_execucao": "2026-11-28T03:10+00:00",
   "tipo": "Limo / Terra",
-  "fome": 26,
+  "fome": 37,
   "evento": {
     "nome": "clima",
     "tipo": "tempestade",
     "ate": "2026-11-28T04:11+00:00"
   },
-  "ultima_atividade": "pesquisa",
+  "ultima_atividade": "clima",
   "origem_do_proximo": "Charles Hose",
   "via_do_proximo": {
     "de": "Charles Hose",
@@ -227,7 +227,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 68,
+  "tedio": 75,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -259,12 +259,6 @@
   "quintal": {
     "visitantes": [
       {
-        "id": 86,
-        "tipo": "coruja",
-        "desde": "2026-11-27T22:20:40+00:00",
-        "ate": "2026-11-28T00:19:21+00:00"
-      },
-      {
         "id": 88,
         "tipo": "ratinho",
         "desde": "2026-11-28T01:00:01+00:00",
@@ -275,21 +269,25 @@
         "tipo": "ratinho",
         "desde": "2026-11-28T02:24:15+00:00",
         "ate": "2026-11-28T03:14:07+00:00"
+      },
+      {
+        "id": 90,
+        "tipo": "ratinho",
+        "desde": "2026-11-28T04:15:04+00:00",
+        "ate": "2026-11-28T04:32:08+00:00",
+        "fim": {
+          "quando": "2026-11-28T04:32:02+00:00",
+          "resultado": "pegou"
+        }
+      },
+      {
+        "id": 91,
+        "tipo": "coruja",
+        "desde": "2026-11-28T04:24:54+00:00",
+        "ate": "2026-11-28T06:05:15+00:00"
       }
     ],
     "log": [
-      {
-        "quando": "2026-11-26T18:58:10+00:00",
-        "texto": "um passarinho pousou na árvore"
-      },
-      {
-        "quando": "2026-11-26T19:19:03+00:00",
-        "texto": "uma cobra entrou no quintal"
-      },
-      {
-        "quando": "2026-11-26T22:20:16+00:00",
-        "texto": "uma coruja pousou num galho"
-      },
       {
         "quando": "2026-11-26T22:38:38+00:00",
         "texto": "Pangolimo ficou observando uma coruja"
@@ -437,9 +435,21 @@
       {
         "quando": "2026-11-28T02:24:15+00:00",
         "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-28T04:15:04+00:00",
+        "texto": "um ratinho apareceu perto da árvore"
+      },
+      {
+        "quando": "2026-11-28T04:24:54+00:00",
+        "texto": "uma coruja pousou num galho"
+      },
+      {
+        "quando": "2026-11-28T04:32:02+00:00",
+        "texto": "a coruja pegou o ratinho"
       }
     ],
-    "seq": 89,
-    "agenda_ate": "2026-11-28T03:32:03+00:00"
+    "seq": 91,
+    "agenda_ate": "2026-11-28T04:40:50+00:00"
   }
 }

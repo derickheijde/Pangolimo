@@ -390,5 +390,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-28T02:02+00:00"
+  },
+  {
+    "id": 29,
+    "pergunta": "Será que toda essa água da tempestade consegue encharcar os andares mais fundos lá do meu formigueiro?",
+    "termo": "Cumulonimbus",
+    "origem": "observando o tempo pela janela",
+    "entrada": 96,
+    "criada": "2026-11-28T03:10+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T03:10+00:00"
   }
 ]

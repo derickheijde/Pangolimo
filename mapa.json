@@ -854,7 +854,7 @@
   {
     "tema": "Charles Hose",
     "origem": "Petaurillus hosei",
-    "vezes": 0,
+    "vezes": 1,
     "desde": "2026-11-27T23:37+00:00"
   },
   {
@@ -862,5 +862,11 @@
     "origem": "Petaurillus hosei",
     "vezes": 0,
     "desde": "2026-11-27T23:37+00:00"
+  },
+  {
+    "tema": "Calyptomena hosii",
+    "origem": "Charles Hose",
+    "vezes": 0,
+    "desde": "2026-11-28T02:02+00:00"
   }
 ]

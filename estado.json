@@ -1,160 +1,160 @@
 {
   "nome": "Pangolimo",
   "especie": "pangolim",
-  "energia": 79,
-  "dormindo": true,
-  "acao": "dormindo",
+  "energia": 81,
+  "dormindo": false,
+  "acao": "desenhando",
   "humor": "sonolento",
   "interesses": [
     {
       "tema": "Esquilo",
       "peso": 4,
-      "recente": 3.654
+      "recente": 3.63
     },
     {
       "tema": "animais noturnos",
       "peso": 7,
-      "recente": 2.384
+      "recente": 2.369
+    },
+    {
+      "tema": "Charles Hose",
+      "peso": 3,
+      "recente": 2.965
     },
     {
       "tema": "rainhas das formigas",
       "peso": 7,
-      "recente": 1.468
+      "recente": 1.458
     },
     {
       "tema": "Molusco",
       "peso": 3,
-      "recente": 2.104
+      "recente": 2.09
     },
     {
       "tema": "soldados formigas",
       "peso": 6,
-      "recente": 1.16
+      "recente": 1.152
     },
     {
       "tema": "Tardigrada",
       "peso": 3,
-      "recente": 1.734
+      "recente": 1.723
     },
     {
       "tema": "Petaurillus hosei",
       "peso": 2,
-      "recente": 1.937
+      "recente": 1.924
     },
     {
       "tema": "Mamífero",
       "peso": 2,
-      "recente": 1.799
+      "recente": 1.787
     },
     {
       "tema": "Cumulonimbus",
       "peso": 3,
-      "recente": 1.179
+      "recente": 1.171
     },
     {
       "tema": "Savana",
       "peso": 2,
-      "recente": 1.422
+      "recente": 1.413
     },
     {
       "tema": "Inverno",
       "peso": 3,
-      "recente": 1.091
+      "recente": 1.084
     },
     {
       "tema": "Rotifera",
       "peso": 2,
-      "recente": 1.167
+      "recente": 1.159
     },
     {
       "tema": "Animais no espaço",
       "peso": 2,
-      "recente": 1.149
+      "recente": 1.142
     },
     {
       "tema": "Plantae",
       "peso": 3,
-      "recente": 0.836
+      "recente": 0.831
     },
     {
       "tema": "tocas e túneis",
       "peso": 4,
-      "recente": 0.521
+      "recente": 0.518
     },
     {
       "tema": "Viagem só de ida",
       "peso": 2,
-      "recente": 1.067
+      "recente": 1.06
     },
     {
       "tema": "Aviação comercial",
       "peso": 2,
-      "recente": 1.05
+      "recente": 1.043
     },
     {
       "tema": "Base aérea",
       "peso": 2,
-      "recente": 1.03
+      "recente": 1.023
     },
     {
       "tema": "Armas nucleares",
       "peso": 2,
-      "recente": 1.02
+      "recente": 1.013
     },
     {
       "tema": "Argentina",
       "peso": 2,
-      "recente": 0.997
+      "recente": 0.991
     },
     {
       "tema": "2016 no cinema",
       "peso": 2,
-      "recente": 0.956
+      "recente": 0.95
     },
     {
       "tema": "Cartografia",
       "peso": 2,
-      "recente": 0.865
+      "recente": 0.859
     },
     {
       "tema": "Altitude",
       "peso": 2,
-      "recente": 0.815
+      "recente": 0.81
     },
     {
       "tema": "Altocumulus stratiformis",
       "peso": 2,
-      "recente": 0.797
+      "recente": 0.792
     },
     {
       "tema": "Micélio",
       "peso": 3,
-      "recente": 0.494
+      "recente": 0.491
     },
     {
       "tema": "Nuvem",
       "peso": 2,
-      "recente": 0.753
+      "recente": 0.748
+    },
+    {
+      "tema": "Calyptomena hosii",
+      "peso": 1,
+      "recente": 1.0
     },
     {
       "tema": "Fisiologia vegetal",
       "peso": 2,
-      "recente": 0.702
+      "recente": 0.697
     },
     {
       "tema": "Botânica",
       "peso": 2,
-      "recente": 0.694
-    },
-    {
-      "tema": "Erva",
-      "peso": 2,
-      "recente": 0.681
-    },
-    {
-      "tema": "Charles Hose",
-      "peso": 1,
-      "recente": 0.971
+      "recente": 0.689
     }
   ],
   "gostos": {
@@ -164,7 +164,6 @@
     "jeito_de_escrever": "tímido e curioso"
   },
   "aprendeu": [
-    "Aprendi que o inverno é a estação mais fria em que o planeta fica com noites mais longas e dias mais curtos.",
     "Aprendi que as nuvens são conjuntos visíveis de gotículas de água ou gelo que ficam suspensas na atmosfera.",
     "Aprendi que uma frente subtropical separa o ar tropical do ar de latitudes médias na média troposfera.",
     "Aprendi que a nuvem cumulonimbus cresce muito na vertical e pode ficar com formato de bigorna no topo.",
@@ -203,22 +202,23 @@
     "Aprendi que o gênero Petaurista agrupa várias espécies de roedores da mesma família dos esquilos.",
     "Aprendi que os esquilos-voadores têm uma membrana de pele que os ajuda a planar de uma árvore para outra e evitam descer ao solo.",
     "Aprendi que o Petaurillus é um gênero de esquilos-voadores bem pequenos.",
-    "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia."
+    "Aprendi que o Petaurillus hosei é uma espécie de roedor da família dos esquilos que vive lá na Malásia.",
+    "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia."
   ],
-  "proximo_tema": "Charles Hose",
-  "ultima_execucao": "2026-11-28T01:35+00:00",
+  "proximo_tema": "Richard Bowdler Sharpe",
+  "ultima_execucao": "2026-11-28T02:02+00:00",
   "tipo": "Limo / Terra",
-  "fome": 24,
+  "fome": 26,
   "evento": {
     "nome": "clima",
     "tipo": "tempestade",
     "ate": "2026-11-28T04:11+00:00"
   },
-  "ultima_atividade": "dormir",
-  "origem_do_proximo": "Petaurillus hosei",
+  "ultima_atividade": "pesquisa",
+  "origem_do_proximo": "Charles Hose",
   "via_do_proximo": {
-    "de": "Petaurillus hosei",
-    "sorteado": false,
+    "de": "Charles Hose",
+    "sorteado": true,
     "lang": "pt"
   },
   "tv": {
@@ -227,7 +227,7 @@
     "tema": "Petaurillus hosei",
     "desde": "2026-11-27T23:37+00:00"
   },
-  "tedio": 65,
+  "tedio": 68,
   "cena": {
     "id": 81,
     "quando": "2026-11-27T16:25:50+00:00",
@@ -440,6 +440,6 @@
       }
     ],
     "seq": 89,
-    "agenda_ate": "2026-11-28T03:05:56+00:00"
+    "agenda_ate": "2026-11-28T03:32:03+00:00"
   }
 }

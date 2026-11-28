@@ -1337,5 +1337,20 @@
     "via": "Petaurillus",
     "via_sorteio": false,
     "rotulo": null
+  },
+  {
+    "id": 95,
+    "quando": "2026-11-28T02:02+00:00",
+    "atividade": "pesquisa",
+    "tema": "Charles Hose",
+    "fonte": "https://pt.wikipedia.org/wiki/Calyptomena_hosii",
+    "texto": "Estava olhando o computador bem quietinho, ouvindo a chuva forte lá fora e sentindo aquele soninho gostoso. Li sobre um passarinho chamado bocarra-de-hose que tem o nome de um homem chamado Charles Hose, lá na Malásia onde vive o meu esquilinho voador pequeno. Fiquei pensando se os passarinhos de lá conseguem voar bem alto na chuva pesada sem molhar as peninhas. Sem querer, cliquei em outro nome azul e fui parar numa página chamada Richard Bowdler Sharpe.",
+    "aprendeu": "Aprendi que a ave bocarra-de-hose tem esse nome em homenagem ao zoólogo Charles Hose e vive na Indonésia e Malásia.",
+    "humor": "sonolento",
+    "desenho": "desenhos/0095.svg",
+    "titulo_desenho": "Passarinho na chuva",
+    "via": "Petaurillus hosei",
+    "via_sorteio": false,
+    "rotulo": null
   }
 ]

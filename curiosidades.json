@@ -376,5 +376,19 @@
     "tentativas": 0,
     "ultimo_foco": null,
     "atualizada": "2026-11-27T23:13+00:00"
+  },
+  {
+    "id": 28,
+    "pergunta": "Será que esse tal de Charles Hose gostava de andar na chuva com o guarda-chuva aberto lá na floresta?",
+    "termo": "Charles Hose",
+    "origem": "lendo sobre Charles Hose",
+    "entrada": 95,
+    "criada": "2026-11-28T02:02+00:00",
+    "status": "aberta",
+    "resposta": "",
+    "notas": [],
+    "tentativas": 0,
+    "ultimo_foco": null,
+    "atualizada": "2026-11-28T02:02+00:00"
   }
 ]
